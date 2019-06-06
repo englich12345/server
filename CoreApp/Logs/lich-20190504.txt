@@ -1,0 +1,184 @@
+2019-05-04T10:30:03.1268498+07:00 0HLMG835NP0FC:00000001 [INF] Request starting HTTP/1.1 DEBUG http://localhost:5000/  0 (ca22a1cb)
+2019-05-04T10:30:03.1268498+07:00 0HLMG835NP0FD:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger   (ca22a1cb)
+2019-05-04T10:30:03.2085258+07:00 0HLMG835NP0FC:00000001 [INF] Request finished in 87.6492ms 200  (791a596a)
+2019-05-04T10:30:03.2863462+07:00 0HLMG835NP0FD:00000001 [INF] Request finished in 163.4181ms 301  (791a596a)
+2019-05-04T10:30:03.2910809+07:00 0HLMG835NP0FC:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html   (ca22a1cb)
+2019-05-04T10:30:03.4464404+07:00 0HLMG835NP0FC:00000002 [INF] Request finished in 154.2358ms 200 text/html (791a596a)
+2019-05-04T10:30:03.4937387+07:00 0HLMG835NP0FD:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-bundle.js   (ca22a1cb)
+2019-05-04T10:30:03.4938041+07:00 0HLMG835NP0FC:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui.css   (ca22a1cb)
+2019-05-04T10:30:03.5016765+07:00 0HLMG835NP0FE:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-standalone-preset.js   (ca22a1cb)
+2019-05-04T10:30:03.5754884+07:00 0HLMG835NP0FC:00000003 [INF] Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"' (27b0a520)
+2019-05-04T10:30:03.5935522+07:00 0HLMG835NP0FE:00000001 [INF] Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"' (27b0a520)
+2019-05-04T10:30:03.6213749+07:00 0HLMG835NP0FC:00000003 [INF] Request finished in 114.7701ms 200 text/css (791a596a)
+2019-05-04T10:30:03.6227370+07:00 0HLMG835NP0FE:00000001 [INF] Request finished in 108.1396ms 200 application/javascript (791a596a)
+2019-05-04T10:30:03.6429482+07:00 0HLMG835NP0FD:00000002 [INF] Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"' (27b0a520)
+2019-05-04T10:30:03.6458358+07:00 0HLMG835NP0FD:00000002 [INF] Request finished in 158.4309ms 200 application/javascript (791a596a)
+2019-05-04T10:30:03.8327124+07:00 0HLMG835NP0FC:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-bundle.js.map   (ca22a1cb)
+2019-05-04T10:30:03.9684168+07:00 0HLMG835NP0FC:00000004 [INF] Sending file. Request path: '"/swagger-ui-bundle.js.map"'. Physical path: '"N/A"' (27b0a520)
+2019-05-04T10:30:03.9726346+07:00 0HLMG835NP0FC:00000004 [INF] Request finished in 138.1227ms 200 text/plain (791a596a)
+2019-05-04T10:30:04.5926739+07:00 0HLMG835NP0FE:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-standalone-preset.js.map   (ca22a1cb)
+2019-05-04T10:30:04.6450212+07:00 0HLMG835NP0FE:00000002 [INF] Sending file. Request path: '"/swagger-ui-standalone-preset.js.map"'. Physical path: '"N/A"' (27b0a520)
+2019-05-04T10:30:04.6506702+07:00 0HLMG835NP0FE:00000002 [INF] Request finished in 54.5066ms 200 text/plain (791a596a)
+2019-05-04T10:30:04.9847920+07:00 0HLMG835NP0FD:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json   (ca22a1cb)
+2019-05-04T10:30:05.2323229+07:00 0HLMG835NP0FD:00000003 [INF] Request finished in 246.013ms 200 application/json;charset=utf-8 (791a596a)
+2019-05-04T11:02:58.8053916+07:00 0HLMG835NP0FF:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/users/list   (ca22a1cb)
+2019-05-04T11:02:58.8730153+07:00 0HLMG835NP0FF:00000001 [INF] Executing endpoint '"CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)"' (500cc934)
+2019-05-04T11:02:58.9101720+07:00 0HLMG835NP0FF:00000001 [INF] Route matched with "{action = \"GetList\", controller = \"User\"}". Executing action "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)" (a44c0341)
+2019-05-04T11:02:59.4993128+07:00 0HLMG835NP0FF:00000001 [INF] Executing action method "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)" with arguments (["CoreApp.Application.ViewModels.PageViewModel.UserRequestListViewModel"]) - Validation state: Valid (4e3479ed)
+2019-05-04T11:02:59.8871210+07:00 0HLMG835NP0FF:00000001 [WRN] No type was specified for the decimal column '"Balance"' on entity type '"AppUser"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-05-04T11:02:59.8884956+07:00 0HLMG835NP0FF:00000001 [WRN] No type was specified for the decimal column '"Price"' on entity type '"BillDetail"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-05-04T11:02:59.8899434+07:00 0HLMG835NP0FF:00000001 [WRN] No type was specified for the decimal column '"OriginalPrice"' on entity type '"Product"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-05-04T11:02:59.8912616+07:00 0HLMG835NP0FF:00000001 [WRN] No type was specified for the decimal column '"Price"' on entity type '"Product"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-05-04T11:02:59.8924032+07:00 0HLMG835NP0FF:00000001 [WRN] No type was specified for the decimal column '"PromotionPrice"' on entity type '"Product"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-05-04T11:02:59.8936968+07:00 0HLMG835NP0FF:00000001 [WRN] No type was specified for the decimal column '"Value5"' on entity type '"SystemConfig"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-05-04T11:02:59.8949119+07:00 0HLMG835NP0FF:00000001 [WRN] No type was specified for the decimal column '"Price"' on entity type '"WholePrice"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-05-04T11:02:59.9554278+07:00 0HLMG835NP0FF:00000001 [INF] Entity Framework Core "2.2.3-servicing-35854" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-05-04T11:03:00.0146823+07:00 0HLMG835NP0FF:00000001 [WRN] The Include operation for navigation '"[x].UserInRoles.AppRole"' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information. (10efaee6)
+2019-05-04T11:03:00.4417952+07:00 0HLMG835NP0FF:00000001 [INF] Executed DbCommand ("230"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [AppUsers] AS [x]" (0723d8ff)
+2019-05-04T11:03:00.5985157+07:00 0HLMG835NP0FF:00000001 [INF] Executed DbCommand ("13"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Avatar], [x].[Balance], [x].[BirthDay], [x].[DateCreated], [x].[DateModified], [x].[Email], [x].[FullName], [x].[Password], [x].[PhoneNumber], [x].[Status], [x].[UserName]
+FROM [AppUsers] AS [x]
+ORDER BY [x].[DateCreated] DESC, [x].[Id]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY" (0723d8ff)
+2019-05-04T11:03:00.7486947+07:00 0HLMG835NP0FF:00000001 [INF] Executed DbCommand ("104"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x.UserInRoles].[AppUserId], [x.UserInRoles].[AppRoleId], [x.UserInRoles].[Id], [u.AppRole].[Id], [u.AppRole].[name]
+FROM [UserInRoles] AS [x.UserInRoles]
+INNER JOIN [AppRoles] AS [u.AppRole] ON [x.UserInRoles].[AppRoleId] = [u.AppRole].[Id]
+INNER JOIN (
+    SELECT [x0].[Id], [x0].[DateCreated]
+    FROM [AppUsers] AS [x0]
+    ORDER BY [x0].[DateCreated] DESC, [x0].[Id]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t] ON [x.UserInRoles].[AppUserId] = [t].[Id]
+ORDER BY [t].[DateCreated] DESC, [t].[Id]" (0723d8ff)
+2019-05-04T11:03:00.7756918+07:00 0HLMG835NP0FF:00000001 [INF] Executed action method "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 1272.16ms. (50a9e262)
+2019-05-04T11:03:00.7862936+07:00 0HLMG835NP0FF:00000001 [INF] Executing ObjectResult, writing value of type '"CoreApp.Utilities.Dtos.PagedList`1[[CoreApp.Application.ViewModels.System.UserViewModel, CoreApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2019-05-04T11:03:00.8146052+07:00 0HLMG835NP0FF:00000001 [INF] Executed action "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)" in 1895.9952ms (afa2e885)
+2019-05-04T11:03:00.8166391+07:00 0HLMG835NP0FF:00000001 [INF] Executed endpoint '"CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)"' (99874f2b)
+2019-05-04T11:03:00.8196864+07:00 0HLMG835NP0FF:00000001 [INF] Request finished in 2017.7597ms 200 application/json; charset=utf-8 (791a596a)
+2019-05-04T11:10:10.2150746+07:00 0HLMG8PJ3K4QT:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger   (ca22a1cb)
+2019-05-04T11:10:10.2150746+07:00 0HLMG8PJ3K4QU:00000001 [INF] Request starting HTTP/1.1 DEBUG http://localhost:5000/  0 (ca22a1cb)
+2019-05-04T11:10:10.2756604+07:00 0HLMG8PJ3K4QU:00000001 [INF] Request finished in 60.3526ms 200  (791a596a)
+2019-05-04T11:10:10.3110187+07:00 0HLMG8PJ3K4QT:00000001 [INF] Request finished in 106.3564ms 301  (791a596a)
+2019-05-04T11:10:10.3170758+07:00 0HLMG8PJ3K4QU:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html   (ca22a1cb)
+2019-05-04T11:10:10.4380788+07:00 0HLMG8PJ3K4QU:00000002 [INF] Request finished in 120.7649ms 200 text/html (791a596a)
+2019-05-04T11:10:10.4619712+07:00 0HLMG8PJ3K4QU:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-bundle.js   (ca22a1cb)
+2019-05-04T11:10:10.4630611+07:00 0HLMG8PJ3K4QT:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui.css   (ca22a1cb)
+2019-05-04T11:10:10.4681239+07:00 0HLMG8PJ3K4QV:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-standalone-preset.js   (ca22a1cb)
+2019-05-04T11:10:10.6024353+07:00 0HLMG8PJ3K4QV:00000001 [INF] Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"' (27b0a520)
+2019-05-04T11:10:10.6024413+07:00 0HLMG8PJ3K4QT:00000002 [INF] Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"' (27b0a520)
+2019-05-04T11:10:10.6073804+07:00 0HLMG8PJ3K4QU:00000003 [INF] Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"' (27b0a520)
+2019-05-04T11:10:10.6172462+07:00 0HLMG8PJ3K4QU:00000003 [INF] Request finished in 157.0069ms 200 application/javascript (791a596a)
+2019-05-04T11:10:10.6249756+07:00 0HLMG8PJ3K4QV:00000001 [INF] Request finished in 150.5221ms 200 application/javascript (791a596a)
+2019-05-04T11:10:10.6289509+07:00 0HLMG8PJ3K4QT:00000002 [INF] Request finished in 157.016ms 200 text/css (791a596a)
+2019-05-04T11:10:10.8612079+07:00 0HLMG8PJ3K4QT:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-bundle.js.map   (ca22a1cb)
+2019-05-04T11:10:10.9838402+07:00 0HLMG8PJ3K4QT:00000003 [INF] Sending file. Request path: '"/swagger-ui-bundle.js.map"'. Physical path: '"N/A"' (27b0a520)
+2019-05-04T11:10:10.9904657+07:00 0HLMG8PJ3K4QT:00000003 [INF] Request finished in 124.6084ms 200 text/plain (791a596a)
+2019-05-04T11:10:11.7022360+07:00 0HLMG8PJ3K4QV:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-standalone-preset.js.map   (ca22a1cb)
+2019-05-04T11:10:11.7518170+07:00 0HLMG8PJ3K4QV:00000002 [INF] Sending file. Request path: '"/swagger-ui-standalone-preset.js.map"'. Physical path: '"N/A"' (27b0a520)
+2019-05-04T11:10:11.7563719+07:00 0HLMG8PJ3K4QV:00000002 [INF] Request finished in 51.2733ms 200 text/plain (791a596a)
+2019-05-04T11:10:12.0299368+07:00 0HLMG8PJ3K4QU:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json   (ca22a1cb)
+2019-05-04T11:10:12.2931307+07:00 0HLMG8PJ3K4QU:00000004 [INF] Request finished in 255.3291ms 200 application/json;charset=utf-8 (791a596a)
+2019-05-04T11:10:18.2937880+07:00 0HLMG8PJ3K4QT:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/users/list   (ca22a1cb)
+2019-05-04T11:10:18.3818662+07:00 0HLMG8PJ3K4QT:00000004 [INF] Executing endpoint '"CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)"' (500cc934)
+2019-05-04T11:10:18.4484121+07:00 0HLMG8PJ3K4QT:00000004 [INF] Route matched with "{action = \"GetList\", controller = \"User\"}". Executing action "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)" (a44c0341)
+2019-05-04T11:10:18.4569656+07:00 0HLMG8PJ3K4QT:00000004 [WRN] The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. (6e5ffae2)
+2019-05-04T11:10:18.4644022+07:00 0HLMG8PJ3K4QT:00000004 [INF] CORS policy execution successful. (5409d6ef)
+2019-05-04T11:10:19.1729973+07:00 0HLMG8PJ3K4QT:00000004 [INF] Executing action method "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)" with arguments (["CoreApp.Application.ViewModels.PageViewModel.UserRequestListViewModel"]) - Validation state: Valid (4e3479ed)
+2019-05-04T11:10:19.6914455+07:00 0HLMG8PJ3K4QT:00000004 [WRN] No type was specified for the decimal column '"Balance"' on entity type '"AppUser"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-05-04T11:10:19.6935550+07:00 0HLMG8PJ3K4QT:00000004 [WRN] No type was specified for the decimal column '"Price"' on entity type '"BillDetail"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-05-04T11:10:19.6953337+07:00 0HLMG8PJ3K4QT:00000004 [WRN] No type was specified for the decimal column '"OriginalPrice"' on entity type '"Product"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-05-04T11:10:19.6971788+07:00 0HLMG8PJ3K4QT:00000004 [WRN] No type was specified for the decimal column '"Price"' on entity type '"Product"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-05-04T11:10:19.6989732+07:00 0HLMG8PJ3K4QT:00000004 [WRN] No type was specified for the decimal column '"PromotionPrice"' on entity type '"Product"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-05-04T11:10:19.7011842+07:00 0HLMG8PJ3K4QT:00000004 [WRN] No type was specified for the decimal column '"Value5"' on entity type '"SystemConfig"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-05-04T11:10:19.7031299+07:00 0HLMG8PJ3K4QT:00000004 [WRN] No type was specified for the decimal column '"Price"' on entity type '"WholePrice"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-05-04T11:10:19.7640015+07:00 0HLMG8PJ3K4QT:00000004 [INF] Entity Framework Core "2.2.3-servicing-35854" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-05-04T11:10:19.8270066+07:00 0HLMG8PJ3K4QT:00000004 [WRN] The Include operation for navigation '"[x].UserInRoles.AppRole"' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information. (10efaee6)
+2019-05-04T11:10:20.0475000+07:00 0HLMG8PJ3K4QT:00000004 [INF] Executed DbCommand ("7"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [AppUsers] AS [x]" (0723d8ff)
+2019-05-04T11:10:20.1361644+07:00 0HLMG8PJ3K4QT:00000004 [INF] Executed DbCommand ("4"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Avatar], [x].[Balance], [x].[BirthDay], [x].[DateCreated], [x].[DateModified], [x].[Email], [x].[FullName], [x].[Password], [x].[PhoneNumber], [x].[Status], [x].[UserName]
+FROM [AppUsers] AS [x]
+ORDER BY [x].[DateCreated] DESC, [x].[Id]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY" (0723d8ff)
+2019-05-04T11:10:20.1876891+07:00 0HLMG8PJ3K4QT:00000004 [INF] Executed DbCommand ("5"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x.UserInRoles].[AppUserId], [x.UserInRoles].[AppRoleId], [x.UserInRoles].[Id], [u.AppRole].[Id], [u.AppRole].[name]
+FROM [UserInRoles] AS [x.UserInRoles]
+INNER JOIN [AppRoles] AS [u.AppRole] ON [x.UserInRoles].[AppRoleId] = [u.AppRole].[Id]
+INNER JOIN (
+    SELECT [x0].[Id], [x0].[DateCreated]
+    FROM [AppUsers] AS [x0]
+    ORDER BY [x0].[DateCreated] DESC, [x0].[Id]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t] ON [x.UserInRoles].[AppUserId] = [t].[Id]
+ORDER BY [t].[DateCreated] DESC, [t].[Id]" (0723d8ff)
+2019-05-04T11:10:20.2179632+07:00 0HLMG8PJ3K4QT:00000004 [INF] Executed action method "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 1039.4567ms. (50a9e262)
+2019-05-04T11:10:20.2288826+07:00 0HLMG8PJ3K4QT:00000004 [INF] Executing ObjectResult, writing value of type '"CoreApp.Utilities.Dtos.PagedList`1[[CoreApp.Application.ViewModels.System.UserViewModel, CoreApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2019-05-04T11:10:20.2520155+07:00 0HLMG8PJ3K4QT:00000004 [INF] Executed action "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)" in 1797.4649ms (afa2e885)
+2019-05-04T11:10:20.2535770+07:00 0HLMG8PJ3K4QT:00000004 [INF] Executed endpoint '"CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)"' (99874f2b)
+2019-05-04T11:10:20.2557472+07:00 0HLMG8PJ3K4QT:00000004 [INF] Request finished in 1964.1889ms 200 application/json; charset=utf-8 (791a596a)
+2019-05-04T11:11:05.1041733+07:00 0HLMG8PJ3K4QV:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/users/list   (ca22a1cb)
+2019-05-04T11:11:05.1076611+07:00 0HLMG8PJ3K4QV:00000003 [INF] Executing endpoint '"CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)"' (500cc934)
+2019-05-04T11:11:05.1108530+07:00 0HLMG8PJ3K4QV:00000003 [INF] Route matched with "{action = \"GetList\", controller = \"User\"}". Executing action "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)" (a44c0341)
+2019-05-04T11:11:05.1131804+07:00 0HLMG8PJ3K4QV:00000003 [WRN] The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. (6e5ffae2)
+2019-05-04T11:11:05.1147415+07:00 0HLMG8PJ3K4QV:00000003 [INF] CORS policy execution successful. (5409d6ef)
+2019-05-04T11:11:05.1177705+07:00 0HLMG8PJ3K4QV:00000003 [INF] Executing action method "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)" with arguments (["CoreApp.Application.ViewModels.PageViewModel.UserRequestListViewModel"]) - Validation state: Valid (4e3479ed)
+2019-05-04T11:11:05.1361146+07:00 0HLMG8PJ3K4QV:00000003 [INF] Entity Framework Core "2.2.3-servicing-35854" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-05-04T11:11:05.1637701+07:00 0HLMG8PJ3K4QV:00000003 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [AppUsers] AS [x]" (0723d8ff)
+2019-05-04T11:11:05.1705799+07:00 0HLMG8PJ3K4QV:00000003 [INF] Executed DbCommand ("2"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Avatar], [x].[Balance], [x].[BirthDay], [x].[DateCreated], [x].[DateModified], [x].[Email], [x].[FullName], [x].[Password], [x].[PhoneNumber], [x].[Status], [x].[UserName]
+FROM [AppUsers] AS [x]
+ORDER BY [x].[DateCreated] DESC, [x].[Id]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY" (0723d8ff)
+2019-05-04T11:11:05.1778524+07:00 0HLMG8PJ3K4QV:00000003 [INF] Executed DbCommand ("4"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x.UserInRoles].[AppUserId], [x.UserInRoles].[AppRoleId], [x.UserInRoles].[Id], [u.AppRole].[Id], [u.AppRole].[name]
+FROM [UserInRoles] AS [x.UserInRoles]
+INNER JOIN [AppRoles] AS [u.AppRole] ON [x.UserInRoles].[AppRoleId] = [u.AppRole].[Id]
+INNER JOIN (
+    SELECT [x0].[Id], [x0].[DateCreated]
+    FROM [AppUsers] AS [x0]
+    ORDER BY [x0].[DateCreated] DESC, [x0].[Id]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t] ON [x.UserInRoles].[AppUserId] = [t].[Id]
+ORDER BY [t].[DateCreated] DESC, [t].[Id]" (0723d8ff)
+2019-05-04T11:11:05.1812395+07:00 0HLMG8PJ3K4QV:00000003 [INF] Executed action method "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 61.6651ms. (50a9e262)
+2019-05-04T11:11:05.1832521+07:00 0HLMG8PJ3K4QV:00000003 [INF] Executing ObjectResult, writing value of type '"CoreApp.Utilities.Dtos.PagedList`1[[CoreApp.Application.ViewModels.System.UserViewModel, CoreApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2019-05-04T11:11:05.1866966+07:00 0HLMG8PJ3K4QV:00000003 [INF] Executed action "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)" in 72.9059ms (afa2e885)
+2019-05-04T11:11:05.1884751+07:00 0HLMG8PJ3K4QV:00000003 [INF] Executed endpoint '"CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)"' (99874f2b)
+2019-05-04T11:11:05.1905961+07:00 0HLMG8PJ3K4QV:00000003 [INF] Request finished in 86.7977ms 200 application/json; charset=utf-8 (791a596a)
+2019-05-04T11:14:08.1438509+07:00 0HLMG8PJ3K4R0:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/users/list   (ca22a1cb)
+2019-05-04T11:14:08.1455614+07:00 0HLMG8PJ3K4R0:00000001 [INF] Executing endpoint '"CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)"' (500cc934)
+2019-05-04T11:14:08.1476870+07:00 0HLMG8PJ3K4R0:00000001 [INF] Route matched with "{action = \"GetList\", controller = \"User\"}". Executing action "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)" (a44c0341)
+2019-05-04T11:14:08.1513251+07:00 0HLMG8PJ3K4R0:00000001 [WRN] The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. (6e5ffae2)
+2019-05-04T11:14:08.1535845+07:00 0HLMG8PJ3K4R0:00000001 [INF] CORS policy execution successful. (5409d6ef)
+2019-05-04T11:14:08.1563802+07:00 0HLMG8PJ3K4R0:00000001 [INF] Executing action method "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)" with arguments (["CoreApp.Application.ViewModels.PageViewModel.UserRequestListViewModel"]) - Validation state: Valid (4e3479ed)
+2019-05-04T11:14:08.1588193+07:00 0HLMG8PJ3K4R0:00000001 [INF] Entity Framework Core "2.2.3-servicing-35854" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-05-04T11:14:08.1669687+07:00 0HLMG8PJ3K4R0:00000001 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [AppUsers] AS [x]" (0723d8ff)
+2019-05-04T11:14:08.1718654+07:00 0HLMG8PJ3K4R0:00000001 [INF] Executed DbCommand ("1"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Avatar], [x].[Balance], [x].[BirthDay], [x].[DateCreated], [x].[DateModified], [x].[Email], [x].[FullName], [x].[Password], [x].[PhoneNumber], [x].[Status], [x].[UserName]
+FROM [AppUsers] AS [x]
+ORDER BY [x].[DateCreated] DESC, [x].[Id]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY" (0723d8ff)
+2019-05-04T11:14:08.1844798+07:00 0HLMG8PJ3K4R0:00000001 [INF] Executed DbCommand ("6"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x.UserInRoles].[AppUserId], [x.UserInRoles].[AppRoleId], [x.UserInRoles].[Id], [u.AppRole].[Id], [u.AppRole].[name]
+FROM [UserInRoles] AS [x.UserInRoles]
+INNER JOIN [AppRoles] AS [u.AppRole] ON [x.UserInRoles].[AppRoleId] = [u.AppRole].[Id]
+INNER JOIN (
+    SELECT [x0].[Id], [x0].[DateCreated]
+    FROM [AppUsers] AS [x0]
+    ORDER BY [x0].[DateCreated] DESC, [x0].[Id]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t] ON [x.UserInRoles].[AppUserId] = [t].[Id]
+ORDER BY [t].[DateCreated] DESC, [t].[Id]" (0723d8ff)
+2019-05-04T11:14:08.1870640+07:00 0HLMG8PJ3K4R0:00000001 [INF] Executed action method "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 28.6878ms. (50a9e262)
+2019-05-04T11:14:08.1888588+07:00 0HLMG8PJ3K4R0:00000001 [INF] Executing ObjectResult, writing value of type '"CoreApp.Utilities.Dtos.PagedList`1[[CoreApp.Application.ViewModels.System.UserViewModel, CoreApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2019-05-04T11:14:08.1910785+07:00 0HLMG8PJ3K4R0:00000001 [INF] Executed action "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)" in 41.4363ms (afa2e885)
+2019-05-04T11:14:08.1928543+07:00 0HLMG8PJ3K4R0:00000001 [INF] Executed endpoint '"CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)"' (99874f2b)
+2019-05-04T11:14:08.1948275+07:00 0HLMG8PJ3K4R0:00000001 [INF] Request finished in 50.8646ms 200 application/json; charset=utf-8 (791a596a)

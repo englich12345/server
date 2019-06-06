@@ -1,0 +1,95 @@
+C:\Users\Administrator\source\repos\CoreApp\CoreApp.Data\bin\Debug\netcoreapp2.2\CoreApp.Infrastructure.dll
+C:\Users\Administrator\source\repos\CoreApp\CoreApp.Data\obj\Debug\netcoreapp2.2\CoreApp.Data.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\CoreApp\CoreApp.Data\obj\Debug\netcoreapp2.2\CoreApp.Data.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\CoreApp\CoreApp.Data\obj\Debug\netcoreapp2.2\CoreApp.Data.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\CoreApp\CoreApp.Data\obj\Debug\netcoreapp2.2\CoreApp.Data.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\CoreApp\CoreApp.Data\bin\Debug\netcoreapp2.2\CoreApp.Data.deps.json
+C:\Users\Administrator\source\repos\CoreApp\CoreApp.Data\bin\Debug\netcoreapp2.2\CoreApp.Data.runtimeconfig.json
+C:\Users\Administrator\source\repos\CoreApp\CoreApp.Data\bin\Debug\netcoreapp2.2\CoreApp.Data.runtimeconfig.dev.json
+C:\Users\Administrator\source\repos\CoreApp\CoreApp.Data\bin\Debug\netcoreapp2.2\CoreApp.Data.dll
+C:\Users\Administrator\source\repos\CoreApp\CoreApp.Data\bin\Debug\netcoreapp2.2\CoreApp.Data.pdb
+C:\Users\Administrator\source\repos\CoreApp\CoreApp.Data\bin\Debug\netcoreapp2.2\CoreApp.Infrastructure.pdb
+C:\Users\Administrator\source\repos\CoreApp\CoreApp.Data\obj\Debug\netcoreapp2.2\CoreApp.Data.csproj.CopyComplete
+C:\Users\Administrator\source\repos\CoreApp\CoreApp.Data\obj\Debug\netcoreapp2.2\CoreApp.Data.dll
+C:\Users\Administrator\source\repos\CoreApp\CoreApp.Data\obj\Debug\netcoreapp2.2\CoreApp.Data.pdb
+C:\Users\lich.ho\Documents\appcore\CoreApp\CoreApp.Data\obj\Debug\netcoreapp2.2\CoreApp.Data.dll
+C:\Users\lich.ho\Documents\appcore\CoreApp\CoreApp.Data\obj\Debug\netcoreapp2.2\CoreApp.Data.pdb
+C:\Users\lich.ho\Documents\appcore\CoreApp\CoreApp.Data\obj\Debug\netcoreapp2.2\CoreApp.Data.csprojAssemblyReference.cache
+C:\Users\lich.ho\Documents\appcore\CoreApp\CoreApp.Data\obj\Debug\netcoreapp2.2\CoreApp.Data.csproj.CoreCompileInputs.cache
+C:\Users\lich.ho\Documents\appcore\CoreApp\CoreApp.Data\obj\Debug\netcoreapp2.2\CoreApp.Data.AssemblyInfoInputs.cache
+C:\Users\lich.ho\Documents\appcore\CoreApp\CoreApp.Data\obj\Debug\netcoreapp2.2\CoreApp.Data.AssemblyInfo.cs
+C:\Users\lich.ho\Documents\appcore\CoreApp\CoreApp.Data\bin\Debug\netcoreapp2.2\CoreApp.Data.deps.json
+C:\Users\lich.ho\Documents\appcore\CoreApp\CoreApp.Data\bin\Debug\netcoreapp2.2\CoreApp.Data.dll
+C:\Users\lich.ho\Documents\appcore\CoreApp\CoreApp.Data\bin\Debug\netcoreapp2.2\CoreApp.Data.pdb
+C:\Users\Administrator\Documents\App\CoreApp\CoreApp.Data\bin\Debug\netcoreapp2.2\CoreApp.Data.deps.json
+C:\Users\Administrator\Documents\App\CoreApp\CoreApp.Data\bin\Debug\netcoreapp2.2\CoreApp.Data.dll
+C:\Users\Administrator\Documents\App\CoreApp\CoreApp.Data\bin\Debug\netcoreapp2.2\CoreApp.Data.pdb
+C:\Users\Administrator\Documents\App\CoreApp\CoreApp.Data\obj\Debug\netcoreapp2.2\CoreApp.Data.csprojAssemblyReference.cache
+C:\Users\Administrator\Documents\App\CoreApp\CoreApp.Data\obj\Debug\netcoreapp2.2\CoreApp.Data.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\App\CoreApp\CoreApp.Data\obj\Debug\netcoreapp2.2\CoreApp.Data.AssemblyInfoInputs.cache
+C:\Users\Administrator\Documents\App\CoreApp\CoreApp.Data\obj\Debug\netcoreapp2.2\CoreApp.Data.AssemblyInfo.cs
+C:\Users\Administrator\Documents\App\CoreApp\CoreApp.Data\obj\Debug\netcoreapp2.2\CoreApp.Data.dll
+C:\Users\Administrator\Documents\App\CoreApp\CoreApp.Data\obj\Debug\netcoreapp2.2\CoreApp.Data.pdb
+C:\Users\Administrator\Documents\lichappcore\CoreApp\CoreApp.Data\bin\Debug\netcoreapp2.2\CoreApp.Data.deps.json
+C:\Users\Administrator\Documents\lichappcore\CoreApp\CoreApp.Data\bin\Debug\netcoreapp2.2\CoreApp.Data.dll
+C:\Users\Administrator\Documents\lichappcore\CoreApp\CoreApp.Data\bin\Debug\netcoreapp2.2\CoreApp.Data.pdb
+C:\Users\Administrator\Documents\lichappcore\CoreApp\CoreApp.Data\obj\Debug\netcoreapp2.2\CoreApp.Data.csprojAssemblyReference.cache
+C:\Users\Administrator\Documents\lichappcore\CoreApp\CoreApp.Data\obj\Debug\netcoreapp2.2\CoreApp.Data.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\lichappcore\CoreApp\CoreApp.Data\obj\Debug\netcoreapp2.2\CoreApp.Data.AssemblyInfoInputs.cache
+C:\Users\Administrator\Documents\lichappcore\CoreApp\CoreApp.Data\obj\Debug\netcoreapp2.2\CoreApp.Data.AssemblyInfo.cs
+C:\Users\Administrator\Documents\lichappcore\CoreApp\CoreApp.Data\obj\Debug\netcoreapp2.2\CoreApp.Data.dll
+C:\Users\Administrator\Documents\lichappcore\CoreApp\CoreApp.Data\obj\Debug\netcoreapp2.2\CoreApp.Data.pdb
+C:\Users\lich.ho\Documents\lichappcore-master\CoreApp\CoreApp.Data\bin\Debug\netcoreapp2.2\CoreApp.Data.deps.json
+C:\Users\lich.ho\Documents\lichappcore-master\CoreApp\CoreApp.Data\bin\Debug\netcoreapp2.2\CoreApp.Data.dll
+C:\Users\lich.ho\Documents\lichappcore-master\CoreApp\CoreApp.Data\bin\Debug\netcoreapp2.2\CoreApp.Data.pdb
+C:\Users\lich.ho\Documents\lichappcore-master\CoreApp\CoreApp.Data\obj\Debug\netcoreapp2.2\CoreApp.Data.csprojAssemblyReference.cache
+C:\Users\lich.ho\Documents\lichappcore-master\CoreApp\CoreApp.Data\obj\Debug\netcoreapp2.2\CoreApp.Data.csproj.CoreCompileInputs.cache
+C:\Users\lich.ho\Documents\lichappcore-master\CoreApp\CoreApp.Data\obj\Debug\netcoreapp2.2\CoreApp.Data.AssemblyInfoInputs.cache
+C:\Users\lich.ho\Documents\lichappcore-master\CoreApp\CoreApp.Data\obj\Debug\netcoreapp2.2\CoreApp.Data.AssemblyInfo.cs
+C:\Users\lich.ho\Documents\lichappcore-master\CoreApp\CoreApp.Data\obj\Debug\netcoreapp2.2\CoreApp.Data.dll
+C:\Users\lich.ho\Documents\lichappcore-master\CoreApp\CoreApp.Data\obj\Debug\netcoreapp2.2\CoreApp.Data.pdb
+C:\Users\Administrator\Documents\englich\CoreApp.Data\bin\Debug\netcoreapp2.2\CoreApp.Data.deps.json
+C:\Users\Administrator\Documents\englich\CoreApp.Data\bin\Debug\netcoreapp2.2\CoreApp.Data.dll
+C:\Users\Administrator\Documents\englich\CoreApp.Data\bin\Debug\netcoreapp2.2\CoreApp.Data.pdb
+C:\Users\Administrator\Documents\englich\CoreApp.Data\obj\Debug\netcoreapp2.2\CoreApp.Data.csprojAssemblyReference.cache
+C:\Users\Administrator\Documents\englich\CoreApp.Data\obj\Debug\netcoreapp2.2\CoreApp.Data.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\englich\CoreApp.Data\obj\Debug\netcoreapp2.2\CoreApp.Data.AssemblyInfoInputs.cache
+C:\Users\Administrator\Documents\englich\CoreApp.Data\obj\Debug\netcoreapp2.2\CoreApp.Data.AssemblyInfo.cs
+C:\Users\Administrator\Documents\englich\CoreApp.Data\obj\Debug\netcoreapp2.2\CoreApp.Data.dll
+C:\Users\Administrator\Documents\englich\CoreApp.Data\obj\Debug\netcoreapp2.2\CoreApp.Data.pdb
+C:\Users\lich.ho\Documents\lichho\CoreApp.Data\bin\Debug\netcoreapp2.2\CoreApp.Data.deps.json
+C:\Users\lich.ho\Documents\lichho\CoreApp.Data\bin\Debug\netcoreapp2.2\CoreApp.Data.dll
+C:\Users\lich.ho\Documents\lichho\CoreApp.Data\bin\Debug\netcoreapp2.2\CoreApp.Data.pdb
+C:\Users\lich.ho\Documents\lichho\CoreApp.Data\obj\Debug\netcoreapp2.2\CoreApp.Data.csprojAssemblyReference.cache
+C:\Users\lich.ho\Documents\lichho\CoreApp.Data\obj\Debug\netcoreapp2.2\CoreApp.Data.csproj.CoreCompileInputs.cache
+C:\Users\lich.ho\Documents\lichho\CoreApp.Data\obj\Debug\netcoreapp2.2\CoreApp.Data.AssemblyInfoInputs.cache
+C:\Users\lich.ho\Documents\lichho\CoreApp.Data\obj\Debug\netcoreapp2.2\CoreApp.Data.AssemblyInfo.cs
+C:\Users\lich.ho\Documents\lichho\CoreApp.Data\obj\Debug\netcoreapp2.2\CoreApp.Data.dll
+C:\Users\lich.ho\Documents\lichho\CoreApp.Data\obj\Debug\netcoreapp2.2\CoreApp.Data.pdb
+C:\Users\Administrator\Documents\lichho\CoreApp.Data\bin\Debug\netcoreapp2.2\CoreApp.Data.deps.json
+C:\Users\Administrator\Documents\lichho\CoreApp.Data\bin\Debug\netcoreapp2.2\CoreApp.Data.dll
+C:\Users\Administrator\Documents\lichho\CoreApp.Data\bin\Debug\netcoreapp2.2\CoreApp.Data.pdb
+C:\Users\Administrator\Documents\lichho\CoreApp.Data\obj\Debug\netcoreapp2.2\CoreApp.Data.csprojAssemblyReference.cache
+C:\Users\Administrator\Documents\lichho\CoreApp.Data\obj\Debug\netcoreapp2.2\CoreApp.Data.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\lichho\CoreApp.Data\obj\Debug\netcoreapp2.2\CoreApp.Data.AssemblyInfoInputs.cache
+C:\Users\Administrator\Documents\lichho\CoreApp.Data\obj\Debug\netcoreapp2.2\CoreApp.Data.AssemblyInfo.cs
+C:\Users\Administrator\Documents\lichho\CoreApp.Data\obj\Debug\netcoreapp2.2\CoreApp.Data.dll
+C:\Users\Administrator\Documents\lichho\CoreApp.Data\obj\Debug\netcoreapp2.2\CoreApp.Data.pdb
+C:\Users\Administrator\Documents\lich-server\CoreApp.Data\bin\Debug\netcoreapp2.2\CoreApp.Data.deps.json
+C:\Users\Administrator\Documents\lich-server\CoreApp.Data\bin\Debug\netcoreapp2.2\CoreApp.Data.dll
+C:\Users\Administrator\Documents\lich-server\CoreApp.Data\bin\Debug\netcoreapp2.2\CoreApp.Data.pdb
+C:\Users\Administrator\Documents\lich-server\CoreApp.Data\obj\Debug\netcoreapp2.2\CoreApp.Data.csprojAssemblyReference.cache
+C:\Users\Administrator\Documents\lich-server\CoreApp.Data\obj\Debug\netcoreapp2.2\CoreApp.Data.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\lich-server\CoreApp.Data\obj\Debug\netcoreapp2.2\CoreApp.Data.AssemblyInfoInputs.cache
+C:\Users\Administrator\Documents\lich-server\CoreApp.Data\obj\Debug\netcoreapp2.2\CoreApp.Data.AssemblyInfo.cs
+C:\Users\Administrator\Documents\lich-server\CoreApp.Data\obj\Debug\netcoreapp2.2\CoreApp.Data.dll
+C:\Users\Administrator\Documents\lich-server\CoreApp.Data\obj\Debug\netcoreapp2.2\CoreApp.Data.pdb
+F:\NET project\lich-server\CoreApp.Data\bin\Debug\netcoreapp2.2\CoreApp.Data.deps.json
+F:\NET project\lich-server\CoreApp.Data\bin\Debug\netcoreapp2.2\CoreApp.Data.dll
+F:\NET project\lich-server\CoreApp.Data\bin\Debug\netcoreapp2.2\CoreApp.Data.pdb
+F:\NET project\lich-server\CoreApp.Data\obj\Debug\netcoreapp2.2\CoreApp.Data.csprojAssemblyReference.cache
+F:\NET project\lich-server\CoreApp.Data\obj\Debug\netcoreapp2.2\CoreApp.Data.csproj.CoreCompileInputs.cache
+F:\NET project\lich-server\CoreApp.Data\obj\Debug\netcoreapp2.2\CoreApp.Data.AssemblyInfoInputs.cache
+F:\NET project\lich-server\CoreApp.Data\obj\Debug\netcoreapp2.2\CoreApp.Data.AssemblyInfo.cs
+F:\NET project\lich-server\CoreApp.Data\obj\Debug\netcoreapp2.2\CoreApp.Data.dll
+F:\NET project\lich-server\CoreApp.Data\obj\Debug\netcoreapp2.2\CoreApp.Data.pdb

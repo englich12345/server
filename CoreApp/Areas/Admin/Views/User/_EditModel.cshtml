@@ -1,0 +1,76 @@
+﻿<div id="modal-edit" class="modal fade in" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Edit user</h4>
+            </div>
+            <div class="modal-body">
+                <div id="horizontal-form">
+                    <form class="form-horizontal" role="form" id="frmMaintainance">
+
+                        <div class="form-group">
+                            <input type="hidden" id="hidId" value="" />
+                            <label for="txtFullNameE" class="col-sm-2 control-label">Full Name</label>
+                            <div class="col-sm-10">
+                                <input type="text" name="txtFullNameE" class="form-control" id="txtFullNameE">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="txtUserNameE" class="col-sm-2 control-label">Username</label>
+                            <div class="col-sm-10">
+                                <input type="text" name="txtUserNameE" class="form-control" id="txtUserNameE" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="txtPasswordE" class="col-sm-2 control-label">Password</label>
+                            <div class="col-sm-10">
+                                <input type="password" name="txtPasswordE" class="form-control" id="txtPasswordE" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="txtConfirmPasswordE" class="col-sm-2 control-label">Confirm password</label>
+                            <div class="col-sm-10">
+                                <input type="password" name="txtConfirmPasswordE" class="form-control" id="txtConfirmPasswordE">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="txtEmailE" class="col-sm-2 control-label ">Email</label>
+                            <div class="col-sm-10">
+                                <input type="email" name="txtEmailE" class="form-control" id="txtEmailE">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="txtPhoneNumberE" class="col-sm-2 control-label">Mobile phone</label>
+                            <div class="col-sm-10">
+                                <input type="text" name="txtPhoneNumberE" class="form-control" id="txtPhoneNumberE">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">Roles</label>
+                            <div class="col-sm-10" id="list-roles">
+
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-offset-2 col-sm-10">
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox" checked="checked" id="ckStatusE">
+                                        <span class="text">Active.</span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-offset-2 col-sm-10">
+                                <button type="button" id="btnSaveUpdate" class="btn btn-success">Save</button>
+                                <button type="button" id="btnCancel" data-dismiss="modal" class="btn btn-default">Close</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

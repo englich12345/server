@@ -1,0 +1,9 @@
+C:\Users\Administrator\source\repos\CoreApp\CoreApp.Infrastructure\bin\Debug\netcoreapp2.2\CoreApp.Infrastructure.deps.json
+C:\Users\Administrator\source\repos\CoreApp\CoreApp.Infrastructure\bin\Debug\netcoreapp2.2\CoreApp.Infrastructure.dll
+C:\Users\Administrator\source\repos\CoreApp\CoreApp.Infrastructure\bin\Debug\netcoreapp2.2\CoreApp.Infrastructure.pdb
+C:\Users\Administrator\source\repos\CoreApp\CoreApp.Infrastructure\obj\Debug\netcoreapp2.2\CoreApp.Infrastructure.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\CoreApp\CoreApp.Infrastructure\obj\Debug\netcoreapp2.2\CoreApp.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\CoreApp\CoreApp.Infrastructure\obj\Debug\netcoreapp2.2\CoreApp.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\CoreApp\CoreApp.Infrastructure\obj\Debug\netcoreapp2.2\CoreApp.Infrastructure.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\CoreApp\CoreApp.Infrastructure\obj\Debug\netcoreapp2.2\CoreApp.Infrastructure.dll
+C:\Users\Administrator\source\repos\CoreApp\CoreApp.Infrastructure\obj\Debug\netcoreapp2.2\CoreApp.Infrastructure.pdb

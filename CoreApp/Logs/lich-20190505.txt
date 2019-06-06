@@ -1,0 +1,837 @@
+2019-05-05T10:52:58.4451541+07:00 0HLMH1KKQP2SF:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger   (ca22a1cb)
+2019-05-05T10:52:58.4451520+07:00 0HLMH1KKQP2SG:00000001 [INF] Request starting HTTP/1.1 DEBUG http://localhost:5000/  0 (ca22a1cb)
+2019-05-05T10:52:58.5186434+07:00 0HLMH1KKQP2SG:00000001 [INF] Request finished in 55.9589ms 200  (791a596a)
+2019-05-05T10:52:58.5756012+07:00 0HLMH1KKQP2SF:00000001 [INF] Request finished in 135.6282ms 301  (791a596a)
+2019-05-05T10:52:58.5793433+07:00 0HLMH1KKQP2SG:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html   (ca22a1cb)
+2019-05-05T10:52:58.7127427+07:00 0HLMH1KKQP2SG:00000002 [INF] Request finished in 133.5137ms 200 text/html (791a596a)
+2019-05-05T10:52:58.7490240+07:00 0HLMH1KKQP2SF:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui.css   (ca22a1cb)
+2019-05-05T10:52:58.7499552+07:00 0HLMH1KKQP2SG:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-bundle.js   (ca22a1cb)
+2019-05-05T10:52:58.7523824+07:00 0HLMH1KKQP2SH:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-standalone-preset.js   (ca22a1cb)
+2019-05-05T10:52:58.8350656+07:00 0HLMH1KKQP2SH:00000001 [INF] Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"' (27b0a520)
+2019-05-05T10:52:58.8350656+07:00 0HLMH1KKQP2SF:00000002 [INF] Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"' (27b0a520)
+2019-05-05T10:52:58.8607923+07:00 0HLMH1KKQP2SF:00000002 [INF] Request finished in 100.6952ms 200 text/css (791a596a)
+2019-05-05T10:52:58.8665516+07:00 0HLMH1KKQP2SH:00000001 [INF] Request finished in 96.6044ms 200 application/javascript (791a596a)
+2019-05-05T10:52:58.8767269+07:00 0HLMH1KKQP2SG:00000003 [INF] Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"' (27b0a520)
+2019-05-05T10:52:58.8801568+07:00 0HLMH1KKQP2SG:00000003 [INF] Request finished in 130.3641ms 200 application/javascript (791a596a)
+2019-05-05T10:52:59.0457525+07:00 0HLMH1KKQP2SF:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-bundle.js.map   (ca22a1cb)
+2019-05-05T10:52:59.2253162+07:00 0HLMH1KKQP2SF:00000003 [INF] Sending file. Request path: '"/swagger-ui-bundle.js.map"'. Physical path: '"N/A"' (27b0a520)
+2019-05-05T10:52:59.2294712+07:00 0HLMH1KKQP2SF:00000003 [INF] Request finished in 181.7722ms 200 text/plain (791a596a)
+2019-05-05T10:52:59.7784307+07:00 0HLMH1KKQP2SH:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-standalone-preset.js.map   (ca22a1cb)
+2019-05-05T10:52:59.8428922+07:00 0HLMH1KKQP2SH:00000002 [INF] Sending file. Request path: '"/swagger-ui-standalone-preset.js.map"'. Physical path: '"N/A"' (27b0a520)
+2019-05-05T10:52:59.8448484+07:00 0HLMH1KKQP2SH:00000002 [INF] Request finished in 68.2816ms 200 text/plain (791a596a)
+2019-05-05T10:53:00.1285316+07:00 0HLMH1KKQP2SG:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json   (ca22a1cb)
+2019-05-05T10:53:00.3408357+07:00 0HLMH1KKQP2SG:00000004 [INF] Request finished in 202.5651ms 200 application/json;charset=utf-8 (791a596a)
+2019-05-05T10:53:53.6308649+07:00 0HLMH1KKQP2SF:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/users/list   (ca22a1cb)
+2019-05-05T10:53:53.6937085+07:00 0HLMH1KKQP2SF:00000004 [INF] Executing endpoint '"CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)"' (500cc934)
+2019-05-05T10:53:53.7436645+07:00 0HLMH1KKQP2SF:00000004 [INF] Route matched with "{action = \"GetList\", controller = \"User\"}". Executing action "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)" (a44c0341)
+2019-05-05T10:53:53.7518575+07:00 0HLMH1KKQP2SF:00000004 [WRN] The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. (6e5ffae2)
+2019-05-05T10:53:53.7538876+07:00 0HLMH1KKQP2SF:00000004 [INF] CORS policy execution successful. (5409d6ef)
+2019-05-05T10:53:54.3389238+07:00 0HLMH1KKQP2SF:00000004 [INF] Executing action method "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)" with arguments (["CoreApp.Application.ViewModels.PageViewModel.UserRequestListViewModel"]) - Validation state: Valid (4e3479ed)
+2019-05-05T10:53:54.8472320+07:00 0HLMH1KKQP2SF:00000004 [WRN] No type was specified for the decimal column '"Balance"' on entity type '"AppUser"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-05-05T10:53:54.8496185+07:00 0HLMH1KKQP2SF:00000004 [WRN] No type was specified for the decimal column '"Price"' on entity type '"BillDetail"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-05-05T10:53:54.8516515+07:00 0HLMH1KKQP2SF:00000004 [WRN] No type was specified for the decimal column '"OriginalPrice"' on entity type '"Product"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-05-05T10:53:54.8535109+07:00 0HLMH1KKQP2SF:00000004 [WRN] No type was specified for the decimal column '"Price"' on entity type '"Product"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-05-05T10:53:54.8554253+07:00 0HLMH1KKQP2SF:00000004 [WRN] No type was specified for the decimal column '"PromotionPrice"' on entity type '"Product"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-05-05T10:53:54.8573955+07:00 0HLMH1KKQP2SF:00000004 [WRN] No type was specified for the decimal column '"Value5"' on entity type '"SystemConfig"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-05-05T10:53:54.8589237+07:00 0HLMH1KKQP2SF:00000004 [WRN] No type was specified for the decimal column '"Price"' on entity type '"WholePrice"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-05-05T10:53:54.9160099+07:00 0HLMH1KKQP2SF:00000004 [INF] Entity Framework Core "2.2.3-servicing-35854" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-05-05T10:53:54.9916465+07:00 0HLMH1KKQP2SF:00000004 [WRN] The Include operation for navigation '"[x].UserInRoles.AppRole"' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information. (10efaee6)
+2019-05-05T10:53:55.5693033+07:00 0HLMH1KKQP2SF:00000004 [INF] Executed DbCommand ("280"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [AppUsers] AS [x]" (0723d8ff)
+2019-05-05T10:53:55.6890763+07:00 0HLMH1KKQP2SF:00000004 [INF] Executed DbCommand ("12"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Avatar], [x].[Balance], [x].[BirthDay], [x].[DateCreated], [x].[DateModified], [x].[Email], [x].[FullName], [x].[Password], [x].[PhoneNumber], [x].[Status], [x].[UserName]
+FROM [AppUsers] AS [x]
+ORDER BY [x].[DateCreated] DESC, [x].[Id]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY" (0723d8ff)
+2019-05-05T10:53:55.8186113+07:00 0HLMH1KKQP2SF:00000004 [INF] Executed DbCommand ("84"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x.UserInRoles].[AppUserId], [x.UserInRoles].[AppRoleId], [x.UserInRoles].[Id], [u.AppRole].[Id], [u.AppRole].[name]
+FROM [UserInRoles] AS [x.UserInRoles]
+INNER JOIN [AppRoles] AS [u.AppRole] ON [x.UserInRoles].[AppRoleId] = [u.AppRole].[Id]
+INNER JOIN (
+    SELECT [x0].[Id], [x0].[DateCreated]
+    FROM [AppUsers] AS [x0]
+    ORDER BY [x0].[DateCreated] DESC, [x0].[Id]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t] ON [x.UserInRoles].[AppUserId] = [t].[Id]
+ORDER BY [t].[DateCreated] DESC, [t].[Id]" (0723d8ff)
+2019-05-05T10:53:55.8465504+07:00 0HLMH1KKQP2SF:00000004 [INF] Executed action method "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 1502.762ms. (50a9e262)
+2019-05-05T10:53:55.8565863+07:00 0HLMH1KKQP2SF:00000004 [INF] Executing ObjectResult, writing value of type '"CoreApp.Utilities.Dtos.PagedList`1[[CoreApp.Application.ViewModels.System.UserViewModel, CoreApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2019-05-05T10:53:55.8910337+07:00 0HLMH1KKQP2SF:00000004 [INF] Executed action "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)" in 2134.1482ms (afa2e885)
+2019-05-05T10:53:55.8931943+07:00 0HLMH1KKQP2SF:00000004 [INF] Executed endpoint '"CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)"' (99874f2b)
+2019-05-05T10:53:55.8966905+07:00 0HLMH1KKQP2SF:00000004 [INF] Request finished in 2264.6456ms 200 application/json; charset=utf-8 (791a596a)
+2019-05-05T10:54:25.4898509+07:00 0HLMH1KKQP2SF:00000005 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/users/list   (ca22a1cb)
+2019-05-05T10:54:25.4963572+07:00 0HLMH1KKQP2SF:00000005 [INF] Executing endpoint '"CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)"' (500cc934)
+2019-05-05T10:54:25.5256693+07:00 0HLMH1KKQP2SF:00000005 [INF] Route matched with "{action = \"GetList\", controller = \"User\"}". Executing action "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)" (a44c0341)
+2019-05-05T10:54:25.5480669+07:00 0HLMH1KKQP2SF:00000005 [WRN] The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. (6e5ffae2)
+2019-05-05T10:54:25.5514943+07:00 0HLMH1KKQP2SF:00000005 [INF] CORS policy execution successful. (5409d6ef)
+2019-05-05T10:54:25.5621568+07:00 0HLMH1KKQP2SF:00000005 [INF] Executing action method "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)" with arguments (["CoreApp.Application.ViewModels.PageViewModel.UserRequestListViewModel"]) - Validation state: Valid (4e3479ed)
+2019-05-05T10:54:25.5656796+07:00 0HLMH1KKQP2SF:00000005 [INF] Entity Framework Core "2.2.3-servicing-35854" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-05-05T10:54:25.8049716+07:00 0HLMH1KKQP2SF:00000005 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [AppUsers] AS [x]" (0723d8ff)
+2019-05-05T10:54:25.8437872+07:00 0HLMH1KKQP2SF:00000005 [INF] Executed DbCommand ("5"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Avatar], [x].[Balance], [x].[BirthDay], [x].[DateCreated], [x].[DateModified], [x].[Email], [x].[FullName], [x].[Password], [x].[PhoneNumber], [x].[Status], [x].[UserName]
+FROM [AppUsers] AS [x]
+ORDER BY [x].[DateCreated] DESC, [x].[Id]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY" (0723d8ff)
+2019-05-05T10:54:25.8510776+07:00 0HLMH1KKQP2SF:00000005 [INF] Executed DbCommand ("5"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x.UserInRoles].[AppUserId], [x.UserInRoles].[AppRoleId], [x.UserInRoles].[Id], [u.AppRole].[Id], [u.AppRole].[name]
+FROM [UserInRoles] AS [x.UserInRoles]
+INNER JOIN [AppRoles] AS [u.AppRole] ON [x.UserInRoles].[AppRoleId] = [u.AppRole].[Id]
+INNER JOIN (
+    SELECT [x0].[Id], [x0].[DateCreated]
+    FROM [AppUsers] AS [x0]
+    ORDER BY [x0].[DateCreated] DESC, [x0].[Id]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t] ON [x.UserInRoles].[AppUserId] = [t].[Id]
+ORDER BY [t].[DateCreated] DESC, [t].[Id]" (0723d8ff)
+2019-05-05T10:54:25.8538465+07:00 0HLMH1KKQP2SF:00000005 [INF] Executed action method "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 289.6846ms. (50a9e262)
+2019-05-05T10:54:25.8557152+07:00 0HLMH1KKQP2SF:00000005 [INF] Executing ObjectResult, writing value of type '"CoreApp.Utilities.Dtos.PagedList`1[[CoreApp.Application.ViewModels.System.UserViewModel, CoreApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2019-05-05T10:54:25.8583682+07:00 0HLMH1KKQP2SF:00000005 [INF] Executed action "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)" in 330.6943ms (afa2e885)
+2019-05-05T10:54:25.8599400+07:00 0HLMH1KKQP2SF:00000005 [INF] Executed endpoint '"CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)"' (99874f2b)
+2019-05-05T10:54:25.8617862+07:00 0HLMH1KKQP2SF:00000005 [INF] Request finished in 381.7296ms 200 application/json; charset=utf-8 (791a596a)
+2019-05-05T10:54:52.6269694+07:00 0HLMH1KKQP2SF:00000006 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/users/list   (ca22a1cb)
+2019-05-05T10:54:52.6287303+07:00 0HLMH1KKQP2SF:00000006 [INF] Executing endpoint '"CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)"' (500cc934)
+2019-05-05T10:54:52.6303527+07:00 0HLMH1KKQP2SF:00000006 [INF] Route matched with "{action = \"GetList\", controller = \"User\"}". Executing action "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)" (a44c0341)
+2019-05-05T10:54:52.6318085+07:00 0HLMH1KKQP2SF:00000006 [WRN] The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. (6e5ffae2)
+2019-05-05T10:54:52.6332897+07:00 0HLMH1KKQP2SF:00000006 [INF] CORS policy execution successful. (5409d6ef)
+2019-05-05T10:54:52.6357708+07:00 0HLMH1KKQP2SF:00000006 [INF] Executing action method "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)" with arguments (["CoreApp.Application.ViewModels.PageViewModel.UserRequestListViewModel"]) - Validation state: Valid (4e3479ed)
+2019-05-05T10:54:52.6404474+07:00 0HLMH1KKQP2SF:00000006 [INF] Entity Framework Core "2.2.3-servicing-35854" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-05-05T10:54:52.6453795+07:00 0HLMH1KKQP2SF:00000006 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [AppUsers] AS [x]" (0723d8ff)
+2019-05-05T10:54:52.6499484+07:00 0HLMH1KKQP2SF:00000006 [INF] Executed DbCommand ("1"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Avatar], [x].[Balance], [x].[BirthDay], [x].[DateCreated], [x].[DateModified], [x].[Email], [x].[FullName], [x].[Password], [x].[PhoneNumber], [x].[Status], [x].[UserName]
+FROM [AppUsers] AS [x]
+ORDER BY [x].[DateCreated] DESC, [x].[Id]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY" (0723d8ff)
+2019-05-05T10:54:52.6622177+07:00 0HLMH1KKQP2SF:00000006 [INF] Executed DbCommand ("9"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x.UserInRoles].[AppUserId], [x.UserInRoles].[AppRoleId], [x.UserInRoles].[Id], [u.AppRole].[Id], [u.AppRole].[name]
+FROM [UserInRoles] AS [x.UserInRoles]
+INNER JOIN [AppRoles] AS [u.AppRole] ON [x.UserInRoles].[AppRoleId] = [u.AppRole].[Id]
+INNER JOIN (
+    SELECT [x0].[Id], [x0].[DateCreated]
+    FROM [AppUsers] AS [x0]
+    ORDER BY [x0].[DateCreated] DESC, [x0].[Id]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t] ON [x.UserInRoles].[AppUserId] = [t].[Id]
+ORDER BY [t].[DateCreated] DESC, [t].[Id]" (0723d8ff)
+2019-05-05T10:54:52.6649826+07:00 0HLMH1KKQP2SF:00000006 [INF] Executed action method "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 26.8838ms. (50a9e262)
+2019-05-05T10:54:52.6670484+07:00 0HLMH1KKQP2SF:00000006 [INF] Executing ObjectResult, writing value of type '"CoreApp.Utilities.Dtos.PagedList`1[[CoreApp.Application.ViewModels.System.UserViewModel, CoreApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2019-05-05T10:54:52.6694682+07:00 0HLMH1KKQP2SF:00000006 [INF] Executed action "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)" in 36.9704ms (afa2e885)
+2019-05-05T10:54:52.6734336+07:00 0HLMH1KKQP2SF:00000006 [INF] Executed endpoint '"CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)"' (99874f2b)
+2019-05-05T10:54:52.6759486+07:00 0HLMH1KKQP2SF:00000006 [INF] Request finished in 48.4099ms 200 application/json; charset=utf-8 (791a596a)
+2019-05-05T10:54:56.4758186+07:00 0HLMH1KKQP2SF:00000007 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/users/list   (ca22a1cb)
+2019-05-05T10:54:56.4775852+07:00 0HLMH1KKQP2SF:00000007 [INF] Executing endpoint '"CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)"' (500cc934)
+2019-05-05T10:54:56.4793308+07:00 0HLMH1KKQP2SF:00000007 [INF] Route matched with "{action = \"GetList\", controller = \"User\"}". Executing action "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)" (a44c0341)
+2019-05-05T10:54:56.4811670+07:00 0HLMH1KKQP2SF:00000007 [WRN] The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. (6e5ffae2)
+2019-05-05T10:54:56.4829730+07:00 0HLMH1KKQP2SF:00000007 [INF] CORS policy execution successful. (5409d6ef)
+2019-05-05T10:54:56.4862821+07:00 0HLMH1KKQP2SF:00000007 [INF] Executing action method "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)" with arguments (["CoreApp.Application.ViewModels.PageViewModel.UserRequestListViewModel"]) - Validation state: Valid (4e3479ed)
+2019-05-05T10:54:56.4892107+07:00 0HLMH1KKQP2SF:00000007 [INF] Entity Framework Core "2.2.3-servicing-35854" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-05-05T10:54:56.4954214+07:00 0HLMH1KKQP2SF:00000007 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [AppUsers] AS [x]" (0723d8ff)
+2019-05-05T10:54:56.5006240+07:00 0HLMH1KKQP2SF:00000007 [INF] Executed DbCommand ("2"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Avatar], [x].[Balance], [x].[BirthDay], [x].[DateCreated], [x].[DateModified], [x].[Email], [x].[FullName], [x].[Password], [x].[PhoneNumber], [x].[Status], [x].[UserName]
+FROM [AppUsers] AS [x]
+ORDER BY [x].[DateCreated] DESC, [x].[Id]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY" (0723d8ff)
+2019-05-05T10:54:56.5073336+07:00 0HLMH1KKQP2SF:00000007 [INF] Executed DbCommand ("5"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x.UserInRoles].[AppUserId], [x.UserInRoles].[AppRoleId], [x.UserInRoles].[Id], [u.AppRole].[Id], [u.AppRole].[name]
+FROM [UserInRoles] AS [x.UserInRoles]
+INNER JOIN [AppRoles] AS [u.AppRole] ON [x.UserInRoles].[AppRoleId] = [u.AppRole].[Id]
+INNER JOIN (
+    SELECT [x0].[Id], [x0].[DateCreated]
+    FROM [AppUsers] AS [x0]
+    ORDER BY [x0].[DateCreated] DESC, [x0].[Id]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t] ON [x.UserInRoles].[AppUserId] = [t].[Id]
+ORDER BY [t].[DateCreated] DESC, [t].[Id]" (0723d8ff)
+2019-05-05T10:54:56.5100719+07:00 0HLMH1KKQP2SF:00000007 [INF] Executed action method "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 21.4344ms. (50a9e262)
+2019-05-05T10:54:56.5126385+07:00 0HLMH1KKQP2SF:00000007 [INF] Executing ObjectResult, writing value of type '"CoreApp.Utilities.Dtos.PagedList`1[[CoreApp.Application.ViewModels.System.UserViewModel, CoreApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2019-05-05T10:54:56.5151615+07:00 0HLMH1KKQP2SF:00000007 [INF] Executed action "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)" in 33.5225ms (afa2e885)
+2019-05-05T10:54:56.5170057+07:00 0HLMH1KKQP2SF:00000007 [INF] Executed endpoint '"CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)"' (99874f2b)
+2019-05-05T10:54:56.5193275+07:00 0HLMH1KKQP2SF:00000007 [INF] Request finished in 43.3836ms 200 application/json; charset=utf-8 (791a596a)
+2019-05-05T10:55:15.1436484+07:00 0HLMH1KKQP2SF:00000008 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/users/list   (ca22a1cb)
+2019-05-05T10:55:15.1481097+07:00 0HLMH1KKQP2SF:00000008 [INF] Executing endpoint '"CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)"' (500cc934)
+2019-05-05T10:55:15.1539123+07:00 0HLMH1KKQP2SF:00000008 [INF] Route matched with "{action = \"GetList\", controller = \"User\"}". Executing action "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)" (a44c0341)
+2019-05-05T10:55:15.1560939+07:00 0HLMH1KKQP2SF:00000008 [WRN] The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. (6e5ffae2)
+2019-05-05T10:55:15.1578832+07:00 0HLMH1KKQP2SF:00000008 [INF] CORS policy execution successful. (5409d6ef)
+2019-05-05T10:55:15.1603170+07:00 0HLMH1KKQP2SF:00000008 [INF] Executing action method "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)" with arguments (["CoreApp.Application.ViewModels.PageViewModel.UserRequestListViewModel"]) - Validation state: Valid (4e3479ed)
+2019-05-05T10:55:15.1626954+07:00 0HLMH1KKQP2SF:00000008 [INF] Entity Framework Core "2.2.3-servicing-35854" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-05-05T10:55:15.1702568+07:00 0HLMH1KKQP2SF:00000008 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [AppUsers] AS [x]" (0723d8ff)
+2019-05-05T10:55:15.1743152+07:00 0HLMH1KKQP2SF:00000008 [INF] Executed DbCommand ("1"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Avatar], [x].[Balance], [x].[BirthDay], [x].[DateCreated], [x].[DateModified], [x].[Email], [x].[FullName], [x].[Password], [x].[PhoneNumber], [x].[Status], [x].[UserName]
+FROM [AppUsers] AS [x]
+ORDER BY [x].[DateCreated] DESC, [x].[Id]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY" (0723d8ff)
+2019-05-05T10:55:15.1791683+07:00 0HLMH1KKQP2SF:00000008 [INF] Executed DbCommand ("3"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x.UserInRoles].[AppUserId], [x.UserInRoles].[AppRoleId], [x.UserInRoles].[Id], [u.AppRole].[Id], [u.AppRole].[name]
+FROM [UserInRoles] AS [x.UserInRoles]
+INNER JOIN [AppRoles] AS [u.AppRole] ON [x.UserInRoles].[AppRoleId] = [u.AppRole].[Id]
+INNER JOIN (
+    SELECT [x0].[Id], [x0].[DateCreated]
+    FROM [AppUsers] AS [x0]
+    ORDER BY [x0].[DateCreated] DESC, [x0].[Id]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t] ON [x.UserInRoles].[AppUserId] = [t].[Id]
+ORDER BY [t].[DateCreated] DESC, [t].[Id]" (0723d8ff)
+2019-05-05T10:55:15.1824967+07:00 0HLMH1KKQP2SF:00000008 [INF] Executed action method "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 19.9311ms. (50a9e262)
+2019-05-05T10:55:15.1850066+07:00 0HLMH1KKQP2SF:00000008 [INF] Executing ObjectResult, writing value of type '"CoreApp.Utilities.Dtos.PagedList`1[[CoreApp.Application.ViewModels.System.UserViewModel, CoreApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2019-05-05T10:55:15.1875859+07:00 0HLMH1KKQP2SF:00000008 [INF] Executed action "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)" in 31.2541ms (afa2e885)
+2019-05-05T10:55:15.1891544+07:00 0HLMH1KKQP2SF:00000008 [INF] Executed endpoint '"CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)"' (99874f2b)
+2019-05-05T10:55:15.1908968+07:00 0HLMH1KKQP2SF:00000008 [INF] Request finished in 48.4674ms 200 application/json; charset=utf-8 (791a596a)
+2019-05-05T10:58:40.5412181+07:00 0HLMH1KKQP2SI:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/users/list   (ca22a1cb)
+2019-05-05T10:58:40.5429240+07:00 0HLMH1KKQP2SI:00000001 [INF] Executing endpoint '"CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)"' (500cc934)
+2019-05-05T10:58:40.5456638+07:00 0HLMH1KKQP2SI:00000001 [INF] Route matched with "{action = \"GetList\", controller = \"User\"}". Executing action "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)" (a44c0341)
+2019-05-05T10:58:40.5477616+07:00 0HLMH1KKQP2SI:00000001 [WRN] The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. (6e5ffae2)
+2019-05-05T10:58:40.5493766+07:00 0HLMH1KKQP2SI:00000001 [INF] CORS policy execution successful. (5409d6ef)
+2019-05-05T10:58:40.5511989+07:00 0HLMH1KKQP2SI:00000001 [INF] Executing action method "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)" with arguments (["CoreApp.Application.ViewModels.PageViewModel.UserRequestListViewModel"]) - Validation state: Valid (4e3479ed)
+2019-05-05T10:58:40.5529911+07:00 0HLMH1KKQP2SI:00000001 [INF] Entity Framework Core "2.2.3-servicing-35854" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-05-05T10:58:40.5569492+07:00 0HLMH1KKQP2SI:00000001 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [AppUsers] AS [x]" (0723d8ff)
+2019-05-05T10:58:40.5622926+07:00 0HLMH1KKQP2SI:00000001 [INF] Executed DbCommand ("1"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Avatar], [x].[Balance], [x].[BirthDay], [x].[DateCreated], [x].[DateModified], [x].[Email], [x].[FullName], [x].[Password], [x].[PhoneNumber], [x].[Status], [x].[UserName]
+FROM [AppUsers] AS [x]
+ORDER BY [x].[DateCreated] DESC, [x].[Id]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY" (0723d8ff)
+2019-05-05T10:58:40.5702514+07:00 0HLMH1KKQP2SI:00000001 [INF] Executed DbCommand ("6"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x.UserInRoles].[AppUserId], [x.UserInRoles].[AppRoleId], [x.UserInRoles].[Id], [u.AppRole].[Id], [u.AppRole].[name]
+FROM [UserInRoles] AS [x.UserInRoles]
+INNER JOIN [AppRoles] AS [u.AppRole] ON [x.UserInRoles].[AppRoleId] = [u.AppRole].[Id]
+INNER JOIN (
+    SELECT [x0].[Id], [x0].[DateCreated]
+    FROM [AppUsers] AS [x0]
+    ORDER BY [x0].[DateCreated] DESC, [x0].[Id]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t] ON [x.UserInRoles].[AppUserId] = [t].[Id]
+ORDER BY [t].[DateCreated] DESC, [t].[Id]" (0723d8ff)
+2019-05-05T10:58:40.5729959+07:00 0HLMH1KKQP2SI:00000001 [INF] Executed action method "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 19.6065ms. (50a9e262)
+2019-05-05T10:58:40.5753042+07:00 0HLMH1KKQP2SI:00000001 [INF] Executing ObjectResult, writing value of type '"CoreApp.Utilities.Dtos.PagedList`1[[CoreApp.Application.ViewModels.System.UserViewModel, CoreApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2019-05-05T10:58:40.5776295+07:00 0HLMH1KKQP2SI:00000001 [INF] Executed action "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)" in 29.9743ms (afa2e885)
+2019-05-05T10:58:40.5796771+07:00 0HLMH1KKQP2SI:00000001 [INF] Executed endpoint '"CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)"' (99874f2b)
+2019-05-05T10:58:40.5817151+07:00 0HLMH1KKQP2SI:00000001 [INF] Request finished in 39.8469ms 200 application/json; charset=utf-8 (791a596a)
+2019-05-05T11:12:29.6692042+07:00 0HLMH1KKQP2SJ:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/users/list   (ca22a1cb)
+2019-05-05T11:12:29.6717567+07:00 0HLMH1KKQP2SJ:00000001 [INF] Executing endpoint '"CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)"' (500cc934)
+2019-05-05T11:12:29.6747488+07:00 0HLMH1KKQP2SJ:00000001 [INF] Route matched with "{action = \"GetList\", controller = \"User\"}". Executing action "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)" (a44c0341)
+2019-05-05T11:12:29.6767417+07:00 0HLMH1KKQP2SJ:00000001 [WRN] The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. (6e5ffae2)
+2019-05-05T11:12:29.6781893+07:00 0HLMH1KKQP2SJ:00000001 [INF] CORS policy execution successful. (5409d6ef)
+2019-05-05T11:12:29.6803315+07:00 0HLMH1KKQP2SJ:00000001 [INF] Executing action method "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)" with arguments (["CoreApp.Application.ViewModels.PageViewModel.UserRequestListViewModel"]) - Validation state: Valid (4e3479ed)
+2019-05-05T11:12:29.6826554+07:00 0HLMH1KKQP2SJ:00000001 [INF] Entity Framework Core "2.2.3-servicing-35854" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-05-05T11:12:29.6934229+07:00 0HLMH1KKQP2SJ:00000001 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [AppUsers] AS [x]" (0723d8ff)
+2019-05-05T11:12:29.7097574+07:00 0HLMH1KKQP2SJ:00000001 [INF] Executed DbCommand ("4"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Avatar], [x].[Balance], [x].[BirthDay], [x].[DateCreated], [x].[DateModified], [x].[Email], [x].[FullName], [x].[Password], [x].[PhoneNumber], [x].[Status], [x].[UserName]
+FROM [AppUsers] AS [x]
+ORDER BY [x].[DateCreated] DESC, [x].[Id]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY" (0723d8ff)
+2019-05-05T11:12:29.7221770+07:00 0HLMH1KKQP2SJ:00000001 [INF] Executed DbCommand ("7"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x.UserInRoles].[AppUserId], [x.UserInRoles].[AppRoleId], [x.UserInRoles].[Id], [u.AppRole].[Id], [u.AppRole].[name]
+FROM [UserInRoles] AS [x.UserInRoles]
+INNER JOIN [AppRoles] AS [u.AppRole] ON [x.UserInRoles].[AppRoleId] = [u.AppRole].[Id]
+INNER JOIN (
+    SELECT [x0].[Id], [x0].[DateCreated]
+    FROM [AppUsers] AS [x0]
+    ORDER BY [x0].[DateCreated] DESC, [x0].[Id]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t] ON [x.UserInRoles].[AppUserId] = [t].[Id]
+ORDER BY [t].[DateCreated] DESC, [t].[Id]" (0723d8ff)
+2019-05-05T11:12:29.7273982+07:00 0HLMH1KKQP2SJ:00000001 [INF] Executed action method "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 42.5746ms. (50a9e262)
+2019-05-05T11:12:29.7310007+07:00 0HLMH1KKQP2SJ:00000001 [INF] Executing ObjectResult, writing value of type '"CoreApp.Utilities.Dtos.PagedList`1[[CoreApp.Application.ViewModels.System.UserViewModel, CoreApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2019-05-05T11:12:29.7516247+07:00 0HLMH1KKQP2SJ:00000001 [INF] Executed action "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)" in 56.4838ms (afa2e885)
+2019-05-05T11:12:29.7624394+07:00 0HLMH1KKQP2SJ:00000001 [INF] Executed endpoint '"CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)"' (99874f2b)
+2019-05-05T11:12:29.7658921+07:00 0HLMH1KKQP2SJ:00000001 [INF] Request finished in 94.7107ms 200 application/json; charset=utf-8 (791a596a)
+2019-05-05T11:12:57.2075532+07:00 0HLMH1KKQP2SJ:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/users/list   (ca22a1cb)
+2019-05-05T11:12:57.2094740+07:00 0HLMH1KKQP2SJ:00000002 [INF] Executing endpoint '"CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)"' (500cc934)
+2019-05-05T11:12:57.2124029+07:00 0HLMH1KKQP2SJ:00000002 [INF] Route matched with "{action = \"GetList\", controller = \"User\"}". Executing action "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)" (a44c0341)
+2019-05-05T11:12:57.2174171+07:00 0HLMH1KKQP2SJ:00000002 [WRN] The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. (6e5ffae2)
+2019-05-05T11:12:57.2332101+07:00 0HLMH1KKQP2SJ:00000002 [INF] CORS policy execution successful. (5409d6ef)
+2019-05-05T11:12:57.2357941+07:00 0HLMH1KKQP2SJ:00000002 [INF] Executing action method "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)" with arguments (["CoreApp.Application.ViewModels.PageViewModel.UserRequestListViewModel"]) - Validation state: Valid (4e3479ed)
+2019-05-05T11:12:57.2380636+07:00 0HLMH1KKQP2SJ:00000002 [INF] Entity Framework Core "2.2.3-servicing-35854" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-05-05T11:12:57.2446455+07:00 0HLMH1KKQP2SJ:00000002 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [AppUsers] AS [x]" (0723d8ff)
+2019-05-05T11:12:57.2509054+07:00 0HLMH1KKQP2SJ:00000002 [INF] Executed DbCommand ("2"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Avatar], [x].[Balance], [x].[BirthDay], [x].[DateCreated], [x].[DateModified], [x].[Email], [x].[FullName], [x].[Password], [x].[PhoneNumber], [x].[Status], [x].[UserName]
+FROM [AppUsers] AS [x]
+ORDER BY [x].[DateCreated] DESC, [x].[Id]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY" (0723d8ff)
+2019-05-05T11:12:57.2582538+07:00 0HLMH1KKQP2SJ:00000002 [INF] Executed DbCommand ("5"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x.UserInRoles].[AppUserId], [x.UserInRoles].[AppRoleId], [x.UserInRoles].[Id], [u.AppRole].[Id], [u.AppRole].[name]
+FROM [UserInRoles] AS [x.UserInRoles]
+INNER JOIN [AppRoles] AS [u.AppRole] ON [x.UserInRoles].[AppRoleId] = [u.AppRole].[Id]
+INNER JOIN (
+    SELECT [x0].[Id], [x0].[DateCreated]
+    FROM [AppUsers] AS [x0]
+    ORDER BY [x0].[DateCreated] DESC, [x0].[Id]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t] ON [x.UserInRoles].[AppUserId] = [t].[Id]
+ORDER BY [t].[DateCreated] DESC, [t].[Id]" (0723d8ff)
+2019-05-05T11:12:57.2604688+07:00 0HLMH1KKQP2SJ:00000002 [INF] Executed action method "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 22.7568ms. (50a9e262)
+2019-05-05T11:12:57.2627335+07:00 0HLMH1KKQP2SJ:00000002 [INF] Executing ObjectResult, writing value of type '"CoreApp.Utilities.Dtos.PagedList`1[[CoreApp.Application.ViewModels.System.UserViewModel, CoreApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2019-05-05T11:12:57.2653787+07:00 0HLMH1KKQP2SJ:00000002 [INF] Executed action "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)" in 50.6587ms (afa2e885)
+2019-05-05T11:12:57.2677997+07:00 0HLMH1KKQP2SJ:00000002 [INF] Executed endpoint '"CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)"' (99874f2b)
+2019-05-05T11:12:57.2699527+07:00 0HLMH1KKQP2SJ:00000002 [INF] Request finished in 62.1347ms 200 application/json; charset=utf-8 (791a596a)
+2019-05-05T11:13:47.3493909+07:00 0HLMH1KKQP2SJ:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/users/list   (ca22a1cb)
+2019-05-05T11:13:47.3534167+07:00 0HLMH1KKQP2SJ:00000003 [INF] Executing endpoint '"CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)"' (500cc934)
+2019-05-05T11:13:47.3558367+07:00 0HLMH1KKQP2SJ:00000003 [INF] Route matched with "{action = \"GetList\", controller = \"User\"}". Executing action "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)" (a44c0341)
+2019-05-05T11:13:47.3576145+07:00 0HLMH1KKQP2SJ:00000003 [WRN] The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. (6e5ffae2)
+2019-05-05T11:13:47.3596395+07:00 0HLMH1KKQP2SJ:00000003 [INF] CORS policy execution successful. (5409d6ef)
+2019-05-05T11:13:47.3626626+07:00 0HLMH1KKQP2SJ:00000003 [INF] Executing action method "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)" with arguments (["CoreApp.Application.ViewModels.PageViewModel.UserRequestListViewModel"]) - Validation state: Valid (4e3479ed)
+2019-05-05T11:13:47.3650065+07:00 0HLMH1KKQP2SJ:00000003 [INF] Entity Framework Core "2.2.3-servicing-35854" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-05-05T11:13:47.3720549+07:00 0HLMH1KKQP2SJ:00000003 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [AppUsers] AS [x]" (0723d8ff)
+2019-05-05T11:13:47.3774726+07:00 0HLMH1KKQP2SJ:00000003 [INF] Executed DbCommand ("2"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Avatar], [x].[Balance], [x].[BirthDay], [x].[DateCreated], [x].[DateModified], [x].[Email], [x].[FullName], [x].[Password], [x].[PhoneNumber], [x].[Status], [x].[UserName]
+FROM [AppUsers] AS [x]
+ORDER BY [x].[DateCreated] DESC, [x].[Id]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY" (0723d8ff)
+2019-05-05T11:13:47.3885127+07:00 0HLMH1KKQP2SJ:00000003 [INF] Executed DbCommand ("6"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x.UserInRoles].[AppUserId], [x.UserInRoles].[AppRoleId], [x.UserInRoles].[Id], [u.AppRole].[Id], [u.AppRole].[name]
+FROM [UserInRoles] AS [x.UserInRoles]
+INNER JOIN [AppRoles] AS [u.AppRole] ON [x.UserInRoles].[AppRoleId] = [u.AppRole].[Id]
+INNER JOIN (
+    SELECT [x0].[Id], [x0].[DateCreated]
+    FROM [AppUsers] AS [x0]
+    ORDER BY [x0].[DateCreated] DESC, [x0].[Id]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t] ON [x.UserInRoles].[AppUserId] = [t].[Id]
+ORDER BY [t].[DateCreated] DESC, [t].[Id]" (0723d8ff)
+2019-05-05T11:13:47.3907100+07:00 0HLMH1KKQP2SJ:00000003 [INF] Executed action method "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 26.2008ms. (50a9e262)
+2019-05-05T11:13:47.3920553+07:00 0HLMH1KKQP2SJ:00000003 [INF] Executing ObjectResult, writing value of type '"CoreApp.Utilities.Dtos.PagedList`1[[CoreApp.Application.ViewModels.System.UserViewModel, CoreApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2019-05-05T11:13:47.3935576+07:00 0HLMH1KKQP2SJ:00000003 [INF] Executed action "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)" in 36.3409ms (afa2e885)
+2019-05-05T11:13:47.3949770+07:00 0HLMH1KKQP2SJ:00000003 [INF] Executed endpoint '"CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)"' (99874f2b)
+2019-05-05T11:13:47.3966127+07:00 0HLMH1KKQP2SJ:00000003 [INF] Request finished in 47.6802ms 200 application/json; charset=utf-8 (791a596a)
+2019-05-05T11:14:44.5148784+07:00 0HLMH1KKQP2SJ:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/users/list   (ca22a1cb)
+2019-05-05T11:14:44.5165509+07:00 0HLMH1KKQP2SJ:00000004 [INF] Executing endpoint '"CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)"' (500cc934)
+2019-05-05T11:14:44.5180167+07:00 0HLMH1KKQP2SJ:00000004 [INF] Route matched with "{action = \"GetList\", controller = \"User\"}". Executing action "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)" (a44c0341)
+2019-05-05T11:14:44.5193371+07:00 0HLMH1KKQP2SJ:00000004 [WRN] The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. (6e5ffae2)
+2019-05-05T11:14:44.5216600+07:00 0HLMH1KKQP2SJ:00000004 [INF] CORS policy execution successful. (5409d6ef)
+2019-05-05T11:14:44.5234581+07:00 0HLMH1KKQP2SJ:00000004 [INF] Executing action method "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)" with arguments (["CoreApp.Application.ViewModels.PageViewModel.UserRequestListViewModel"]) - Validation state: Valid (4e3479ed)
+2019-05-05T11:14:44.5249255+07:00 0HLMH1KKQP2SJ:00000004 [INF] Entity Framework Core "2.2.3-servicing-35854" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-05-05T11:14:44.5287978+07:00 0HLMH1KKQP2SJ:00000004 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [AppUsers] AS [x]" (0723d8ff)
+2019-05-05T11:14:44.5335730+07:00 0HLMH1KKQP2SJ:00000004 [INF] Executed DbCommand ("1"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Avatar], [x].[Balance], [x].[BirthDay], [x].[DateCreated], [x].[DateModified], [x].[Email], [x].[FullName], [x].[Password], [x].[PhoneNumber], [x].[Status], [x].[UserName]
+FROM [AppUsers] AS [x]
+ORDER BY [x].[DateCreated] DESC, [x].[Id]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY" (0723d8ff)
+2019-05-05T11:14:44.5410868+07:00 0HLMH1KKQP2SJ:00000004 [INF] Executed DbCommand ("6"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x.UserInRoles].[AppUserId], [x.UserInRoles].[AppRoleId], [x.UserInRoles].[Id], [u.AppRole].[Id], [u.AppRole].[name]
+FROM [UserInRoles] AS [x.UserInRoles]
+INNER JOIN [AppRoles] AS [u.AppRole] ON [x.UserInRoles].[AppRoleId] = [u.AppRole].[Id]
+INNER JOIN (
+    SELECT [x0].[Id], [x0].[DateCreated]
+    FROM [AppUsers] AS [x0]
+    ORDER BY [x0].[DateCreated] DESC, [x0].[Id]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t] ON [x.UserInRoles].[AppUserId] = [t].[Id]
+ORDER BY [t].[DateCreated] DESC, [t].[Id]" (0723d8ff)
+2019-05-05T11:14:44.5435506+07:00 0HLMH1KKQP2SJ:00000004 [INF] Executed action method "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 18.0715ms. (50a9e262)
+2019-05-05T11:14:44.5457289+07:00 0HLMH1KKQP2SJ:00000004 [INF] Executing ObjectResult, writing value of type '"CoreApp.Utilities.Dtos.PagedList`1[[CoreApp.Application.ViewModels.System.UserViewModel, CoreApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2019-05-05T11:14:44.5484305+07:00 0HLMH1KKQP2SJ:00000004 [INF] Executed action "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)" in 27.9141ms (afa2e885)
+2019-05-05T11:14:44.5511822+07:00 0HLMH1KKQP2SJ:00000004 [INF] Executed endpoint '"CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)"' (99874f2b)
+2019-05-05T11:14:44.5539481+07:00 0HLMH1KKQP2SJ:00000004 [INF] Request finished in 37.9765ms 200 application/json; charset=utf-8 (791a596a)
+2019-05-05T11:15:03.5954651+07:00 0HLMH1KKQP2SJ:00000005 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/users/list   (ca22a1cb)
+2019-05-05T11:15:03.5972511+07:00 0HLMH1KKQP2SJ:00000005 [INF] Executing endpoint '"CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)"' (500cc934)
+2019-05-05T11:15:03.5999127+07:00 0HLMH1KKQP2SJ:00000005 [INF] Route matched with "{action = \"GetList\", controller = \"User\"}". Executing action "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)" (a44c0341)
+2019-05-05T11:15:03.6020988+07:00 0HLMH1KKQP2SJ:00000005 [WRN] The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. (6e5ffae2)
+2019-05-05T11:15:03.6063540+07:00 0HLMH1KKQP2SJ:00000005 [INF] CORS policy execution successful. (5409d6ef)
+2019-05-05T11:15:03.6102016+07:00 0HLMH1KKQP2SJ:00000005 [INF] Executing action method "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)" with arguments (["CoreApp.Application.ViewModels.PageViewModel.UserRequestListViewModel"]) - Validation state: Valid (4e3479ed)
+2019-05-05T11:15:03.6125161+07:00 0HLMH1KKQP2SJ:00000005 [INF] Entity Framework Core "2.2.3-servicing-35854" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-05-05T11:15:03.6170899+07:00 0HLMH1KKQP2SJ:00000005 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [AppUsers] AS [x]" (0723d8ff)
+2019-05-05T11:15:03.6229748+07:00 0HLMH1KKQP2SJ:00000005 [INF] Executed DbCommand ("2"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Avatar], [x].[Balance], [x].[BirthDay], [x].[DateCreated], [x].[DateModified], [x].[Email], [x].[FullName], [x].[Password], [x].[PhoneNumber], [x].[Status], [x].[UserName]
+FROM [AppUsers] AS [x]
+ORDER BY [x].[DateCreated] DESC, [x].[Id]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY" (0723d8ff)
+2019-05-05T11:15:03.6285163+07:00 0HLMH1KKQP2SJ:00000005 [INF] Executed DbCommand ("2"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x.UserInRoles].[AppUserId], [x.UserInRoles].[AppRoleId], [x.UserInRoles].[Id], [u.AppRole].[Id], [u.AppRole].[name]
+FROM [UserInRoles] AS [x.UserInRoles]
+INNER JOIN [AppRoles] AS [u.AppRole] ON [x.UserInRoles].[AppRoleId] = [u.AppRole].[Id]
+INNER JOIN (
+    SELECT [x0].[Id], [x0].[DateCreated]
+    FROM [AppUsers] AS [x0]
+    ORDER BY [x0].[DateCreated] DESC, [x0].[Id]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t] ON [x.UserInRoles].[AppUserId] = [t].[Id]
+ORDER BY [t].[DateCreated] DESC, [t].[Id]" (0723d8ff)
+2019-05-05T11:15:03.6332625+07:00 0HLMH1KKQP2SJ:00000005 [INF] Executed action method "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 18.8148ms. (50a9e262)
+2019-05-05T11:15:03.6367730+07:00 0HLMH1KKQP2SJ:00000005 [INF] Executing ObjectResult, writing value of type '"CoreApp.Utilities.Dtos.PagedList`1[[CoreApp.Application.ViewModels.System.UserViewModel, CoreApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2019-05-05T11:15:03.6390492+07:00 0HLMH1KKQP2SJ:00000005 [INF] Executed action "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)" in 37.2027ms (afa2e885)
+2019-05-05T11:15:03.6410904+07:00 0HLMH1KKQP2SJ:00000005 [INF] Executed endpoint '"CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)"' (99874f2b)
+2019-05-05T11:15:03.6436395+07:00 0HLMH1KKQP2SJ:00000005 [INF] Request finished in 47.4466ms 200 application/json; charset=utf-8 (791a596a)
+2019-05-05T11:16:18.3432245+07:00 0HLMH1KKQP2SK:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/users/list   (ca22a1cb)
+2019-05-05T11:16:18.3454764+07:00 0HLMH1KKQP2SK:00000001 [INF] Executing endpoint '"CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)"' (500cc934)
+2019-05-05T11:16:18.3482781+07:00 0HLMH1KKQP2SK:00000001 [INF] Route matched with "{action = \"GetList\", controller = \"User\"}". Executing action "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)" (a44c0341)
+2019-05-05T11:16:18.3502252+07:00 0HLMH1KKQP2SK:00000001 [WRN] The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. (6e5ffae2)
+2019-05-05T11:16:18.3519573+07:00 0HLMH1KKQP2SK:00000001 [INF] CORS policy execution successful. (5409d6ef)
+2019-05-05T11:16:18.3544447+07:00 0HLMH1KKQP2SK:00000001 [INF] Executing action method "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)" with arguments (["CoreApp.Application.ViewModels.PageViewModel.UserRequestListViewModel"]) - Validation state: Valid (4e3479ed)
+2019-05-05T11:16:18.3568354+07:00 0HLMH1KKQP2SK:00000001 [INF] Entity Framework Core "2.2.3-servicing-35854" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-05-05T11:16:18.3644614+07:00 0HLMH1KKQP2SK:00000001 [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [AppUsers] AS [x]" (0723d8ff)
+2019-05-05T11:16:18.3760768+07:00 0HLMH1KKQP2SK:00000001 [INF] Executed DbCommand ("2"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Avatar], [x].[Balance], [x].[BirthDay], [x].[DateCreated], [x].[DateModified], [x].[Email], [x].[FullName], [x].[Password], [x].[PhoneNumber], [x].[Status], [x].[UserName]
+FROM [AppUsers] AS [x]
+ORDER BY [x].[DateCreated] DESC, [x].[Id]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY" (0723d8ff)
+2019-05-05T11:16:18.3819089+07:00 0HLMH1KKQP2SK:00000001 [INF] Executed DbCommand ("4"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x.UserInRoles].[AppUserId], [x.UserInRoles].[AppRoleId], [x.UserInRoles].[Id], [u.AppRole].[Id], [u.AppRole].[name]
+FROM [UserInRoles] AS [x.UserInRoles]
+INNER JOIN [AppRoles] AS [u.AppRole] ON [x.UserInRoles].[AppRoleId] = [u.AppRole].[Id]
+INNER JOIN (
+    SELECT [x0].[Id], [x0].[DateCreated]
+    FROM [AppUsers] AS [x0]
+    ORDER BY [x0].[DateCreated] DESC, [x0].[Id]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t] ON [x.UserInRoles].[AppUserId] = [t].[Id]
+ORDER BY [t].[DateCreated] DESC, [t].[Id]" (0723d8ff)
+2019-05-05T11:16:18.3838183+07:00 0HLMH1KKQP2SK:00000001 [INF] Executed action method "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 27.7864ms. (50a9e262)
+2019-05-05T11:16:18.3852784+07:00 0HLMH1KKQP2SK:00000001 [INF] Executing ObjectResult, writing value of type '"CoreApp.Utilities.Dtos.PagedList`1[[CoreApp.Application.ViewModels.System.UserViewModel, CoreApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2019-05-05T11:16:18.3892249+07:00 0HLMH1KKQP2SK:00000001 [INF] Executed action "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)" in 37.3113ms (afa2e885)
+2019-05-05T11:16:18.3910152+07:00 0HLMH1KKQP2SK:00000001 [INF] Executed endpoint '"CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)"' (99874f2b)
+2019-05-05T11:16:18.3932088+07:00 0HLMH1KKQP2SK:00000001 [INF] Request finished in 52.4729ms 200 application/json; charset=utf-8 (791a596a)
+2019-05-05T11:16:32.3094589+07:00 0HLMH1KKQP2SK:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/users/list   (ca22a1cb)
+2019-05-05T11:16:32.3114374+07:00 0HLMH1KKQP2SK:00000002 [INF] Executing endpoint '"CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)"' (500cc934)
+2019-05-05T11:16:32.3143572+07:00 0HLMH1KKQP2SK:00000002 [INF] Route matched with "{action = \"GetList\", controller = \"User\"}". Executing action "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)" (a44c0341)
+2019-05-05T11:16:32.3179172+07:00 0HLMH1KKQP2SK:00000002 [WRN] The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. (6e5ffae2)
+2019-05-05T11:16:32.3202770+07:00 0HLMH1KKQP2SK:00000002 [INF] CORS policy execution successful. (5409d6ef)
+2019-05-05T11:16:32.3244395+07:00 0HLMH1KKQP2SK:00000002 [INF] Executing action method "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)" with arguments (["CoreApp.Application.ViewModels.PageViewModel.UserRequestListViewModel"]) - Validation state: Valid (4e3479ed)
+2019-05-05T11:16:32.3335434+07:00 0HLMH1KKQP2SK:00000002 [INF] Entity Framework Core "2.2.3-servicing-35854" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-05-05T11:16:32.3400207+07:00 0HLMH1KKQP2SK:00000002 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [AppUsers] AS [x]" (0723d8ff)
+2019-05-05T11:16:32.3444071+07:00 0HLMH1KKQP2SK:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Avatar], [x].[Balance], [x].[BirthDay], [x].[DateCreated], [x].[DateModified], [x].[Email], [x].[FullName], [x].[Password], [x].[PhoneNumber], [x].[Status], [x].[UserName]
+FROM [AppUsers] AS [x]
+ORDER BY [x].[DateCreated] DESC, [x].[Id]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY" (0723d8ff)
+2019-05-05T11:16:32.3516599+07:00 0HLMH1KKQP2SK:00000002 [INF] Executed DbCommand ("5"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x.UserInRoles].[AppUserId], [x.UserInRoles].[AppRoleId], [x.UserInRoles].[Id], [u.AppRole].[Id], [u.AppRole].[name]
+FROM [UserInRoles] AS [x.UserInRoles]
+INNER JOIN [AppRoles] AS [u.AppRole] ON [x.UserInRoles].[AppRoleId] = [u.AppRole].[Id]
+INNER JOIN (
+    SELECT [x0].[Id], [x0].[DateCreated]
+    FROM [AppUsers] AS [x0]
+    ORDER BY [x0].[DateCreated] DESC, [x0].[Id]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t] ON [x.UserInRoles].[AppUserId] = [t].[Id]
+ORDER BY [t].[DateCreated] DESC, [t].[Id]" (0723d8ff)
+2019-05-05T11:16:32.3538941+07:00 0HLMH1KKQP2SK:00000002 [INF] Executed action method "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 27.5203ms. (50a9e262)
+2019-05-05T11:16:32.3558952+07:00 0HLMH1KKQP2SK:00000002 [INF] Executing ObjectResult, writing value of type '"CoreApp.Utilities.Dtos.PagedList`1[[CoreApp.Application.ViewModels.System.UserViewModel, CoreApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2019-05-05T11:16:32.3744417+07:00 0HLMH1KKQP2SK:00000002 [INF] Executed action "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)" in 42.5715ms (afa2e885)
+2019-05-05T11:16:32.3768124+07:00 0HLMH1KKQP2SK:00000002 [INF] Executed endpoint '"CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)"' (99874f2b)
+2019-05-05T11:16:32.3787519+07:00 0HLMH1KKQP2SK:00000002 [INF] Request finished in 69.0733ms 200 application/json; charset=utf-8 (791a596a)
+2019-05-05T11:17:06.2987876+07:00 0HLMH1KKQP2SK:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/users/list   (ca22a1cb)
+2019-05-05T11:17:06.3004945+07:00 0HLMH1KKQP2SK:00000003 [INF] Executing endpoint '"CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)"' (500cc934)
+2019-05-05T11:17:06.3022110+07:00 0HLMH1KKQP2SK:00000003 [INF] Route matched with "{action = \"GetList\", controller = \"User\"}". Executing action "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)" (a44c0341)
+2019-05-05T11:17:06.3046423+07:00 0HLMH1KKQP2SK:00000003 [WRN] The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. (6e5ffae2)
+2019-05-05T11:17:06.3062278+07:00 0HLMH1KKQP2SK:00000003 [INF] CORS policy execution successful. (5409d6ef)
+2019-05-05T11:17:06.3094531+07:00 0HLMH1KKQP2SK:00000003 [INF] Executing action method "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)" with arguments (["CoreApp.Application.ViewModels.PageViewModel.UserRequestListViewModel"]) - Validation state: Valid (4e3479ed)
+2019-05-05T11:17:06.3118227+07:00 0HLMH1KKQP2SK:00000003 [INF] Entity Framework Core "2.2.3-servicing-35854" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-05-05T11:17:06.3152966+07:00 0HLMH1KKQP2SK:00000003 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [AppUsers] AS [x]" (0723d8ff)
+2019-05-05T11:17:06.3195137+07:00 0HLMH1KKQP2SK:00000003 [INF] Executed DbCommand ("1"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Avatar], [x].[Balance], [x].[BirthDay], [x].[DateCreated], [x].[DateModified], [x].[Email], [x].[FullName], [x].[Password], [x].[PhoneNumber], [x].[Status], [x].[UserName]
+FROM [AppUsers] AS [x]
+ORDER BY [x].[DateCreated] DESC, [x].[Id]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY" (0723d8ff)
+2019-05-05T11:17:06.3279228+07:00 0HLMH1KKQP2SK:00000003 [INF] Executed DbCommand ("6"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x.UserInRoles].[AppUserId], [x.UserInRoles].[AppRoleId], [x.UserInRoles].[Id], [u.AppRole].[Id], [u.AppRole].[name]
+FROM [UserInRoles] AS [x.UserInRoles]
+INNER JOIN [AppRoles] AS [u.AppRole] ON [x.UserInRoles].[AppRoleId] = [u.AppRole].[Id]
+INNER JOIN (
+    SELECT [x0].[Id], [x0].[DateCreated]
+    FROM [AppUsers] AS [x0]
+    ORDER BY [x0].[DateCreated] DESC, [x0].[Id]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t] ON [x.UserInRoles].[AppUserId] = [t].[Id]
+ORDER BY [t].[DateCreated] DESC, [t].[Id]" (0723d8ff)
+2019-05-05T11:17:06.3302057+07:00 0HLMH1KKQP2SK:00000003 [INF] Executed action method "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 18.8823ms. (50a9e262)
+2019-05-05T11:17:06.3323842+07:00 0HLMH1KKQP2SK:00000003 [INF] Executing ObjectResult, writing value of type '"CoreApp.Utilities.Dtos.PagedList`1[[CoreApp.Application.ViewModels.System.UserViewModel, CoreApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2019-05-05T11:17:06.3346387+07:00 0HLMH1KKQP2SK:00000003 [INF] Executed action "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)" in 30.3415ms (afa2e885)
+2019-05-05T11:17:06.3361775+07:00 0HLMH1KKQP2SK:00000003 [INF] Executed endpoint '"CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)"' (99874f2b)
+2019-05-05T11:17:06.3379996+07:00 0HLMH1KKQP2SK:00000003 [INF] Request finished in 39.1846ms 200 application/json; charset=utf-8 (791a596a)
+2019-05-05T11:17:32.5805312+07:00 0HLMH1KKQP2SK:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/users/list   (ca22a1cb)
+2019-05-05T11:17:32.5830822+07:00 0HLMH1KKQP2SK:00000004 [INF] Executing endpoint '"CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)"' (500cc934)
+2019-05-05T11:17:32.5852066+07:00 0HLMH1KKQP2SK:00000004 [INF] Route matched with "{action = \"GetList\", controller = \"User\"}". Executing action "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)" (a44c0341)
+2019-05-05T11:17:32.5866014+07:00 0HLMH1KKQP2SK:00000004 [WRN] The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. (6e5ffae2)
+2019-05-05T11:17:32.5879213+07:00 0HLMH1KKQP2SK:00000004 [INF] CORS policy execution successful. (5409d6ef)
+2019-05-05T11:17:32.5897138+07:00 0HLMH1KKQP2SK:00000004 [INF] Executing action method "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)" with arguments (["CoreApp.Application.ViewModels.PageViewModel.UserRequestListViewModel"]) - Validation state: Valid (4e3479ed)
+2019-05-05T11:17:32.5917481+07:00 0HLMH1KKQP2SK:00000004 [INF] Entity Framework Core "2.2.3-servicing-35854" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-05-05T11:17:32.6198576+07:00 0HLMH1KKQP2SK:00000004 [INF] Executed DbCommand ("21"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [AppUsers] AS [x]" (0723d8ff)
+2019-05-05T11:17:32.6252259+07:00 0HLMH1KKQP2SK:00000004 [INF] Executed DbCommand ("2"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Avatar], [x].[Balance], [x].[BirthDay], [x].[DateCreated], [x].[DateModified], [x].[Email], [x].[FullName], [x].[Password], [x].[PhoneNumber], [x].[Status], [x].[UserName]
+FROM [AppUsers] AS [x]
+ORDER BY [x].[DateCreated] DESC, [x].[Id]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY" (0723d8ff)
+2019-05-05T11:17:32.6322441+07:00 0HLMH1KKQP2SK:00000004 [INF] Executed DbCommand ("5"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x.UserInRoles].[AppUserId], [x.UserInRoles].[AppRoleId], [x.UserInRoles].[Id], [u.AppRole].[Id], [u.AppRole].[name]
+FROM [UserInRoles] AS [x.UserInRoles]
+INNER JOIN [AppRoles] AS [u.AppRole] ON [x.UserInRoles].[AppRoleId] = [u.AppRole].[Id]
+INNER JOIN (
+    SELECT [x0].[Id], [x0].[DateCreated]
+    FROM [AppUsers] AS [x0]
+    ORDER BY [x0].[DateCreated] DESC, [x0].[Id]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t] ON [x.UserInRoles].[AppUserId] = [t].[Id]
+ORDER BY [t].[DateCreated] DESC, [t].[Id]" (0723d8ff)
+2019-05-05T11:17:32.6343630+07:00 0HLMH1KKQP2SK:00000004 [INF] Executed action method "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 42.948ms. (50a9e262)
+2019-05-05T11:17:32.6365603+07:00 0HLMH1KKQP2SK:00000004 [INF] Executing ObjectResult, writing value of type '"CoreApp.Utilities.Dtos.PagedList`1[[CoreApp.Application.ViewModels.System.UserViewModel, CoreApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2019-05-05T11:17:32.6401205+07:00 0HLMH1KKQP2SK:00000004 [INF] Executed action "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)" in 51.7454ms (afa2e885)
+2019-05-05T11:17:32.6418090+07:00 0HLMH1KKQP2SK:00000004 [INF] Executed endpoint '"CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)"' (99874f2b)
+2019-05-05T11:17:32.6441753+07:00 0HLMH1KKQP2SK:00000004 [INF] Request finished in 64.1153ms 200 application/json; charset=utf-8 (791a596a)
+2019-05-05T11:28:59.6424542+07:00 0HLMH1KKQP2SL:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/users/list   (ca22a1cb)
+2019-05-05T11:28:59.6442889+07:00 0HLMH1KKQP2SL:00000001 [INF] Executing endpoint '"CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)"' (500cc934)
+2019-05-05T11:28:59.6499150+07:00 0HLMH1KKQP2SL:00000001 [INF] Route matched with "{action = \"GetList\", controller = \"User\"}". Executing action "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)" (a44c0341)
+2019-05-05T11:28:59.6520288+07:00 0HLMH1KKQP2SL:00000001 [WRN] The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. (6e5ffae2)
+2019-05-05T11:28:59.6546463+07:00 0HLMH1KKQP2SL:00000001 [INF] CORS policy execution successful. (5409d6ef)
+2019-05-05T11:28:59.6581808+07:00 0HLMH1KKQP2SL:00000001 [INF] Executing action method "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)" with arguments (["CoreApp.Application.ViewModels.PageViewModel.UserRequestListViewModel"]) - Validation state: Valid (4e3479ed)
+2019-05-05T11:28:59.6606310+07:00 0HLMH1KKQP2SL:00000001 [INF] Entity Framework Core "2.2.3-servicing-35854" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-05-05T11:28:59.6729232+07:00 0HLMH1KKQP2SL:00000001 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [AppUsers] AS [x]" (0723d8ff)
+2019-05-05T11:28:59.6778343+07:00 0HLMH1KKQP2SL:00000001 [INF] Executed DbCommand ("2"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Avatar], [x].[Balance], [x].[BirthDay], [x].[DateCreated], [x].[DateModified], [x].[Email], [x].[FullName], [x].[Password], [x].[PhoneNumber], [x].[Status], [x].[UserName]
+FROM [AppUsers] AS [x]
+ORDER BY [x].[DateCreated] DESC, [x].[Id]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY" (0723d8ff)
+2019-05-05T11:28:59.6836831+07:00 0HLMH1KKQP2SL:00000001 [INF] Executed DbCommand ("4"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x.UserInRoles].[AppUserId], [x.UserInRoles].[AppRoleId], [x.UserInRoles].[Id], [u.AppRole].[Id], [u.AppRole].[name]
+FROM [UserInRoles] AS [x.UserInRoles]
+INNER JOIN [AppRoles] AS [u.AppRole] ON [x.UserInRoles].[AppRoleId] = [u.AppRole].[Id]
+INNER JOIN (
+    SELECT [x0].[Id], [x0].[DateCreated]
+    FROM [AppUsers] AS [x0]
+    ORDER BY [x0].[DateCreated] DESC, [x0].[Id]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t] ON [x.UserInRoles].[AppUserId] = [t].[Id]
+ORDER BY [t].[DateCreated] DESC, [t].[Id]" (0723d8ff)
+2019-05-05T11:28:59.6857073+07:00 0HLMH1KKQP2SL:00000001 [INF] Executed action method "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 25.8618ms. (50a9e262)
+2019-05-05T11:28:59.6872467+07:00 0HLMH1KKQP2SL:00000001 [INF] Executing ObjectResult, writing value of type '"CoreApp.Utilities.Dtos.PagedList`1[[CoreApp.Application.ViewModels.System.UserViewModel, CoreApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2019-05-05T11:28:59.6904101+07:00 0HLMH1KKQP2SL:00000001 [INF] Executed action "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)" in 37.9811ms (afa2e885)
+2019-05-05T11:28:59.6951473+07:00 0HLMH1KKQP2SL:00000001 [INF] Executed endpoint '"CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)"' (99874f2b)
+2019-05-05T11:28:59.6974663+07:00 0HLMH1KKQP2SL:00000001 [INF] Request finished in 54.4225ms 200 application/json; charset=utf-8 (791a596a)
+2019-05-05T11:35:59.4012846+07:00 0HLMH1KKQP2SM:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/users/list   (ca22a1cb)
+2019-05-05T11:35:59.4029586+07:00 0HLMH1KKQP2SM:00000001 [INF] Executing endpoint '"CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)"' (500cc934)
+2019-05-05T11:35:59.4043619+07:00 0HLMH1KKQP2SM:00000001 [INF] Route matched with "{action = \"GetList\", controller = \"User\"}". Executing action "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)" (a44c0341)
+2019-05-05T11:35:59.4064999+07:00 0HLMH1KKQP2SM:00000001 [WRN] The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. (6e5ffae2)
+2019-05-05T11:35:59.4087446+07:00 0HLMH1KKQP2SM:00000001 [INF] CORS policy execution successful. (5409d6ef)
+2019-05-05T11:35:59.4109033+07:00 0HLMH1KKQP2SM:00000001 [INF] Executing action method "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)" with arguments (["CoreApp.Application.ViewModels.PageViewModel.UserRequestListViewModel"]) - Validation state: Valid (4e3479ed)
+2019-05-05T11:35:59.4125872+07:00 0HLMH1KKQP2SM:00000001 [INF] Entity Framework Core "2.2.3-servicing-35854" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-05-05T11:35:59.4300854+07:00 0HLMH1KKQP2SM:00000001 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [AppUsers] AS [x]" (0723d8ff)
+2019-05-05T11:35:59.4351634+07:00 0HLMH1KKQP2SM:00000001 [INF] Executed DbCommand ("2"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Avatar], [x].[Balance], [x].[BirthDay], [x].[DateCreated], [x].[DateModified], [x].[Email], [x].[FullName], [x].[Password], [x].[PhoneNumber], [x].[Status], [x].[UserName]
+FROM [AppUsers] AS [x]
+ORDER BY [x].[DateCreated] DESC, [x].[Id]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY" (0723d8ff)
+2019-05-05T11:35:59.4411883+07:00 0HLMH1KKQP2SM:00000001 [INF] Executed DbCommand ("3"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x.UserInRoles].[AppUserId], [x.UserInRoles].[AppRoleId], [x.UserInRoles].[Id], [u.AppRole].[Id], [u.AppRole].[name]
+FROM [UserInRoles] AS [x.UserInRoles]
+INNER JOIN [AppRoles] AS [u.AppRole] ON [x.UserInRoles].[AppRoleId] = [u.AppRole].[Id]
+INNER JOIN (
+    SELECT [x0].[Id], [x0].[DateCreated]
+    FROM [AppUsers] AS [x0]
+    ORDER BY [x0].[DateCreated] DESC, [x0].[Id]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t] ON [x.UserInRoles].[AppUserId] = [t].[Id]
+ORDER BY [t].[DateCreated] DESC, [t].[Id]" (0723d8ff)
+2019-05-05T11:35:59.4428721+07:00 0HLMH1KKQP2SM:00000001 [INF] Executed action method "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 30.6361ms. (50a9e262)
+2019-05-05T11:35:59.4441816+07:00 0HLMH1KKQP2SM:00000001 [INF] Executing ObjectResult, writing value of type '"CoreApp.Utilities.Dtos.PagedList`1[[CoreApp.Application.ViewModels.System.UserViewModel, CoreApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2019-05-05T11:35:59.4459479+07:00 0HLMH1KKQP2SM:00000001 [INF] Executed action "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)" in 40.28ms (afa2e885)
+2019-05-05T11:35:59.4475009+07:00 0HLMH1KKQP2SM:00000001 [INF] Executed endpoint '"CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)"' (99874f2b)
+2019-05-05T11:35:59.4512636+07:00 0HLMH1KKQP2SM:00000001 [INF] Request finished in 47.7005ms 200 application/json; charset=utf-8 (791a596a)
+2019-05-05T11:36:03.1732822+07:00 0HLMH1KKQP2SM:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/users/list   (ca22a1cb)
+2019-05-05T11:36:03.1751238+07:00 0HLMH1KKQP2SM:00000002 [INF] Executing endpoint '"CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)"' (500cc934)
+2019-05-05T11:36:03.1767768+07:00 0HLMH1KKQP2SM:00000002 [INF] Route matched with "{action = \"GetList\", controller = \"User\"}". Executing action "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)" (a44c0341)
+2019-05-05T11:36:03.1787934+07:00 0HLMH1KKQP2SM:00000002 [WRN] The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. (6e5ffae2)
+2019-05-05T11:36:03.1806342+07:00 0HLMH1KKQP2SM:00000002 [INF] CORS policy execution successful. (5409d6ef)
+2019-05-05T11:36:03.1828426+07:00 0HLMH1KKQP2SM:00000002 [INF] Executing action method "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)" with arguments (["CoreApp.Application.ViewModels.PageViewModel.UserRequestListViewModel"]) - Validation state: Valid (4e3479ed)
+2019-05-05T11:36:03.1876149+07:00 0HLMH1KKQP2SM:00000002 [INF] Entity Framework Core "2.2.3-servicing-35854" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-05-05T11:36:03.1914837+07:00 0HLMH1KKQP2SM:00000002 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [AppUsers] AS [x]" (0723d8ff)
+2019-05-05T11:36:03.1952380+07:00 0HLMH1KKQP2SM:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Avatar], [x].[Balance], [x].[BirthDay], [x].[DateCreated], [x].[DateModified], [x].[Email], [x].[FullName], [x].[Password], [x].[PhoneNumber], [x].[Status], [x].[UserName]
+FROM [AppUsers] AS [x]
+ORDER BY [x].[DateCreated] DESC, [x].[Id]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY" (0723d8ff)
+2019-05-05T11:36:03.1978581+07:00 0HLMH1KKQP2SM:00000002 [INF] Executed DbCommand ("0"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x.UserInRoles].[AppUserId], [x.UserInRoles].[AppRoleId], [x.UserInRoles].[Id], [u.AppRole].[Id], [u.AppRole].[name]
+FROM [UserInRoles] AS [x.UserInRoles]
+INNER JOIN [AppRoles] AS [u.AppRole] ON [x.UserInRoles].[AppRoleId] = [u.AppRole].[Id]
+INNER JOIN (
+    SELECT [x0].[Id], [x0].[DateCreated]
+    FROM [AppUsers] AS [x0]
+    ORDER BY [x0].[DateCreated] DESC, [x0].[Id]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t] ON [x.UserInRoles].[AppUserId] = [t].[Id]
+ORDER BY [t].[DateCreated] DESC, [t].[Id]" (0723d8ff)
+2019-05-05T11:36:03.1997093+07:00 0HLMH1KKQP2SM:00000002 [INF] Executed action method "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 15.3745ms. (50a9e262)
+2019-05-05T11:36:03.2023329+07:00 0HLMH1KKQP2SM:00000002 [INF] Executing ObjectResult, writing value of type '"CoreApp.Utilities.Dtos.PagedList`1[[CoreApp.Application.ViewModels.System.UserViewModel, CoreApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2019-05-05T11:36:03.2044069+07:00 0HLMH1KKQP2SM:00000002 [INF] Executed action "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)" in 25.4486ms (afa2e885)
+2019-05-05T11:36:03.2057550+07:00 0HLMH1KKQP2SM:00000002 [INF] Executed endpoint '"CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)"' (99874f2b)
+2019-05-05T11:36:03.2075847+07:00 0HLMH1KKQP2SM:00000002 [INF] Request finished in 34.7482ms 200 application/json; charset=utf-8 (791a596a)
+2019-05-05T11:36:04.4035912+07:00 0HLMH1KKQP2SM:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/users/list   (ca22a1cb)
+2019-05-05T11:36:04.4049811+07:00 0HLMH1KKQP2SM:00000003 [INF] Executing endpoint '"CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)"' (500cc934)
+2019-05-05T11:36:04.4062876+07:00 0HLMH1KKQP2SM:00000003 [INF] Route matched with "{action = \"GetList\", controller = \"User\"}". Executing action "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)" (a44c0341)
+2019-05-05T11:36:04.4075954+07:00 0HLMH1KKQP2SM:00000003 [WRN] The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. (6e5ffae2)
+2019-05-05T11:36:04.4089295+07:00 0HLMH1KKQP2SM:00000003 [INF] CORS policy execution successful. (5409d6ef)
+2019-05-05T11:36:04.4110948+07:00 0HLMH1KKQP2SM:00000003 [INF] Executing action method "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)" with arguments (["CoreApp.Application.ViewModels.PageViewModel.UserRequestListViewModel"]) - Validation state: Valid (4e3479ed)
+2019-05-05T11:36:04.4146487+07:00 0HLMH1KKQP2SM:00000003 [INF] Entity Framework Core "2.2.3-servicing-35854" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-05-05T11:36:04.4190261+07:00 0HLMH1KKQP2SM:00000003 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [AppUsers] AS [x]" (0723d8ff)
+2019-05-05T11:36:04.4244638+07:00 0HLMH1KKQP2SM:00000003 [INF] Executed DbCommand ("1"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Avatar], [x].[Balance], [x].[BirthDay], [x].[DateCreated], [x].[DateModified], [x].[Email], [x].[FullName], [x].[Password], [x].[PhoneNumber], [x].[Status], [x].[UserName]
+FROM [AppUsers] AS [x]
+ORDER BY [x].[DateCreated] DESC, [x].[Id]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY" (0723d8ff)
+2019-05-05T11:36:04.4274504+07:00 0HLMH1KKQP2SM:00000003 [INF] Executed DbCommand ("1"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x.UserInRoles].[AppUserId], [x.UserInRoles].[AppRoleId], [x.UserInRoles].[Id], [u.AppRole].[Id], [u.AppRole].[name]
+FROM [UserInRoles] AS [x.UserInRoles]
+INNER JOIN [AppRoles] AS [u.AppRole] ON [x.UserInRoles].[AppRoleId] = [u.AppRole].[Id]
+INNER JOIN (
+    SELECT [x0].[Id], [x0].[DateCreated]
+    FROM [AppUsers] AS [x0]
+    ORDER BY [x0].[DateCreated] DESC, [x0].[Id]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t] ON [x.UserInRoles].[AppUserId] = [t].[Id]
+ORDER BY [t].[DateCreated] DESC, [t].[Id]" (0723d8ff)
+2019-05-05T11:36:04.4293859+07:00 0HLMH1KKQP2SM:00000003 [INF] Executed action method "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 16.7033ms. (50a9e262)
+2019-05-05T11:36:04.4308099+07:00 0HLMH1KKQP2SM:00000003 [INF] Executing ObjectResult, writing value of type '"CoreApp.Utilities.Dtos.PagedList`1[[CoreApp.Application.ViewModels.System.UserViewModel, CoreApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2019-05-05T11:36:04.4323883+07:00 0HLMH1KKQP2SM:00000003 [INF] Executed action "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)" in 24.7528ms (afa2e885)
+2019-05-05T11:36:04.4351157+07:00 0HLMH1KKQP2SM:00000003 [INF] Executed endpoint '"CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)"' (99874f2b)
+2019-05-05T11:36:04.4368678+07:00 0HLMH1KKQP2SM:00000003 [INF] Request finished in 33.193ms 200 application/json; charset=utf-8 (791a596a)
+2019-05-05T11:36:06.4672665+07:00 0HLMH1KKQP2SM:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/users/list   (ca22a1cb)
+2019-05-05T11:36:06.4687808+07:00 0HLMH1KKQP2SM:00000004 [INF] Executing endpoint '"CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)"' (500cc934)
+2019-05-05T11:36:06.4701004+07:00 0HLMH1KKQP2SM:00000004 [INF] Route matched with "{action = \"GetList\", controller = \"User\"}". Executing action "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)" (a44c0341)
+2019-05-05T11:36:06.4715890+07:00 0HLMH1KKQP2SM:00000004 [WRN] The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. (6e5ffae2)
+2019-05-05T11:36:06.4733819+07:00 0HLMH1KKQP2SM:00000004 [INF] CORS policy execution successful. (5409d6ef)
+2019-05-05T11:36:06.4755443+07:00 0HLMH1KKQP2SM:00000004 [INF] Executing action method "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)" with arguments (["CoreApp.Application.ViewModels.PageViewModel.UserRequestListViewModel"]) - Validation state: Valid (4e3479ed)
+2019-05-05T11:36:06.4781164+07:00 0HLMH1KKQP2SM:00000004 [INF] Entity Framework Core "2.2.3-servicing-35854" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-05-05T11:36:06.4834752+07:00 0HLMH1KKQP2SM:00000004 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [AppUsers] AS [x]" (0723d8ff)
+2019-05-05T11:36:06.4872158+07:00 0HLMH1KKQP2SM:00000004 [INF] Executed DbCommand ("1"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Avatar], [x].[Balance], [x].[BirthDay], [x].[DateCreated], [x].[DateModified], [x].[Email], [x].[FullName], [x].[Password], [x].[PhoneNumber], [x].[Status], [x].[UserName]
+FROM [AppUsers] AS [x]
+ORDER BY [x].[DateCreated] DESC, [x].[Id]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY" (0723d8ff)
+2019-05-05T11:36:06.4896995+07:00 0HLMH1KKQP2SM:00000004 [INF] Executed DbCommand ("1"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x.UserInRoles].[AppUserId], [x.UserInRoles].[AppRoleId], [x.UserInRoles].[Id], [u.AppRole].[Id], [u.AppRole].[name]
+FROM [UserInRoles] AS [x.UserInRoles]
+INNER JOIN [AppRoles] AS [u.AppRole] ON [x.UserInRoles].[AppRoleId] = [u.AppRole].[Id]
+INNER JOIN (
+    SELECT [x0].[Id], [x0].[DateCreated]
+    FROM [AppUsers] AS [x0]
+    ORDER BY [x0].[DateCreated] DESC, [x0].[Id]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t] ON [x.UserInRoles].[AppUserId] = [t].[Id]
+ORDER BY [t].[DateCreated] DESC, [t].[Id]" (0723d8ff)
+2019-05-05T11:36:06.4915442+07:00 0HLMH1KKQP2SM:00000004 [INF] Executed action method "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 14.4308ms. (50a9e262)
+2019-05-05T11:36:06.4929685+07:00 0HLMH1KKQP2SM:00000004 [INF] Executing ObjectResult, writing value of type '"CoreApp.Utilities.Dtos.PagedList`1[[CoreApp.Application.ViewModels.System.UserViewModel, CoreApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2019-05-05T11:36:06.4954227+07:00 0HLMH1KKQP2SM:00000004 [INF] Executed action "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)" in 23.1231ms (afa2e885)
+2019-05-05T11:36:06.4969893+07:00 0HLMH1KKQP2SM:00000004 [INF] Executed endpoint '"CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)"' (99874f2b)
+2019-05-05T11:36:06.4994656+07:00 0HLMH1KKQP2SM:00000004 [INF] Request finished in 31.7463ms 200 application/json; charset=utf-8 (791a596a)
+2019-05-05T11:36:12.6982768+07:00 0HLMH1KKQP2SM:00000005 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/users/list   (ca22a1cb)
+2019-05-05T11:36:12.6998491+07:00 0HLMH1KKQP2SM:00000005 [INF] Executing endpoint '"CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)"' (500cc934)
+2019-05-05T11:36:12.7016614+07:00 0HLMH1KKQP2SM:00000005 [INF] Route matched with "{action = \"GetList\", controller = \"User\"}". Executing action "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)" (a44c0341)
+2019-05-05T11:36:12.7032623+07:00 0HLMH1KKQP2SM:00000005 [WRN] The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. (6e5ffae2)
+2019-05-05T11:36:12.7056500+07:00 0HLMH1KKQP2SM:00000005 [INF] CORS policy execution successful. (5409d6ef)
+2019-05-05T11:36:12.7105641+07:00 0HLMH1KKQP2SM:00000005 [INF] Executing action method "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)" with arguments (["CoreApp.Application.ViewModels.PageViewModel.UserRequestListViewModel"]) - Validation state: Valid (4e3479ed)
+2019-05-05T11:36:12.7131653+07:00 0HLMH1KKQP2SM:00000005 [INF] Entity Framework Core "2.2.3-servicing-35854" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-05-05T11:36:12.7193487+07:00 0HLMH1KKQP2SM:00000005 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [AppUsers] AS [x]" (0723d8ff)
+2019-05-05T11:36:12.7232409+07:00 0HLMH1KKQP2SM:00000005 [INF] Executed DbCommand ("0"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Avatar], [x].[Balance], [x].[BirthDay], [x].[DateCreated], [x].[DateModified], [x].[Email], [x].[FullName], [x].[Password], [x].[PhoneNumber], [x].[Status], [x].[UserName]
+FROM [AppUsers] AS [x]
+ORDER BY [x].[DateCreated] DESC, [x].[Id]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY" (0723d8ff)
+2019-05-05T11:36:12.7268058+07:00 0HLMH1KKQP2SM:00000005 [INF] Executed DbCommand ("1"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x.UserInRoles].[AppUserId], [x.UserInRoles].[AppRoleId], [x.UserInRoles].[Id], [u.AppRole].[Id], [u.AppRole].[name]
+FROM [UserInRoles] AS [x.UserInRoles]
+INNER JOIN [AppRoles] AS [u.AppRole] ON [x.UserInRoles].[AppRoleId] = [u.AppRole].[Id]
+INNER JOIN (
+    SELECT [x0].[Id], [x0].[DateCreated]
+    FROM [AppUsers] AS [x0]
+    ORDER BY [x0].[DateCreated] DESC, [x0].[Id]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t] ON [x.UserInRoles].[AppUserId] = [t].[Id]
+ORDER BY [t].[DateCreated] DESC, [t].[Id]" (0723d8ff)
+2019-05-05T11:36:12.7286031+07:00 0HLMH1KKQP2SM:00000005 [INF] Executed action method "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 16.6356ms. (50a9e262)
+2019-05-05T11:36:12.7302354+07:00 0HLMH1KKQP2SM:00000005 [INF] Executing ObjectResult, writing value of type '"CoreApp.Utilities.Dtos.PagedList`1[[CoreApp.Application.ViewModels.System.UserViewModel, CoreApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2019-05-05T11:36:12.7320847+07:00 0HLMH1KKQP2SM:00000005 [INF] Executed action "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)" in 28.7007ms (afa2e885)
+2019-05-05T11:36:12.7338466+07:00 0HLMH1KKQP2SM:00000005 [INF] Executed endpoint '"CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)"' (99874f2b)
+2019-05-05T11:36:12.7366294+07:00 0HLMH1KKQP2SM:00000005 [INF] Request finished in 37.4054ms 200 application/json; charset=utf-8 (791a596a)
+2019-05-05T11:37:00.5408805+07:00 0HLMH1KKQP2SM:00000006 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/users/list   (ca22a1cb)
+2019-05-05T11:37:00.5427402+07:00 0HLMH1KKQP2SM:00000006 [INF] Executing endpoint '"CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)"' (500cc934)
+2019-05-05T11:37:00.5447730+07:00 0HLMH1KKQP2SM:00000006 [INF] Route matched with "{action = \"GetList\", controller = \"User\"}". Executing action "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)" (a44c0341)
+2019-05-05T11:37:00.5465149+07:00 0HLMH1KKQP2SM:00000006 [WRN] The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. (6e5ffae2)
+2019-05-05T11:37:00.5484761+07:00 0HLMH1KKQP2SM:00000006 [INF] CORS policy execution successful. (5409d6ef)
+2019-05-05T11:37:00.5505762+07:00 0HLMH1KKQP2SM:00000006 [INF] Executing action method "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)" with arguments (["CoreApp.Application.ViewModels.PageViewModel.UserRequestListViewModel"]) - Validation state: Valid (4e3479ed)
+2019-05-05T11:37:00.5543933+07:00 0HLMH1KKQP2SM:00000006 [INF] Entity Framework Core "2.2.3-servicing-35854" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-05-05T11:37:00.5597469+07:00 0HLMH1KKQP2SM:00000006 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [AppUsers] AS [x]" (0723d8ff)
+2019-05-05T11:37:00.5679295+07:00 0HLMH1KKQP2SM:00000006 [INF] Executed DbCommand ("1"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Avatar], [x].[Balance], [x].[BirthDay], [x].[DateCreated], [x].[DateModified], [x].[Email], [x].[FullName], [x].[Password], [x].[PhoneNumber], [x].[Status], [x].[UserName]
+FROM [AppUsers] AS [x]
+ORDER BY [x].[DateCreated] DESC, [x].[Id]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY" (0723d8ff)
+2019-05-05T11:37:00.5801920+07:00 0HLMH1KKQP2SM:00000006 [INF] Executed DbCommand ("9"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x.UserInRoles].[AppUserId], [x.UserInRoles].[AppRoleId], [x.UserInRoles].[Id], [u.AppRole].[Id], [u.AppRole].[name]
+FROM [UserInRoles] AS [x.UserInRoles]
+INNER JOIN [AppRoles] AS [u.AppRole] ON [x.UserInRoles].[AppRoleId] = [u.AppRole].[Id]
+INNER JOIN (
+    SELECT [x0].[Id], [x0].[DateCreated]
+    FROM [AppUsers] AS [x0]
+    ORDER BY [x0].[DateCreated] DESC, [x0].[Id]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t] ON [x.UserInRoles].[AppUserId] = [t].[Id]
+ORDER BY [t].[DateCreated] DESC, [t].[Id]" (0723d8ff)
+2019-05-05T11:37:00.5829437+07:00 0HLMH1KKQP2SM:00000006 [INF] Executed action method "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 30.1185ms. (50a9e262)
+2019-05-05T11:37:00.5861529+07:00 0HLMH1KKQP2SM:00000006 [INF] Executing ObjectResult, writing value of type '"CoreApp.Utilities.Dtos.PagedList`1[[CoreApp.Application.ViewModels.System.UserViewModel, CoreApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2019-05-05T11:37:00.5887362+07:00 0HLMH1KKQP2SM:00000006 [INF] Executed action "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)" in 41.7609ms (afa2e885)
+2019-05-05T11:37:00.5905699+07:00 0HLMH1KKQP2SM:00000006 [INF] Executed endpoint '"CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)"' (99874f2b)
+2019-05-05T11:37:00.5928106+07:00 0HLMH1KKQP2SM:00000006 [INF] Request finished in 52.331ms 200 application/json; charset=utf-8 (791a596a)
+2019-05-05T11:37:29.5157464+07:00 0HLMH1KKQP2SM:00000007 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/users/list   (ca22a1cb)
+2019-05-05T11:37:29.5176910+07:00 0HLMH1KKQP2SM:00000007 [INF] Executing endpoint '"CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)"' (500cc934)
+2019-05-05T11:37:29.5221182+07:00 0HLMH1KKQP2SM:00000007 [INF] Route matched with "{action = \"GetList\", controller = \"User\"}". Executing action "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)" (a44c0341)
+2019-05-05T11:37:29.5249250+07:00 0HLMH1KKQP2SM:00000007 [WRN] The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. (6e5ffae2)
+2019-05-05T11:37:29.5273909+07:00 0HLMH1KKQP2SM:00000007 [INF] CORS policy execution successful. (5409d6ef)
+2019-05-05T11:37:29.5298173+07:00 0HLMH1KKQP2SM:00000007 [INF] Executing action method "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)" with arguments (["CoreApp.Application.ViewModels.PageViewModel.UserRequestListViewModel"]) - Validation state: Valid (4e3479ed)
+2019-05-05T11:37:29.5321701+07:00 0HLMH1KKQP2SM:00000007 [INF] Entity Framework Core "2.2.3-servicing-35854" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-05-05T11:37:29.5386076+07:00 0HLMH1KKQP2SM:00000007 [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [AppUsers] AS [x]" (0723d8ff)
+2019-05-05T11:37:29.5459804+07:00 0HLMH1KKQP2SM:00000007 [INF] Executed DbCommand ("3"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Avatar], [x].[Balance], [x].[BirthDay], [x].[DateCreated], [x].[DateModified], [x].[Email], [x].[FullName], [x].[Password], [x].[PhoneNumber], [x].[Status], [x].[UserName]
+FROM [AppUsers] AS [x]
+ORDER BY [x].[DateCreated] DESC, [x].[Id]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY" (0723d8ff)
+2019-05-05T11:37:29.5582412+07:00 0HLMH1KKQP2SM:00000007 [INF] Executed DbCommand ("10"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x.UserInRoles].[AppUserId], [x.UserInRoles].[AppRoleId], [x.UserInRoles].[Id], [u.AppRole].[Id], [u.AppRole].[name]
+FROM [UserInRoles] AS [x.UserInRoles]
+INNER JOIN [AppRoles] AS [u.AppRole] ON [x.UserInRoles].[AppRoleId] = [u.AppRole].[Id]
+INNER JOIN (
+    SELECT [x0].[Id], [x0].[DateCreated]
+    FROM [AppUsers] AS [x0]
+    ORDER BY [x0].[DateCreated] DESC, [x0].[Id]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t] ON [x.UserInRoles].[AppUserId] = [t].[Id]
+ORDER BY [t].[DateCreated] DESC, [t].[Id]" (0723d8ff)
+2019-05-05T11:37:29.5604121+07:00 0HLMH1KKQP2SM:00000007 [INF] Executed action method "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 28.7522ms. (50a9e262)
+2019-05-05T11:37:29.5625228+07:00 0HLMH1KKQP2SM:00000007 [INF] Executing ObjectResult, writing value of type '"CoreApp.Utilities.Dtos.PagedList`1[[CoreApp.Application.ViewModels.System.UserViewModel, CoreApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2019-05-05T11:37:29.5646856+07:00 0HLMH1KKQP2SM:00000007 [INF] Executed action "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)" in 40.5543ms (afa2e885)
+2019-05-05T11:37:29.5667238+07:00 0HLMH1KKQP2SM:00000007 [INF] Executed endpoint '"CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)"' (99874f2b)
+2019-05-05T11:37:29.5701772+07:00 0HLMH1KKQP2SM:00000007 [INF] Request finished in 53.054ms 200 application/json; charset=utf-8 (791a596a)
+2019-05-05T11:38:11.3658786+07:00 0HLMH1KKQP2SM:00000008 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/users/list   (ca22a1cb)
+2019-05-05T11:38:11.3691007+07:00 0HLMH1KKQP2SM:00000008 [INF] Executing endpoint '"CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)"' (500cc934)
+2019-05-05T11:38:11.3718241+07:00 0HLMH1KKQP2SM:00000008 [INF] Route matched with "{action = \"GetList\", controller = \"User\"}". Executing action "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)" (a44c0341)
+2019-05-05T11:38:11.3741832+07:00 0HLMH1KKQP2SM:00000008 [WRN] The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. (6e5ffae2)
+2019-05-05T11:38:11.3758214+07:00 0HLMH1KKQP2SM:00000008 [INF] CORS policy execution successful. (5409d6ef)
+2019-05-05T11:38:11.3776805+07:00 0HLMH1KKQP2SM:00000008 [INF] Executing action method "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)" with arguments (["CoreApp.Application.ViewModels.PageViewModel.UserRequestListViewModel"]) - Validation state: Valid (4e3479ed)
+2019-05-05T11:38:11.3794710+07:00 0HLMH1KKQP2SM:00000008 [INF] Entity Framework Core "2.2.3-servicing-35854" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-05-05T11:38:11.3847331+07:00 0HLMH1KKQP2SM:00000008 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [AppUsers] AS [x]" (0723d8ff)
+2019-05-05T11:38:11.3915242+07:00 0HLMH1KKQP2SM:00000008 [INF] Executed DbCommand ("3"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Avatar], [x].[Balance], [x].[BirthDay], [x].[DateCreated], [x].[DateModified], [x].[Email], [x].[FullName], [x].[Password], [x].[PhoneNumber], [x].[Status], [x].[UserName]
+FROM [AppUsers] AS [x]
+ORDER BY [x].[DateCreated] DESC, [x].[Id]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY" (0723d8ff)
+2019-05-05T11:38:11.3991334+07:00 0HLMH1KKQP2SM:00000008 [INF] Executed DbCommand ("5"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x.UserInRoles].[AppUserId], [x.UserInRoles].[AppRoleId], [x.UserInRoles].[Id], [u.AppRole].[Id], [u.AppRole].[name]
+FROM [UserInRoles] AS [x.UserInRoles]
+INNER JOIN [AppRoles] AS [u.AppRole] ON [x.UserInRoles].[AppRoleId] = [u.AppRole].[Id]
+INNER JOIN (
+    SELECT [x0].[Id], [x0].[DateCreated]
+    FROM [AppUsers] AS [x0]
+    ORDER BY [x0].[DateCreated] DESC, [x0].[Id]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t] ON [x.UserInRoles].[AppUserId] = [t].[Id]
+ORDER BY [t].[DateCreated] DESC, [t].[Id]" (0723d8ff)
+2019-05-05T11:38:11.4011409+07:00 0HLMH1KKQP2SM:00000008 [INF] Executed action method "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 21.8343ms. (50a9e262)
+2019-05-05T11:38:11.4025609+07:00 0HLMH1KKQP2SM:00000008 [INF] Executing ObjectResult, writing value of type '"CoreApp.Utilities.Dtos.PagedList`1[[CoreApp.Application.ViewModels.System.UserViewModel, CoreApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2019-05-05T11:38:11.4052067+07:00 0HLMH1KKQP2SM:00000008 [INF] Executed action "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)" in 30.751ms (afa2e885)
+2019-05-05T11:38:11.4108931+07:00 0HLMH1KKQP2SM:00000008 [INF] Executed endpoint '"CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)"' (99874f2b)
+2019-05-05T11:38:11.4130678+07:00 0HLMH1KKQP2SM:00000008 [INF] Request finished in 46.8726ms 200 application/json; charset=utf-8 (791a596a)
+2019-05-05T11:39:46.8574235+07:00 0HLMH1KKQP2SN:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/users/list   (ca22a1cb)
+2019-05-05T11:39:46.8667977+07:00 0HLMH1KKQP2SN:00000001 [INF] Executing endpoint '"CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)"' (500cc934)
+2019-05-05T11:39:46.8687648+07:00 0HLMH1KKQP2SN:00000001 [INF] Route matched with "{action = \"GetList\", controller = \"User\"}". Executing action "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)" (a44c0341)
+2019-05-05T11:39:46.8708335+07:00 0HLMH1KKQP2SN:00000001 [WRN] The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. (6e5ffae2)
+2019-05-05T11:39:46.8728403+07:00 0HLMH1KKQP2SN:00000001 [INF] CORS policy execution successful. (5409d6ef)
+2019-05-05T11:39:46.8749790+07:00 0HLMH1KKQP2SN:00000001 [INF] Executing action method "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)" with arguments (["CoreApp.Application.ViewModels.PageViewModel.UserRequestListViewModel"]) - Validation state: Valid (4e3479ed)
+2019-05-05T11:39:46.8776960+07:00 0HLMH1KKQP2SN:00000001 [INF] Entity Framework Core "2.2.3-servicing-35854" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-05-05T11:39:46.8830854+07:00 0HLMH1KKQP2SN:00000001 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [AppUsers] AS [x]" (0723d8ff)
+2019-05-05T11:39:46.8885669+07:00 0HLMH1KKQP2SN:00000001 [INF] Executed DbCommand ("2"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Avatar], [x].[Balance], [x].[BirthDay], [x].[DateCreated], [x].[DateModified], [x].[Email], [x].[FullName], [x].[Password], [x].[PhoneNumber], [x].[Status], [x].[UserName]
+FROM [AppUsers] AS [x]
+ORDER BY [x].[DateCreated] DESC, [x].[Id]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY" (0723d8ff)
+2019-05-05T11:39:46.8946437+07:00 0HLMH1KKQP2SN:00000001 [INF] Executed DbCommand ("4"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x.UserInRoles].[AppUserId], [x.UserInRoles].[AppRoleId], [x.UserInRoles].[Id], [u.AppRole].[Id], [u.AppRole].[name]
+FROM [UserInRoles] AS [x.UserInRoles]
+INNER JOIN [AppRoles] AS [u.AppRole] ON [x.UserInRoles].[AppRoleId] = [u.AppRole].[Id]
+INNER JOIN (
+    SELECT [x0].[Id], [x0].[DateCreated]
+    FROM [AppUsers] AS [x0]
+    ORDER BY [x0].[DateCreated] DESC, [x0].[Id]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t] ON [x.UserInRoles].[AppUserId] = [t].[Id]
+ORDER BY [t].[DateCreated] DESC, [t].[Id]" (0723d8ff)
+2019-05-05T11:39:46.8970990+07:00 0HLMH1KKQP2SN:00000001 [INF] Executed action method "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 20.2863ms. (50a9e262)
+2019-05-05T11:39:46.8987788+07:00 0HLMH1KKQP2SN:00000001 [INF] Executing ObjectResult, writing value of type '"CoreApp.Utilities.Dtos.PagedList`1[[CoreApp.Application.ViewModels.System.UserViewModel, CoreApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2019-05-05T11:39:46.9017652+07:00 0HLMH1KKQP2SN:00000001 [INF] Executed action "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)" in 30.3088ms (afa2e885)
+2019-05-05T11:39:46.9052226+07:00 0HLMH1KKQP2SN:00000001 [INF] Executed endpoint '"CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)"' (99874f2b)
+2019-05-05T11:39:46.9079395+07:00 0HLMH1KKQP2SN:00000001 [INF] Request finished in 50.0789ms 200 application/json; charset=utf-8 (791a596a)
+2019-05-05T11:41:07.9434253+07:00 0HLMH1KKQP2SO:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/users/list   (ca22a1cb)
+2019-05-05T11:41:07.9451311+07:00 0HLMH1KKQP2SO:00000001 [INF] Executing endpoint '"CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)"' (500cc934)
+2019-05-05T11:41:07.9475772+07:00 0HLMH1KKQP2SO:00000001 [INF] Route matched with "{action = \"GetList\", controller = \"User\"}". Executing action "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)" (a44c0341)
+2019-05-05T11:41:07.9584203+07:00 0HLMH1KKQP2SO:00000001 [WRN] The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. (6e5ffae2)
+2019-05-05T11:41:07.9605478+07:00 0HLMH1KKQP2SO:00000001 [INF] CORS policy execution successful. (5409d6ef)
+2019-05-05T11:41:07.9627386+07:00 0HLMH1KKQP2SO:00000001 [INF] Executing action method "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)" with arguments (["CoreApp.Application.ViewModels.PageViewModel.UserRequestListViewModel"]) - Validation state: Valid (4e3479ed)
+2019-05-05T11:41:07.9656131+07:00 0HLMH1KKQP2SO:00000001 [INF] Entity Framework Core "2.2.3-servicing-35854" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-05-05T11:41:07.9706877+07:00 0HLMH1KKQP2SO:00000001 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [AppUsers] AS [x]" (0723d8ff)
+2019-05-05T11:41:07.9742377+07:00 0HLMH1KKQP2SO:00000001 [INF] Executed DbCommand ("1"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Avatar], [x].[Balance], [x].[BirthDay], [x].[DateCreated], [x].[DateModified], [x].[Email], [x].[FullName], [x].[Password], [x].[PhoneNumber], [x].[Status], [x].[UserName]
+FROM [AppUsers] AS [x]
+ORDER BY [x].[DateCreated] DESC, [x].[Id]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY" (0723d8ff)
+2019-05-05T11:41:07.9804819+07:00 0HLMH1KKQP2SO:00000001 [INF] Executed DbCommand ("4"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x.UserInRoles].[AppUserId], [x.UserInRoles].[AppRoleId], [x.UserInRoles].[Id], [u.AppRole].[Id], [u.AppRole].[name]
+FROM [UserInRoles] AS [x.UserInRoles]
+INNER JOIN [AppRoles] AS [u.AppRole] ON [x.UserInRoles].[AppRoleId] = [u.AppRole].[Id]
+INNER JOIN (
+    SELECT [x0].[Id], [x0].[DateCreated]
+    FROM [AppUsers] AS [x0]
+    ORDER BY [x0].[DateCreated] DESC, [x0].[Id]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t] ON [x.UserInRoles].[AppUserId] = [t].[Id]
+ORDER BY [t].[DateCreated] DESC, [t].[Id]" (0723d8ff)
+2019-05-05T11:41:07.9823154+07:00 0HLMH1KKQP2SO:00000001 [INF] Executed action method "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 18.0847ms. (50a9e262)
+2019-05-05T11:41:07.9837344+07:00 0HLMH1KKQP2SO:00000001 [INF] Executing ObjectResult, writing value of type '"CoreApp.Utilities.Dtos.PagedList`1[[CoreApp.Application.ViewModels.System.UserViewModel, CoreApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2019-05-05T11:41:07.9858807+07:00 0HLMH1KKQP2SO:00000001 [INF] Executed action "CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)" in 36.2528ms (afa2e885)
+2019-05-05T11:41:07.9874335+07:00 0HLMH1KKQP2SO:00000001 [INF] Executed endpoint '"CoreApp.Areas.Admin.Controllers.UserController.GetList (CoreApp)"' (99874f2b)
+2019-05-05T11:41:07.9889674+07:00 0HLMH1KKQP2SO:00000001 [INF] Request finished in 45.544ms 200 application/json; charset=utf-8 (791a596a)

@@ -1,0 +1,866 @@
+2019-04-30T00:00:17.3827092+07:00 0HLMCOGJSOCL3:00000001 [INF] Request starting HTTP/1.1 DEBUG http://localhost:5000/  0 (ca22a1cb)
+2019-04-30T00:00:17.3827091+07:00 0HLMCOGJSOCL2:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger   (ca22a1cb)
+2019-04-30T00:00:17.4297101+07:00 0HLMCOGJSOCL3:00000001 [INF] Request finished in 49.8637ms 200  (791a596a)
+2019-04-30T00:00:17.4977927+07:00 0HLMCOGJSOCL2:00000001 [INF] Request finished in 97.2605ms 301  (791a596a)
+2019-04-30T00:00:17.5046716+07:00 0HLMCOGJSOCL3:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html   (ca22a1cb)
+2019-04-30T00:00:17.6009288+07:00 0HLMCOGJSOCL3:00000002 [INF] Request finished in 96.446ms 200 text/html (791a596a)
+2019-04-30T00:00:17.6242498+07:00 0HLMCOGJSOCL2:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui.css   (ca22a1cb)
+2019-04-30T00:00:17.6255036+07:00 0HLMCOGJSOCL3:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-standalone-preset.js   (ca22a1cb)
+2019-04-30T00:00:17.6274126+07:00 0HLMCOGJSOCL4:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-bundle.js   (ca22a1cb)
+2019-04-30T00:00:17.7044268+07:00 0HLMCOGJSOCL3:00000003 [INF] Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"' (27b0a520)
+2019-04-30T00:00:17.7044170+07:00 0HLMCOGJSOCL2:00000002 [INF] Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"' (27b0a520)
+2019-04-30T00:00:17.7105468+07:00 0HLMCOGJSOCL4:00000001 [INF] Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"' (27b0a520)
+2019-04-30T00:00:17.7290833+07:00 0HLMCOGJSOCL3:00000003 [INF] Request finished in 98.5752ms 200 application/javascript (791a596a)
+2019-04-30T00:00:17.7342984+07:00 0HLMCOGJSOCL4:00000001 [INF] Request finished in 95.6914ms 200 application/javascript (791a596a)
+2019-04-30T00:00:17.7440287+07:00 0HLMCOGJSOCL2:00000002 [INF] Request finished in 101.1734ms 200 text/css (791a596a)
+2019-04-30T00:00:18.3871274+07:00 0HLMCOGJSOCL2:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-bundle.js.map   (ca22a1cb)
+2019-04-30T00:00:18.4219187+07:00 0HLMCOGJSOCL2:00000003 [INF] Sending file. Request path: '"/swagger-ui-bundle.js.map"'. Physical path: '"N/A"' (27b0a520)
+2019-04-30T00:00:18.4241556+07:00 0HLMCOGJSOCL2:00000003 [INF] Request finished in 37.2638ms 200 text/plain (791a596a)
+2019-04-30T00:00:19.4784151+07:00 0HLMCOGJSOCL3:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-standalone-preset.js.map   (ca22a1cb)
+2019-04-30T00:00:19.4938364+07:00 0HLMCOGJSOCL3:00000004 [INF] Sending file. Request path: '"/swagger-ui-standalone-preset.js.map"'. Physical path: '"N/A"' (27b0a520)
+2019-04-30T00:00:19.4962227+07:00 0HLMCOGJSOCL3:00000004 [INF] Request finished in 18.3887ms 200 text/plain (791a596a)
+2019-04-30T00:00:19.8898324+07:00 0HLMCOGJSOCL4:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json   (ca22a1cb)
+2019-04-30T00:00:20.0910461+07:00 0HLMCOGJSOCL4:00000002 [INF] Request finished in 194.4956ms 200 application/json;charset=utf-8 (791a596a)
+2019-04-30T00:01:05.9926054+07:00 0HLMCOGJSOCL2:00000004 [INF] Request starting HTTP/1.1 PUT http://localhost:5000/admin/users/update/075c1072-92a2-4f99-ac11-bf985b23da6e application/json-patch+json 185 (ca22a1cb)
+2019-04-30T00:01:06.0318009+07:00 0HLMCOGJSOCL2:00000004 [INF] Executing endpoint '"CoreApp.Areas.Admin.Controllers.UserController.updateUser (CoreApp)"' (500cc934)
+2019-04-30T00:01:06.0642012+07:00 0HLMCOGJSOCL2:00000004 [INF] Route matched with "{action = \"updateUser\", controller = \"User\"}". Executing action "CoreApp.Areas.Admin.Controllers.UserController.updateUser (CoreApp)" (a44c0341)
+2019-04-30T00:01:06.3894347+07:00 0HLMCOGJSOCL2:00000004 [INF] Executing action method "CoreApp.Areas.Admin.Controllers.UserController.updateUser (CoreApp)" with arguments (["075c1072-92a2-4f99-ac11-bf985b23da6e", "CoreApp.Application.ViewModels.System.UserUpdateViewModel"]) - Validation state: Valid (4e3479ed)
+2019-04-30T00:01:18.4459462+07:00 0HLMCOGJSOCL2:00000004 [WRN] No type was specified for the decimal column '"Balance"' on entity type '"AppUser"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-04-30T00:01:18.4479627+07:00 0HLMCOGJSOCL2:00000004 [WRN] No type was specified for the decimal column '"Price"' on entity type '"BillDetail"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-04-30T00:01:18.4496965+07:00 0HLMCOGJSOCL2:00000004 [WRN] No type was specified for the decimal column '"OriginalPrice"' on entity type '"Product"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-04-30T00:01:18.4513779+07:00 0HLMCOGJSOCL2:00000004 [WRN] No type was specified for the decimal column '"Price"' on entity type '"Product"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-04-30T00:01:18.4530997+07:00 0HLMCOGJSOCL2:00000004 [WRN] No type was specified for the decimal column '"PromotionPrice"' on entity type '"Product"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-04-30T00:01:18.4549039+07:00 0HLMCOGJSOCL2:00000004 [WRN] No type was specified for the decimal column '"Value5"' on entity type '"SystemConfig"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-04-30T00:01:18.4565224+07:00 0HLMCOGJSOCL2:00000004 [WRN] No type was specified for the decimal column '"Price"' on entity type '"WholePrice"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-04-30T00:01:18.5005983+07:00 0HLMCOGJSOCL2:00000004 [INF] Entity Framework Core "2.2.3-servicing-35854" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-04-30T00:01:18.7524013+07:00 0HLMCOGJSOCL2:00000004 [INF] Executed DbCommand ("12"ms) [Parameters=["@__id_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [x].[Id], [x].[Avatar], [x].[Balance], [x].[BirthDay], [x].[DateCreated], [x].[DateModified], [x].[Email], [x].[FullName], [x].[Password], [x].[PhoneNumber], [x].[Status], [x].[UserName]
+FROM [AppUsers] AS [x]
+WHERE [x].[Id] = @__id_0
+ORDER BY [x].[Id]" (0723d8ff)
+2019-04-30T00:01:46.7340668+07:00 0HLMCOGJSOCL2:00000004 [INF] Executed DbCommand ("12"ms) [Parameters=["@p11='?' (DbType = Guid), @p0='?' (Size = 4000), @p1='?' (DbType = Decimal), @p2='?' (DbType = DateTime2), @p3='?' (DbType = DateTime2), @p4='?' (DbType = DateTime2), @p5='?' (Size = 4000), @p6='?' (Size = 4000), @p7='?' (Size = 4000), @p8='?' (Size = 4000), @p9='?' (DbType = Int32), @p10='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+UPDATE [AppUsers] SET [Avatar] = @p0, [Balance] = @p1, [BirthDay] = @p2, [DateCreated] = @p3, [DateModified] = @p4, [Email] = @p5, [FullName] = @p6, [Password] = @p7, [PhoneNumber] = @p8, [Status] = @p9, [UserName] = @p10
+WHERE [Id] = @p11;
+SELECT @@ROWCOUNT;" (0723d8ff)
+2019-04-30T00:01:46.9735377+07:00 0HLMCOGJSOCL2:00000004 [INF] Executed action "CoreApp.Areas.Admin.Controllers.UserController.updateUser (CoreApp)" in 40903.8834ms (afa2e885)
+2019-04-30T00:01:46.9766445+07:00 0HLMCOGJSOCL2:00000004 [INF] Executed endpoint '"CoreApp.Areas.Admin.Controllers.UserController.updateUser (CoreApp)"' (99874f2b)
+2019-04-30T00:01:47.3101987+07:00 0HLMCOGJSOCL2:00000004 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');" (0723d8ff)
+2019-04-30T00:01:47.3616466+07:00 0HLMCOGJSOCL2:00000004 [INF] Executed DbCommand ("22"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];" (0723d8ff)
+2019-04-30T00:01:47.4198996+07:00 0HLMCOGJSOCL2:00000004 [INF] Request finished in 41427.2158ms 500 text/html; charset=utf-8 (791a596a)
+2019-04-30T00:02:31.9114883+07:00 0HLMCOGJSOCL2:00000005 [INF] Request starting HTTP/1.1 PUT http://localhost:5000/admin/users/update/075c1072-92a2-4f99-ac11-bf985b23da6e application/json-patch+json 185 (ca22a1cb)
+2019-04-30T00:02:31.9152594+07:00 0HLMCOGJSOCL2:00000005 [INF] Executing endpoint '"CoreApp.Areas.Admin.Controllers.UserController.updateUser (CoreApp)"' (500cc934)
+2019-04-30T00:02:31.9175479+07:00 0HLMCOGJSOCL2:00000005 [INF] Route matched with "{action = \"updateUser\", controller = \"User\"}". Executing action "CoreApp.Areas.Admin.Controllers.UserController.updateUser (CoreApp)" (a44c0341)
+2019-04-30T00:02:31.9219640+07:00 0HLMCOGJSOCL2:00000005 [INF] Executing action method "CoreApp.Areas.Admin.Controllers.UserController.updateUser (CoreApp)" with arguments (["075c1072-92a2-4f99-ac11-bf985b23da6e", "CoreApp.Application.ViewModels.System.UserUpdateViewModel"]) - Validation state: Valid (4e3479ed)
+2019-04-30T00:02:40.9853030+07:00 0HLMCOGJSOCL2:00000005 [INF] Entity Framework Core "2.2.3-servicing-35854" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-04-30T00:02:41.0177555+07:00 0HLMCOGJSOCL2:00000005 [INF] Executed DbCommand ("3"ms) [Parameters=["@__id_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [x].[Id], [x].[Avatar], [x].[Balance], [x].[BirthDay], [x].[DateCreated], [x].[DateModified], [x].[Email], [x].[FullName], [x].[Password], [x].[PhoneNumber], [x].[Status], [x].[UserName]
+FROM [AppUsers] AS [x]
+WHERE [x].[Id] = @__id_0
+ORDER BY [x].[Id]" (0723d8ff)
+2019-04-30T00:02:59.0112974+07:00 0HLMCOGJSOCL2:00000005 [INF] Executed DbCommand ("59"ms) [Parameters=["@p11='?' (DbType = Guid), @p0='?' (Size = 4000), @p1='?' (DbType = Decimal), @p2='?' (DbType = DateTime2), @p3='?' (DbType = DateTime2), @p4='?' (DbType = DateTime2), @p5='?' (Size = 4000), @p6='?' (Size = 4000), @p7='?' (Size = 4000), @p8='?' (Size = 4000), @p9='?' (DbType = Int32), @p10='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+UPDATE [AppUsers] SET [Avatar] = @p0, [Balance] = @p1, [BirthDay] = @p2, [DateCreated] = @p3, [DateModified] = @p4, [Email] = @p5, [FullName] = @p6, [Password] = @p7, [PhoneNumber] = @p8, [Status] = @p9, [UserName] = @p10
+WHERE [Id] = @p11;
+SELECT @@ROWCOUNT;" (0723d8ff)
+2019-04-30T00:02:59.1868567+07:00 0HLMCOGJSOCL2:00000005 [INF] Executed action "CoreApp.Areas.Admin.Controllers.UserController.updateUser (CoreApp)" in 27267.0236ms (afa2e885)
+2019-04-30T00:02:59.1888941+07:00 0HLMCOGJSOCL2:00000005 [INF] Executed endpoint '"CoreApp.Areas.Admin.Controllers.UserController.updateUser (CoreApp)"' (99874f2b)
+2019-04-30T00:02:59.3161205+07:00 0HLMCOGJSOCL2:00000005 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');" (0723d8ff)
+2019-04-30T00:02:59.3602189+07:00 0HLMCOGJSOCL2:00000005 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];" (0723d8ff)
+2019-04-30T00:02:59.3821695+07:00 0HLMCOGJSOCL2:00000005 [INF] Request finished in 27452.2146ms 500 text/html; charset=utf-8 (791a596a)
+2019-04-30T00:03:22.8119351+07:00 0HLMCOGJSOCL2:00000006 [INF] Request starting HTTP/1.1 PUT http://localhost:5000/admin/users/update/075c1072-92a2-4f99-ac11-bf985b23da6e application/json-patch+json 185 (ca22a1cb)
+2019-04-30T00:03:22.8142395+07:00 0HLMCOGJSOCL2:00000006 [INF] Executing endpoint '"CoreApp.Areas.Admin.Controllers.UserController.updateUser (CoreApp)"' (500cc934)
+2019-04-30T00:03:22.8162238+07:00 0HLMCOGJSOCL2:00000006 [INF] Route matched with "{action = \"updateUser\", controller = \"User\"}". Executing action "CoreApp.Areas.Admin.Controllers.UserController.updateUser (CoreApp)" (a44c0341)
+2019-04-30T00:03:22.8187264+07:00 0HLMCOGJSOCL2:00000006 [INF] Executing action method "CoreApp.Areas.Admin.Controllers.UserController.updateUser (CoreApp)" with arguments (["075c1072-92a2-4f99-ac11-bf985b23da6e", "CoreApp.Application.ViewModels.System.UserUpdateViewModel"]) - Validation state: Valid (4e3479ed)
+2019-04-30T00:03:28.2196361+07:00 0HLMCOGJSOCL2:00000006 [INF] Entity Framework Core "2.2.3-servicing-35854" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-04-30T00:03:28.2460098+07:00 0HLMCOGJSOCL2:00000006 [INF] Executed DbCommand ("3"ms) [Parameters=["@__id_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [x].[Id], [x].[Avatar], [x].[Balance], [x].[BirthDay], [x].[DateCreated], [x].[DateModified], [x].[Email], [x].[FullName], [x].[Password], [x].[PhoneNumber], [x].[Status], [x].[UserName]
+FROM [AppUsers] AS [x]
+WHERE [x].[Id] = @__id_0
+ORDER BY [x].[Id]" (0723d8ff)
+2019-04-30T00:03:44.9211347+07:00 0HLMCOGJSOCL2:00000006 [INF] Executed DbCommand ("26"ms) [Parameters=["@p11='?' (DbType = Guid), @p0='?' (Size = 4000), @p1='?' (DbType = Decimal), @p2='?' (DbType = DateTime2), @p3='?' (DbType = DateTime2), @p4='?' (DbType = DateTime2), @p5='?' (Size = 4000), @p6='?' (Size = 4000), @p7='?' (Size = 4000), @p8='?' (Size = 4000), @p9='?' (DbType = Int32), @p10='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+UPDATE [AppUsers] SET [Avatar] = @p0, [Balance] = @p1, [BirthDay] = @p2, [DateCreated] = @p3, [DateModified] = @p4, [Email] = @p5, [FullName] = @p6, [Password] = @p7, [PhoneNumber] = @p8, [Status] = @p9, [UserName] = @p10
+WHERE [Id] = @p11;
+SELECT @@ROWCOUNT;" (0723d8ff)
+2019-04-30T00:03:45.1439719+07:00 0HLMCOGJSOCL2:00000006 [INF] Executed action "CoreApp.Areas.Admin.Controllers.UserController.updateUser (CoreApp)" in 22325.7282ms (afa2e885)
+2019-04-30T00:03:45.1459056+07:00 0HLMCOGJSOCL2:00000006 [INF] Executed endpoint '"CoreApp.Areas.Admin.Controllers.UserController.updateUser (CoreApp)"' (99874f2b)
+2019-04-30T00:03:45.2474688+07:00 0HLMCOGJSOCL2:00000006 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');" (0723d8ff)
+2019-04-30T00:03:45.2940351+07:00 0HLMCOGJSOCL2:00000006 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];" (0723d8ff)
+2019-04-30T00:03:45.2970775+07:00 0HLMCOGJSOCL2:00000006 [INF] Request finished in 22484.9492ms 500 text/html; charset=utf-8 (791a596a)
+2019-04-30T00:04:08.7868047+07:00 0HLMCOGJSOCL2:00000007 [INF] Request starting HTTP/1.1 PUT http://localhost:5000/admin/users/update/075c1072-92a2-4f99-ac11-bf985b23da6e application/json-patch+json 185 (ca22a1cb)
+2019-04-30T00:04:08.7887562+07:00 0HLMCOGJSOCL2:00000007 [INF] Executing endpoint '"CoreApp.Areas.Admin.Controllers.UserController.updateUser (CoreApp)"' (500cc934)
+2019-04-30T00:04:08.7905453+07:00 0HLMCOGJSOCL2:00000007 [INF] Route matched with "{action = \"updateUser\", controller = \"User\"}". Executing action "CoreApp.Areas.Admin.Controllers.UserController.updateUser (CoreApp)" (a44c0341)
+2019-04-30T00:04:11.0838073+07:00 0HLMCOGJSOCL2:00000007 [INF] Executing action method "CoreApp.Areas.Admin.Controllers.UserController.updateUser (CoreApp)" with arguments (["075c1072-92a2-4f99-ac11-bf985b23da6e", "CoreApp.Application.ViewModels.System.UserUpdateViewModel"]) - Validation state: Valid (4e3479ed)
+2019-04-30T00:04:15.0815415+07:00 0HLMCOGJSOCL2:00000007 [INF] Entity Framework Core "2.2.3-servicing-35854" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-04-30T00:04:15.0920289+07:00 0HLMCOGJSOCL2:00000007 [INF] Executed DbCommand ("7"ms) [Parameters=["@__id_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [x].[Id], [x].[Avatar], [x].[Balance], [x].[BirthDay], [x].[DateCreated], [x].[DateModified], [x].[Email], [x].[FullName], [x].[Password], [x].[PhoneNumber], [x].[Status], [x].[UserName]
+FROM [AppUsers] AS [x]
+WHERE [x].[Id] = @__id_0
+ORDER BY [x].[Id]" (0723d8ff)
+2019-04-30T00:04:45.8042197+07:00 0HLMCOGJSOCL2:00000007 [INF] Executed DbCommand ("28"ms) [Parameters=["@p11='?' (DbType = Guid), @p0='?' (Size = 4000), @p1='?' (DbType = Decimal), @p2='?' (DbType = DateTime2), @p3='?' (DbType = DateTime2), @p4='?' (DbType = DateTime2), @p5='?' (Size = 4000), @p6='?' (Size = 4000), @p7='?' (Size = 4000), @p8='?' (Size = 4000), @p9='?' (DbType = Int32), @p10='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+UPDATE [AppUsers] SET [Avatar] = @p0, [Balance] = @p1, [BirthDay] = @p2, [DateCreated] = @p3, [DateModified] = @p4, [Email] = @p5, [FullName] = @p6, [Password] = @p7, [PhoneNumber] = @p8, [Status] = @p9, [UserName] = @p10
+WHERE [Id] = @p11;
+SELECT @@ROWCOUNT;" (0723d8ff)
+2019-04-30T00:04:45.9844349+07:00 0HLMCOGJSOCL2:00000007 [INF] Executed action "CoreApp.Areas.Admin.Controllers.UserController.updateUser (CoreApp)" in 37191.8443ms (afa2e885)
+2019-04-30T00:04:45.9865934+07:00 0HLMCOGJSOCL2:00000007 [INF] Executed endpoint '"CoreApp.Areas.Admin.Controllers.UserController.updateUser (CoreApp)"' (99874f2b)
+2019-04-30T00:04:46.0823093+07:00 0HLMCOGJSOCL2:00000007 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');" (0723d8ff)
+2019-04-30T00:04:46.1290128+07:00 0HLMCOGJSOCL2:00000007 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];" (0723d8ff)
+2019-04-30T00:04:46.1332780+07:00 0HLMCOGJSOCL2:00000007 [INF] Request finished in 37344.4406ms 500 text/html; charset=utf-8 (791a596a)
+2019-04-30T00:09:12.3431248+07:00 0HLMCOLJAH3MG:00000001 [INF] Request starting HTTP/1.1 DEBUG http://localhost:5000/  0 (ca22a1cb)
+2019-04-30T00:09:12.3431251+07:00 0HLMCOLJAH3MF:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger   (ca22a1cb)
+2019-04-30T00:09:12.3851598+07:00 0HLMCOLJAH3MG:00000001 [INF] Request finished in 43.3608ms 200  (791a596a)
+2019-04-30T00:09:12.4230857+07:00 0HLMCOLJAH3MF:00000001 [INF] Request finished in 88.1153ms 301  (791a596a)
+2019-04-30T00:09:12.4271277+07:00 0HLMCOLJAH3MG:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html   (ca22a1cb)
+2019-04-30T00:09:12.5243965+07:00 0HLMCOLJAH3MG:00000002 [INF] Request finished in 97.0535ms 200 text/html (791a596a)
+2019-04-30T00:09:12.5514698+07:00 0HLMCOLJAH3MG:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui.css   (ca22a1cb)
+2019-04-30T00:09:12.5529435+07:00 0HLMCOLJAH3MF:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-bundle.js   (ca22a1cb)
+2019-04-30T00:09:12.5588307+07:00 0HLMCOLJAH3MH:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-standalone-preset.js   (ca22a1cb)
+2019-04-30T00:09:12.6370471+07:00 0HLMCOLJAH3MH:00000001 [INF] Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"' (27b0a520)
+2019-04-30T00:09:12.6370570+07:00 0HLMCOLJAH3MG:00000003 [INF] Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"' (27b0a520)
+2019-04-30T00:09:12.6370837+07:00 0HLMCOLJAH3MF:00000002 [INF] Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"' (27b0a520)
+2019-04-30T00:09:12.6500982+07:00 0HLMCOLJAH3MG:00000003 [INF] Request finished in 97.9361ms 200 text/css (791a596a)
+2019-04-30T00:09:12.6512792+07:00 0HLMCOLJAH3MH:00000001 [INF] Request finished in 92.0377ms 200 application/javascript (791a596a)
+2019-04-30T00:09:12.6534975+07:00 0HLMCOLJAH3MF:00000002 [INF] Request finished in 98.0049ms 200 application/javascript (791a596a)
+2019-04-30T00:09:12.8378772+07:00 0HLMCOLJAH3MG:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-bundle.js.map   (ca22a1cb)
+2019-04-30T00:09:12.8643947+07:00 0HLMCOLJAH3MG:00000004 [INF] Sending file. Request path: '"/swagger-ui-bundle.js.map"'. Physical path: '"N/A"' (27b0a520)
+2019-04-30T00:09:12.8669244+07:00 0HLMCOLJAH3MG:00000004 [INF] Request finished in 28.791ms 200 text/plain (791a596a)
+2019-04-30T00:09:13.5711564+07:00 0HLMCOLJAH3MH:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-standalone-preset.js.map   (ca22a1cb)
+2019-04-30T00:09:13.5802934+07:00 0HLMCOLJAH3MH:00000002 [INF] Sending file. Request path: '"/swagger-ui-standalone-preset.js.map"'. Physical path: '"N/A"' (27b0a520)
+2019-04-30T00:09:13.5824856+07:00 0HLMCOLJAH3MH:00000002 [INF] Request finished in 11.1653ms 200 text/plain (791a596a)
+2019-04-30T00:09:13.9663009+07:00 0HLMCOLJAH3MF:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json   (ca22a1cb)
+2019-04-30T00:09:14.1352954+07:00 0HLMCOLJAH3MF:00000003 [INF] Request finished in 168.553ms 200 application/json;charset=utf-8 (791a596a)
+2019-04-30T07:11:22.6704479+07:00 0HLMD01GB456V:00000001 [INF] Request starting HTTP/1.1 DEBUG http://localhost:5000/  0 (ca22a1cb)
+2019-04-30T07:11:22.6704480+07:00 0HLMD01GB4570:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger   (ca22a1cb)
+2019-04-30T07:11:22.7229181+07:00 0HLMD01GB456V:00000001 [INF] Request finished in 48.3638ms 200  (791a596a)
+2019-04-30T07:11:22.7592958+07:00 0HLMD01GB4570:00000001 [INF] Request finished in 96.4531ms 301  (791a596a)
+2019-04-30T07:11:22.7627227+07:00 0HLMD01GB456V:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html   (ca22a1cb)
+2019-04-30T07:11:22.8821847+07:00 0HLMD01GB456V:00000002 [INF] Request finished in 119.7837ms 200 text/html (791a596a)
+2019-04-30T07:11:22.9031520+07:00 0HLMD01GB4570:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui.css   (ca22a1cb)
+2019-04-30T07:11:22.9076334+07:00 0HLMD01GB456V:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-bundle.js   (ca22a1cb)
+2019-04-30T07:11:22.9111266+07:00 0HLMD01GB4571:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-standalone-preset.js   (ca22a1cb)
+2019-04-30T07:11:22.9823708+07:00 0HLMD01GB4570:00000002 [INF] Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"' (27b0a520)
+2019-04-30T07:11:22.9823619+07:00 0HLMD01GB4571:00000001 [INF] Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"' (27b0a520)
+2019-04-30T07:11:23.0013493+07:00 0HLMD01GB4570:00000002 [INF] Request finished in 98.6765ms 200 text/css (791a596a)
+2019-04-30T07:11:23.0030032+07:00 0HLMD01GB4571:00000001 [INF] Request finished in 89.1038ms 200 application/javascript (791a596a)
+2019-04-30T07:11:23.0112970+07:00 0HLMD01GB456V:00000003 [INF] Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"' (27b0a520)
+2019-04-30T07:11:23.0138734+07:00 0HLMD01GB456V:00000003 [INF] Request finished in 111.0213ms 200 application/javascript (791a596a)
+2019-04-30T07:11:23.5966511+07:00 0HLMD01GB4570:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-bundle.js.map   (ca22a1cb)
+2019-04-30T07:11:23.6777843+07:00 0HLMD01GB4571:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json   (ca22a1cb)
+2019-04-30T07:11:23.7136748+07:00 0HLMD01GB4570:00000003 [INF] Sending file. Request path: '"/swagger-ui-bundle.js.map"'. Physical path: '"N/A"' (27b0a520)
+2019-04-30T07:11:23.7197044+07:00 0HLMD01GB4570:00000003 [INF] Request finished in 119.165ms 200 text/plain (791a596a)
+2019-04-30T07:11:23.8198794+07:00 0HLMD01GB4571:00000002 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.NotSupportedException: Ambiguous HTTP method for action - CoreApp.Areas.Admin.Controllers.ProductCategoryController.Index (CoreApp). Actions require an explicit HttpMethod binding for Swagger 2.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.CreatePathItem(IEnumerable`1 apiDescriptions, ISchemaRegistry schemaRegistry)
+   at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement](IEnumerable`1 source, Func`2 keySelector, Func`2 elementSelector, IEqualityComparer`1 comparer)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.CreatePathItems(IEnumerable`1 apiDescriptions, ISchemaRegistry schemaRegistry)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath, String[] schemes)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-04-30T07:11:23.8527744+07:00 0HLMD01GB4571:00000002 [INF] Request finished in 174.0548ms 500 text/html; charset=utf-8 (791a596a)
+2019-04-30T07:11:24.1246004+07:00 0HLMD01GB456V:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-standalone-preset.js.map   (ca22a1cb)
+2019-04-30T07:11:24.1651266+07:00 0HLMD01GB456V:00000004 [INF] Sending file. Request path: '"/swagger-ui-standalone-preset.js.map"'. Physical path: '"N/A"' (27b0a520)
+2019-04-30T07:11:24.1671669+07:00 0HLMD01GB456V:00000004 [INF] Request finished in 42.1769ms 200 text/plain (791a596a)
+2019-04-30T07:13:34.2771584+07:00 0HLMD01GB4572:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/admin/categories/list   (ca22a1cb)
+2019-04-30T07:13:34.3298574+07:00 0HLMD01GB4572:00000001 [INF] Executing endpoint '"CoreApp.Areas.Admin.Controllers.ProductCategoryController.GetList (CoreApp)"' (500cc934)
+2019-04-30T07:13:34.3591661+07:00 0HLMD01GB4572:00000001 [INF] Route matched with "{action = \"GetList\", controller = \"ProductCategory\"}". Executing action "CoreApp.Areas.Admin.Controllers.ProductCategoryController.GetList (CoreApp)" (a44c0341)
+2019-04-30T07:13:34.7816981+07:00 0HLMD01GB4572:00000001 [INF] Executing action method "CoreApp.Areas.Admin.Controllers.ProductCategoryController.GetList (CoreApp)" with arguments (["CoreApp.Application.ViewModels.PageViewModel.UserRequestListViewModel"]) - Validation state: Valid (4e3479ed)
+2019-04-30T07:13:35.1237570+07:00 0HLMD01GB4572:00000001 [WRN] No type was specified for the decimal column '"Balance"' on entity type '"AppUser"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-04-30T07:13:35.1254164+07:00 0HLMD01GB4572:00000001 [WRN] No type was specified for the decimal column '"Price"' on entity type '"BillDetail"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-04-30T07:13:35.1270117+07:00 0HLMD01GB4572:00000001 [WRN] No type was specified for the decimal column '"OriginalPrice"' on entity type '"Product"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-04-30T07:13:35.1284808+07:00 0HLMD01GB4572:00000001 [WRN] No type was specified for the decimal column '"Price"' on entity type '"Product"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-04-30T07:13:35.1301033+07:00 0HLMD01GB4572:00000001 [WRN] No type was specified for the decimal column '"PromotionPrice"' on entity type '"Product"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-04-30T07:13:35.1316876+07:00 0HLMD01GB4572:00000001 [WRN] No type was specified for the decimal column '"Value5"' on entity type '"SystemConfig"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-04-30T07:13:35.1335193+07:00 0HLMD01GB4572:00000001 [WRN] No type was specified for the decimal column '"Price"' on entity type '"WholePrice"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-04-30T07:13:35.1898730+07:00 0HLMD01GB4572:00000001 [INF] Entity Framework Core "2.2.3-servicing-35854" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-04-30T07:13:35.4429640+07:00 0HLMD01GB4572:00000001 [INF] Executed DbCommand ("7"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [ProductCategories] AS [x]" (0723d8ff)
+2019-04-30T07:13:35.4754567+07:00 0HLMD01GB4572:00000001 [INF] Executed DbCommand ("3"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[DateCreated], [x].[DateModified], [x].[Description], [x].[HomeFlag], [x].[HomeOrder], [x].[Image], [x].[Name], [x].[ParentId], [x].[SeoAlias], [x].[SeoDescription], [x].[SeoKeyWords], [x].[SeoPageTitle], [x].[SortOrder], [x].[Status]
+FROM [ProductCategories] AS [x]
+ORDER BY [x].[DateCreated] DESC, [x].[Id]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY" (0723d8ff)
+2019-04-30T07:13:35.4864225+07:00 0HLMD01GB4572:00000001 [INF] Executed action method "CoreApp.Areas.Admin.Controllers.ProductCategoryController.GetList (CoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 700.2454ms. (50a9e262)
+2019-04-30T07:13:35.4951571+07:00 0HLMD01GB4572:00000001 [INF] Executing ObjectResult, writing value of type '"CoreApp.Utilities.Dtos.PagedList`1[[CoreApp.Application.ViewModels.Products.ProductCategoryViewModel, CoreApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2019-04-30T07:13:35.5152612+07:00 0HLMD01GB4572:00000001 [INF] Executed action "CoreApp.Areas.Admin.Controllers.ProductCategoryController.GetList (CoreApp)" in 1151.1329ms (afa2e885)
+2019-04-30T07:13:35.5170249+07:00 0HLMD01GB4572:00000001 [INF] Executed endpoint '"CoreApp.Areas.Admin.Controllers.ProductCategoryController.GetList (CoreApp)"' (99874f2b)
+2019-04-30T07:13:35.5191700+07:00 0HLMD01GB4572:00000001 [INF] Request finished in 1242.0043ms 200 application/json; charset=utf-8 (791a596a)
+2019-04-30T07:13:55.6501268+07:00 0HLMD01GB4572:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5000/admin/categories/list/075c1072-92a2-4f95-ac11-bf985b23da6e   (ca22a1cb)
+2019-04-30T07:13:55.6550877+07:00 0HLMD01GB4572:00000002 [INF] Executing endpoint '"CoreApp.Areas.Admin.Controllers.ProductCategoryController.getById (CoreApp)"' (500cc934)
+2019-04-30T07:13:55.6633187+07:00 0HLMD01GB4572:00000002 [INF] Route matched with "{action = \"getById\", controller = \"ProductCategory\"}". Executing action "CoreApp.Areas.Admin.Controllers.ProductCategoryController.getById (CoreApp)" (a44c0341)
+2019-04-30T07:13:55.6668112+07:00 0HLMD01GB4572:00000002 [INF] Executing action method "CoreApp.Areas.Admin.Controllers.ProductCategoryController.getById (CoreApp)" with arguments (["075c1072-92a2-4f95-ac11-bf985b23da6e"]) - Validation state: Valid (4e3479ed)
+2019-04-30T07:13:55.6849598+07:00 0HLMD01GB4572:00000002 [INF] Entity Framework Core "2.2.3-servicing-35854" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-04-30T07:13:55.7600931+07:00 0HLMD01GB4572:00000002 [INF] Executed DbCommand ("11"ms) [Parameters=["@__id_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [i].[Id], [i].[DateCreated], [i].[DateModified], [i].[Description], [i].[HomeFlag], [i].[HomeOrder], [i].[Image], [i].[Name], [i].[ParentId], [i].[SeoAlias], [i].[SeoDescription], [i].[SeoKeyWords], [i].[SeoPageTitle], [i].[SortOrder], [i].[Status]
+FROM [ProductCategories] AS [i]
+WHERE [i].[Id] = @__id_0" (0723d8ff)
+2019-04-30T07:13:55.8052500+07:00 0HLMD01GB4572:00000002 [INF] Executed action method "CoreApp.Areas.Admin.Controllers.ProductCategoryController.getById (CoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 136.7669ms. (50a9e262)
+2019-04-30T07:13:55.8117720+07:00 0HLMD01GB4572:00000002 [INF] Executing ObjectResult, writing value of type '"CoreApp.Data.Entities.ProductCategory"'. (8a1b66c8)
+2019-04-30T07:13:55.8208830+07:00 0HLMD01GB4572:00000002 [INF] Executed action "CoreApp.Areas.Admin.Controllers.ProductCategoryController.getById (CoreApp)" in 156.0121ms (afa2e885)
+2019-04-30T07:13:55.8233044+07:00 0HLMD01GB4572:00000002 [INF] Executed endpoint '"CoreApp.Areas.Admin.Controllers.ProductCategoryController.getById (CoreApp)"' (99874f2b)
+2019-04-30T07:13:55.8262415+07:00 0HLMD01GB4572:00000002 [INF] Request finished in 176.3118ms 200 application/json; charset=utf-8 (791a596a)
+2019-04-30T07:14:48.7727588+07:00 0HLMD01GB4572:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:5000/admin/categories/list   (ca22a1cb)
+2019-04-30T07:14:48.7744263+07:00 0HLMD01GB4572:00000003 [INF] Executing endpoint '"CoreApp.Areas.Admin.Controllers.ProductCategoryController.GetList (CoreApp)"' (500cc934)
+2019-04-30T07:14:48.7761937+07:00 0HLMD01GB4572:00000003 [INF] Route matched with "{action = \"GetList\", controller = \"ProductCategory\"}". Executing action "CoreApp.Areas.Admin.Controllers.ProductCategoryController.GetList (CoreApp)" (a44c0341)
+2019-04-30T07:14:48.7780818+07:00 0HLMD01GB4572:00000003 [INF] Executing action method "CoreApp.Areas.Admin.Controllers.ProductCategoryController.GetList (CoreApp)" with arguments (["CoreApp.Application.ViewModels.PageViewModel.UserRequestListViewModel"]) - Validation state: Valid (4e3479ed)
+2019-04-30T07:14:48.7802899+07:00 0HLMD01GB4572:00000003 [INF] Entity Framework Core "2.2.3-servicing-35854" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-04-30T07:14:48.7849401+07:00 0HLMD01GB4572:00000003 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [ProductCategories] AS [x]" (0723d8ff)
+2019-04-30T07:14:48.7887238+07:00 0HLMD01GB4572:00000003 [INF] Executed DbCommand ("1"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[DateCreated], [x].[DateModified], [x].[Description], [x].[HomeFlag], [x].[HomeOrder], [x].[Image], [x].[Name], [x].[ParentId], [x].[SeoAlias], [x].[SeoDescription], [x].[SeoKeyWords], [x].[SeoPageTitle], [x].[SortOrder], [x].[Status]
+FROM [ProductCategories] AS [x]
+ORDER BY [x].[DateCreated] DESC, [x].[Id]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY" (0723d8ff)
+2019-04-30T07:14:48.7906563+07:00 0HLMD01GB4572:00000003 [INF] Executed action method "CoreApp.Areas.Admin.Controllers.ProductCategoryController.GetList (CoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 10.8269ms. (50a9e262)
+2019-04-30T07:14:48.7922856+07:00 0HLMD01GB4572:00000003 [INF] Executing ObjectResult, writing value of type '"CoreApp.Utilities.Dtos.PagedList`1[[CoreApp.Application.ViewModels.Products.ProductCategoryViewModel, CoreApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2019-04-30T07:14:48.7941133+07:00 0HLMD01GB4572:00000003 [INF] Executed action "CoreApp.Areas.Admin.Controllers.ProductCategoryController.GetList (CoreApp)" in 16.3003ms (afa2e885)
+2019-04-30T07:14:48.7961007+07:00 0HLMD01GB4572:00000003 [INF] Executed endpoint '"CoreApp.Areas.Admin.Controllers.ProductCategoryController.GetList (CoreApp)"' (99874f2b)
+2019-04-30T07:14:48.7980886+07:00 0HLMD01GB4572:00000003 [INF] Request finished in 25.1824ms 200 application/json; charset=utf-8 (791a596a)
+2019-04-30T16:05:09.2683899+07:00 0HLMD9BOURHPD:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger   (ca22a1cb)
+2019-04-30T16:05:09.2683898+07:00 0HLMD9BOURHPC:00000001 [INF] Request starting HTTP/1.1 DEBUG http://localhost:5000/  0 (ca22a1cb)
+2019-04-30T16:05:09.3098534+07:00 0HLMD9BOURHPC:00000001 [INF] Request finished in 53.0166ms 200  (791a596a)
+2019-04-30T16:05:09.3478370+07:00 0HLMD9BOURHPD:00000001 [INF] Request finished in 92.135ms 301  (791a596a)
+2019-04-30T16:05:09.3510528+07:00 0HLMD9BOURHPC:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html   (ca22a1cb)
+2019-04-30T16:05:09.4965958+07:00 0HLMD9BOURHPC:00000002 [INF] Request finished in 145.1014ms 200 text/html (791a596a)
+2019-04-30T16:05:09.5263950+07:00 0HLMD9BOURHPD:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui.css   (ca22a1cb)
+2019-04-30T16:05:09.5461397+07:00 0HLMD9BOURHPC:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-bundle.js   (ca22a1cb)
+2019-04-30T16:05:09.5472927+07:00 0HLMD9BOURHPE:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-standalone-preset.js   (ca22a1cb)
+2019-04-30T16:05:09.6381193+07:00 0HLMD9BOURHPE:00000001 [INF] Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"' (27b0a520)
+2019-04-30T16:05:09.6381193+07:00 0HLMD9BOURHPC:00000003 [INF] Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"' (27b0a520)
+2019-04-30T16:05:09.6381468+07:00 0HLMD9BOURHPD:00000002 [INF] Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"' (27b0a520)
+2019-04-30T16:05:09.6577425+07:00 0HLMD9BOURHPD:00000002 [INF] Request finished in 132.9641ms 200 text/css (791a596a)
+2019-04-30T16:05:09.6597079+07:00 0HLMD9BOURHPE:00000001 [INF] Request finished in 118.4338ms 200 application/javascript (791a596a)
+2019-04-30T16:05:09.6611681+07:00 0HLMD9BOURHPC:00000003 [INF] Request finished in 118.4338ms 200 application/javascript (791a596a)
+2019-04-30T16:05:09.7984791+07:00 0HLMD9BOURHPD:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-bundle.js.map   (ca22a1cb)
+2019-04-30T16:05:09.8187537+07:00 0HLMD9BOURHPD:00000003 [INF] Sending file. Request path: '"/swagger-ui-bundle.js.map"'. Physical path: '"N/A"' (27b0a520)
+2019-04-30T16:05:09.8206582+07:00 0HLMD9BOURHPD:00000003 [INF] Request finished in 22.6124ms 200 text/plain (791a596a)
+2019-04-30T16:05:09.8915730+07:00 0HLMD9BOURHPE:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json   (ca22a1cb)
+2019-04-30T16:05:09.9600306+07:00 0HLMD9BOURHPE:00000002 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.NotSupportedException: Ambiguous HTTP method for action - CoreApp.Areas.Admin.Controllers.ProductCategoryController.Index (CoreApp). Actions require an explicit HttpMethod binding for Swagger 2.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.CreatePathItem(IEnumerable`1 apiDescriptions, ISchemaRegistry schemaRegistry)
+   at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement](IEnumerable`1 source, Func`2 keySelector, Func`2 elementSelector, IEqualityComparer`1 comparer)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.CreatePathItems(IEnumerable`1 apiDescriptions, ISchemaRegistry schemaRegistry)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath, String[] schemes)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-04-30T16:05:09.9925712+07:00 0HLMD9BOURHPE:00000002 [INF] Request finished in 99.0514ms 500 text/html; charset=utf-8 (791a596a)
+2019-04-30T16:05:10.2527512+07:00 0HLMD9BOURHPC:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-standalone-preset.js.map   (ca22a1cb)
+2019-04-30T16:05:10.2603630+07:00 0HLMD9BOURHPC:00000004 [INF] Sending file. Request path: '"/swagger-ui-standalone-preset.js.map"'. Physical path: '"N/A"' (27b0a520)
+2019-04-30T16:05:10.2627490+07:00 0HLMD9BOURHPC:00000004 [INF] Request finished in 9.4945ms 200 text/plain (791a596a)
+2019-04-30T16:46:58.2330408+07:00 0HLMD9BOURHPF:00000001 [INF] Request starting HTTP/1.1 POST http://localhost:5000/admin/categories/addcategory application/json 181 (ca22a1cb)
+2019-04-30T16:46:58.2812866+07:00 0HLMD9BOURHPF:00000001 [INF] Executing endpoint '"CoreApp.Areas.Admin.Controllers.ProductCategoryController.addProductCategory (CoreApp)"' (500cc934)
+2019-04-30T16:46:58.3088119+07:00 0HLMD9BOURHPF:00000001 [INF] Route matched with "{action = \"addProductCategory\", controller = \"ProductCategory\"}". Executing action "CoreApp.Areas.Admin.Controllers.ProductCategoryController.addProductCategory (CoreApp)" (a44c0341)
+2019-04-30T16:46:58.7244660+07:00 0HLMD9BOURHPF:00000001 [INF] Executing action method "CoreApp.Areas.Admin.Controllers.ProductCategoryController.addProductCategory (CoreApp)" with arguments (["CoreApp.Application.ViewModels.Products.AddProductCategoryViewModel"]) - Validation state: Valid (4e3479ed)
+2019-04-30T16:47:31.0195218+07:00 0HLMD9BOURHPF:00000001 [WRN] No type was specified for the decimal column '"Balance"' on entity type '"AppUser"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-04-30T16:47:31.0212090+07:00 0HLMD9BOURHPF:00000001 [WRN] No type was specified for the decimal column '"Price"' on entity type '"BillDetail"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-04-30T16:47:31.0228452+07:00 0HLMD9BOURHPF:00000001 [WRN] No type was specified for the decimal column '"OriginalPrice"' on entity type '"Product"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-04-30T16:47:31.0244234+07:00 0HLMD9BOURHPF:00000001 [WRN] No type was specified for the decimal column '"Price"' on entity type '"Product"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-04-30T16:47:31.0259156+07:00 0HLMD9BOURHPF:00000001 [WRN] No type was specified for the decimal column '"PromotionPrice"' on entity type '"Product"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-04-30T16:47:31.0276268+07:00 0HLMD9BOURHPF:00000001 [WRN] No type was specified for the decimal column '"Value5"' on entity type '"SystemConfig"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-04-30T16:47:31.0292389+07:00 0HLMD9BOURHPF:00000001 [WRN] No type was specified for the decimal column '"Price"' on entity type '"WholePrice"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-04-30T16:47:31.1160791+07:00 0HLMD9BOURHPF:00000001 [INF] Entity Framework Core "2.2.3-servicing-35854" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-04-30T16:47:31.5943022+07:00 0HLMD9BOURHPF:00000001 [INF] Executed DbCommand ("40"ms) [Parameters=["@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime2), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000), @p4='?', @p5='?' (DbType = Int32), @p6='?' (Size = 4000), @p7='?' (Size = 4000), @p8='?' (DbType = Guid), @p9='?' (Size = 4000), @p10='?' (Size = 4000), @p11='?' (Size = 4000), @p12='?' (Size = 4000), @p13='?' (DbType = Int32), @p14='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [ProductCategories] ([Id], [DateCreated], [DateModified], [Description], [HomeFlag], [HomeOrder], [Image], [Name], [ParentId], [SeoAlias], [SeoDescription], [SeoKeyWords], [SeoPageTitle], [SortOrder], [Status])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14);" (0723d8ff)
+2019-04-30T16:47:45.9781992+07:00 0HLMD9BOURHPF:00000001 [INF] Executed action method "CoreApp.Areas.Admin.Controllers.ProductCategoryController.addProductCategory (CoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 47247.299ms. (50a9e262)
+2019-04-30T16:47:45.9966441+07:00 0HLMD9BOURHPF:00000001 [INF] Executing ObjectResult, writing value of type '"CoreApp.Data.Entities.ProductCategory"'. (8a1b66c8)
+2019-04-30T16:47:48.2177657+07:00 0HLMD9BOURHPF:00000001 [INF] Executed action "CoreApp.Areas.Admin.Controllers.ProductCategoryController.addProductCategory (CoreApp)" in 49902.7201ms (afa2e885)
+2019-04-30T16:47:48.2214176+07:00 0HLMD9BOURHPF:00000001 [INF] Executed endpoint '"CoreApp.Areas.Admin.Controllers.ProductCategoryController.addProductCategory (CoreApp)"' (99874f2b)
+2019-04-30T16:47:48.2267392+07:00 0HLMD9BOURHPF:00000001 [INF] Request finished in 49992.7047ms 200 application/json; charset=utf-8 (791a596a)
+2019-04-30T16:49:46.8200256+07:00 0HLMDA4MVKRAC:00000001 [INF] Request starting HTTP/1.1 DEBUG http://localhost:5000/  0 (ca22a1cb)
+2019-04-30T16:49:46.8200255+07:00 0HLMDA4MVKRAD:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger   (ca22a1cb)
+2019-04-30T16:49:46.8612818+07:00 0HLMDA4MVKRAC:00000001 [INF] Request finished in 46.8151ms 200  (791a596a)
+2019-04-30T16:49:46.8909906+07:00 0HLMDA4MVKRAD:00000001 [INF] Request finished in 78.1731ms 301  (791a596a)
+2019-04-30T16:49:46.8971239+07:00 0HLMDA4MVKRAC:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html   (ca22a1cb)
+2019-04-30T16:49:46.9865833+07:00 0HLMDA4MVKRAC:00000002 [INF] Request finished in 89.416ms 200 text/html (791a596a)
+2019-04-30T16:49:47.0099310+07:00 0HLMDA4MVKRAD:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui.css   (ca22a1cb)
+2019-04-30T16:49:47.0128380+07:00 0HLMDA4MVKRAC:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-bundle.js   (ca22a1cb)
+2019-04-30T16:49:47.0149164+07:00 0HLMDA4MVKRAE:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-standalone-preset.js   (ca22a1cb)
+2019-04-30T16:49:47.0998577+07:00 0HLMDA4MVKRAC:00000003 [INF] Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"' (27b0a520)
+2019-04-30T16:49:47.1021592+07:00 0HLMDA4MVKRAE:00000001 [INF] Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"' (27b0a520)
+2019-04-30T16:49:47.1021592+07:00 0HLMDA4MVKRAD:00000002 [INF] Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"' (27b0a520)
+2019-04-30T16:49:47.1169556+07:00 0HLMDA4MVKRAC:00000003 [INF] Request finished in 101.2106ms 200 application/javascript (791a596a)
+2019-04-30T16:49:47.1191554+07:00 0HLMDA4MVKRAE:00000001 [INF] Request finished in 102.3288ms 200 application/javascript (791a596a)
+2019-04-30T16:49:47.1206614+07:00 0HLMDA4MVKRAD:00000002 [INF] Request finished in 105.5003ms 200 text/css (791a596a)
+2019-04-30T16:49:47.3064118+07:00 0HLMDA4MVKRAD:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-bundle.js.map   (ca22a1cb)
+2019-04-30T16:49:47.3300182+07:00 0HLMDA4MVKRAD:00000003 [INF] Sending file. Request path: '"/swagger-ui-bundle.js.map"'. Physical path: '"N/A"' (27b0a520)
+2019-04-30T16:49:47.3331427+07:00 0HLMDA4MVKRAD:00000003 [INF] Request finished in 26.4069ms 200 text/plain (791a596a)
+2019-04-30T16:49:47.3928911+07:00 0HLMDA4MVKRAE:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json   (ca22a1cb)
+2019-04-30T16:49:47.6204342+07:00 0HLMDA4MVKRAE:00000002 [INF] Request finished in 224.5714ms 200 application/json;charset=utf-8 (791a596a)
+2019-04-30T16:49:47.8873064+07:00 0HLMDA4MVKRAC:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-standalone-preset.js.map   (ca22a1cb)
+2019-04-30T16:49:47.8984702+07:00 0HLMDA4MVKRAC:00000004 [INF] Sending file. Request path: '"/swagger-ui-standalone-preset.js.map"'. Physical path: '"N/A"' (27b0a520)
+2019-04-30T16:49:47.9009519+07:00 0HLMDA4MVKRAC:00000004 [INF] Request finished in 13.2571ms 200 text/plain (791a596a)
+2019-04-30T17:16:51.1377427+07:00 0HLMDAJR0K6FF:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger   (ca22a1cb)
+2019-04-30T17:16:51.1377427+07:00 0HLMDAJR0K6FE:00000001 [INF] Request starting HTTP/1.1 DEBUG http://localhost:5000/  0 (ca22a1cb)
+2019-04-30T17:16:51.1993552+07:00 0HLMDAJR0K6FE:00000001 [INF] Request finished in 68.8742ms 200  (791a596a)
+2019-04-30T17:16:51.2506466+07:00 0HLMDAJR0K6FF:00000001 [INF] Request finished in 124.6469ms 301  (791a596a)
+2019-04-30T17:16:51.2592389+07:00 0HLMDAJR0K6FE:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html   (ca22a1cb)
+2019-04-30T17:16:51.3702202+07:00 0HLMDAJR0K6FE:00000002 [INF] Request finished in 111.6203ms 200 text/html (791a596a)
+2019-04-30T17:16:51.3945339+07:00 0HLMDAJR0K6FE:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-bundle.js   (ca22a1cb)
+2019-04-30T17:16:51.3945496+07:00 0HLMDAJR0K6FF:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui.css   (ca22a1cb)
+2019-04-30T17:16:51.3956747+07:00 0HLMDAJR0K6FG:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-standalone-preset.js   (ca22a1cb)
+2019-04-30T17:16:51.4684231+07:00 0HLMDAJR0K6FE:00000003 [INF] Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"' (27b0a520)
+2019-04-30T17:16:51.4701807+07:00 0HLMDAJR0K6FF:00000002 [INF] Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"' (27b0a520)
+2019-04-30T17:16:51.4702717+07:00 0HLMDAJR0K6FG:00000001 [INF] Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"' (27b0a520)
+2019-04-30T17:16:51.4821211+07:00 0HLMDAJR0K6FE:00000003 [INF] Request finished in 91.5149ms 200 application/javascript (791a596a)
+2019-04-30T17:16:51.4836105+07:00 0HLMDAJR0K6FF:00000002 [INF] Request finished in 91.5949ms 200 text/css (791a596a)
+2019-04-30T17:16:51.4855709+07:00 0HLMDAJR0K6FG:00000001 [INF] Request finished in 86.9832ms 200 application/javascript (791a596a)
+2019-04-30T17:16:51.6206429+07:00 0HLMDAJR0K6FF:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-bundle.js.map   (ca22a1cb)
+2019-04-30T17:16:51.6378828+07:00 0HLMDAJR0K6FF:00000003 [INF] Sending file. Request path: '"/swagger-ui-bundle.js.map"'. Physical path: '"N/A"' (27b0a520)
+2019-04-30T17:16:51.6405652+07:00 0HLMDAJR0K6FF:00000003 [INF] Request finished in 19.2569ms 200 text/plain (791a596a)
+2019-04-30T17:16:51.6945927+07:00 0HLMDAJR0K6FG:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json   (ca22a1cb)
+2019-04-30T17:16:51.8696585+07:00 0HLMDAJR0K6FG:00000002 [INF] Request finished in 175.3606ms 200 application/json;charset=utf-8 (791a596a)
+2019-04-30T17:16:52.0544756+07:00 0HLMDAJR0K6FE:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-standalone-preset.js.map   (ca22a1cb)
+2019-04-30T17:16:52.0630367+07:00 0HLMDAJR0K6FE:00000004 [INF] Sending file. Request path: '"/swagger-ui-standalone-preset.js.map"'. Physical path: '"N/A"' (27b0a520)
+2019-04-30T17:16:52.0662939+07:00 0HLMDAJR0K6FE:00000004 [INF] Request finished in 10.6848ms 200 text/plain (791a596a)
+2019-04-30T17:17:04.6928654+07:00 0HLMDAJR0K6FF:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:5000/admin/products/list   (ca22a1cb)
+2019-04-30T17:17:04.7264087+07:00 0HLMDAJR0K6FF:00000004 [INF] Executing endpoint '"CoreApp.Areas.Admin.Controllers.ProductController.GetAllPage (CoreApp)"' (500cc934)
+2019-04-30T17:17:04.7541632+07:00 0HLMDAJR0K6FF:00000004 [INF] Route matched with "{action = \"GetAllPage\", controller = \"Product\"}". Executing action "CoreApp.Areas.Admin.Controllers.ProductController.GetAllPage (CoreApp)" (a44c0341)
+2019-04-30T17:17:05.0183816+07:00 0HLMDAJR0K6FF:00000004 [INF] Executing action method "CoreApp.Areas.Admin.Controllers.ProductController.GetAllPage (CoreApp)" with arguments (["CoreApp.Application.ViewModels.PageViewModel.UserRequestListViewModel"]) - Validation state: Valid (4e3479ed)
+2019-04-30T17:17:05.3764205+07:00 0HLMDAJR0K6FF:00000004 [WRN] No type was specified for the decimal column '"Balance"' on entity type '"AppUser"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-04-30T17:17:05.3782087+07:00 0HLMDAJR0K6FF:00000004 [WRN] No type was specified for the decimal column '"Price"' on entity type '"BillDetail"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-04-30T17:17:05.3798241+07:00 0HLMDAJR0K6FF:00000004 [WRN] No type was specified for the decimal column '"OriginalPrice"' on entity type '"Product"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-04-30T17:17:05.3815636+07:00 0HLMDAJR0K6FF:00000004 [WRN] No type was specified for the decimal column '"Price"' on entity type '"Product"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-04-30T17:17:05.3836916+07:00 0HLMDAJR0K6FF:00000004 [WRN] No type was specified for the decimal column '"PromotionPrice"' on entity type '"Product"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-04-30T17:17:05.3856946+07:00 0HLMDAJR0K6FF:00000004 [WRN] No type was specified for the decimal column '"Value5"' on entity type '"SystemConfig"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-04-30T17:17:05.3878067+07:00 0HLMDAJR0K6FF:00000004 [WRN] No type was specified for the decimal column '"Price"' on entity type '"WholePrice"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-04-30T17:17:05.4307114+07:00 0HLMDAJR0K6FF:00000004 [INF] Entity Framework Core "2.2.3-servicing-35854" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-04-30T17:17:05.5088062+07:00 0HLMDAJR0K6FF:00000004 [WRN] The Include operation for navigation '"[x].ProductCategory"' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information. (10efaee6)
+2019-04-30T17:17:05.6697092+07:00 0HLMDAJR0K6FF:00000004 [INF] Executed DbCommand ("23"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [Products] AS [x]
+WHERE [x].[Status] = 1" (0723d8ff)
+2019-04-30T17:17:05.7499983+07:00 0HLMDAJR0K6FF:00000004 [INF] Executed DbCommand ("7"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[CategoryId], [x].[Content], [x].[DateCreated], [x].[DateModified], [x].[Description], [x].[HotFlag], [x].[Image], [x].[Name], [x].[OriginalPrice], [x].[Price], [x].[PromotionPrice], [x].[SeoAlias], [x].[SeoDescription], [x].[SeoKeyWords], [x].[SeoPageTitle], [x].[Status], [x].[Tags], [x].[Unit], [x].[ViewCount], [x.ProductCategory].[Id], [x.ProductCategory].[DateCreated], [x.ProductCategory].[DateModified], [x.ProductCategory].[Description], [x.ProductCategory].[HomeFlag], [x.ProductCategory].[HomeOrder], [x.ProductCategory].[Image], [x.ProductCategory].[Name], [x.ProductCategory].[ParentId], [x.ProductCategory].[SeoAlias], [x.ProductCategory].[SeoDescription], [x.ProductCategory].[SeoKeyWords], [x.ProductCategory].[SeoPageTitle], [x.ProductCategory].[SortOrder], [x.ProductCategory].[Status]
+FROM [Products] AS [x]
+INNER JOIN [ProductCategories] AS [x.ProductCategory] ON [x].[CategoryId] = [x.ProductCategory].[Id]
+WHERE [x].[Status] = 1
+ORDER BY [x].[DateCreated] DESC, [x].[Id]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY" (0723d8ff)
+2019-04-30T17:17:05.8136541+07:00 0HLMDAJR0K6FF:00000004 [INF] Executed action method "CoreApp.Areas.Admin.Controllers.ProductController.GetAllPage (CoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 790.8324ms. (50a9e262)
+2019-04-30T17:17:05.8230987+07:00 0HLMDAJR0K6FF:00000004 [INF] Executing ObjectResult, writing value of type '"CoreApp.Utilities.Dtos.PagedList`1[[CoreApp.Application.ViewModels.Products.ProductViewModel, CoreApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2019-04-30T17:17:05.8543603+07:00 0HLMDAJR0K6FF:00000004 [INF] Executed action "CoreApp.Areas.Admin.Controllers.ProductController.GetAllPage (CoreApp)" in 1093.3449ms (afa2e885)
+2019-04-30T17:17:05.8562021+07:00 0HLMDAJR0K6FF:00000004 [INF] Executed endpoint '"CoreApp.Areas.Admin.Controllers.ProductController.GetAllPage (CoreApp)"' (99874f2b)
+2019-04-30T17:17:05.8595041+07:00 0HLMDAJR0K6FF:00000004 [INF] Request finished in 1165.6596ms 200 application/json; charset=utf-8 (791a596a)
+2019-04-30T17:17:38.6098140+07:00 0HLMDAJR0K6FG:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:5000/admin/products/list/{id}   (ca22a1cb)
+2019-04-30T17:17:38.6144065+07:00 0HLMDAJR0K6FG:00000003 [INF] Executing endpoint '"CoreApp.Areas.Admin.Controllers.ProductController.GetById (CoreApp)"' (500cc934)
+2019-04-30T17:17:38.6242497+07:00 0HLMDAJR0K6FG:00000003 [INF] Route matched with "{action = \"GetById\", controller = \"Product\"}". Executing action "CoreApp.Areas.Admin.Controllers.ProductController.GetById (CoreApp)" (a44c0341)
+2019-04-30T17:17:38.6317045+07:00 0HLMDAJR0K6FG:00000003 [INF] Executing action method "CoreApp.Areas.Admin.Controllers.ProductController.GetById (CoreApp)" with arguments (["00000000-0000-0000-0000-000000000000"]) - Validation state: Invalid (4e3479ed)
+2019-04-30T17:17:38.6653792+07:00 0HLMDAJR0K6FG:00000003 [INF] Entity Framework Core "2.2.3-servicing-35854" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-04-30T17:17:38.7210160+07:00 0HLMDAJR0K6FG:00000003 [INF] Executed DbCommand ("10"ms) [Parameters=["@__id_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [i].[Id], [i].[CategoryId], [i].[Content], [i].[DateCreated], [i].[DateModified], [i].[Description], [i].[HotFlag], [i].[Image], [i].[Name], [i].[OriginalPrice], [i].[Price], [i].[PromotionPrice], [i].[SeoAlias], [i].[SeoDescription], [i].[SeoKeyWords], [i].[SeoPageTitle], [i].[Status], [i].[Tags], [i].[Unit], [i].[ViewCount]
+FROM [Products] AS [i]
+WHERE [i].[Id] = @__id_0" (0723d8ff)
+2019-04-30T17:17:38.7445875+07:00 0HLMDAJR0K6FG:00000003 [INF] Executed action method "CoreApp.Areas.Admin.Controllers.ProductController.GetById (CoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 111.3852ms. (50a9e262)
+2019-04-30T17:17:38.7540487+07:00 0HLMDAJR0K6FG:00000003 [INF] Executing ObjectResult, writing value of type '"null"'. (8a1b66c8)
+2019-04-30T17:17:38.7582008+07:00 0HLMDAJR0K6FG:00000003 [INF] Executed action "CoreApp.Areas.Admin.Controllers.ProductController.GetById (CoreApp)" in 132.4149ms (afa2e885)
+2019-04-30T17:17:38.7609865+07:00 0HLMDAJR0K6FG:00000003 [INF] Executed endpoint '"CoreApp.Areas.Admin.Controllers.ProductController.GetById (CoreApp)"' (99874f2b)
+2019-04-30T17:17:38.7650415+07:00 0HLMDAJR0K6FG:00000003 [INF] Request finished in 155.3634ms 204  (791a596a)
+2019-04-30T17:18:34.7692747+07:00 0HLMDAJR0K6FG:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:5000/admin/categories/list   (ca22a1cb)
+2019-04-30T17:18:34.7714432+07:00 0HLMDAJR0K6FG:00000004 [INF] Executing endpoint '"CoreApp.Areas.Admin.Controllers.ProductCategoryController.GetList (CoreApp)"' (500cc934)
+2019-04-30T17:18:34.7896400+07:00 0HLMDAJR0K6FG:00000004 [INF] Route matched with "{action = \"GetList\", controller = \"ProductCategory\"}". Executing action "CoreApp.Areas.Admin.Controllers.ProductCategoryController.GetList (CoreApp)" (a44c0341)
+2019-04-30T17:18:34.7929532+07:00 0HLMDAJR0K6FG:00000004 [INF] Executing action method "CoreApp.Areas.Admin.Controllers.ProductCategoryController.GetList (CoreApp)" with arguments (["CoreApp.Application.ViewModels.PageViewModel.UserRequestListViewModel"]) - Validation state: Valid (4e3479ed)
+2019-04-30T17:18:34.7987872+07:00 0HLMDAJR0K6FG:00000004 [INF] Entity Framework Core "2.2.3-servicing-35854" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-04-30T17:18:34.8219813+07:00 0HLMDAJR0K6FG:00000004 [INF] Executed DbCommand ("10"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [ProductCategories] AS [x]" (0723d8ff)
+2019-04-30T17:18:34.8351305+07:00 0HLMDAJR0K6FG:00000004 [INF] Executed DbCommand ("2"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[DateCreated], [x].[DateModified], [x].[Description], [x].[HomeFlag], [x].[HomeOrder], [x].[Image], [x].[Name], [x].[ParentId], [x].[SeoAlias], [x].[SeoDescription], [x].[SeoKeyWords], [x].[SeoPageTitle], [x].[SortOrder], [x].[Status]
+FROM [ProductCategories] AS [x]
+ORDER BY [x].[DateCreated] DESC, [x].[Id]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY" (0723d8ff)
+2019-04-30T17:18:34.8413903+07:00 0HLMDAJR0K6FG:00000004 [INF] Executed action method "CoreApp.Areas.Admin.Controllers.ProductCategoryController.GetList (CoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 46.55ms. (50a9e262)
+2019-04-30T17:18:34.8434080+07:00 0HLMDAJR0K6FG:00000004 [INF] Executing ObjectResult, writing value of type '"CoreApp.Utilities.Dtos.PagedList`1[[CoreApp.Application.ViewModels.Products.ProductCategoryViewModel, CoreApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2019-04-30T17:18:34.8559901+07:00 0HLMDAJR0K6FG:00000004 [INF] Executed action "CoreApp.Areas.Admin.Controllers.ProductCategoryController.GetList (CoreApp)" in 64.3081ms (afa2e885)
+2019-04-30T17:18:34.8581868+07:00 0HLMDAJR0K6FG:00000004 [INF] Executed endpoint '"CoreApp.Areas.Admin.Controllers.ProductCategoryController.GetList (CoreApp)"' (99874f2b)
+2019-04-30T17:18:34.8600958+07:00 0HLMDAJR0K6FG:00000004 [INF] Request finished in 93.7388ms 200 application/json; charset=utf-8 (791a596a)
+2019-04-30T17:18:48.1516398+07:00 0HLMDAJR0K6FG:00000005 [INF] Request starting HTTP/1.1 POST http://localhost:5000/admin/products/addproduct application/json-patch+json 448 (ca22a1cb)
+2019-04-30T17:18:48.1540481+07:00 0HLMDAJR0K6FG:00000005 [INF] Executing endpoint '"CoreApp.Areas.Admin.Controllers.ProductController.postProduct (CoreApp)"' (500cc934)
+2019-04-30T17:18:48.1612659+07:00 0HLMDAJR0K6FG:00000005 [INF] Route matched with "{action = \"postProduct\", controller = \"Product\"}". Executing action "CoreApp.Areas.Admin.Controllers.ProductController.postProduct (CoreApp)" (a44c0341)
+2019-04-30T17:18:48.2028456+07:00 0HLMDAJR0K6FG:00000005 [INF] Executing action method "CoreApp.Areas.Admin.Controllers.ProductController.postProduct (CoreApp)" with arguments ([""]) - Validation state: Invalid (4e3479ed)
+2019-04-30T17:18:48.2102071+07:00 0HLMDAJR0K6FG:00000005 [INF] Entity Framework Core "2.2.3-servicing-35854" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-04-30T17:18:48.3553199+07:00 0HLMDAJR0K6FG:00000005 [INF] Executed action "CoreApp.Areas.Admin.Controllers.ProductController.postProduct (CoreApp)" in 192.4595ms (afa2e885)
+2019-04-30T17:18:48.3572132+07:00 0HLMDAJR0K6FG:00000005 [INF] Executed endpoint '"CoreApp.Areas.Admin.Controllers.ProductController.postProduct (CoreApp)"' (99874f2b)
+2019-04-30T17:18:48.4192049+07:00 0HLMDAJR0K6FG:00000005 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.ArgumentNullException: Value cannot be null.
+Parameter name: entity
+   at Microsoft.EntityFrameworkCore.Utilities.Check.NotNull[T](T value, String parameterName)
+   at Microsoft.EntityFrameworkCore.DbContext.Add[TEntity](TEntity entity)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.Add(TEntity entity)
+   at CoreApp.Persistence.Repository.GenericRepository`1.InsertAsync(T entity) in C:\Users\Administrator\Documents\lichho\CoreApp.Infrastructure\Repository\GenericRepository.cs:line 77
+   at CoreApp.Application.Service.ProductService.AddAsync(AddProductViewModel addProductViewModel) in C:\Users\Administrator\Documents\lichho\CoreApp.Application\Service\ProductService.cs:line 60
+   at CoreApp.Areas.Admin.Controllers.ProductController.postProduct(AddProductViewModel addProductViewModel) in C:\Users\Administrator\Documents\lichho\CoreApp\Areas\Admin\Controllers\ProductController.cs:line 50
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-04-30T17:18:48.4468541+07:00 0HLMDAJR0K6FG:00000005 [INF] Request finished in 295.516ms 500 text/html; charset=utf-8 (791a596a)
+2019-04-30T17:19:08.9182202+07:00 0HLMDAJR0K6FG:00000006 [INF] Request starting HTTP/1.1 POST http://localhost:5000/admin/products/addproduct application/json-patch+json 448 (ca22a1cb)
+2019-04-30T17:19:08.9201875+07:00 0HLMDAJR0K6FG:00000006 [INF] Executing endpoint '"CoreApp.Areas.Admin.Controllers.ProductController.postProduct (CoreApp)"' (500cc934)
+2019-04-30T17:19:08.9222539+07:00 0HLMDAJR0K6FG:00000006 [INF] Route matched with "{action = \"postProduct\", controller = \"Product\"}". Executing action "CoreApp.Areas.Admin.Controllers.ProductController.postProduct (CoreApp)" (a44c0341)
+2019-04-30T17:19:08.9261790+07:00 0HLMDAJR0K6FG:00000006 [INF] Executing action method "CoreApp.Areas.Admin.Controllers.ProductController.postProduct (CoreApp)" with arguments ([""]) - Validation state: Invalid (4e3479ed)
+2019-04-30T17:22:53.3057032+07:00 0HLMDAN6VTLA1:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger   (ca22a1cb)
+2019-04-30T17:22:53.3057012+07:00 0HLMDAN6VTLA2:00000001 [INF] Request starting HTTP/1.1 DEBUG http://localhost:5000/  0 (ca22a1cb)
+2019-04-30T17:22:53.3622357+07:00 0HLMDAN6VTLA2:00000001 [INF] Request finished in 63.5175ms 200  (791a596a)
+2019-04-30T17:22:53.4085886+07:00 0HLMDAN6VTLA1:00000001 [INF] Request finished in 113.2498ms 301  (791a596a)
+2019-04-30T17:22:53.4144191+07:00 0HLMDAN6VTLA2:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html   (ca22a1cb)
+2019-04-30T17:22:53.5455941+07:00 0HLMDAN6VTLA2:00000002 [INF] Request finished in 130.4328ms 200 text/html (791a596a)
+2019-04-30T17:22:53.5733255+07:00 0HLMDAN6VTLA1:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-bundle.js   (ca22a1cb)
+2019-04-30T17:22:53.5752133+07:00 0HLMDAN6VTLA2:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui.css   (ca22a1cb)
+2019-04-30T17:22:53.5904503+07:00 0HLMDAN6VTLA3:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-standalone-preset.js   (ca22a1cb)
+2019-04-30T17:22:53.6652039+07:00 0HLMDAN6VTLA1:00000002 [INF] Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"' (27b0a520)
+2019-04-30T17:22:53.6652040+07:00 0HLMDAN6VTLA3:00000001 [INF] Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"' (27b0a520)
+2019-04-30T17:22:53.6652040+07:00 0HLMDAN6VTLA2:00000003 [INF] Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"' (27b0a520)
+2019-04-30T17:22:53.6859471+07:00 0HLMDAN6VTLA3:00000001 [INF] Request finished in 99.5594ms 200 application/javascript (791a596a)
+2019-04-30T17:22:53.6889735+07:00 0HLMDAN6VTLA1:00000002 [INF] Request finished in 107.2073ms 200 application/javascript (791a596a)
+2019-04-30T17:22:53.6899169+07:00 0HLMDAN6VTLA2:00000003 [INF] Request finished in 105.3554ms 200 text/css (791a596a)
+2019-04-30T17:22:53.7941689+07:00 0HLMDAN6VTLA2:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-bundle.js.map   (ca22a1cb)
+2019-04-30T17:22:53.8112385+07:00 0HLMDAN6VTLA2:00000004 [INF] Sending file. Request path: '"/swagger-ui-bundle.js.map"'. Physical path: '"N/A"' (27b0a520)
+2019-04-30T17:22:53.8132358+07:00 0HLMDAN6VTLA2:00000004 [INF] Request finished in 18.9689ms 200 text/plain (791a596a)
+2019-04-30T17:22:54.4469261+07:00 0HLMDAN6VTLA3:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-standalone-preset.js.map   (ca22a1cb)
+2019-04-30T17:22:54.4726747+07:00 0HLMDAN6VTLA3:00000002 [INF] Sending file. Request path: '"/swagger-ui-standalone-preset.js.map"'. Physical path: '"N/A"' (27b0a520)
+2019-04-30T17:22:54.4752876+07:00 0HLMDAN6VTLA3:00000002 [INF] Request finished in 28.4398ms 200 text/plain (791a596a)
+2019-04-30T17:22:54.7697186+07:00 0HLMDAN6VTLA1:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json   (ca22a1cb)
+2019-04-30T17:22:54.9252425+07:00 0HLMDAN6VTLA1:00000003 [INF] Request finished in 152.7056ms 200 application/json;charset=utf-8 (791a596a)
+2019-04-30T17:23:11.7485720+07:00 0HLMDAN6VTLA2:00000005 [INF] Request starting HTTP/1.1 GET http://localhost:5000/admin/categories/list   (ca22a1cb)
+2019-04-30T17:23:11.7954774+07:00 0HLMDAN6VTLA2:00000005 [INF] Executing endpoint '"CoreApp.Areas.Admin.Controllers.ProductCategoryController.GetList (CoreApp)"' (500cc934)
+2019-04-30T17:23:11.8278496+07:00 0HLMDAN6VTLA2:00000005 [INF] Route matched with "{action = \"GetList\", controller = \"ProductCategory\"}". Executing action "CoreApp.Areas.Admin.Controllers.ProductCategoryController.GetList (CoreApp)" (a44c0341)
+2019-04-30T17:23:12.1966083+07:00 0HLMDAN6VTLA2:00000005 [INF] Executing action method "CoreApp.Areas.Admin.Controllers.ProductCategoryController.GetList (CoreApp)" with arguments (["CoreApp.Application.ViewModels.PageViewModel.UserRequestListViewModel"]) - Validation state: Valid (4e3479ed)
+2019-04-30T17:23:12.6142656+07:00 0HLMDAN6VTLA2:00000005 [WRN] No type was specified for the decimal column '"Balance"' on entity type '"AppUser"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-04-30T17:23:12.6167767+07:00 0HLMDAN6VTLA2:00000005 [WRN] No type was specified for the decimal column '"Price"' on entity type '"BillDetail"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-04-30T17:23:12.6190386+07:00 0HLMDAN6VTLA2:00000005 [WRN] No type was specified for the decimal column '"OriginalPrice"' on entity type '"Product"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-04-30T17:23:12.6208298+07:00 0HLMDAN6VTLA2:00000005 [WRN] No type was specified for the decimal column '"Price"' on entity type '"Product"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-04-30T17:23:12.6226282+07:00 0HLMDAN6VTLA2:00000005 [WRN] No type was specified for the decimal column '"PromotionPrice"' on entity type '"Product"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-04-30T17:23:12.6242240+07:00 0HLMDAN6VTLA2:00000005 [WRN] No type was specified for the decimal column '"Value5"' on entity type '"SystemConfig"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-04-30T17:23:12.6258569+07:00 0HLMDAN6VTLA2:00000005 [WRN] No type was specified for the decimal column '"Price"' on entity type '"WholePrice"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-04-30T17:23:12.6825320+07:00 0HLMDAN6VTLA2:00000005 [INF] Entity Framework Core "2.2.3-servicing-35854" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-04-30T17:23:12.9685818+07:00 0HLMDAN6VTLA2:00000005 [INF] Executed DbCommand ("5"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [ProductCategories] AS [x]" (0723d8ff)
+2019-04-30T17:23:13.0174900+07:00 0HLMDAN6VTLA2:00000005 [INF] Executed DbCommand ("5"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[DateCreated], [x].[DateModified], [x].[Description], [x].[HomeFlag], [x].[HomeOrder], [x].[Image], [x].[Name], [x].[ParentId], [x].[SeoAlias], [x].[SeoDescription], [x].[SeoKeyWords], [x].[SeoPageTitle], [x].[SortOrder], [x].[Status]
+FROM [ProductCategories] AS [x]
+ORDER BY [x].[DateCreated] DESC, [x].[Id]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY" (0723d8ff)
+2019-04-30T17:23:13.0318333+07:00 0HLMDAN6VTLA2:00000005 [INF] Executed action method "CoreApp.Areas.Admin.Controllers.ProductCategoryController.GetList (CoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 828.8727ms. (50a9e262)
+2019-04-30T17:23:13.0426340+07:00 0HLMDAN6VTLA2:00000005 [INF] Executing ObjectResult, writing value of type '"CoreApp.Utilities.Dtos.PagedList`1[[CoreApp.Application.ViewModels.Products.ProductCategoryViewModel, CoreApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2019-04-30T17:23:13.0679257+07:00 0HLMDAN6VTLA2:00000005 [INF] Executed action "CoreApp.Areas.Admin.Controllers.ProductCategoryController.GetList (CoreApp)" in 1233.5762ms (afa2e885)
+2019-04-30T17:23:13.0697196+07:00 0HLMDAN6VTLA2:00000005 [INF] Executed endpoint '"CoreApp.Areas.Admin.Controllers.ProductCategoryController.GetList (CoreApp)"' (99874f2b)
+2019-04-30T17:23:13.0725236+07:00 0HLMDAN6VTLA2:00000005 [INF] Request finished in 1324.0357ms 200 application/json; charset=utf-8 (791a596a)
+2019-04-30T17:32:57.2691414+07:00 0HLMDAN6VTLA4:00000001 [INF] Request starting HTTP/1.1 POST http://localhost:5000/admin/products/addproduct application/json-patch+json 174 (ca22a1cb)
+2019-04-30T17:32:57.2734844+07:00 0HLMDAN6VTLA4:00000001 [INF] Executing endpoint '"CoreApp.Areas.Admin.Controllers.ProductController.addProduct (CoreApp)"' (500cc934)
+2019-04-30T17:32:57.2967993+07:00 0HLMDAN6VTLA4:00000001 [INF] Route matched with "{action = \"addProduct\", controller = \"Product\"}". Executing action "CoreApp.Areas.Admin.Controllers.ProductController.addProduct (CoreApp)" (a44c0341)
+2019-04-30T17:32:57.3285329+07:00 0HLMDAN6VTLA4:00000001 [INF] Executing action method "CoreApp.Areas.Admin.Controllers.ProductController.addProduct (CoreApp)" with arguments (["CoreApp.Application.ViewModels.Products.AddProductViewModel"]) - Validation state: Valid (4e3479ed)
+2019-04-30T17:33:07.6517429+07:00 0HLMDAN6VTLA4:00000001 [INF] Entity Framework Core "2.2.3-servicing-35854" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-04-30T17:33:07.9167053+07:00 0HLMDAN6VTLA4:00000001 [ERR] Failed executing DbCommand ("28"ms) [Parameters=["@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime2), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000), @p4='?', @p5='?' (DbType = Int32), @p6='?' (Size = 4000), @p7='?' (Size = 4000), @p8='?' (DbType = Guid), @p9='?' (Size = 4000), @p10='?' (Size = 4000), @p11='?' (Size = 4000), @p12='?' (Size = 4000), @p13='?' (DbType = Int32), @p14='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [ProductCategories] ([Id], [DateCreated], [DateModified], [Description], [HomeFlag], [HomeOrder], [Image], [Name], [ParentId], [SeoAlias], [SeoDescription], [SeoKeyWords], [SeoPageTitle], [SortOrder], [Status])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14);" (627a98df)
+System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_ProductCategories'. Cannot insert duplicate key in object 'dbo.ProductCategories'. The duplicate key value is (7e39d879-690b-4a16-9176-889e97c5653c).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__122_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteAsync(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues, CancellationToken cancellationToken)
+ClientConnectionId:5cd16aa2-2f2c-4058-b84e-b5640327185a
+Error Number:2627,State:1,Class:14
+2019-04-30T17:33:07.9395304+07:00 0HLMDAN6VTLA4:00000001 [ERR] An exception occurred in the database while saving changes for context type '"CoreApp.Persistence.AppDbContext"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: Violation of PRIMARY KEY constraint 'PK_ProductCategories'. Cannot insert duplicate key in object 'dbo.ProductCategories'. The duplicate key value is (7e39d879-690b-4a16-9176-889e97c5653c).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__122_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteAsync(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(DbContext _, ValueTuple`2 parameters, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IReadOnlyList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)" (170f029e)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: Violation of PRIMARY KEY constraint 'PK_ProductCategories'. Cannot insert duplicate key in object 'dbo.ProductCategories'. The duplicate key value is (7e39d879-690b-4a16-9176-889e97c5653c).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__122_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteAsync(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(DbContext _, ValueTuple`2 parameters, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IReadOnlyList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at CoreApp.Persistence.Repository.GenericRepository`1.InsertAsync(T entity) in C:\Users\Administrator\Documents\lichho\CoreApp.Infrastructure\Repository\GenericRepository.cs:line 78
+2019-04-30T17:33:08.1203848+07:00 0HLMDAN6VTLA4:00000001 [INF] Executed action "CoreApp.Areas.Admin.Controllers.ProductController.addProduct (CoreApp)" in 10821.5171ms (afa2e885)
+2019-04-30T17:33:08.1241987+07:00 0HLMDAN6VTLA4:00000001 [INF] Executed endpoint '"CoreApp.Areas.Admin.Controllers.ProductController.addProduct (CoreApp)"' (99874f2b)
+2019-04-30T17:33:08.4481393+07:00 0HLMDAN6VTLA4:00000001 [INF] Executed DbCommand ("24"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');" (0723d8ff)
+2019-04-30T17:33:08.5330938+07:00 0HLMDAN6VTLA4:00000001 [INF] Executed DbCommand ("71"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];" (0723d8ff)
+2019-04-30T17:33:08.6013924+07:00 0HLMDAN6VTLA4:00000001 [INF] Request finished in 11298.0616ms 500 text/html; charset=utf-8 (791a596a)
+2019-04-30T17:33:24.1191736+07:00 0HLMDAN6VTLA4:00000002 [INF] Request starting HTTP/1.1 POST http://localhost:5000/admin/products/addproduct application/json-patch+json 174 (ca22a1cb)
+2019-04-30T17:33:24.1216066+07:00 0HLMDAN6VTLA4:00000002 [INF] Executing endpoint '"CoreApp.Areas.Admin.Controllers.ProductController.addProduct (CoreApp)"' (500cc934)
+2019-04-30T17:33:24.1233704+07:00 0HLMDAN6VTLA4:00000002 [INF] Route matched with "{action = \"addProduct\", controller = \"Product\"}". Executing action "CoreApp.Areas.Admin.Controllers.ProductController.addProduct (CoreApp)" (a44c0341)
+2019-04-30T17:33:24.1262327+07:00 0HLMDAN6VTLA4:00000002 [INF] Executing action method "CoreApp.Areas.Admin.Controllers.ProductController.addProduct (CoreApp)" with arguments (["CoreApp.Application.ViewModels.Products.AddProductViewModel"]) - Validation state: Valid (4e3479ed)
+2019-04-30T17:33:35.0327379+07:00 0HLMDAN6VTLA4:00000002 [INF] Entity Framework Core "2.2.3-servicing-35854" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-04-30T17:33:35.1468613+07:00 0HLMDAN6VTLA4:00000002 [ERR] Failed executing DbCommand ("98"ms) [Parameters=["@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime2), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000), @p4='?', @p5='?' (DbType = Int32), @p6='?' (Size = 4000), @p7='?' (Size = 4000), @p8='?' (DbType = Guid), @p9='?' (Size = 4000), @p10='?' (Size = 4000), @p11='?' (Size = 4000), @p12='?' (Size = 4000), @p13='?' (DbType = Int32), @p14='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [ProductCategories] ([Id], [DateCreated], [DateModified], [Description], [HomeFlag], [HomeOrder], [Image], [Name], [ParentId], [SeoAlias], [SeoDescription], [SeoKeyWords], [SeoPageTitle], [SortOrder], [Status])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14);" (627a98df)
+System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_ProductCategories'. Cannot insert duplicate key in object 'dbo.ProductCategories'. The duplicate key value is (7e39d879-690b-4a16-9176-889e97c5653c).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__122_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteAsync(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:5cd16aa2-2f2c-4058-b84e-b5640327185a
+Error Number:2627,State:1,Class:14
+2019-04-30T17:33:35.1895076+07:00 0HLMDAN6VTLA4:00000002 [ERR] An exception occurred in the database while saving changes for context type '"CoreApp.Persistence.AppDbContext"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: Violation of PRIMARY KEY constraint 'PK_ProductCategories'. Cannot insert duplicate key in object 'dbo.ProductCategories'. The duplicate key value is (7e39d879-690b-4a16-9176-889e97c5653c).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__122_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteAsync(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(DbContext _, ValueTuple`2 parameters, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IReadOnlyList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)" (170f029e)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: Violation of PRIMARY KEY constraint 'PK_ProductCategories'. Cannot insert duplicate key in object 'dbo.ProductCategories'. The duplicate key value is (7e39d879-690b-4a16-9176-889e97c5653c).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__122_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteAsync(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(DbContext _, ValueTuple`2 parameters, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IReadOnlyList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at CoreApp.Persistence.Repository.GenericRepository`1.InsertAsync(T entity) in C:\Users\Administrator\Documents\lichho\CoreApp.Infrastructure\Repository\GenericRepository.cs:line 78
+2019-04-30T17:33:35.5126785+07:00 0HLMDAN6VTLA4:00000002 [INF] Executed action "CoreApp.Areas.Admin.Controllers.ProductController.addProduct (CoreApp)" in 11386.8649ms (afa2e885)
+2019-04-30T17:33:35.5151105+07:00 0HLMDAN6VTLA4:00000002 [INF] Executed endpoint '"CoreApp.Areas.Admin.Controllers.ProductController.addProduct (CoreApp)"' (99874f2b)
+2019-04-30T17:33:35.6399676+07:00 0HLMDAN6VTLA4:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');" (0723d8ff)
+2019-04-30T17:33:35.7119316+07:00 0HLMDAN6VTLA4:00000002 [INF] Executed DbCommand ("21"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];" (0723d8ff)
+2019-04-30T17:33:35.7356586+07:00 0HLMDAN6VTLA4:00000002 [INF] Request finished in 11615.8205ms 500 text/html; charset=utf-8 (791a596a)
+2019-04-30T17:33:45.6567497+07:00 0HLMDAN6VTLA4:00000003 [INF] Request starting HTTP/1.1 POST http://localhost:5000/admin/products/addproduct application/json-patch+json 174 (ca22a1cb)
+2019-04-30T17:33:45.6583541+07:00 0HLMDAN6VTLA4:00000003 [INF] Executing endpoint '"CoreApp.Areas.Admin.Controllers.ProductController.addProduct (CoreApp)"' (500cc934)
+2019-04-30T17:33:45.6599006+07:00 0HLMDAN6VTLA4:00000003 [INF] Route matched with "{action = \"addProduct\", controller = \"Product\"}". Executing action "CoreApp.Areas.Admin.Controllers.ProductController.addProduct (CoreApp)" (a44c0341)
+2019-04-30T17:33:45.6620682+07:00 0HLMDAN6VTLA4:00000003 [INF] Executing action method "CoreApp.Areas.Admin.Controllers.ProductController.addProduct (CoreApp)" with arguments (["CoreApp.Application.ViewModels.Products.AddProductViewModel"]) - Validation state: Valid (4e3479ed)
+2019-04-30T17:34:40.3122190+07:00 0HLMDAN6VTLA4:00000003 [INF] Entity Framework Core "2.2.3-servicing-35854" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-04-30T17:34:40.4088224+07:00 0HLMDAN6VTLA4:00000003 [ERR] Failed executing DbCommand ("85"ms) [Parameters=["@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime2), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000), @p4='?', @p5='?' (DbType = Int32), @p6='?' (Size = 4000), @p7='?' (Size = 4000), @p8='?' (DbType = Guid), @p9='?' (Size = 4000), @p10='?' (Size = 4000), @p11='?' (Size = 4000), @p12='?' (Size = 4000), @p13='?' (DbType = Int32), @p14='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [ProductCategories] ([Id], [DateCreated], [DateModified], [Description], [HomeFlag], [HomeOrder], [Image], [Name], [ParentId], [SeoAlias], [SeoDescription], [SeoKeyWords], [SeoPageTitle], [SortOrder], [Status])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14);" (627a98df)
+System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_ProductCategories'. Cannot insert duplicate key in object 'dbo.ProductCategories'. The duplicate key value is (7e39d879-690b-4a16-9176-889e97c5653c).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__122_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteAsync(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:5cd16aa2-2f2c-4058-b84e-b5640327185a
+Error Number:2627,State:1,Class:14
+2019-04-30T17:34:40.4443219+07:00 0HLMDAN6VTLA4:00000003 [ERR] An exception occurred in the database while saving changes for context type '"CoreApp.Persistence.AppDbContext"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: Violation of PRIMARY KEY constraint 'PK_ProductCategories'. Cannot insert duplicate key in object 'dbo.ProductCategories'. The duplicate key value is (7e39d879-690b-4a16-9176-889e97c5653c).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__122_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteAsync(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(DbContext _, ValueTuple`2 parameters, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IReadOnlyList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)" (170f029e)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: Violation of PRIMARY KEY constraint 'PK_ProductCategories'. Cannot insert duplicate key in object 'dbo.ProductCategories'. The duplicate key value is (7e39d879-690b-4a16-9176-889e97c5653c).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__122_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteAsync(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(DbContext _, ValueTuple`2 parameters, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IReadOnlyList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at CoreApp.Persistence.Repository.GenericRepository`1.InsertAsync(T entity) in C:\Users\Administrator\Documents\lichho\CoreApp.Infrastructure\Repository\GenericRepository.cs:line 78
+2019-04-30T17:34:40.7963612+07:00 0HLMDAN6VTLA4:00000003 [INF] Executed action "CoreApp.Areas.Admin.Controllers.ProductController.addProduct (CoreApp)" in 55134.1095ms (afa2e885)
+2019-04-30T17:34:40.7986913+07:00 0HLMDAN6VTLA4:00000003 [INF] Executed endpoint '"CoreApp.Areas.Admin.Controllers.ProductController.addProduct (CoreApp)"' (99874f2b)
+2019-04-30T17:34:40.9583309+07:00 0HLMDAN6VTLA4:00000003 [INF] Executed DbCommand ("22"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');" (0723d8ff)
+2019-04-30T17:34:41.0047300+07:00 0HLMDAN6VTLA4:00000003 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];" (0723d8ff)
+2019-04-30T17:34:41.0553275+07:00 0HLMDAN6VTLA4:00000003 [INF] Request finished in 55376.6531ms 500 text/html; charset=utf-8 (791a596a)
+2019-04-30T17:35:00.1634739+07:00 0HLMDAN6VTLA4:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:5000/admin/products/list   (ca22a1cb)
+2019-04-30T17:35:00.1655028+07:00 0HLMDAN6VTLA4:00000004 [INF] Executing endpoint '"CoreApp.Areas.Admin.Controllers.ProductController.GetAllPage (CoreApp)"' (500cc934)
+2019-04-30T17:35:00.1693880+07:00 0HLMDAN6VTLA4:00000004 [INF] Route matched with "{action = \"GetAllPage\", controller = \"Product\"}". Executing action "CoreApp.Areas.Admin.Controllers.ProductController.GetAllPage (CoreApp)" (a44c0341)
+2019-04-30T17:35:00.1723688+07:00 0HLMDAN6VTLA4:00000004 [INF] Executing action method "CoreApp.Areas.Admin.Controllers.ProductController.GetAllPage (CoreApp)" with arguments (["CoreApp.Application.ViewModels.PageViewModel.UserRequestListViewModel"]) - Validation state: Valid (4e3479ed)
+2019-04-30T17:35:00.1769265+07:00 0HLMDAN6VTLA4:00000004 [INF] Entity Framework Core "2.2.3-servicing-35854" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-04-30T17:35:00.1910657+07:00 0HLMDAN6VTLA4:00000004 [WRN] The Include operation for navigation '"[x].ProductCategory"' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information. (10efaee6)
+2019-04-30T17:35:00.2090174+07:00 0HLMDAN6VTLA4:00000004 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [Products] AS [x]
+WHERE [x].[Status] = 1" (0723d8ff)
+2019-04-30T17:35:00.2477435+07:00 0HLMDAN6VTLA4:00000004 [INF] Executed DbCommand ("3"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[CategoryId], [x].[Content], [x].[DateCreated], [x].[DateModified], [x].[Description], [x].[HotFlag], [x].[Image], [x].[Name], [x].[OriginalPrice], [x].[Price], [x].[PromotionPrice], [x].[SeoAlias], [x].[SeoDescription], [x].[SeoKeyWords], [x].[SeoPageTitle], [x].[Status], [x].[Tags], [x].[Unit], [x].[ViewCount], [x.ProductCategory].[Id], [x.ProductCategory].[DateCreated], [x.ProductCategory].[DateModified], [x.ProductCategory].[Description], [x.ProductCategory].[HomeFlag], [x.ProductCategory].[HomeOrder], [x.ProductCategory].[Image], [x.ProductCategory].[Name], [x.ProductCategory].[ParentId], [x.ProductCategory].[SeoAlias], [x.ProductCategory].[SeoDescription], [x.ProductCategory].[SeoKeyWords], [x.ProductCategory].[SeoPageTitle], [x.ProductCategory].[SortOrder], [x.ProductCategory].[Status]
+FROM [Products] AS [x]
+INNER JOIN [ProductCategories] AS [x.ProductCategory] ON [x].[CategoryId] = [x.ProductCategory].[Id]
+WHERE [x].[Status] = 1
+ORDER BY [x].[DateCreated] DESC, [x].[Id]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY" (0723d8ff)
+2019-04-30T17:35:00.2674914+07:00 0HLMDAN6VTLA4:00000004 [INF] Executed action method "CoreApp.Areas.Admin.Controllers.ProductController.GetAllPage (CoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 93.1258ms. (50a9e262)
+2019-04-30T17:35:00.2697482+07:00 0HLMDAN6VTLA4:00000004 [INF] Executing ObjectResult, writing value of type '"CoreApp.Utilities.Dtos.PagedList`1[[CoreApp.Application.ViewModels.Products.ProductViewModel, CoreApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2019-04-30T17:35:00.2882194+07:00 0HLMDAN6VTLA4:00000004 [INF] Executed action "CoreApp.Areas.Admin.Controllers.ProductController.GetAllPage (CoreApp)" in 117.1277ms (afa2e885)
+2019-04-30T17:35:00.2899536+07:00 0HLMDAN6VTLA4:00000004 [INF] Executed endpoint '"CoreApp.Areas.Admin.Controllers.ProductController.GetAllPage (CoreApp)"' (99874f2b)
+2019-04-30T17:35:00.2918343+07:00 0HLMDAN6VTLA4:00000004 [INF] Request finished in 128.5872ms 200 application/json; charset=utf-8 (791a596a)
+2019-04-30T17:42:35.6634845+07:00 0HLMDAN6VTLA5:00000001 [INF] Request starting HTTP/1.1 POST http://localhost:5000/admin/categories/addcategory application/json-patch+json 97 (ca22a1cb)
+2019-04-30T17:42:35.6665846+07:00 0HLMDAN6VTLA5:00000001 [INF] Executing endpoint '"CoreApp.Areas.Admin.Controllers.ProductCategoryController.addProductCategory (CoreApp)"' (500cc934)
+2019-04-30T17:42:35.6758852+07:00 0HLMDAN6VTLA5:00000001 [INF] Route matched with "{action = \"addProductCategory\", controller = \"ProductCategory\"}". Executing action "CoreApp.Areas.Admin.Controllers.ProductCategoryController.addProductCategory (CoreApp)" (a44c0341)
+2019-04-30T17:42:35.6840137+07:00 0HLMDAN6VTLA5:00000001 [INF] Executing action method "CoreApp.Areas.Admin.Controllers.ProductCategoryController.addProductCategory (CoreApp)" with arguments (["CoreApp.Application.ViewModels.Products.AddProductCategoryViewModel"]) - Validation state: Valid (4e3479ed)
+2019-04-30T17:42:35.6967899+07:00 0HLMDAN6VTLA5:00000001 [INF] Entity Framework Core "2.2.3-servicing-35854" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-04-30T17:42:35.7144021+07:00 0HLMDAN6VTLA5:00000001 [INF] Executed DbCommand ("2"ms) [Parameters=["@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime2), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000), @p4='?' (DbType = Boolean), @p5='?' (DbType = Int32), @p6='?' (Size = 4000), @p7='?' (Size = 4000), @p8='?' (DbType = Guid), @p9='?' (Size = 4000), @p10='?' (Size = 4000), @p11='?' (Size = 4000), @p12='?' (Size = 4000), @p13='?' (DbType = Int32), @p14='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [ProductCategories] ([Id], [DateCreated], [DateModified], [Description], [HomeFlag], [HomeOrder], [Image], [Name], [ParentId], [SeoAlias], [SeoDescription], [SeoKeyWords], [SeoPageTitle], [SortOrder], [Status])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14);" (0723d8ff)
+2019-04-30T17:42:35.7200384+07:00 0HLMDAN6VTLA5:00000001 [INF] Executed action method "CoreApp.Areas.Admin.Controllers.ProductCategoryController.addProductCategory (CoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 34.323ms. (50a9e262)
+2019-04-30T17:42:35.7218332+07:00 0HLMDAN6VTLA5:00000001 [INF] Executing ObjectResult, writing value of type '"CoreApp.Data.Entities.ProductCategory"'. (8a1b66c8)
+2019-04-30T17:42:35.7281487+07:00 0HLMDAN6VTLA5:00000001 [INF] Executed action "CoreApp.Areas.Admin.Controllers.ProductCategoryController.addProductCategory (CoreApp)" in 50.178ms (afa2e885)
+2019-04-30T17:42:35.7303149+07:00 0HLMDAN6VTLA5:00000001 [INF] Executed endpoint '"CoreApp.Areas.Admin.Controllers.ProductCategoryController.addProductCategory (CoreApp)"' (99874f2b)
+2019-04-30T17:42:35.7322910+07:00 0HLMDAN6VTLA5:00000001 [INF] Request finished in 68.8152ms 200 application/json; charset=utf-8 (791a596a)
+2019-04-30T17:48:00.8026906+07:00 0HLMDB58924RQ:00000001 [INF] Request starting HTTP/1.1 DEBUG http://localhost:5000/  0 (ca22a1cb)
+2019-04-30T17:48:00.8026907+07:00 0HLMDB58924RR:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger   (ca22a1cb)
+2019-04-30T17:48:00.8435369+07:00 0HLMDB58924RQ:00000001 [INF] Request finished in 46.7407ms 200  (791a596a)
+2019-04-30T17:48:00.8753190+07:00 0HLMDB58924RR:00000001 [INF] Request finished in 82.5616ms 301  (791a596a)
+2019-04-30T17:48:00.8830516+07:00 0HLMDB58924RQ:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html   (ca22a1cb)
+2019-04-30T17:48:00.9679122+07:00 0HLMDB58924RQ:00000002 [INF] Request finished in 84.931ms 200 text/html (791a596a)
+2019-04-30T17:48:00.9939115+07:00 0HLMDB58924RR:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-bundle.js   (ca22a1cb)
+2019-04-30T17:48:00.9939307+07:00 0HLMDB58924RQ:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-standalone-preset.js   (ca22a1cb)
+2019-04-30T17:48:00.9963585+07:00 0HLMDB58924RS:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui.css   (ca22a1cb)
+2019-04-30T17:48:01.0637421+07:00 0HLMDB58924RQ:00000003 [INF] Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"' (27b0a520)
+2019-04-30T17:48:01.0637492+07:00 0HLMDB58924RR:00000002 [INF] Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"' (27b0a520)
+2019-04-30T17:48:01.0667076+07:00 0HLMDB58924RS:00000001 [INF] Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"' (27b0a520)
+2019-04-30T17:48:01.0841080+07:00 0HLMDB58924RQ:00000003 [INF] Request finished in 88.5772ms 200 application/javascript (791a596a)
+2019-04-30T17:48:01.0875200+07:00 0HLMDB58924RR:00000002 [INF] Request finished in 88.6087ms 200 application/javascript (791a596a)
+2019-04-30T17:48:01.0885361+07:00 0HLMDB58924RS:00000001 [INF] Request finished in 82.1425ms 200 text/css (791a596a)
+2019-04-30T17:48:01.2377455+07:00 0HLMDB58924RS:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-bundle.js.map   (ca22a1cb)
+2019-04-30T17:48:01.2558535+07:00 0HLMDB58924RS:00000002 [INF] Sending file. Request path: '"/swagger-ui-bundle.js.map"'. Physical path: '"N/A"' (27b0a520)
+2019-04-30T17:48:01.2576744+07:00 0HLMDB58924RS:00000002 [INF] Request finished in 19.7542ms 200 text/plain (791a596a)
+2019-04-30T17:48:01.7666328+07:00 0HLMDB58924RQ:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-standalone-preset.js.map   (ca22a1cb)
+2019-04-30T17:48:01.7741702+07:00 0HLMDB58924RQ:00000004 [INF] Sending file. Request path: '"/swagger-ui-standalone-preset.js.map"'. Physical path: '"N/A"' (27b0a520)
+2019-04-30T17:48:01.7759348+07:00 0HLMDB58924RQ:00000004 [INF] Request finished in 9.513ms 200 text/plain (791a596a)
+2019-04-30T17:48:02.0189801+07:00 0HLMDB58924RR:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json   (ca22a1cb)
+2019-04-30T17:48:02.1757703+07:00 0HLMDB58924RR:00000003 [INF] Request finished in 156.8293ms 200 application/json;charset=utf-8 (791a596a)
+2019-04-30T17:48:31.1040918+07:00 0HLMDB58924RS:00000003 [INF] Request starting HTTP/1.1 POST http://localhost:5000/admin/products/addproduct application/json-patch+json 106 (ca22a1cb)
+2019-04-30T17:48:31.1490411+07:00 0HLMDB58924RS:00000003 [INF] Executing endpoint '"CoreApp.Areas.Admin.Controllers.ProductController.addProduct (CoreApp)"' (500cc934)
+2019-04-30T17:48:31.1777545+07:00 0HLMDB58924RS:00000003 [INF] Route matched with "{action = \"addProduct\", controller = \"Product\"}". Executing action "CoreApp.Areas.Admin.Controllers.ProductController.addProduct (CoreApp)" (a44c0341)
+2019-04-30T17:48:31.5000267+07:00 0HLMDB58924RS:00000003 [INF] Executing action method "CoreApp.Areas.Admin.Controllers.ProductController.addProduct (CoreApp)" with arguments (["CoreApp.Application.ViewModels.Products.AddProductViewModel"]) - Validation state: Valid (4e3479ed)
+2019-04-30T17:48:37.4103485+07:00 0HLMDB58924RS:00000003 [WRN] No type was specified for the decimal column '"Balance"' on entity type '"AppUser"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-04-30T17:48:37.4118784+07:00 0HLMDB58924RS:00000003 [WRN] No type was specified for the decimal column '"Price"' on entity type '"BillDetail"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-04-30T17:48:37.4131963+07:00 0HLMDB58924RS:00000003 [WRN] No type was specified for the decimal column '"OriginalPrice"' on entity type '"Product"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-04-30T17:48:37.4145280+07:00 0HLMDB58924RS:00000003 [WRN] No type was specified for the decimal column '"Price"' on entity type '"Product"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-04-30T17:48:37.4158122+07:00 0HLMDB58924RS:00000003 [WRN] No type was specified for the decimal column '"PromotionPrice"' on entity type '"Product"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-04-30T17:48:37.4170462+07:00 0HLMDB58924RS:00000003 [WRN] No type was specified for the decimal column '"Value5"' on entity type '"SystemConfig"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-04-30T17:48:37.4184094+07:00 0HLMDB58924RS:00000003 [WRN] No type was specified for the decimal column '"Price"' on entity type '"WholePrice"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-04-30T17:48:37.4664190+07:00 0HLMDB58924RS:00000003 [INF] Entity Framework Core "2.2.3-servicing-35854" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-04-30T17:48:37.7585273+07:00 0HLMDB58924RS:00000003 [INF] Executed DbCommand ("23"ms) [Parameters=["@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime2), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000), @p4='?', @p5='?' (DbType = Int32), @p6='?' (Size = 4000), @p7='?' (Size = 4000), @p8='?' (DbType = Guid), @p9='?' (Size = 4000), @p10='?' (Size = 4000), @p11='?' (Size = 4000), @p12='?' (Size = 4000), @p13='?' (DbType = Int32), @p14='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [ProductCategories] ([Id], [DateCreated], [DateModified], [Description], [HomeFlag], [HomeOrder], [Image], [Name], [ParentId], [SeoAlias], [SeoDescription], [SeoKeyWords], [SeoPageTitle], [SortOrder], [Status])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14);" (0723d8ff)
+2019-04-30T17:48:37.7802467+07:00 0HLMDB58924RS:00000003 [INF] Executed DbCommand ("15"ms) [Parameters=["@p15='?' (DbType = Guid), @p16='?' (DbType = Guid), @p17='?' (Size = 4000), @p18='?' (DbType = DateTime2), @p19='?' (DbType = DateTime2), @p20='?' (Size = 255), @p21='?', @p22='?' (Size = 255), @p23='?' (Size = 255), @p24='?' (DbType = Decimal), @p25='?' (DbType = Decimal), @p26='?' (DbType = Decimal), @p27='?' (Size = 255), @p28='?' (Size = 255), @p29='?' (Size = 255), @p30='?' (Size = 4000), @p31='?' (DbType = Int32), @p32='?' (Size = 255), @p33='?' (Size = 4000), @p34='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [Products] ([Id], [CategoryId], [Content], [DateCreated], [DateModified], [Description], [HotFlag], [Image], [Name], [OriginalPrice], [Price], [PromotionPrice], [SeoAlias], [SeoDescription], [SeoKeyWords], [SeoPageTitle], [Status], [Tags], [Unit], [ViewCount])
+VALUES (@p15, @p16, @p17, @p18, @p19, @p20, @p21, @p22, @p23, @p24, @p25, @p26, @p27, @p28, @p29, @p30, @p31, @p32, @p33, @p34);" (0723d8ff)
+2019-04-30T17:48:49.9165625+07:00 0HLMDB58924RS:00000003 [INF] Executed action method "CoreApp.Areas.Admin.Controllers.ProductController.addProduct (CoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 18406.9189ms. (50a9e262)
+2019-04-30T17:48:49.9441500+07:00 0HLMDB58924RS:00000003 [INF] Executing ObjectResult, writing value of type '"CoreApp.Data.Entities.Product"'. (8a1b66c8)
+2019-04-30T17:48:51.3225780+07:00 0HLMDB58924RS:00000003 [INF] Executed action "CoreApp.Areas.Admin.Controllers.ProductController.addProduct (CoreApp)" in 20137.2135ms (afa2e885)
+2019-04-30T17:48:51.3265142+07:00 0HLMDB58924RS:00000003 [INF] Executed endpoint '"CoreApp.Areas.Admin.Controllers.ProductController.addProduct (CoreApp)"' (99874f2b)
+2019-04-30T17:48:51.3955754+07:00 0HLMDB58924RS:00000003 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+Newtonsoft.Json.JsonSerializationException: Self referencing loop detected with type 'CoreApp.Data.Entities.Product'. Path 'productCategory.products'.
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.CheckForCircularReference(JsonWriter writer, Object value, JsonProperty property, JsonContract contract, JsonContainerContract containerContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeList(JsonWriter writer, IEnumerable values, JsonArrayContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeValue(JsonWriter writer, Object value, JsonContract valueContract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeValue(JsonWriter writer, Object value, JsonContract valueContract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeValue(JsonWriter writer, Object value, JsonContract valueContract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.Serialize(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.SerializeInternal(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Serialize(JsonWriter jsonWriter, Object value)
+   at Microsoft.AspNetCore.Mvc.Formatters.JsonOutputFormatter.WriteObject(TextWriter writer, Object value)
+   at Microsoft.AspNetCore.Mvc.Formatters.JsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultAsync(IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResultExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultFilters()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-04-30T17:48:51.3973938+07:00 0HLMDB58924RS:00000003 [WRN] The response has already started, the error page middleware will not be executed. (e1dd4c0d)
+2019-04-30T17:48:51.4056959+07:00 0HLMDB58924RS:00000003 [ERR] Connection id ""0HLMDB58924RS"", Request id ""0HLMDB58924RS:00000003"": An unhandled exception was thrown by the application. (560e7d32)
+Newtonsoft.Json.JsonSerializationException: Self referencing loop detected with type 'CoreApp.Data.Entities.Product'. Path 'productCategory.products'.
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.CheckForCircularReference(JsonWriter writer, Object value, JsonProperty property, JsonContract contract, JsonContainerContract containerContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeList(JsonWriter writer, IEnumerable values, JsonArrayContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeValue(JsonWriter writer, Object value, JsonContract valueContract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeValue(JsonWriter writer, Object value, JsonContract valueContract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeValue(JsonWriter writer, Object value, JsonContract valueContract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.Serialize(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.SerializeInternal(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Serialize(JsonWriter jsonWriter, Object value)
+   at Microsoft.AspNetCore.Mvc.Formatters.JsonOutputFormatter.WriteObject(TextWriter writer, Object value)
+   at Microsoft.AspNetCore.Mvc.Formatters.JsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultAsync(IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResultExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultFilters()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2019-04-30T17:48:51.4075904+07:00 0HLMDB58924RS:00000003 [INF] Request finished in 20304.0318ms 200 application/json; charset=utf-8 (791a596a)
+2019-04-30T17:58:21.2995666+07:00 0HLMDBB16AUK6:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger   (ca22a1cb)
+2019-04-30T17:58:21.2995669+07:00 0HLMDBB16AUK5:00000001 [INF] Request starting HTTP/1.1 DEBUG http://localhost:5000/  0 (ca22a1cb)
+2019-04-30T17:58:21.3823620+07:00 0HLMDBB16AUK5:00000001 [INF] Request finished in 94.9393ms 200  (791a596a)
+2019-04-30T17:58:21.4410684+07:00 0HLMDBB16AUK6:00000001 [INF] Request finished in 158.8859ms 301  (791a596a)
+2019-04-30T17:58:21.4450799+07:00 0HLMDBB16AUK5:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html   (ca22a1cb)
+2019-04-30T17:58:21.6323907+07:00 0HLMDBB16AUK5:00000002 [INF] Request finished in 187.3946ms 200 text/html (791a596a)
+2019-04-30T17:58:21.6576331+07:00 0HLMDBB16AUK5:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-bundle.js   (ca22a1cb)
+2019-04-30T17:58:21.6594582+07:00 0HLMDBB16AUK6:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui.css   (ca22a1cb)
+2019-04-30T17:58:21.6623321+07:00 0HLMDBB16AUK7:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-standalone-preset.js   (ca22a1cb)
+2019-04-30T17:58:21.7554560+07:00 0HLMDBB16AUK7:00000001 [INF] Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"' (27b0a520)
+2019-04-30T17:58:21.7565347+07:00 0HLMDBB16AUK6:00000002 [INF] Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"' (27b0a520)
+2019-04-30T17:58:21.7566466+07:00 0HLMDBB16AUK5:00000003 [INF] Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"' (27b0a520)
+2019-04-30T17:58:21.7697739+07:00 0HLMDBB16AUK5:00000003 [INF] Request finished in 110.8942ms 200 application/javascript (791a596a)
+2019-04-30T17:58:21.7719403+07:00 0HLMDBB16AUK7:00000001 [INF] Request finished in 103.9483ms 200 application/javascript (791a596a)
+2019-04-30T17:58:21.7730498+07:00 0HLMDBB16AUK6:00000002 [INF] Request finished in 109.0472ms 200 text/css (791a596a)
+2019-04-30T17:58:21.8814865+07:00 0HLMDBB16AUK6:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-bundle.js.map   (ca22a1cb)
+2019-04-30T17:58:21.8977112+07:00 0HLMDBB16AUK6:00000003 [INF] Sending file. Request path: '"/swagger-ui-bundle.js.map"'. Physical path: '"N/A"' (27b0a520)
+2019-04-30T17:58:21.8993674+07:00 0HLMDBB16AUK6:00000003 [INF] Request finished in 18.2761ms 200 text/plain (791a596a)
+2019-04-30T17:58:22.4222357+07:00 0HLMDBB16AUK7:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-standalone-preset.js.map   (ca22a1cb)
+2019-04-30T17:58:22.4296184+07:00 0HLMDBB16AUK7:00000002 [INF] Sending file. Request path: '"/swagger-ui-standalone-preset.js.map"'. Physical path: '"N/A"' (27b0a520)
+2019-04-30T17:58:22.4313748+07:00 0HLMDBB16AUK7:00000002 [INF] Request finished in 9.3723ms 200 text/plain (791a596a)
+2019-04-30T17:58:22.6771454+07:00 0HLMDBB16AUK5:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json   (ca22a1cb)
+2019-04-30T17:58:22.8232316+07:00 0HLMDBB16AUK5:00000004 [INF] Request finished in 145.8277ms 200 application/json;charset=utf-8 (791a596a)

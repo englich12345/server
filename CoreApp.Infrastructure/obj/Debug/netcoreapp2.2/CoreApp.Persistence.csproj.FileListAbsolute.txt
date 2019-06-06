@@ -1,0 +1,126 @@
+C:\Users\lich.ho\Documents\appcore\CoreApp\CoreApp.Infrastructure\bin\Debug\netcoreapp2.2\CoreApp.Persistence.deps.json
+C:\Users\lich.ho\Documents\appcore\CoreApp\CoreApp.Infrastructure\bin\Debug\netcoreapp2.2\CoreApp.Persistence.dll
+C:\Users\lich.ho\Documents\appcore\CoreApp\CoreApp.Infrastructure\obj\Debug\netcoreapp2.2\CoreApp.Persistence.csprojAssemblyReference.cache
+C:\Users\lich.ho\Documents\appcore\CoreApp\CoreApp.Infrastructure\obj\Debug\netcoreapp2.2\CoreApp.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\lich.ho\Documents\appcore\CoreApp\CoreApp.Infrastructure\obj\Debug\netcoreapp2.2\CoreApp.Persistence.AssemblyInfoInputs.cache
+C:\Users\lich.ho\Documents\appcore\CoreApp\CoreApp.Infrastructure\obj\Debug\netcoreapp2.2\CoreApp.Persistence.AssemblyInfo.cs
+C:\Users\lich.ho\Documents\appcore\CoreApp\CoreApp.Infrastructure\bin\Debug\netcoreapp2.2\CoreApp.Persistence.runtimeconfig.json
+C:\Users\lich.ho\Documents\appcore\CoreApp\CoreApp.Infrastructure\bin\Debug\netcoreapp2.2\CoreApp.Persistence.runtimeconfig.dev.json
+C:\Users\lich.ho\Documents\appcore\CoreApp\CoreApp.Infrastructure\bin\Debug\netcoreapp2.2\CoreApp.Data.dll
+C:\Users\lich.ho\Documents\appcore\CoreApp\CoreApp.Infrastructure\bin\Debug\netcoreapp2.2\CoreApp.Data.pdb
+C:\Users\lich.ho\Documents\appcore\CoreApp\CoreApp.Infrastructure\obj\Debug\netcoreapp2.2\CoreApp.Persistence.csproj.CopyComplete
+C:\Users\lich.ho\Documents\appcore\CoreApp\CoreApp.Infrastructure\bin\Debug\netcoreapp2.2\CoreApp.Persistence.pdb
+C:\Users\lich.ho\Documents\appcore\CoreApp\CoreApp.Infrastructure\obj\Debug\netcoreapp2.2\CoreApp.Persistence.dll
+C:\Users\lich.ho\Documents\appcore\CoreApp\CoreApp.Infrastructure\obj\Debug\netcoreapp2.2\CoreApp.Persistence.pdb
+C:\Users\Administrator\Documents\App\CoreApp\CoreApp.Infrastructure\bin\Debug\netcoreapp2.2\CoreApp.Persistence.deps.json
+C:\Users\Administrator\Documents\App\CoreApp\CoreApp.Infrastructure\bin\Debug\netcoreapp2.2\CoreApp.Persistence.runtimeconfig.json
+C:\Users\Administrator\Documents\App\CoreApp\CoreApp.Infrastructure\bin\Debug\netcoreapp2.2\CoreApp.Persistence.runtimeconfig.dev.json
+C:\Users\Administrator\Documents\App\CoreApp\CoreApp.Infrastructure\bin\Debug\netcoreapp2.2\CoreApp.Persistence.dll
+C:\Users\Administrator\Documents\App\CoreApp\CoreApp.Infrastructure\bin\Debug\netcoreapp2.2\CoreApp.Persistence.pdb
+C:\Users\Administrator\Documents\App\CoreApp\CoreApp.Infrastructure\bin\Debug\netcoreapp2.2\CoreApp.Data.dll
+C:\Users\Administrator\Documents\App\CoreApp\CoreApp.Infrastructure\bin\Debug\netcoreapp2.2\CoreApp.Data.pdb
+C:\Users\Administrator\Documents\App\CoreApp\CoreApp.Infrastructure\obj\Debug\netcoreapp2.2\CoreApp.Persistence.csprojAssemblyReference.cache
+C:\Users\Administrator\Documents\App\CoreApp\CoreApp.Infrastructure\obj\Debug\netcoreapp2.2\CoreApp.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\App\CoreApp\CoreApp.Infrastructure\obj\Debug\netcoreapp2.2\CoreApp.Persistence.AssemblyInfoInputs.cache
+C:\Users\Administrator\Documents\App\CoreApp\CoreApp.Infrastructure\obj\Debug\netcoreapp2.2\CoreApp.Persistence.AssemblyInfo.cs
+C:\Users\Administrator\Documents\App\CoreApp\CoreApp.Infrastructure\obj\Debug\netcoreapp2.2\CoreApp.Persistence.csproj.CopyComplete
+C:\Users\Administrator\Documents\App\CoreApp\CoreApp.Infrastructure\obj\Debug\netcoreapp2.2\CoreApp.Persistence.dll
+C:\Users\Administrator\Documents\App\CoreApp\CoreApp.Infrastructure\obj\Debug\netcoreapp2.2\CoreApp.Persistence.pdb
+C:\Users\Administrator\Documents\lichappcore\CoreApp\CoreApp.Infrastructure\bin\Debug\netcoreapp2.2\CoreApp.Persistence.deps.json
+C:\Users\Administrator\Documents\lichappcore\CoreApp\CoreApp.Infrastructure\bin\Debug\netcoreapp2.2\CoreApp.Persistence.runtimeconfig.json
+C:\Users\Administrator\Documents\lichappcore\CoreApp\CoreApp.Infrastructure\bin\Debug\netcoreapp2.2\CoreApp.Persistence.runtimeconfig.dev.json
+C:\Users\Administrator\Documents\lichappcore\CoreApp\CoreApp.Infrastructure\bin\Debug\netcoreapp2.2\CoreApp.Persistence.dll
+C:\Users\Administrator\Documents\lichappcore\CoreApp\CoreApp.Infrastructure\bin\Debug\netcoreapp2.2\CoreApp.Persistence.pdb
+C:\Users\Administrator\Documents\lichappcore\CoreApp\CoreApp.Infrastructure\bin\Debug\netcoreapp2.2\CoreApp.Data.dll
+C:\Users\Administrator\Documents\lichappcore\CoreApp\CoreApp.Infrastructure\bin\Debug\netcoreapp2.2\CoreApp.Data.pdb
+C:\Users\Administrator\Documents\lichappcore\CoreApp\CoreApp.Infrastructure\obj\Debug\netcoreapp2.2\CoreApp.Persistence.csprojAssemblyReference.cache
+C:\Users\Administrator\Documents\lichappcore\CoreApp\CoreApp.Infrastructure\obj\Debug\netcoreapp2.2\CoreApp.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\lichappcore\CoreApp\CoreApp.Infrastructure\obj\Debug\netcoreapp2.2\CoreApp.Persistence.AssemblyInfoInputs.cache
+C:\Users\Administrator\Documents\lichappcore\CoreApp\CoreApp.Infrastructure\obj\Debug\netcoreapp2.2\CoreApp.Persistence.AssemblyInfo.cs
+C:\Users\Administrator\Documents\lichappcore\CoreApp\CoreApp.Infrastructure\obj\Debug\netcoreapp2.2\CoreApp.Persistence.csproj.CopyComplete
+C:\Users\Administrator\Documents\lichappcore\CoreApp\CoreApp.Infrastructure\obj\Debug\netcoreapp2.2\CoreApp.Persistence.dll
+C:\Users\Administrator\Documents\lichappcore\CoreApp\CoreApp.Infrastructure\obj\Debug\netcoreapp2.2\CoreApp.Persistence.pdb
+C:\Users\lich.ho\Documents\lichappcore-master\CoreApp\CoreApp.Infrastructure\bin\Debug\netcoreapp2.2\CoreApp.Persistence.deps.json
+C:\Users\lich.ho\Documents\lichappcore-master\CoreApp\CoreApp.Infrastructure\bin\Debug\netcoreapp2.2\CoreApp.Persistence.runtimeconfig.json
+C:\Users\lich.ho\Documents\lichappcore-master\CoreApp\CoreApp.Infrastructure\bin\Debug\netcoreapp2.2\CoreApp.Persistence.runtimeconfig.dev.json
+C:\Users\lich.ho\Documents\lichappcore-master\CoreApp\CoreApp.Infrastructure\bin\Debug\netcoreapp2.2\CoreApp.Persistence.dll
+C:\Users\lich.ho\Documents\lichappcore-master\CoreApp\CoreApp.Infrastructure\bin\Debug\netcoreapp2.2\CoreApp.Persistence.pdb
+C:\Users\lich.ho\Documents\lichappcore-master\CoreApp\CoreApp.Infrastructure\bin\Debug\netcoreapp2.2\CoreApp.Data.dll
+C:\Users\lich.ho\Documents\lichappcore-master\CoreApp\CoreApp.Infrastructure\bin\Debug\netcoreapp2.2\CoreApp.Data.pdb
+C:\Users\lich.ho\Documents\lichappcore-master\CoreApp\CoreApp.Infrastructure\obj\Debug\netcoreapp2.2\CoreApp.Persistence.csprojAssemblyReference.cache
+C:\Users\lich.ho\Documents\lichappcore-master\CoreApp\CoreApp.Infrastructure\obj\Debug\netcoreapp2.2\CoreApp.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\lich.ho\Documents\lichappcore-master\CoreApp\CoreApp.Infrastructure\obj\Debug\netcoreapp2.2\CoreApp.Persistence.AssemblyInfoInputs.cache
+C:\Users\lich.ho\Documents\lichappcore-master\CoreApp\CoreApp.Infrastructure\obj\Debug\netcoreapp2.2\CoreApp.Persistence.AssemblyInfo.cs
+C:\Users\lich.ho\Documents\lichappcore-master\CoreApp\CoreApp.Infrastructure\obj\Debug\netcoreapp2.2\CoreApp.Persistence.csproj.CopyComplete
+C:\Users\lich.ho\Documents\lichappcore-master\CoreApp\CoreApp.Infrastructure\obj\Debug\netcoreapp2.2\CoreApp.Persistence.dll
+C:\Users\lich.ho\Documents\lichappcore-master\CoreApp\CoreApp.Infrastructure\obj\Debug\netcoreapp2.2\CoreApp.Persistence.pdb
+C:\Users\Administrator\Documents\englich\CoreApp.Infrastructure\bin\Debug\netcoreapp2.2\CoreApp.Persistence.deps.json
+C:\Users\Administrator\Documents\englich\CoreApp.Infrastructure\bin\Debug\netcoreapp2.2\CoreApp.Persistence.runtimeconfig.json
+C:\Users\Administrator\Documents\englich\CoreApp.Infrastructure\bin\Debug\netcoreapp2.2\CoreApp.Persistence.runtimeconfig.dev.json
+C:\Users\Administrator\Documents\englich\CoreApp.Infrastructure\bin\Debug\netcoreapp2.2\CoreApp.Persistence.dll
+C:\Users\Administrator\Documents\englich\CoreApp.Infrastructure\bin\Debug\netcoreapp2.2\CoreApp.Persistence.pdb
+C:\Users\Administrator\Documents\englich\CoreApp.Infrastructure\bin\Debug\netcoreapp2.2\CoreApp.Data.dll
+C:\Users\Administrator\Documents\englich\CoreApp.Infrastructure\bin\Debug\netcoreapp2.2\CoreApp.Data.pdb
+C:\Users\Administrator\Documents\englich\CoreApp.Infrastructure\obj\Debug\netcoreapp2.2\CoreApp.Persistence.csprojAssemblyReference.cache
+C:\Users\Administrator\Documents\englich\CoreApp.Infrastructure\obj\Debug\netcoreapp2.2\CoreApp.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\englich\CoreApp.Infrastructure\obj\Debug\netcoreapp2.2\CoreApp.Persistence.AssemblyInfoInputs.cache
+C:\Users\Administrator\Documents\englich\CoreApp.Infrastructure\obj\Debug\netcoreapp2.2\CoreApp.Persistence.AssemblyInfo.cs
+C:\Users\Administrator\Documents\englich\CoreApp.Infrastructure\obj\Debug\netcoreapp2.2\CoreApp.Persistence.csproj.CopyComplete
+C:\Users\Administrator\Documents\englich\CoreApp.Infrastructure\obj\Debug\netcoreapp2.2\CoreApp.Persistence.dll
+C:\Users\Administrator\Documents\englich\CoreApp.Infrastructure\obj\Debug\netcoreapp2.2\CoreApp.Persistence.pdb
+C:\Users\lich.ho\Documents\lichho\CoreApp.Infrastructure\bin\Debug\netcoreapp2.2\CoreApp.Persistence.deps.json
+C:\Users\lich.ho\Documents\lichho\CoreApp.Infrastructure\bin\Debug\netcoreapp2.2\CoreApp.Persistence.runtimeconfig.json
+C:\Users\lich.ho\Documents\lichho\CoreApp.Infrastructure\bin\Debug\netcoreapp2.2\CoreApp.Persistence.runtimeconfig.dev.json
+C:\Users\lich.ho\Documents\lichho\CoreApp.Infrastructure\bin\Debug\netcoreapp2.2\CoreApp.Persistence.dll
+C:\Users\lich.ho\Documents\lichho\CoreApp.Infrastructure\bin\Debug\netcoreapp2.2\CoreApp.Persistence.pdb
+C:\Users\lich.ho\Documents\lichho\CoreApp.Infrastructure\bin\Debug\netcoreapp2.2\CoreApp.Data.dll
+C:\Users\lich.ho\Documents\lichho\CoreApp.Infrastructure\bin\Debug\netcoreapp2.2\CoreApp.Data.pdb
+C:\Users\lich.ho\Documents\lichho\CoreApp.Infrastructure\obj\Debug\netcoreapp2.2\CoreApp.Persistence.csprojAssemblyReference.cache
+C:\Users\lich.ho\Documents\lichho\CoreApp.Infrastructure\obj\Debug\netcoreapp2.2\CoreApp.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\lich.ho\Documents\lichho\CoreApp.Infrastructure\obj\Debug\netcoreapp2.2\CoreApp.Persistence.AssemblyInfoInputs.cache
+C:\Users\lich.ho\Documents\lichho\CoreApp.Infrastructure\obj\Debug\netcoreapp2.2\CoreApp.Persistence.AssemblyInfo.cs
+C:\Users\lich.ho\Documents\lichho\CoreApp.Infrastructure\obj\Debug\netcoreapp2.2\CoreApp.Persistence.csproj.CopyComplete
+C:\Users\lich.ho\Documents\lichho\CoreApp.Infrastructure\obj\Debug\netcoreapp2.2\CoreApp.Persistence.dll
+C:\Users\lich.ho\Documents\lichho\CoreApp.Infrastructure\obj\Debug\netcoreapp2.2\CoreApp.Persistence.pdb
+C:\Users\Administrator\Documents\lichho\CoreApp.Infrastructure\bin\Debug\netcoreapp2.2\CoreApp.Persistence.deps.json
+C:\Users\Administrator\Documents\lichho\CoreApp.Infrastructure\bin\Debug\netcoreapp2.2\CoreApp.Persistence.runtimeconfig.json
+C:\Users\Administrator\Documents\lichho\CoreApp.Infrastructure\bin\Debug\netcoreapp2.2\CoreApp.Persistence.runtimeconfig.dev.json
+C:\Users\Administrator\Documents\lichho\CoreApp.Infrastructure\bin\Debug\netcoreapp2.2\CoreApp.Persistence.dll
+C:\Users\Administrator\Documents\lichho\CoreApp.Infrastructure\bin\Debug\netcoreapp2.2\CoreApp.Persistence.pdb
+C:\Users\Administrator\Documents\lichho\CoreApp.Infrastructure\bin\Debug\netcoreapp2.2\CoreApp.Data.dll
+C:\Users\Administrator\Documents\lichho\CoreApp.Infrastructure\bin\Debug\netcoreapp2.2\CoreApp.Data.pdb
+C:\Users\Administrator\Documents\lichho\CoreApp.Infrastructure\obj\Debug\netcoreapp2.2\CoreApp.Persistence.csprojAssemblyReference.cache
+C:\Users\Administrator\Documents\lichho\CoreApp.Infrastructure\obj\Debug\netcoreapp2.2\CoreApp.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\lichho\CoreApp.Infrastructure\obj\Debug\netcoreapp2.2\CoreApp.Persistence.AssemblyInfoInputs.cache
+C:\Users\Administrator\Documents\lichho\CoreApp.Infrastructure\obj\Debug\netcoreapp2.2\CoreApp.Persistence.AssemblyInfo.cs
+C:\Users\Administrator\Documents\lichho\CoreApp.Infrastructure\obj\Debug\netcoreapp2.2\CoreApp.Persistence.csproj.CopyComplete
+C:\Users\Administrator\Documents\lichho\CoreApp.Infrastructure\obj\Debug\netcoreapp2.2\CoreApp.Persistence.dll
+C:\Users\Administrator\Documents\lichho\CoreApp.Infrastructure\obj\Debug\netcoreapp2.2\CoreApp.Persistence.pdb
+C:\Users\Administrator\Documents\lich-server\CoreApp.Infrastructure\bin\Debug\netcoreapp2.2\CoreApp.Persistence.deps.json
+C:\Users\Administrator\Documents\lich-server\CoreApp.Infrastructure\bin\Debug\netcoreapp2.2\CoreApp.Persistence.runtimeconfig.json
+C:\Users\Administrator\Documents\lich-server\CoreApp.Infrastructure\bin\Debug\netcoreapp2.2\CoreApp.Persistence.runtimeconfig.dev.json
+C:\Users\Administrator\Documents\lich-server\CoreApp.Infrastructure\bin\Debug\netcoreapp2.2\CoreApp.Persistence.dll
+C:\Users\Administrator\Documents\lich-server\CoreApp.Infrastructure\bin\Debug\netcoreapp2.2\CoreApp.Persistence.pdb
+C:\Users\Administrator\Documents\lich-server\CoreApp.Infrastructure\bin\Debug\netcoreapp2.2\CoreApp.Data.dll
+C:\Users\Administrator\Documents\lich-server\CoreApp.Infrastructure\bin\Debug\netcoreapp2.2\CoreApp.Data.pdb
+C:\Users\Administrator\Documents\lich-server\CoreApp.Infrastructure\obj\Debug\netcoreapp2.2\CoreApp.Persistence.csprojAssemblyReference.cache
+C:\Users\Administrator\Documents\lich-server\CoreApp.Infrastructure\obj\Debug\netcoreapp2.2\CoreApp.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\lich-server\CoreApp.Infrastructure\obj\Debug\netcoreapp2.2\CoreApp.Persistence.AssemblyInfoInputs.cache
+C:\Users\Administrator\Documents\lich-server\CoreApp.Infrastructure\obj\Debug\netcoreapp2.2\CoreApp.Persistence.AssemblyInfo.cs
+C:\Users\Administrator\Documents\lich-server\CoreApp.Infrastructure\obj\Debug\netcoreapp2.2\CoreApp.Persistence.csproj.CopyComplete
+C:\Users\Administrator\Documents\lich-server\CoreApp.Infrastructure\obj\Debug\netcoreapp2.2\CoreApp.Persistence.dll
+C:\Users\Administrator\Documents\lich-server\CoreApp.Infrastructure\obj\Debug\netcoreapp2.2\CoreApp.Persistence.pdb
+F:\NET project\lich-server\CoreApp.Infrastructure\bin\Debug\netcoreapp2.2\CoreApp.Persistence.deps.json
+F:\NET project\lich-server\CoreApp.Infrastructure\bin\Debug\netcoreapp2.2\CoreApp.Persistence.runtimeconfig.json
+F:\NET project\lich-server\CoreApp.Infrastructure\bin\Debug\netcoreapp2.2\CoreApp.Persistence.runtimeconfig.dev.json
+F:\NET project\lich-server\CoreApp.Infrastructure\bin\Debug\netcoreapp2.2\CoreApp.Persistence.dll
+F:\NET project\lich-server\CoreApp.Infrastructure\bin\Debug\netcoreapp2.2\CoreApp.Persistence.pdb
+F:\NET project\lich-server\CoreApp.Infrastructure\bin\Debug\netcoreapp2.2\CoreApp.Data.dll
+F:\NET project\lich-server\CoreApp.Infrastructure\bin\Debug\netcoreapp2.2\CoreApp.Data.pdb
+F:\NET project\lich-server\CoreApp.Infrastructure\obj\Debug\netcoreapp2.2\CoreApp.Persistence.csprojAssemblyReference.cache
+F:\NET project\lich-server\CoreApp.Infrastructure\obj\Debug\netcoreapp2.2\CoreApp.Persistence.csproj.CoreCompileInputs.cache
+F:\NET project\lich-server\CoreApp.Infrastructure\obj\Debug\netcoreapp2.2\CoreApp.Persistence.AssemblyInfoInputs.cache
+F:\NET project\lich-server\CoreApp.Infrastructure\obj\Debug\netcoreapp2.2\CoreApp.Persistence.AssemblyInfo.cs
+F:\NET project\lich-server\CoreApp.Infrastructure\obj\Debug\netcoreapp2.2\CoreApp.Persistence.csproj.CopyComplete
+F:\NET project\lich-server\CoreApp.Infrastructure\obj\Debug\netcoreapp2.2\CoreApp.Persistence.dll
+F:\NET project\lich-server\CoreApp.Infrastructure\obj\Debug\netcoreapp2.2\CoreApp.Persistence.pdb

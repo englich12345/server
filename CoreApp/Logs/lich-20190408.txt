@@ -1,0 +1,946 @@
+2019-04-08T20:36:59.6085433+07:00 0HLLS4T3APTCR:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/   (ca22a1cb)
+2019-04-08T20:36:59.6085433+07:00 0HLLS4T3APTCS:00000001 [INF] Request starting HTTP/1.1 DEBUG http://localhost:5000/  0 (ca22a1cb)
+2019-04-08T20:36:59.6910365+07:00 0HLLS4T3APTCS:00000001 [INF] Request finished in 87.4142ms 200  (791a596a)
+2019-04-08T20:36:59.6962847+07:00 0HLLS4T3APTCR:00000001 [WRN] Failed to determine the https port for redirect. (ca76cc21)
+2019-04-08T20:36:59.8489881+07:00 0HLLS4T3APTCR:00000001 [INF] Executing endpoint '"CoreApp.Controllers.HomeController.Index (CoreApp)"' (500cc934)
+2019-04-08T20:36:59.8718108+07:00 0HLLS4T3APTCR:00000001 [INF] Route matched with "{action = \"Index\", controller = \"Home\", area = \"\"}". Executing action "CoreApp.Controllers.HomeController.Index (CoreApp)" (a44c0341)
+2019-04-08T20:36:59.8891975+07:00 0HLLS4T3APTCR:00000001 [INF] Executing action method "CoreApp.Controllers.HomeController.Index (CoreApp)" - Validation state: Valid (dad538d7)
+2019-04-08T20:36:59.8973047+07:00 0HLLS4T3APTCR:00000001 [INF] Executed action method "CoreApp.Controllers.HomeController.Index (CoreApp)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.6935ms. (50a9e262)
+2019-04-08T20:36:59.9380443+07:00 0HLLS4T3APTCR:00000001 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2019-04-08T20:37:00.6404861+07:00 0HLLS4T3APTCR:00000001 [INF] Executed ViewResult - view "Index" executed in 730.4955ms. (f66409e9)
+2019-04-08T20:37:00.6443349+07:00 0HLLS4T3APTCR:00000001 [INF] Executed action "CoreApp.Controllers.HomeController.Index (CoreApp)" in 769.5714ms (afa2e885)
+2019-04-08T20:37:00.6472284+07:00 0HLLS4T3APTCR:00000001 [INF] Executed endpoint '"CoreApp.Controllers.HomeController.Index (CoreApp)"' (99874f2b)
+2019-04-08T20:37:00.6798837+07:00 0HLLS4T3APTCU:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery/dist/jquery.js   (ca22a1cb)
+2019-04-08T20:37:00.6798837+07:00 0HLLS4T3APTCS:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5000/css/site.css   (ca22a1cb)
+2019-04-08T20:37:00.6843396+07:00 0HLLS4T3APTCT:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0   (ca22a1cb)
+2019-04-08T20:37:00.6863923+07:00 0HLLS4T3APTCV:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/js/bootstrap.bundle.js   (ca22a1cb)
+2019-04-08T20:37:00.6905283+07:00 0HLLS4T3APTCR:00000001 [INF] Request finished in 1089.2391ms 200 text/html; charset=utf-8 (791a596a)
+2019-04-08T20:37:00.7168878+07:00 0HLLS4T3APTCR:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/css/bootstrap.css   (ca22a1cb)
+2019-04-08T20:37:00.7320126+07:00 0HLLS4T3APTCT:00000001 [INF] Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\Users\Administrator\Documents\englich\CoreApp\wwwroot\js\site.js"' (27b0a520)
+2019-04-08T20:37:00.7353516+07:00 0HLLS4T3APTCV:00000001 [INF] Request finished in 58.3152ms 404  (791a596a)
+2019-04-08T20:37:00.7383485+07:00 0HLLS4T3APTCT:00000001 [INF] Request finished in 62.1994ms 200 application/javascript (791a596a)
+2019-04-08T20:37:00.7601278+07:00 0HLLS4T3APTCS:00000002 [INF] Sending file. Request path: '"/css/site.css"'. Physical path: '"C:\Users\Administrator\Documents\englich\CoreApp\wwwroot\css\site.css"' (27b0a520)
+2019-04-08T20:37:00.7792569+07:00 0HLLS4T3APTCR:00000002 [INF] Sending file. Request path: '"/lib/bootstrap/dist/css/bootstrap.css"'. Physical path: '"C:\Users\Administrator\Documents\englich\CoreApp\wwwroot\lib\bootstrap\dist\css\bootstrap.css"' (27b0a520)
+2019-04-08T20:37:00.7943582+07:00 0HLLS4T3APTCS:00000002 [INF] Request finished in 114.3755ms 200 text/css (791a596a)
+2019-04-08T20:37:00.7978725+07:00 0HLLS4T3APTCR:00000002 [INF] Request finished in 87.6181ms 200 text/css (791a596a)
+2019-04-08T20:37:00.8000667+07:00 0HLLS4T3APTCU:00000001 [INF] Sending file. Request path: '"/lib/jquery/dist/jquery.js"'. Physical path: '"C:\Users\Administrator\Documents\englich\CoreApp\wwwroot\lib\jquery\dist\jquery.js"' (27b0a520)
+2019-04-08T20:37:00.8049336+07:00 0HLLS4T3APTCU:00000001 [INF] Request finished in 130.1877ms 200 application/javascript (791a596a)
+2019-04-08T20:37:00.9037514+07:00 0HLLS4T3APTCT:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/js/bootstrap.bundle.js   (ca22a1cb)
+2019-04-08T20:37:00.9255137+07:00 0HLLS4T3APTCT:00000002 [INF] Request finished in 8.9083ms 404  (791a596a)
+2019-04-08T20:37:02.0669482+07:00 0HLLS4T3APTCV:00000002 [INF] Request starting HTTP/1.1 POST http://localhost:5000/admin/productcategory/postproductcategory text/plain;charset=UTF-8 56 (ca22a1cb)
+2019-04-08T20:37:02.0701839+07:00 0HLLS4T3APTCV:00000002 [INF] Executing endpoint '"CoreApp.Areas.Admin.Controllers.ProductCategoryController.postProductCategory (CoreApp)"' (500cc934)
+2019-04-08T20:37:02.1550798+07:00 0HLLS4T3APTCV:00000002 [INF] Route matched with "{area = \"Admin\", action = \"postProductCategory\", controller = \"ProductCategory\"}". Executing action "CoreApp.Areas.Admin.Controllers.ProductCategoryController.postProductCategory (CoreApp)" (a44c0341)
+2019-04-08T20:37:02.2466465+07:00 0HLLS4T3APTCV:00000002 [INF] Executing action method "CoreApp.Areas.Admin.Controllers.ProductCategoryController.postProductCategory (CoreApp)" with arguments (["CoreApp.Data.Entities.ProductCategory"]) - Validation state: Valid (4e3479ed)
+2019-04-08T20:45:18.2726442+07:00 0HLLS51NUFR0N:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/   (ca22a1cb)
+2019-04-08T20:45:18.2726442+07:00 0HLLS51NUFR0O:00000001 [INF] Request starting HTTP/1.1 DEBUG http://localhost:5000/  0 (ca22a1cb)
+2019-04-08T20:45:18.3175908+07:00 0HLLS51NUFR0O:00000001 [INF] Request finished in 49.3756ms 200  (791a596a)
+2019-04-08T20:45:18.3193246+07:00 0HLLS51NUFR0N:00000001 [WRN] Failed to determine the https port for redirect. (ca76cc21)
+2019-04-08T20:45:18.3840292+07:00 0HLLS51NUFR0N:00000001 [INF] Executing endpoint '"CoreApp.Controllers.HomeController.Index (CoreApp)"' (500cc934)
+2019-04-08T20:45:18.4028907+07:00 0HLLS51NUFR0N:00000001 [INF] Route matched with "{action = \"Index\", controller = \"Home\", area = \"\"}". Executing action "CoreApp.Controllers.HomeController.Index (CoreApp)" (a44c0341)
+2019-04-08T20:45:18.4154678+07:00 0HLLS51NUFR0N:00000001 [INF] Executing action method "CoreApp.Controllers.HomeController.Index (CoreApp)" - Validation state: Valid (dad538d7)
+2019-04-08T20:45:18.4212013+07:00 0HLLS51NUFR0N:00000001 [INF] Executed action method "CoreApp.Controllers.HomeController.Index (CoreApp)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.5308ms. (50a9e262)
+2019-04-08T20:45:18.4473386+07:00 0HLLS51NUFR0N:00000001 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2019-04-08T20:45:18.9840022+07:00 0HLLS51NUFR0N:00000001 [INF] Executed ViewResult - view "Index" executed in 549.2146ms. (f66409e9)
+2019-04-08T20:45:18.9892903+07:00 0HLLS51NUFR0N:00000001 [INF] Executed action "CoreApp.Controllers.HomeController.Index (CoreApp)" in 582.4843ms (afa2e885)
+2019-04-08T20:45:19.0022478+07:00 0HLLS51NUFR0N:00000001 [INF] Executed endpoint '"CoreApp.Controllers.HomeController.Index (CoreApp)"' (99874f2b)
+2019-04-08T20:45:19.0392892+07:00 0HLLS51NUFR0P:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/css/bootstrap.css   (ca22a1cb)
+2019-04-08T20:45:19.0411102+07:00 0HLLS51NUFR0Q:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/js/bootstrap.bundle.js   (ca22a1cb)
+2019-04-08T20:45:19.0427320+07:00 0HLLS51NUFR0O:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5000/css/site.css   (ca22a1cb)
+2019-04-08T20:45:19.0436548+07:00 0HLLS51NUFR0R:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0   (ca22a1cb)
+2019-04-08T20:45:19.0747464+07:00 0HLLS51NUFR0N:00000001 [INF] Request finished in 810.3623ms 200 text/html; charset=utf-8 (791a596a)
+2019-04-08T20:45:19.0980364+07:00 0HLLS51NUFR0Q:00000001 [INF] Request finished in 60.7767ms 404  (791a596a)
+2019-04-08T20:45:19.0999353+07:00 0HLLS51NUFR0N:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery/dist/jquery.js   (ca22a1cb)
+2019-04-08T20:45:19.1086877+07:00 0HLLS51NUFR0O:00000002 [INF] Sending file. Request path: '"/css/site.css"'. Physical path: '"C:\Users\Administrator\Documents\englich\CoreApp\wwwroot\css\site.css"' (27b0a520)
+2019-04-08T20:45:19.1106460+07:00 0HLLS51NUFR0R:00000001 [INF] Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\Users\Administrator\Documents\englich\CoreApp\wwwroot\js\site.js"' (27b0a520)
+2019-04-08T20:45:19.1126534+07:00 0HLLS51NUFR0O:00000002 [INF] Request finished in 94.6512ms 200 text/css (791a596a)
+2019-04-08T20:45:19.1136224+07:00 0HLLS51NUFR0R:00000001 [INF] Request finished in 71.4695ms 200 application/javascript (791a596a)
+2019-04-08T20:45:19.1388470+07:00 0HLLS51NUFR0N:00000002 [INF] Sending file. Request path: '"/lib/jquery/dist/jquery.js"'. Physical path: '"C:\Users\Administrator\Documents\englich\CoreApp\wwwroot\lib\jquery\dist\jquery.js"' (27b0a520)
+2019-04-08T20:45:19.1412196+07:00 0HLLS51NUFR0P:00000001 [INF] Sending file. Request path: '"/lib/bootstrap/dist/css/bootstrap.css"'. Physical path: '"C:\Users\Administrator\Documents\englich\CoreApp\wwwroot\lib\bootstrap\dist\css\bootstrap.css"' (27b0a520)
+2019-04-08T20:45:19.1487651+07:00 0HLLS51NUFR0P:00000001 [INF] Request finished in 135.9294ms 200 text/css (791a596a)
+2019-04-08T20:45:19.1501753+07:00 0HLLS51NUFR0N:00000002 [INF] Request finished in 69.3562ms 200 application/javascript (791a596a)
+2019-04-08T20:45:19.2726357+07:00 0HLLS51NUFR0Q:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/js/bootstrap.bundle.js   (ca22a1cb)
+2019-04-08T20:45:19.2761269+07:00 0HLLS51NUFR0Q:00000002 [INF] Request finished in 3.1836ms 404  (791a596a)
+2019-04-08T20:45:21.2808810+07:00 0HLLS51NUFR0O:00000003 [INF] Request starting HTTP/1.1 POST http://localhost:5000/admin/productcategory/postproductcategory text/plain;charset=UTF-8 56 (ca22a1cb)
+2019-04-08T20:45:21.2843495+07:00 0HLLS51NUFR0O:00000003 [INF] Executing endpoint '"CoreApp.Areas.Admin.Controllers.ProductCategoryController.postProductCategory (CoreApp)"' (500cc934)
+2019-04-08T20:45:21.3172099+07:00 0HLLS51NUFR0O:00000003 [INF] Route matched with "{area = \"Admin\", action = \"postProductCategory\", controller = \"ProductCategory\"}". Executing action "CoreApp.Areas.Admin.Controllers.ProductCategoryController.postProductCategory (CoreApp)" (a44c0341)
+2019-04-08T20:45:21.3394076+07:00 0HLLS51NUFR0O:00000003 [INF] Executing HttpStatusCodeResult, setting HTTP status code 415 (e28ccfae)
+2019-04-08T20:45:21.3412521+07:00 0HLLS51NUFR0O:00000003 [INF] Executed action "CoreApp.Areas.Admin.Controllers.ProductCategoryController.postProductCategory (CoreApp)" in 22.2984ms (afa2e885)
+2019-04-08T20:45:21.3434732+07:00 0HLLS51NUFR0O:00000003 [INF] Executed endpoint '"CoreApp.Areas.Admin.Controllers.ProductCategoryController.postProductCategory (CoreApp)"' (99874f2b)
+2019-04-08T20:45:21.3460067+07:00 0HLLS51NUFR0O:00000003 [INF] Request finished in 66.4121ms 415  (791a596a)
+2019-04-08T20:45:21.3588811+07:00  [INF] Connection id ""0HLLS51NUFR0O"", Request id ""0HLLS51NUFR0O:00000003"": the application completed without reading the entire request body. (54ac9468)
+2019-04-08T20:45:30.4763606+07:00 0HLLS51NUFR0R:00000002 [INF] Request starting HTTP/1.1 POST http://localhost:5000/admin/productcategory/postproductcategory text/plain;charset=UTF-8 56 (ca22a1cb)
+2019-04-08T20:45:30.4824227+07:00 0HLLS51NUFR0R:00000002 [INF] Executing endpoint '"CoreApp.Areas.Admin.Controllers.ProductCategoryController.postProductCategory (CoreApp)"' (500cc934)
+2019-04-08T20:45:30.4850078+07:00 0HLLS51NUFR0R:00000002 [INF] Route matched with "{area = \"Admin\", action = \"postProductCategory\", controller = \"ProductCategory\"}". Executing action "CoreApp.Areas.Admin.Controllers.ProductCategoryController.postProductCategory (CoreApp)" (a44c0341)
+2019-04-08T20:45:30.4881518+07:00 0HLLS51NUFR0R:00000002 [INF] Executing HttpStatusCodeResult, setting HTTP status code 415 (e28ccfae)
+2019-04-08T20:45:30.4906404+07:00 0HLLS51NUFR0R:00000002 [INF] Executed action "CoreApp.Areas.Admin.Controllers.ProductCategoryController.postProductCategory (CoreApp)" in 3.1951ms (afa2e885)
+2019-04-08T20:45:30.4928462+07:00 0HLLS51NUFR0R:00000002 [INF] Executed endpoint '"CoreApp.Areas.Admin.Controllers.ProductCategoryController.postProductCategory (CoreApp)"' (99874f2b)
+2019-04-08T20:45:30.4952813+07:00 0HLLS51NUFR0R:00000002 [INF] Request finished in 18.7225ms 415  (791a596a)
+2019-04-08T20:45:30.4980312+07:00  [INF] Connection id ""0HLLS51NUFR0R"", Request id ""0HLLS51NUFR0R:00000002"": the application completed without reading the entire request body. (54ac9468)
+2019-04-08T21:21:47.7648031+07:00 0HLLS5M4F00KC:00000001 [INF] Request starting HTTP/1.1 DEBUG http://localhost:5000/  0 (ca22a1cb)
+2019-04-08T21:21:47.7648031+07:00 0HLLS5M4F00KD:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/   (ca22a1cb)
+2019-04-08T21:21:47.8161879+07:00 0HLLS5M4F00KC:00000001 [INF] Request finished in 57.5334ms 200  (791a596a)
+2019-04-08T21:21:47.8191462+07:00 0HLLS5M4F00KD:00000001 [WRN] Failed to determine the https port for redirect. (ca76cc21)
+2019-04-08T21:21:47.8789727+07:00 0HLLS5M4F00KD:00000001 [INF] Executing endpoint '"CoreApp.Controllers.HomeController.Index (CoreApp)"' (500cc934)
+2019-04-08T21:21:47.9001338+07:00 0HLLS5M4F00KD:00000001 [INF] Route matched with "{action = \"Index\", controller = \"Home\", area = \"\"}". Executing action "CoreApp.Controllers.HomeController.Index (CoreApp)" (a44c0341)
+2019-04-08T21:21:47.9145117+07:00 0HLLS5M4F00KD:00000001 [INF] Executing action method "CoreApp.Controllers.HomeController.Index (CoreApp)" - Validation state: Valid (dad538d7)
+2019-04-08T21:21:47.9237215+07:00 0HLLS5M4F00KD:00000001 [INF] Executed action method "CoreApp.Controllers.HomeController.Index (CoreApp)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 1.5155ms. (50a9e262)
+2019-04-08T21:21:47.9641827+07:00 0HLLS5M4F00KD:00000001 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2019-04-08T21:21:48.3814471+07:00 0HLLS5M4F00KD:00000001 [INF] Executed ViewResult - view "Index" executed in 445.6667ms. (f66409e9)
+2019-04-08T21:21:48.3843340+07:00 0HLLS5M4F00KD:00000001 [INF] Executed action "CoreApp.Controllers.HomeController.Index (CoreApp)" in 481.6285ms (afa2e885)
+2019-04-08T21:21:48.3873513+07:00 0HLLS5M4F00KD:00000001 [INF] Executed endpoint '"CoreApp.Controllers.HomeController.Index (CoreApp)"' (99874f2b)
+2019-04-08T21:21:48.4050869+07:00 0HLLS5M4F00KC:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/css/bootstrap.css   (ca22a1cb)
+2019-04-08T21:21:48.4082801+07:00 0HLLS5M4F00KE:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/css/site.css   (ca22a1cb)
+2019-04-08T21:21:48.4204099+07:00 0HLLS5M4F00KF:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0   (ca22a1cb)
+2019-04-08T21:21:48.4233394+07:00 0HLLS5M4F00KG:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/js/bootstrap.bundle.js   (ca22a1cb)
+2019-04-08T21:21:48.4338653+07:00 0HLLS5M4F00KD:00000001 [INF] Request finished in 671.9519ms 200 text/html; charset=utf-8 (791a596a)
+2019-04-08T21:21:48.4371031+07:00 0HLLS5M4F00KD:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery/dist/jquery.js   (ca22a1cb)
+2019-04-08T21:21:48.4426818+07:00 0HLLS5M4F00KG:00000001 [INF] Request finished in 18.8371ms 404  (791a596a)
+2019-04-08T21:21:48.4506687+07:00 0HLLS5M4F00KF:00000001 [INF] Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\Users\Administrator\Documents\englich\CoreApp\wwwroot\js\site.js"' (27b0a520)
+2019-04-08T21:21:48.4532502+07:00 0HLLS5M4F00KE:00000001 [INF] Sending file. Request path: '"/css/site.css"'. Physical path: '"C:\Users\Administrator\Documents\englich\CoreApp\wwwroot\css\site.css"' (27b0a520)
+2019-04-08T21:21:48.4546911+07:00 0HLLS5M4F00KF:00000001 [INF] Request finished in 41.8068ms 200 application/javascript (791a596a)
+2019-04-08T21:21:48.4568021+07:00 0HLLS5M4F00KE:00000001 [INF] Request finished in 47.5068ms 200 text/css (791a596a)
+2019-04-08T21:21:48.4886911+07:00 0HLLS5M4F00KC:00000002 [INF] Sending file. Request path: '"/lib/bootstrap/dist/css/bootstrap.css"'. Physical path: '"C:\Users\Administrator\Documents\englich\CoreApp\wwwroot\lib\bootstrap\dist\css\bootstrap.css"' (27b0a520)
+2019-04-08T21:21:48.4900338+07:00 0HLLS5M4F00KD:00000002 [INF] Sending file. Request path: '"/lib/jquery/dist/jquery.js"'. Physical path: '"C:\Users\Administrator\Documents\englich\CoreApp\wwwroot\lib\jquery\dist\jquery.js"' (27b0a520)
+2019-04-08T21:21:48.4987726+07:00 0HLLS5M4F00KC:00000002 [INF] Request finished in 99.1736ms 200 text/css (791a596a)
+2019-04-08T21:21:48.5014561+07:00 0HLLS5M4F00KD:00000002 [INF] Request finished in 60.786ms 200 application/javascript (791a596a)
+2019-04-08T21:21:48.5814684+07:00 0HLLS5M4F00KG:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/js/bootstrap.bundle.js   (ca22a1cb)
+2019-04-08T21:21:48.5909728+07:00 0HLLS5M4F00KG:00000002 [INF] Request finished in 5.5895ms 404  (791a596a)
+2019-04-08T21:22:00.3792897+07:00 0HLLS5M4F00KF:00000002 [INF] Request starting HTTP/1.1 POST http://localhost:5000/admin/productcategory/postproductcategory text/plain;charset=UTF-8 56 (ca22a1cb)
+2019-04-08T21:22:00.3819924+07:00 0HLLS5M4F00KF:00000002 [INF] Executing endpoint '"CoreApp.Areas.Admin.Controllers.ProductCategoryController.postProductCategory (CoreApp)"' (500cc934)
+2019-04-08T21:22:00.4057794+07:00 0HLLS5M4F00KF:00000002 [INF] Route matched with "{area = \"Admin\", action = \"postProductCategory\", controller = \"ProductCategory\"}". Executing action "CoreApp.Areas.Admin.Controllers.ProductCategoryController.postProductCategory (CoreApp)" (a44c0341)
+2019-04-08T21:22:00.4229320+07:00 0HLLS5M4F00KF:00000002 [INF] Executing HttpStatusCodeResult, setting HTTP status code 415 (e28ccfae)
+2019-04-08T21:22:00.4251972+07:00 0HLLS5M4F00KF:00000002 [INF] Executed action "CoreApp.Areas.Admin.Controllers.ProductCategoryController.postProductCategory (CoreApp)" in 17.2292ms (afa2e885)
+2019-04-08T21:22:00.4270139+07:00 0HLLS5M4F00KF:00000002 [INF] Executed endpoint '"CoreApp.Areas.Admin.Controllers.ProductCategoryController.postProductCategory (CoreApp)"' (99874f2b)
+2019-04-08T21:22:00.4294899+07:00 0HLLS5M4F00KF:00000002 [INF] Request finished in 49.8872ms 415  (791a596a)
+2019-04-08T21:22:00.4397070+07:00  [INF] Connection id ""0HLLS5M4F00KF"", Request id ""0HLLS5M4F00KF:00000002"": the application completed without reading the entire request body. (54ac9468)
+2019-04-08T21:23:54.1460385+07:00 0HLLS5NA4CIHP:00000001 [INF] Request starting HTTP/1.1 DEBUG http://localhost:5000/  0 (ca22a1cb)
+2019-04-08T21:23:54.1460385+07:00 0HLLS5NA4CIHQ:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/   (ca22a1cb)
+2019-04-08T21:23:54.1982333+07:00 0HLLS5NA4CIHQ:00000001 [WRN] Failed to determine the https port for redirect. (ca76cc21)
+2019-04-08T21:23:54.2019706+07:00 0HLLS5NA4CIHP:00000001 [INF] Request finished in 58.3312ms 200  (791a596a)
+2019-04-08T21:23:54.2674119+07:00 0HLLS5NA4CIHQ:00000001 [INF] Executing endpoint '"CoreApp.Controllers.HomeController.Index (CoreApp)"' (500cc934)
+2019-04-08T21:23:54.2879270+07:00 0HLLS5NA4CIHQ:00000001 [INF] Route matched with "{action = \"Index\", controller = \"Home\", area = \"\"}". Executing action "CoreApp.Controllers.HomeController.Index (CoreApp)" (a44c0341)
+2019-04-08T21:23:54.3014777+07:00 0HLLS5NA4CIHQ:00000001 [INF] Executing action method "CoreApp.Controllers.HomeController.Index (CoreApp)" - Validation state: Valid (dad538d7)
+2019-04-08T21:23:54.3077378+07:00 0HLLS5NA4CIHQ:00000001 [INF] Executed action method "CoreApp.Controllers.HomeController.Index (CoreApp)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.5805ms. (50a9e262)
+2019-04-08T21:23:54.3414023+07:00 0HLLS5NA4CIHQ:00000001 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2019-04-08T21:23:54.8027571+07:00 0HLLS5NA4CIHQ:00000001 [INF] Executed ViewResult - view "Index" executed in 476.6406ms. (f66409e9)
+2019-04-08T21:23:54.8082188+07:00 0HLLS5NA4CIHQ:00000001 [INF] Executed action "CoreApp.Controllers.HomeController.Index (CoreApp)" in 515.5084ms (afa2e885)
+2019-04-08T21:23:54.8123277+07:00 0HLLS5NA4CIHQ:00000001 [INF] Executed endpoint '"CoreApp.Controllers.HomeController.Index (CoreApp)"' (99874f2b)
+2019-04-08T21:23:54.8237759+07:00 0HLLS5NA4CIHP:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/css/bootstrap.css   (ca22a1cb)
+2019-04-08T21:23:54.8271403+07:00 0HLLS5NA4CIHR:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0   (ca22a1cb)
+2019-04-08T21:23:54.8370456+07:00 0HLLS5NA4CIHS:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery/dist/jquery.js   (ca22a1cb)
+2019-04-08T21:23:54.8398058+07:00 0HLLS5NA4CIHT:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/js/bootstrap.bundle.js   (ca22a1cb)
+2019-04-08T21:23:54.8501216+07:00 0HLLS5NA4CIHQ:00000001 [INF] Request finished in 712.7242ms 200 text/html; charset=utf-8 (791a596a)
+2019-04-08T21:23:54.8529328+07:00 0HLLS5NA4CIHQ:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5000/css/site.css   (ca22a1cb)
+2019-04-08T21:23:54.8565893+07:00 0HLLS5NA4CIHT:00000001 [INF] Request finished in 16.4943ms 404  (791a596a)
+2019-04-08T21:23:54.8658023+07:00 0HLLS5NA4CIHQ:00000002 [INF] Sending file. Request path: '"/css/site.css"'. Physical path: '"C:\Users\Administrator\Documents\englich\CoreApp\wwwroot\css\site.css"' (27b0a520)
+2019-04-08T21:23:54.8711144+07:00 0HLLS5NA4CIHQ:00000002 [INF] Request finished in 15.2968ms 200 text/css (791a596a)
+2019-04-08T21:23:54.9180983+07:00 0HLLS5NA4CIHR:00000001 [INF] Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\Users\Administrator\Documents\englich\CoreApp\wwwroot\js\site.js"' (27b0a520)
+2019-04-08T21:23:54.9239967+07:00 0HLLS5NA4CIHP:00000002 [INF] Sending file. Request path: '"/lib/bootstrap/dist/css/bootstrap.css"'. Physical path: '"C:\Users\Administrator\Documents\englich\CoreApp\wwwroot\lib\bootstrap\dist\css\bootstrap.css"' (27b0a520)
+2019-04-08T21:23:54.9256956+07:00 0HLLS5NA4CIHS:00000001 [INF] Sending file. Request path: '"/lib/jquery/dist/jquery.js"'. Physical path: '"C:\Users\Administrator\Documents\englich\CoreApp\wwwroot\lib\jquery\dist\jquery.js"' (27b0a520)
+2019-04-08T21:23:54.9345963+07:00 0HLLS5NA4CIHP:00000002 [INF] Request finished in 110.7335ms 200 text/css (791a596a)
+2019-04-08T21:23:54.9372843+07:00 0HLLS5NA4CIHR:00000001 [INF] Request finished in 104.9574ms 200 application/javascript (791a596a)
+2019-04-08T21:23:54.9385553+07:00 0HLLS5NA4CIHS:00000001 [INF] Request finished in 101.3733ms 200 application/javascript (791a596a)
+2019-04-08T21:23:55.0175404+07:00 0HLLS5NA4CIHT:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/js/bootstrap.bundle.js   (ca22a1cb)
+2019-04-08T21:23:55.0219550+07:00 0HLLS5NA4CIHT:00000002 [INF] Request finished in 4.1436ms 404  (791a596a)
+2019-04-08T21:24:03.3810259+07:00 0HLLS5NA4CIHQ:00000003 [INF] Request starting HTTP/1.1 POST http://localhost:5000/admin/productcategory/postproductcategory text/plain;charset=UTF-8 56 (ca22a1cb)
+2019-04-08T21:24:03.3843669+07:00 0HLLS5NA4CIHQ:00000003 [INF] Executing endpoint '"CoreApp.Areas.Admin.Controllers.ProductCategoryController.postProductCategory (CoreApp)"' (500cc934)
+2019-04-08T21:24:03.4221110+07:00 0HLLS5NA4CIHQ:00000003 [INF] Route matched with "{area = \"Admin\", action = \"postProductCategory\", controller = \"ProductCategory\"}". Executing action "CoreApp.Areas.Admin.Controllers.ProductCategoryController.postProductCategory (CoreApp)" (a44c0341)
+2019-04-08T21:24:03.4539611+07:00 0HLLS5NA4CIHQ:00000003 [INF] Executing action method "CoreApp.Areas.Admin.Controllers.ProductCategoryController.postProductCategory (CoreApp)" with arguments (["CoreApp.Data.Entities.ProductCategory"]) - Validation state: Valid (4e3479ed)
+2019-04-08T21:30:23.8669052+07:00 0HLLS5QU91VO2:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/   (ca22a1cb)
+2019-04-08T21:30:23.8669052+07:00 0HLLS5QU91VO3:00000001 [INF] Request starting HTTP/1.1 DEBUG http://localhost:5000/  0 (ca22a1cb)
+2019-04-08T21:30:23.9131798+07:00 0HLLS5QU91VO3:00000001 [INF] Request finished in 49.7458ms 200  (791a596a)
+2019-04-08T21:30:23.9133730+07:00 0HLLS5QU91VO2:00000001 [WRN] Failed to determine the https port for redirect. (ca76cc21)
+2019-04-08T21:30:23.9778653+07:00 0HLLS5QU91VO2:00000001 [INF] Executing endpoint '"CoreApp.Controllers.HomeController.Index (CoreApp)"' (500cc934)
+2019-04-08T21:30:23.9958192+07:00 0HLLS5QU91VO2:00000001 [INF] Route matched with "{action = \"Index\", controller = \"Home\", area = \"\"}". Executing action "CoreApp.Controllers.HomeController.Index (CoreApp)" (a44c0341)
+2019-04-08T21:30:24.0096728+07:00 0HLLS5QU91VO2:00000001 [INF] Executing action method "CoreApp.Controllers.HomeController.Index (CoreApp)" - Validation state: Valid (dad538d7)
+2019-04-08T21:30:24.0157853+07:00 0HLLS5QU91VO2:00000001 [INF] Executed action method "CoreApp.Controllers.HomeController.Index (CoreApp)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.6423ms. (50a9e262)
+2019-04-08T21:30:24.0454166+07:00 0HLLS5QU91VO2:00000001 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2019-04-08T21:30:24.4796936+07:00 0HLLS5QU91VO3:00000002 [INF] Request starting HTTP/1.1 POST http://localhost:5000/admin/productcategory/postproductcategory application/json 56 (ca22a1cb)
+2019-04-08T21:30:24.4877913+07:00 0HLLS5QU91VO3:00000002 [INF] Executing endpoint '"CoreApp.Areas.Admin.Controllers.ProductCategoryController.postProductCategory (CoreApp)"' (500cc934)
+2019-04-08T21:30:24.5185135+07:00 0HLLS5QU91VO3:00000002 [INF] Route matched with "{area = \"Admin\", action = \"postProductCategory\", controller = \"ProductCategory\"}". Executing action "CoreApp.Areas.Admin.Controllers.ProductCategoryController.postProductCategory (CoreApp)" (a44c0341)
+2019-04-08T21:30:24.5666166+07:00 0HLLS5QU91VO2:00000001 [INF] Executed ViewResult - view "Index" executed in 537.4217ms. (f66409e9)
+2019-04-08T21:30:24.5696146+07:00 0HLLS5QU91VO2:00000001 [INF] Executed action "CoreApp.Controllers.HomeController.Index (CoreApp)" in 571.3087ms (afa2e885)
+2019-04-08T21:30:24.5725230+07:00 0HLLS5QU91VO2:00000001 [INF] Executed endpoint '"CoreApp.Controllers.HomeController.Index (CoreApp)"' (99874f2b)
+2019-04-08T21:30:24.5968896+07:00 0HLLS5QU91VO4:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/css/bootstrap.css   (ca22a1cb)
+2019-04-08T21:30:24.5996946+07:00 0HLLS5QU91VO5:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery/dist/jquery.js   (ca22a1cb)
+2019-04-08T21:30:24.6036127+07:00 0HLLS5QU91VO6:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0   (ca22a1cb)
+2019-04-08T21:30:24.6072036+07:00 0HLLS5QU91VO7:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/js/bootstrap.bundle.js   (ca22a1cb)
+2019-04-08T21:30:24.6114144+07:00 0HLLS5QU91VO2:00000001 [INF] Request finished in 751.8134ms 200 text/html; charset=utf-8 (791a596a)
+2019-04-08T21:30:24.6168666+07:00 0HLLS5QU91VO2:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5000/css/site.css   (ca22a1cb)
+2019-04-08T21:30:24.6214700+07:00 0HLLS5QU91VO7:00000001 [INF] Request finished in 7.62ms 404  (791a596a)
+2019-04-08T21:30:24.6385810+07:00 0HLLS5QU91VO6:00000001 [INF] Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\Users\Administrator\Documents\englich\CoreApp\wwwroot\js\site.js"' (27b0a520)
+2019-04-08T21:30:24.6405418+07:00 0HLLS5QU91VO2:00000002 [INF] Sending file. Request path: '"/css/site.css"'. Physical path: '"C:\Users\Administrator\Documents\englich\CoreApp\wwwroot\css\site.css"' (27b0a520)
+2019-04-08T21:30:24.6432568+07:00 0HLLS5QU91VO6:00000001 [INF] Request finished in 38.2748ms 200 application/javascript (791a596a)
+2019-04-08T21:30:24.6448331+07:00 0HLLS5QU91VO2:00000002 [INF] Request finished in 28.871ms 200 text/css (791a596a)
+2019-04-08T21:30:24.6719060+07:00 0HLLS5QU91VO4:00000001 [INF] Sending file. Request path: '"/lib/bootstrap/dist/css/bootstrap.css"'. Physical path: '"C:\Users\Administrator\Documents\englich\CoreApp\wwwroot\lib\bootstrap\dist\css\bootstrap.css"' (27b0a520)
+2019-04-08T21:30:24.6732031+07:00 0HLLS5QU91VO5:00000001 [INF] Sending file. Request path: '"/lib/jquery/dist/jquery.js"'. Physical path: '"C:\Users\Administrator\Documents\englich\CoreApp\wwwroot\lib\jquery\dist\jquery.js"' (27b0a520)
+2019-04-08T21:30:24.6834655+07:00 0HLLS5QU91VO4:00000001 [INF] Request finished in 83.8188ms 200 text/css (791a596a)
+2019-04-08T21:30:24.6853354+07:00 0HLLS5QU91VO5:00000001 [INF] Request finished in 80.8795ms 200 application/javascript (791a596a)
+2019-04-08T21:30:24.7487106+07:00 0HLLS5QU91VO3:00000002 [INF] Executing action method "CoreApp.Areas.Admin.Controllers.ProductCategoryController.postProductCategory (CoreApp)" with arguments (["CoreApp.Data.Entities.ProductCategory"]) - Validation state: Valid (4e3479ed)
+2019-04-08T21:30:38.7676240+07:00 0HLLS5QU91VO7:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/js/bootstrap.bundle.js   (ca22a1cb)
+2019-04-08T21:30:38.7706878+07:00 0HLLS5QU91VO7:00000002 [INF] Request finished in 2.4971ms 404  (791a596a)
+2019-04-08T21:30:39.1883878+07:00 0HLLS5QU91VO3:00000002 [WRN] No type was specified for the decimal column '"Balance"' on entity type '"AppUser"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-04-08T21:30:39.1903145+07:00 0HLLS5QU91VO3:00000002 [WRN] No type was specified for the decimal column '"Price"' on entity type '"BillDetail"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-04-08T21:30:39.1920861+07:00 0HLLS5QU91VO3:00000002 [WRN] No type was specified for the decimal column '"OriginalPrice"' on entity type '"Product"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-04-08T21:30:39.1938271+07:00 0HLLS5QU91VO3:00000002 [WRN] No type was specified for the decimal column '"Price"' on entity type '"Product"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-04-08T21:30:39.1955766+07:00 0HLLS5QU91VO3:00000002 [WRN] No type was specified for the decimal column '"PromotionPrice"' on entity type '"Product"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-04-08T21:30:39.1978551+07:00 0HLLS5QU91VO3:00000002 [WRN] No type was specified for the decimal column '"Value5"' on entity type '"SystemConfig"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-04-08T21:30:39.2001286+07:00 0HLLS5QU91VO3:00000002 [WRN] No type was specified for the decimal column '"Price"' on entity type '"WholePrice"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-04-08T21:30:39.2734620+07:00 0HLLS5QU91VO3:00000002 [INF] Entity Framework Core "2.2.3-servicing-35854" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-04-08T21:30:39.6166477+07:00 0HLLS5QU91VO3:00000002 [INF] Executed DbCommand ("43"ms) [Parameters=["@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime2), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000), @p4='?', @p5='?' (DbType = Int32), @p6='?' (Size = 4000), @p7='?' (Size = 4000), @p8='?' (DbType = Guid), @p9='?' (Size = 4000), @p10='?' (Size = 4000), @p11='?' (Size = 4000), @p12='?' (Size = 4000), @p13='?' (DbType = Int32), @p14='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [ProductCategories] ([Id], [DateCreated], [DateModified], [Description], [HomeFlag], [HomeOrder], [Image], [Name], [ParentId], [SeoAlias], [SeoDescription], [SeoKeyWords], [SeoPageTitle], [SortOrder], [Status])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14);" (0723d8ff)
+2019-04-08T21:30:50.4268827+07:00 0HLLS5QU91VO3:00000002 [INF] Executed action method "CoreApp.Areas.Admin.Controllers.ProductCategoryController.postProductCategory (CoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 25674.7565ms. (50a9e262)
+2019-04-08T21:30:50.4417286+07:00 0HLLS5QU91VO3:00000002 [INF] Executing ObjectResult, writing value of type '"CoreApp.Data.Entities.ProductCategory"'. (8a1b66c8)
+2019-04-08T21:30:50.4625728+07:00 0HLLS5QU91VO3:00000002 [INF] Executed action "CoreApp.Areas.Admin.Controllers.ProductCategoryController.postProductCategory (CoreApp)" in 25941.391ms (afa2e885)
+2019-04-08T21:30:50.4666396+07:00 0HLLS5QU91VO3:00000002 [INF] Executed endpoint '"CoreApp.Areas.Admin.Controllers.ProductCategoryController.postProductCategory (CoreApp)"' (99874f2b)
+2019-04-08T21:30:50.4723653+07:00 0HLLS5QU91VO3:00000002 [INF] Request finished in 25992.0232ms 200 application/json; charset=utf-8 (791a596a)
+2019-04-08T21:46:45.8044531+07:00 0HLLS642TCBM4:00000001 [INF] Request starting HTTP/1.1 DEBUG http://localhost:5000/  0 (ca22a1cb)
+2019-04-08T21:46:45.8044531+07:00 0HLLS642TCBM3:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/   (ca22a1cb)
+2019-04-08T21:46:45.8583868+07:00 0HLLS642TCBM4:00000001 [INF] Request finished in 56.3838ms 200  (791a596a)
+2019-04-08T21:46:45.8597547+07:00 0HLLS642TCBM3:00000001 [WRN] Failed to determine the https port for redirect. (ca76cc21)
+2019-04-08T21:46:45.9393244+07:00 0HLLS642TCBM3:00000001 [INF] Executing endpoint '"CoreApp.Controllers.HomeController.Index (CoreApp)"' (500cc934)
+2019-04-08T21:46:45.9593540+07:00 0HLLS642TCBM3:00000001 [INF] Route matched with "{action = \"Index\", controller = \"Home\", area = \"\"}". Executing action "CoreApp.Controllers.HomeController.Index (CoreApp)" (a44c0341)
+2019-04-08T21:46:45.9727580+07:00 0HLLS642TCBM3:00000001 [INF] Executing action method "CoreApp.Controllers.HomeController.Index (CoreApp)" - Validation state: Valid (dad538d7)
+2019-04-08T21:46:45.9796078+07:00 0HLLS642TCBM3:00000001 [INF] Executed action method "CoreApp.Controllers.HomeController.Index (CoreApp)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.7085ms. (50a9e262)
+2019-04-08T21:46:46.0111351+07:00 0HLLS642TCBM3:00000001 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2019-04-08T21:46:46.4166633+07:00 0HLLS642TCBM3:00000001 [INF] Executed ViewResult - view "Index" executed in 425.5044ms. (f66409e9)
+2019-04-08T21:46:46.4202075+07:00 0HLLS642TCBM3:00000001 [INF] Executed action "CoreApp.Controllers.HomeController.Index (CoreApp)" in 457.9167ms (afa2e885)
+2019-04-08T21:46:46.4241614+07:00 0HLLS642TCBM3:00000001 [INF] Executed endpoint '"CoreApp.Controllers.HomeController.Index (CoreApp)"' (99874f2b)
+2019-04-08T21:46:46.4323500+07:00 0HLLS642TCBM5:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/css/site.css   (ca22a1cb)
+2019-04-08T21:46:46.4346674+07:00 0HLLS642TCBM6:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery/dist/jquery.js   (ca22a1cb)
+2019-04-08T21:46:46.4375698+07:00 0HLLS642TCBM4:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/css/bootstrap.css   (ca22a1cb)
+2019-04-08T21:46:46.4423038+07:00 0HLLS642TCBM7:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/js/bootstrap.bundle.js   (ca22a1cb)
+2019-04-08T21:46:46.4607639+07:00 0HLLS642TCBM7:00000001 [INF] Request finished in 16.5624ms 404  (791a596a)
+2019-04-08T21:46:46.4646338+07:00 0HLLS642TCBM3:00000001 [INF] Request finished in 669.035ms 200 text/html; charset=utf-8 (791a596a)
+2019-04-08T21:46:46.4687275+07:00 0HLLS642TCBM3:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5000/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0   (ca22a1cb)
+2019-04-08T21:46:46.4829017+07:00 0HLLS642TCBM5:00000001 [INF] Sending file. Request path: '"/css/site.css"'. Physical path: '"C:\Users\Administrator\Documents\englich\CoreApp\wwwroot\css\site.css"' (27b0a520)
+2019-04-08T21:46:46.4898383+07:00 0HLLS642TCBM3:00000002 [INF] Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\Users\Administrator\Documents\englich\CoreApp\wwwroot\js\site.js"' (27b0a520)
+2019-04-08T21:46:46.4939239+07:00 0HLLS642TCBM5:00000001 [INF] Request finished in 54.5731ms 200 text/css (791a596a)
+2019-04-08T21:46:46.4966608+07:00 0HLLS642TCBM3:00000002 [INF] Request finished in 24.8396ms 200 application/javascript (791a596a)
+2019-04-08T21:46:46.5371192+07:00 0HLLS642TCBM4:00000002 [INF] Sending file. Request path: '"/lib/bootstrap/dist/css/bootstrap.css"'. Physical path: '"C:\Users\Administrator\Documents\englich\CoreApp\wwwroot\lib\bootstrap\dist\css\bootstrap.css"' (27b0a520)
+2019-04-08T21:46:46.5544831+07:00 0HLLS642TCBM6:00000001 [INF] Sending file. Request path: '"/lib/jquery/dist/jquery.js"'. Physical path: '"C:\Users\Administrator\Documents\englich\CoreApp\wwwroot\lib\jquery\dist\jquery.js"' (27b0a520)
+2019-04-08T21:46:46.5597533+07:00 0HLLS642TCBM4:00000002 [INF] Request finished in 111.1704ms 200 text/css (791a596a)
+2019-04-08T21:46:46.5617551+07:00 0HLLS642TCBM6:00000001 [INF] Request finished in 123.2742ms 200 application/javascript (791a596a)
+2019-04-08T21:46:46.6883998+07:00 0HLLS642TCBM7:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/js/bootstrap.bundle.js   (ca22a1cb)
+2019-04-08T21:46:46.6979143+07:00 0HLLS642TCBM7:00000002 [INF] Request finished in 5.5543ms 404  (791a596a)
+2019-04-08T21:47:17.6114007+07:00 0HLLS642TCBM5:00000002 [INF] Request starting HTTP/1.1 POST http://localhost:5000/admin/product/postproduct application/json 56 (ca22a1cb)
+2019-04-08T21:47:17.6138131+07:00 0HLLS642TCBM5:00000002 [INF] Executing endpoint '"CoreApp.Areas.Admin.Controllers.ProductController.postProduct (CoreApp)"' (500cc934)
+2019-04-08T21:47:17.6295905+07:00 0HLLS642TCBM5:00000002 [INF] Route matched with "{area = \"Admin\", action = \"postProduct\", controller = \"Product\"}". Executing action "CoreApp.Areas.Admin.Controllers.ProductController.postProduct (CoreApp)" (a44c0341)
+2019-04-08T21:47:17.7372001+07:00 0HLLS642TCBM5:00000002 [INF] Executing action method "CoreApp.Areas.Admin.Controllers.ProductController.postProduct (CoreApp)" with arguments (["CoreApp.Data.Entities.Product"]) - Validation state: Valid (4e3479ed)
+2019-04-08T21:47:48.0996205+07:00 0HLLS642TCBM5:00000002 [WRN] No type was specified for the decimal column '"Balance"' on entity type '"AppUser"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-04-08T21:47:48.1018414+07:00 0HLLS642TCBM5:00000002 [WRN] No type was specified for the decimal column '"Price"' on entity type '"BillDetail"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-04-08T21:47:48.1040247+07:00 0HLLS642TCBM5:00000002 [WRN] No type was specified for the decimal column '"OriginalPrice"' on entity type '"Product"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-04-08T21:47:48.1059327+07:00 0HLLS642TCBM5:00000002 [WRN] No type was specified for the decimal column '"Price"' on entity type '"Product"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-04-08T21:47:48.1080867+07:00 0HLLS642TCBM5:00000002 [WRN] No type was specified for the decimal column '"PromotionPrice"' on entity type '"Product"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-04-08T21:47:48.1100588+07:00 0HLLS642TCBM5:00000002 [WRN] No type was specified for the decimal column '"Value5"' on entity type '"SystemConfig"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-04-08T21:47:48.1121065+07:00 0HLLS642TCBM5:00000002 [WRN] No type was specified for the decimal column '"Price"' on entity type '"WholePrice"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-04-08T21:47:48.1710219+07:00 0HLLS642TCBM5:00000002 [INF] Entity Framework Core "2.2.3-servicing-35854" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-04-08T21:47:48.5402562+07:00 0HLLS642TCBM5:00000002 [ERR] Failed executing DbCommand ("60"ms) [Parameters=["@p0='?' (DbType = Guid), @p1='?' (DbType = Guid), @p2='?' (Size = 4000), @p3='?' (DbType = DateTime2), @p4='?' (DbType = DateTime2), @p5='?' (Size = 255), @p6='?', @p7='?' (Size = 255), @p8='?' (Size = 255), @p9='?' (DbType = Decimal), @p10='?' (DbType = Decimal), @p11='?' (DbType = Decimal), @p12='?' (Size = 255), @p13='?' (Size = 255), @p14='?' (Size = 255), @p15='?' (Size = 4000), @p16='?' (DbType = Int32), @p17='?' (Size = 255), @p18='?' (Size = 4000), @p19='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [Products] ([Id], [CategoryId], [Content], [DateCreated], [DateModified], [Description], [HotFlag], [Image], [Name], [OriginalPrice], [Price], [PromotionPrice], [SeoAlias], [SeoDescription], [SeoKeyWords], [SeoPageTitle], [Status], [Tags], [Unit], [ViewCount])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18, @p19);" (627a98df)
+System.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Products_ProductCategories_CategoryId". The conflict occurred in database "lichho", table "dbo.ProductCategories", column 'Id'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__122_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteAsync(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues, CancellationToken cancellationToken)
+ClientConnectionId:5d6a17ea-3ade-49a6-bd2e-9adf7b491010
+Error Number:547,State:0,Class:16
+2019-04-08T21:47:48.5665680+07:00 0HLLS642TCBM5:00000002 [ERR] An exception occurred in the database while saving changes for context type '"CoreApp.Persistence.AppDbContext"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: The INSERT statement conflicted with the FOREIGN KEY constraint \"FK_Products_ProductCategories_CategoryId\". The conflict occurred in database \"lichho\", table \"dbo.ProductCategories\", column 'Id'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__122_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteAsync(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(DbContext _, ValueTuple`2 parameters, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IReadOnlyList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)" (170f029e)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Products_ProductCategories_CategoryId". The conflict occurred in database "lichho", table "dbo.ProductCategories", column 'Id'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__122_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteAsync(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(DbContext _, ValueTuple`2 parameters, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IReadOnlyList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at CoreApp.Persistence.Repository.GenericRepository`1.InsertAsync(T entity) in C:\Users\Administrator\Documents\englich\CoreApp.Infrastructure\Repository\GenericRepository.cs:line 67
+2019-04-08T21:47:48.7510627+07:00 0HLLS642TCBM5:00000002 [INF] Executed action "CoreApp.Areas.Admin.Controllers.ProductController.postProduct (CoreApp)" in 31118.854ms (afa2e885)
+2019-04-08T21:47:48.7551862+07:00 0HLLS642TCBM5:00000002 [INF] Executed endpoint '"CoreApp.Areas.Admin.Controllers.ProductController.postProduct (CoreApp)"' (99874f2b)
+2019-04-08T21:47:49.1157722+07:00 0HLLS642TCBM5:00000002 [INF] Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');" (0723d8ff)
+2019-04-08T21:47:49.1254112+07:00 0HLLS642TCBM5:00000002 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];" (0723d8ff)
+2019-04-08T21:47:49.1346742+07:00 0HLLS642TCBM5:00000002 [INF] Request finished in 31523.0543ms 500 text/html; charset=utf-8 (791a596a)
+2019-04-08T21:47:51.3146049+07:00 0HLLS642TCBM5:00000003 [INF] Request starting HTTP/1.1 POST http://localhost:5000/admin/product/postproduct application/json 46 (ca22a1cb)
+2019-04-08T21:47:51.3213296+07:00 0HLLS642TCBM5:00000003 [INF] Executing endpoint '"CoreApp.Areas.Admin.Controllers.ProductController.postProduct (CoreApp)"' (500cc934)
+2019-04-08T21:47:51.3238367+07:00 0HLLS642TCBM5:00000003 [INF] Route matched with "{area = \"Admin\", action = \"postProduct\", controller = \"Product\"}". Executing action "CoreApp.Areas.Admin.Controllers.ProductController.postProduct (CoreApp)" (a44c0341)
+2019-04-08T21:47:51.3289527+07:00 0HLLS642TCBM5:00000003 [INF] Executing action method "CoreApp.Areas.Admin.Controllers.ProductController.postProduct (CoreApp)" with arguments (["CoreApp.Data.Entities.Product"]) - Validation state: Valid (4e3479ed)
+2019-04-08T21:48:04.6031732+07:00 0HLLS642TCBM5:00000003 [INF] Entity Framework Core "2.2.3-servicing-35854" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-04-08T21:48:04.6128538+07:00 0HLLS642TCBM5:00000003 [ERR] Failed executing DbCommand ("3"ms) [Parameters=["@p0='?' (DbType = Guid), @p1='?' (DbType = Guid), @p2='?' (Size = 4000), @p3='?' (DbType = DateTime2), @p4='?' (DbType = DateTime2), @p5='?' (Size = 255), @p6='?', @p7='?' (Size = 255), @p8='?' (Size = 255), @p9='?' (DbType = Decimal), @p10='?' (DbType = Decimal), @p11='?' (DbType = Decimal), @p12='?' (Size = 255), @p13='?' (Size = 255), @p14='?' (Size = 255), @p15='?' (Size = 4000), @p16='?' (DbType = Int32), @p17='?' (Size = 255), @p18='?' (Size = 4000), @p19='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [Products] ([Id], [CategoryId], [Content], [DateCreated], [DateModified], [Description], [HotFlag], [Image], [Name], [OriginalPrice], [Price], [PromotionPrice], [SeoAlias], [SeoDescription], [SeoKeyWords], [SeoPageTitle], [Status], [Tags], [Unit], [ViewCount])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18, @p19);" (627a98df)
+System.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Products_ProductCategories_CategoryId". The conflict occurred in database "lichho", table "dbo.ProductCategories", column 'Id'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__122_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteAsync(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:5d6a17ea-3ade-49a6-bd2e-9adf7b491010
+Error Number:547,State:0,Class:16
+2019-04-08T21:48:04.6276723+07:00 0HLLS642TCBM5:00000003 [ERR] An exception occurred in the database while saving changes for context type '"CoreApp.Persistence.AppDbContext"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: The INSERT statement conflicted with the FOREIGN KEY constraint \"FK_Products_ProductCategories_CategoryId\". The conflict occurred in database \"lichho\", table \"dbo.ProductCategories\", column 'Id'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__122_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteAsync(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(DbContext _, ValueTuple`2 parameters, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IReadOnlyList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)" (170f029e)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Products_ProductCategories_CategoryId". The conflict occurred in database "lichho", table "dbo.ProductCategories", column 'Id'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__122_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteAsync(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(DbContext _, ValueTuple`2 parameters, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IReadOnlyList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at CoreApp.Persistence.Repository.GenericRepository`1.InsertAsync(T entity) in C:\Users\Administrator\Documents\englich\CoreApp.Infrastructure\Repository\GenericRepository.cs:line 67
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+2019-04-08T21:48:04.8016231+07:00 0HLLS642TCBM5:00000003 [INF] Executed action "CoreApp.Areas.Admin.Controllers.ProductController.postProduct (CoreApp)" in 13475.4487ms (afa2e885)
+2019-04-08T21:48:04.8035516+07:00 0HLLS642TCBM5:00000003 [INF] Executed endpoint '"CoreApp.Areas.Admin.Controllers.ProductController.postProduct (CoreApp)"' (99874f2b)
+2019-04-08T21:48:04.9038034+07:00 0HLLS642TCBM5:00000003 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');" (0723d8ff)
+2019-04-08T21:48:04.9074408+07:00 0HLLS642TCBM5:00000003 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];" (0723d8ff)
+2019-04-08T21:48:04.9101199+07:00 0HLLS642TCBM5:00000003 [INF] Request finished in 13595.5359ms 500 text/html; charset=utf-8 (791a596a)
+2019-04-08T21:48:25.7681533+07:00 0HLLS642TCBM5:00000004 [INF] Request starting HTTP/1.1 POST http://localhost:5000/admin/product/postproduct application/json 46 (ca22a1cb)
+2019-04-08T21:48:25.7701776+07:00 0HLLS642TCBM5:00000004 [INF] Executing endpoint '"CoreApp.Areas.Admin.Controllers.ProductController.postProduct (CoreApp)"' (500cc934)
+2019-04-08T21:48:25.7721099+07:00 0HLLS642TCBM5:00000004 [INF] Route matched with "{area = \"Admin\", action = \"postProduct\", controller = \"Product\"}". Executing action "CoreApp.Areas.Admin.Controllers.ProductController.postProduct (CoreApp)" (a44c0341)
+2019-04-08T21:48:25.7746151+07:00 0HLLS642TCBM5:00000004 [INF] Executing action method "CoreApp.Areas.Admin.Controllers.ProductController.postProduct (CoreApp)" with arguments (["CoreApp.Data.Entities.Product"]) - Validation state: Valid (4e3479ed)
+2019-04-08T21:48:27.5650833+07:00 0HLLS642TCBM5:00000004 [INF] Entity Framework Core "2.2.3-servicing-35854" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-04-08T21:48:27.5968948+07:00 0HLLS642TCBM5:00000004 [ERR] Failed executing DbCommand ("4"ms) [Parameters=["@p0='?' (DbType = Guid), @p1='?' (DbType = Guid), @p2='?' (Size = 4000), @p3='?' (DbType = DateTime2), @p4='?' (DbType = DateTime2), @p5='?' (Size = 255), @p6='?', @p7='?' (Size = 255), @p8='?' (Size = 255), @p9='?' (DbType = Decimal), @p10='?' (DbType = Decimal), @p11='?' (DbType = Decimal), @p12='?' (Size = 255), @p13='?' (Size = 255), @p14='?' (Size = 255), @p15='?' (Size = 4000), @p16='?' (DbType = Int32), @p17='?' (Size = 255), @p18='?' (Size = 4000), @p19='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [Products] ([Id], [CategoryId], [Content], [DateCreated], [DateModified], [Description], [HotFlag], [Image], [Name], [OriginalPrice], [Price], [PromotionPrice], [SeoAlias], [SeoDescription], [SeoKeyWords], [SeoPageTitle], [Status], [Tags], [Unit], [ViewCount])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18, @p19);" (627a98df)
+System.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Products_ProductCategories_CategoryId". The conflict occurred in database "lichho", table "dbo.ProductCategories", column 'Id'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__122_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteAsync(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:5d6a17ea-3ade-49a6-bd2e-9adf7b491010
+Error Number:547,State:0,Class:16
+2019-04-08T21:48:27.6091594+07:00 0HLLS642TCBM5:00000004 [ERR] An exception occurred in the database while saving changes for context type '"CoreApp.Persistence.AppDbContext"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: The INSERT statement conflicted with the FOREIGN KEY constraint \"FK_Products_ProductCategories_CategoryId\". The conflict occurred in database \"lichho\", table \"dbo.ProductCategories\", column 'Id'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__122_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteAsync(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(DbContext _, ValueTuple`2 parameters, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IReadOnlyList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)" (170f029e)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Products_ProductCategories_CategoryId". The conflict occurred in database "lichho", table "dbo.ProductCategories", column 'Id'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__122_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteAsync(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(DbContext _, ValueTuple`2 parameters, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IReadOnlyList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at CoreApp.Persistence.Repository.GenericRepository`1.InsertAsync(T entity) in C:\Users\Administrator\Documents\englich\CoreApp.Infrastructure\Repository\GenericRepository.cs:line 67
+   at CoreApp.Application.Service.ProductService.Add(Product product) in C:\Users\Administrator\Documents\englich\CoreApp.Application\Service\ProductService.cs:line 37
+2019-04-08T21:48:27.8162386+07:00 0HLLS642TCBM5:00000004 [INF] Executed action "CoreApp.Areas.Admin.Controllers.ProductController.postProduct (CoreApp)" in 2041.9172ms (afa2e885)
+2019-04-08T21:48:27.8183760+07:00 0HLLS642TCBM5:00000004 [INF] Executed endpoint '"CoreApp.Areas.Admin.Controllers.ProductController.postProduct (CoreApp)"' (99874f2b)
+2019-04-08T21:48:27.9122820+07:00 0HLLS642TCBM5:00000004 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');" (0723d8ff)
+2019-04-08T21:48:28.0121826+07:00 0HLLS642TCBM5:00000004 [INF] Executed DbCommand ("45"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];" (0723d8ff)
+2019-04-08T21:48:28.0574738+07:00 0HLLS642TCBM5:00000004 [INF] Request finished in 2268.5557ms 500 text/html; charset=utf-8 (791a596a)
+2019-04-08T21:49:31.3260128+07:00 0HLLS642TCBM8:00000001 [INF] Request starting HTTP/1.1 POST http://localhost:5000/admin/product/postproduct application/json 46 (ca22a1cb)
+2019-04-08T21:49:31.3283204+07:00 0HLLS642TCBM8:00000001 [INF] Executing endpoint '"CoreApp.Areas.Admin.Controllers.ProductController.postProduct (CoreApp)"' (500cc934)
+2019-04-08T21:49:31.3302199+07:00 0HLLS642TCBM8:00000001 [INF] Route matched with "{area = \"Admin\", action = \"postProduct\", controller = \"Product\"}". Executing action "CoreApp.Areas.Admin.Controllers.ProductController.postProduct (CoreApp)" (a44c0341)
+2019-04-08T21:49:31.3356197+07:00 0HLLS642TCBM8:00000001 [INF] Executing action method "CoreApp.Areas.Admin.Controllers.ProductController.postProduct (CoreApp)" with arguments (["CoreApp.Data.Entities.Product"]) - Validation state: Valid (4e3479ed)
+2019-04-08T21:49:54.9988514+07:00 0HLLS642TCBM8:00000001 [INF] Entity Framework Core "2.2.3-servicing-35854" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-04-08T21:49:55.0285550+07:00 0HLLS642TCBM8:00000001 [ERR] Failed executing DbCommand ("26"ms) [Parameters=["@p0='?' (DbType = Guid), @p1='?' (DbType = Guid), @p2='?' (Size = 4000), @p3='?' (DbType = DateTime2), @p4='?' (DbType = DateTime2), @p5='?' (Size = 255), @p6='?', @p7='?' (Size = 255), @p8='?' (Size = 255), @p9='?' (DbType = Decimal), @p10='?' (DbType = Decimal), @p11='?' (DbType = Decimal), @p12='?' (Size = 255), @p13='?' (Size = 255), @p14='?' (Size = 255), @p15='?' (Size = 4000), @p16='?' (DbType = Int32), @p17='?' (Size = 255), @p18='?' (Size = 4000), @p19='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [Products] ([Id], [CategoryId], [Content], [DateCreated], [DateModified], [Description], [HotFlag], [Image], [Name], [OriginalPrice], [Price], [PromotionPrice], [SeoAlias], [SeoDescription], [SeoKeyWords], [SeoPageTitle], [Status], [Tags], [Unit], [ViewCount])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18, @p19);" (627a98df)
+System.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Products_ProductCategories_CategoryId". The conflict occurred in database "lichho", table "dbo.ProductCategories", column 'Id'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__122_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteAsync(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:5d6a17ea-3ade-49a6-bd2e-9adf7b491010
+Error Number:547,State:0,Class:16
+2019-04-08T21:49:55.0393787+07:00 0HLLS642TCBM8:00000001 [ERR] An exception occurred in the database while saving changes for context type '"CoreApp.Persistence.AppDbContext"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: The INSERT statement conflicted with the FOREIGN KEY constraint \"FK_Products_ProductCategories_CategoryId\". The conflict occurred in database \"lichho\", table \"dbo.ProductCategories\", column 'Id'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__122_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteAsync(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(DbContext _, ValueTuple`2 parameters, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IReadOnlyList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)" (170f029e)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Products_ProductCategories_CategoryId". The conflict occurred in database "lichho", table "dbo.ProductCategories", column 'Id'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__122_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteAsync(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(DbContext _, ValueTuple`2 parameters, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IReadOnlyList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at CoreApp.Persistence.Repository.GenericRepository`1.InsertAsync(T entity) in C:\Users\Administrator\Documents\englich\CoreApp.Infrastructure\Repository\GenericRepository.cs:line 67
+2019-04-08T21:49:55.2093424+07:00 0HLLS642TCBM8:00000001 [INF] Executed action "CoreApp.Areas.Admin.Controllers.ProductController.postProduct (CoreApp)" in 23877.0148ms (afa2e885)
+2019-04-08T21:49:55.2112296+07:00 0HLLS642TCBM8:00000001 [INF] Executed endpoint '"CoreApp.Areas.Admin.Controllers.ProductController.postProduct (CoreApp)"' (99874f2b)
+2019-04-08T21:49:55.3133786+07:00 0HLLS642TCBM8:00000001 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');" (0723d8ff)
+2019-04-08T21:49:55.4135638+07:00 0HLLS642TCBM8:00000001 [INF] Executed DbCommand ("19"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];" (0723d8ff)
+2019-04-08T21:49:55.4197887+07:00 0HLLS642TCBM8:00000001 [INF] Request finished in 24090.4066ms 500 text/html; charset=utf-8 (791a596a)
+2019-04-08T21:54:54.0611679+07:00 0HLLS68KDP6GB:00000001 [INF] Request starting HTTP/1.1 DEBUG http://localhost:5000/  0 (ca22a1cb)
+2019-04-08T21:54:54.0611683+07:00 0HLLS68KDP6GC:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/   (ca22a1cb)
+2019-04-08T21:54:54.1101601+07:00 0HLLS68KDP6GB:00000001 [INF] Request finished in 54.0258ms 200  (791a596a)
+2019-04-08T21:54:54.1126326+07:00 0HLLS68KDP6GC:00000001 [WRN] Failed to determine the https port for redirect. (ca76cc21)
+2019-04-08T21:54:54.2535547+07:00 0HLLS68KDP6GC:00000001 [INF] Executing endpoint '"CoreApp.Controllers.HomeController.Index (CoreApp)"' (500cc934)
+2019-04-08T21:54:54.2703509+07:00 0HLLS68KDP6GC:00000001 [INF] Route matched with "{action = \"Index\", controller = \"Home\", area = \"\"}". Executing action "CoreApp.Controllers.HomeController.Index (CoreApp)" (a44c0341)
+2019-04-08T21:54:54.2845160+07:00 0HLLS68KDP6GC:00000001 [INF] Executing action method "CoreApp.Controllers.HomeController.Index (CoreApp)" - Validation state: Valid (dad538d7)
+2019-04-08T21:54:54.2906728+07:00 0HLLS68KDP6GC:00000001 [INF] Executed action method "CoreApp.Controllers.HomeController.Index (CoreApp)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.5924ms. (50a9e262)
+2019-04-08T21:54:54.3257456+07:00 0HLLS68KDP6GC:00000001 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2019-04-08T21:54:54.7286071+07:00 0HLLS68KDP6GC:00000001 [INF] Executed ViewResult - view "Index" executed in 424.9581ms. (f66409e9)
+2019-04-08T21:54:54.7321031+07:00 0HLLS68KDP6GC:00000001 [INF] Executed action "CoreApp.Controllers.HomeController.Index (CoreApp)" in 458.7889ms (afa2e885)
+2019-04-08T21:54:54.7345259+07:00 0HLLS68KDP6GC:00000001 [INF] Executed endpoint '"CoreApp.Controllers.HomeController.Index (CoreApp)"' (99874f2b)
+2019-04-08T21:54:54.7522438+07:00 0HLLS68KDP6GD:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0   (ca22a1cb)
+2019-04-08T21:54:54.7723271+07:00 0HLLS68KDP6GE:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/css/site.css   (ca22a1cb)
+2019-04-08T21:54:54.7790376+07:00 0HLLS68KDP6GF:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/js/bootstrap.bundle.js   (ca22a1cb)
+2019-04-08T21:54:54.7801537+07:00 0HLLS68KDP6GC:00000001 [INF] Request finished in 721.669ms 200 text/html; charset=utf-8 (791a596a)
+2019-04-08T21:54:54.7826178+07:00 0HLLS68KDP6GB:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/css/bootstrap.css   (ca22a1cb)
+2019-04-08T21:54:54.7852725+07:00 0HLLS68KDP6GC:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery/dist/jquery.js   (ca22a1cb)
+2019-04-08T21:54:54.7934491+07:00 0HLLS68KDP6GF:00000001 [INF] Request finished in 38.6709ms 404  (791a596a)
+2019-04-08T21:54:54.8027256+07:00 0HLLS68KDP6GD:00000001 [INF] Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\Users\Administrator\Documents\englich\CoreApp\wwwroot\js\site.js"' (27b0a520)
+2019-04-08T21:54:54.8044907+07:00 0HLLS68KDP6GE:00000001 [INF] Sending file. Request path: '"/css/site.css"'. Physical path: '"C:\Users\Administrator\Documents\englich\CoreApp\wwwroot\css\site.css"' (27b0a520)
+2019-04-08T21:54:54.8079914+07:00 0HLLS68KDP6GD:00000001 [INF] Request finished in 57.5751ms 200 application/javascript (791a596a)
+2019-04-08T21:54:54.8093058+07:00 0HLLS68KDP6GE:00000001 [INF] Request finished in 60.1707ms 200 text/css (791a596a)
+2019-04-08T21:54:54.8493200+07:00 0HLLS68KDP6GC:00000002 [INF] Sending file. Request path: '"/lib/jquery/dist/jquery.js"'. Physical path: '"C:\Users\Administrator\Documents\englich\CoreApp\wwwroot\lib\jquery\dist\jquery.js"' (27b0a520)
+2019-04-08T21:54:54.8493768+07:00 0HLLS68KDP6GB:00000002 [INF] Sending file. Request path: '"/lib/bootstrap/dist/css/bootstrap.css"'. Physical path: '"C:\Users\Administrator\Documents\englich\CoreApp\wwwroot\lib\bootstrap\dist\css\bootstrap.css"' (27b0a520)
+2019-04-08T21:54:54.8696290+07:00 0HLLS68KDP6GC:00000002 [INF] Request finished in 82.9318ms 200 application/javascript (791a596a)
+2019-04-08T21:54:54.8729904+07:00 0HLLS68KDP6GB:00000002 [INF] Request finished in 85.4244ms 200 text/css (791a596a)
+2019-04-08T21:54:54.9525890+07:00 0HLLS68KDP6GF:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/js/bootstrap.bundle.js   (ca22a1cb)
+2019-04-08T21:54:54.9566848+07:00 0HLLS68KDP6GF:00000002 [INF] Request finished in 3.4351ms 404  (791a596a)
+2019-04-08T21:55:24.1978755+07:00 0HLLS68KDP6GD:00000002 [INF] Request starting HTTP/1.1 POST http://localhost:5000/admin/product/postproduct application/json 46 (ca22a1cb)
+2019-04-08T21:55:24.2002192+07:00 0HLLS68KDP6GD:00000002 [INF] Executing endpoint '"CoreApp.Areas.Admin.Controllers.ProductController.postProduct (CoreApp)"' (500cc934)
+2019-04-08T21:55:24.2166839+07:00 0HLLS68KDP6GD:00000002 [INF] Route matched with "{area = \"Admin\", action = \"postProduct\", controller = \"Product\"}". Executing action "CoreApp.Areas.Admin.Controllers.ProductController.postProduct (CoreApp)" (a44c0341)
+2019-04-08T21:55:24.3321487+07:00 0HLLS68KDP6GD:00000002 [INF] Executing action method "CoreApp.Areas.Admin.Controllers.ProductController.postProduct (CoreApp)" with arguments (["CoreApp.Data.Entities.Product"]) - Validation state: Valid (4e3479ed)
+2019-04-08T21:55:36.5987884+07:00 0HLLS68KDP6GD:00000002 [WRN] No type was specified for the decimal column '"Balance"' on entity type '"AppUser"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-04-08T21:55:36.6007123+07:00 0HLLS68KDP6GD:00000002 [WRN] No type was specified for the decimal column '"Price"' on entity type '"BillDetail"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-04-08T21:55:36.6024231+07:00 0HLLS68KDP6GD:00000002 [WRN] No type was specified for the decimal column '"OriginalPrice"' on entity type '"Product"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-04-08T21:55:36.6041532+07:00 0HLLS68KDP6GD:00000002 [WRN] No type was specified for the decimal column '"Price"' on entity type '"Product"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-04-08T21:55:36.6058621+07:00 0HLLS68KDP6GD:00000002 [WRN] No type was specified for the decimal column '"PromotionPrice"' on entity type '"Product"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-04-08T21:55:36.6075168+07:00 0HLLS68KDP6GD:00000002 [WRN] No type was specified for the decimal column '"Value5"' on entity type '"SystemConfig"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-04-08T21:55:36.6093419+07:00 0HLLS68KDP6GD:00000002 [WRN] No type was specified for the decimal column '"Price"' on entity type '"WholePrice"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-04-08T21:55:36.6622573+07:00 0HLLS68KDP6GD:00000002 [INF] Entity Framework Core "2.2.3-servicing-35854" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-04-08T21:55:36.9452023+07:00 0HLLS68KDP6GD:00000002 [ERR] Failed executing DbCommand ("18"ms) [Parameters=["@p0='?' (DbType = Guid), @p1='?' (DbType = Guid), @p2='?' (Size = 4000), @p3='?' (DbType = DateTime2), @p4='?' (DbType = DateTime2), @p5='?' (Size = 255), @p6='?', @p7='?' (Size = 255), @p8='?' (Size = 255), @p9='?' (DbType = Decimal), @p10='?' (DbType = Decimal), @p11='?' (DbType = Decimal), @p12='?' (Size = 255), @p13='?' (Size = 255), @p14='?' (Size = 255), @p15='?' (Size = 4000), @p16='?' (DbType = Int32), @p17='?' (Size = 255), @p18='?' (Size = 4000), @p19='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [Products] ([Id], [CategoryId], [Content], [DateCreated], [DateModified], [Description], [HotFlag], [Image], [Name], [OriginalPrice], [Price], [PromotionPrice], [SeoAlias], [SeoDescription], [SeoKeyWords], [SeoPageTitle], [Status], [Tags], [Unit], [ViewCount])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18, @p19);" (627a98df)
+System.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Products_ProductCategories_CategoryId". The conflict occurred in database "lichho", table "dbo.ProductCategories", column 'Id'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__122_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteAsync(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues, CancellationToken cancellationToken)
+ClientConnectionId:77beb05b-375e-451d-8dcc-ed59448816e7
+Error Number:547,State:0,Class:16
+2019-04-08T21:55:36.9673412+07:00 0HLLS68KDP6GD:00000002 [ERR] An exception occurred in the database while saving changes for context type '"CoreApp.Persistence.AppDbContext"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: The INSERT statement conflicted with the FOREIGN KEY constraint \"FK_Products_ProductCategories_CategoryId\". The conflict occurred in database \"lichho\", table \"dbo.ProductCategories\", column 'Id'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__122_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteAsync(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(DbContext _, ValueTuple`2 parameters, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IReadOnlyList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)" (170f029e)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Products_ProductCategories_CategoryId". The conflict occurred in database "lichho", table "dbo.ProductCategories", column 'Id'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__122_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteAsync(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(DbContext _, ValueTuple`2 parameters, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IReadOnlyList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at CoreApp.Persistence.Repository.GenericRepository`1.InsertAsync(T entity) in C:\Users\Administrator\Documents\englich\CoreApp.Infrastructure\Repository\GenericRepository.cs:line 67
+2019-04-08T21:55:37.2338074+07:00 0HLLS68KDP6GD:00000002 [INF] Executed action "CoreApp.Areas.Admin.Controllers.ProductController.postProduct (CoreApp)" in 13015.2303ms (afa2e885)
+2019-04-08T21:55:37.2372647+07:00 0HLLS68KDP6GD:00000002 [INF] Executed endpoint '"CoreApp.Areas.Admin.Controllers.ProductController.postProduct (CoreApp)"' (99874f2b)
+2019-04-08T21:55:37.5776490+07:00 0HLLS68KDP6GD:00000002 [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');" (0723d8ff)
+2019-04-08T21:55:37.6283129+07:00 0HLLS68KDP6GD:00000002 [INF] Executed DbCommand ("22"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];" (0723d8ff)
+2019-04-08T21:55:37.7261687+07:00 0HLLS68KDP6GD:00000002 [INF] Request finished in 13528.5444ms 500 text/html; charset=utf-8 (791a596a)
+2019-04-08T22:08:32.4469633+07:00 0HLLS6G8ANEU8:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/   (ca22a1cb)
+2019-04-08T22:08:32.4469572+07:00 0HLLS6G8ANEU7:00000001 [INF] Request starting HTTP/1.1 DEBUG http://localhost:5000/  0 (ca22a1cb)
+2019-04-08T22:08:32.4903572+07:00 0HLLS6G8ANEU7:00000001 [INF] Request finished in 47.4896ms 200  (791a596a)
+2019-04-08T22:08:32.4915123+07:00 0HLLS6G8ANEU8:00000001 [WRN] Failed to determine the https port for redirect. (ca76cc21)
+2019-04-08T22:08:32.5551359+07:00 0HLLS6G8ANEU8:00000001 [INF] Executing endpoint '"CoreApp.Controllers.HomeController.Index (CoreApp)"' (500cc934)
+2019-04-08T22:08:32.5714408+07:00 0HLLS6G8ANEU8:00000001 [INF] Route matched with "{action = \"Index\", controller = \"Home\", area = \"\"}". Executing action "CoreApp.Controllers.HomeController.Index (CoreApp)" (a44c0341)
+2019-04-08T22:08:32.5850145+07:00 0HLLS6G8ANEU8:00000001 [INF] Executing action method "CoreApp.Controllers.HomeController.Index (CoreApp)" - Validation state: Valid (dad538d7)
+2019-04-08T22:08:32.5914864+07:00 0HLLS6G8ANEU8:00000001 [INF] Executed action method "CoreApp.Controllers.HomeController.Index (CoreApp)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.8128ms. (50a9e262)
+2019-04-08T22:08:32.6261812+07:00 0HLLS6G8ANEU8:00000001 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2019-04-08T22:08:33.0639142+07:00 0HLLS6G8ANEU8:00000001 [INF] Executed ViewResult - view "Index" executed in 459.6625ms. (f66409e9)
+2019-04-08T22:08:33.0663249+07:00 0HLLS6G8ANEU8:00000001 [INF] Executed action "CoreApp.Controllers.HomeController.Index (CoreApp)" in 492.8176ms (afa2e885)
+2019-04-08T22:08:33.0685606+07:00 0HLLS6G8ANEU8:00000001 [INF] Executed endpoint '"CoreApp.Controllers.HomeController.Index (CoreApp)"' (99874f2b)
+2019-04-08T22:08:33.0845644+07:00 0HLLS6G8ANEU7:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/css/bootstrap.css   (ca22a1cb)
+2019-04-08T22:08:33.0885785+07:00 0HLLS6G8ANEU9:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery/dist/jquery.js   (ca22a1cb)
+2019-04-08T22:08:33.0921933+07:00 0HLLS6G8ANEUA:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/js/bootstrap.bundle.js   (ca22a1cb)
+2019-04-08T22:08:33.0944015+07:00 0HLLS6G8ANEUB:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0   (ca22a1cb)
+2019-04-08T22:08:33.0960826+07:00 0HLLS6G8ANEU8:00000001 [INF] Request finished in 656.1909ms 200 text/html; charset=utf-8 (791a596a)
+2019-04-08T22:08:33.1075138+07:00 0HLLS6G8ANEU8:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5000/css/site.css   (ca22a1cb)
+2019-04-08T22:08:33.1169372+07:00 0HLLS6G8ANEUA:00000001 [INF] Request finished in 26.3053ms 404  (791a596a)
+2019-04-08T22:08:33.1280612+07:00 0HLLS6G8ANEU8:00000002 [INF] Sending file. Request path: '"/css/site.css"'. Physical path: '"C:\Users\Administrator\Documents\englich\CoreApp\wwwroot\css\site.css"' (27b0a520)
+2019-04-08T22:08:33.1298079+07:00 0HLLS6G8ANEUB:00000001 [INF] Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\Users\Administrator\Documents\englich\CoreApp\wwwroot\js\site.js"' (27b0a520)
+2019-04-08T22:08:33.1308215+07:00 0HLLS6G8ANEU8:00000002 [INF] Request finished in 31.1002ms 200 text/css (791a596a)
+2019-04-08T22:08:33.1528114+07:00 0HLLS6G8ANEUB:00000001 [INF] Request finished in 37.1988ms 200 application/javascript (791a596a)
+2019-04-08T22:08:33.1832437+07:00 0HLLS6G8ANEU7:00000002 [INF] Sending file. Request path: '"/lib/bootstrap/dist/css/bootstrap.css"'. Physical path: '"C:\Users\Administrator\Documents\englich\CoreApp\wwwroot\lib\bootstrap\dist\css\bootstrap.css"' (27b0a520)
+2019-04-08T22:08:33.1853909+07:00 0HLLS6G8ANEU9:00000001 [INF] Sending file. Request path: '"/lib/jquery/dist/jquery.js"'. Physical path: '"C:\Users\Administrator\Documents\englich\CoreApp\wwwroot\lib\jquery\dist\jquery.js"' (27b0a520)
+2019-04-08T22:08:33.1953344+07:00 0HLLS6G8ANEU7:00000002 [INF] Request finished in 110.5647ms 200 text/css (791a596a)
+2019-04-08T22:08:33.1962906+07:00 0HLLS6G8ANEU9:00000001 [INF] Request finished in 106.8782ms 200 application/javascript (791a596a)
+2019-04-08T22:08:33.2810191+07:00 0HLLS6G8ANEUA:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/js/bootstrap.bundle.js   (ca22a1cb)
+2019-04-08T22:08:33.2868559+07:00 0HLLS6G8ANEUA:00000002 [INF] Request finished in 3.7989ms 404  (791a596a)
+2019-04-08T22:08:36.1120867+07:00 0HLLS6G8ANEUB:00000002 [INF] Request starting HTTP/1.1 POST http://localhost:5000/admin/product/postproduct application/json 36 (ca22a1cb)
+2019-04-08T22:08:36.1148543+07:00 0HLLS6G8ANEUB:00000002 [INF] Executing endpoint '"CoreApp.Areas.Admin.Controllers.ProductController.postProduct (CoreApp)"' (500cc934)
+2019-04-08T22:08:36.1412860+07:00 0HLLS6G8ANEUB:00000002 [INF] Route matched with "{area = \"Admin\", action = \"postProduct\", controller = \"Product\"}". Executing action "CoreApp.Areas.Admin.Controllers.ProductController.postProduct (CoreApp)" (a44c0341)
+2019-04-08T22:08:36.2553435+07:00 0HLLS6G8ANEUB:00000002 [INF] Executing action method "CoreApp.Areas.Admin.Controllers.ProductController.postProduct (CoreApp)" with arguments (["CoreApp.Data.Entities.Product"]) - Validation state: Valid (4e3479ed)
+2019-04-08T22:08:40.2459750+07:00 0HLLS6G8ANEUB:00000002 [WRN] No type was specified for the decimal column '"Balance"' on entity type '"AppUser"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-04-08T22:08:40.2483355+07:00 0HLLS6G8ANEUB:00000002 [WRN] No type was specified for the decimal column '"Price"' on entity type '"BillDetail"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-04-08T22:08:40.2503899+07:00 0HLLS6G8ANEUB:00000002 [WRN] No type was specified for the decimal column '"OriginalPrice"' on entity type '"Product"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-04-08T22:08:40.2525054+07:00 0HLLS6G8ANEUB:00000002 [WRN] No type was specified for the decimal column '"Price"' on entity type '"Product"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-04-08T22:08:40.2545653+07:00 0HLLS6G8ANEUB:00000002 [WRN] No type was specified for the decimal column '"PromotionPrice"' on entity type '"Product"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-04-08T22:08:40.2567208+07:00 0HLLS6G8ANEUB:00000002 [WRN] No type was specified for the decimal column '"Value5"' on entity type '"SystemConfig"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-04-08T22:08:40.2585549+07:00 0HLLS6G8ANEUB:00000002 [WRN] No type was specified for the decimal column '"Price"' on entity type '"WholePrice"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-04-08T22:08:40.3157206+07:00 0HLLS6G8ANEUB:00000002 [INF] Entity Framework Core "2.2.3-servicing-35854" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-04-08T22:08:40.6364092+07:00 0HLLS6G8ANEUB:00000002 [ERR] Failed executing DbCommand ("21"ms) [Parameters=["@p0='?' (DbType = Guid), @p1='?' (DbType = Guid), @p2='?' (Size = 4000), @p3='?' (DbType = DateTime2), @p4='?' (DbType = DateTime2), @p5='?' (Size = 255), @p6='?', @p7='?' (Size = 255), @p8='?' (Size = 255), @p9='?' (DbType = Decimal), @p10='?' (DbType = Decimal), @p11='?' (DbType = Decimal), @p12='?' (Size = 255), @p13='?' (Size = 255), @p14='?' (Size = 255), @p15='?' (Size = 4000), @p16='?' (DbType = Int32), @p17='?' (Size = 255), @p18='?' (Size = 4000), @p19='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [Products] ([Id], [CategoryId], [Content], [DateCreated], [DateModified], [Description], [HotFlag], [Image], [Name], [OriginalPrice], [Price], [PromotionPrice], [SeoAlias], [SeoDescription], [SeoKeyWords], [SeoPageTitle], [Status], [Tags], [Unit], [ViewCount])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18, @p19);" (627a98df)
+System.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Products_ProductCategories_CategoryId". The conflict occurred in database "lichho", table "dbo.ProductCategories", column 'Id'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__122_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteAsync(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues, CancellationToken cancellationToken)
+ClientConnectionId:abbf241e-9662-4e9b-963a-00484f30453a
+Error Number:547,State:0,Class:16
+2019-04-08T22:08:40.6606381+07:00 0HLLS6G8ANEUB:00000002 [ERR] An exception occurred in the database while saving changes for context type '"CoreApp.Persistence.AppDbContext"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: The INSERT statement conflicted with the FOREIGN KEY constraint \"FK_Products_ProductCategories_CategoryId\". The conflict occurred in database \"lichho\", table \"dbo.ProductCategories\", column 'Id'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__122_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteAsync(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(DbContext _, ValueTuple`2 parameters, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IReadOnlyList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)" (170f029e)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Products_ProductCategories_CategoryId". The conflict occurred in database "lichho", table "dbo.ProductCategories", column 'Id'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__122_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteAsync(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(DbContext _, ValueTuple`2 parameters, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IReadOnlyList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at CoreApp.Persistence.Repository.GenericRepository`1.InsertAsync(T entity) in C:\Users\Administrator\Documents\englich\CoreApp.Infrastructure\Repository\GenericRepository.cs:line 67
+2019-04-08T22:08:40.8710750+07:00 0HLLS6G8ANEUB:00000002 [INF] Executed action "CoreApp.Areas.Admin.Controllers.ProductController.postProduct (CoreApp)" in 4727.7739ms (afa2e885)
+2019-04-08T22:08:40.8746298+07:00 0HLLS6G8ANEUB:00000002 [INF] Executed endpoint '"CoreApp.Areas.Admin.Controllers.ProductController.postProduct (CoreApp)"' (99874f2b)
+2019-04-08T22:08:41.2020509+07:00 0HLLS6G8ANEUB:00000002 [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');" (0723d8ff)
+2019-04-08T22:08:41.2548689+07:00 0HLLS6G8ANEUB:00000002 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];" (0723d8ff)
+2019-04-08T22:08:41.3122606+07:00 0HLLS6G8ANEUB:00000002 [INF] Request finished in 5200.1924ms 500 text/html; charset=utf-8 (791a596a)
+2019-04-08T22:09:23.7787374+07:00 0HLLS6G8ANEU8:00000003 [INF] Request starting HTTP/1.1 POST http://localhost:5000/admin/productcategory/postproductcategory application/json 56 (ca22a1cb)
+2019-04-08T22:09:23.7824167+07:00 0HLLS6G8ANEU8:00000003 [INF] Executing endpoint '"CoreApp.Areas.Admin.Controllers.ProductCategoryController.postProductCategory (CoreApp)"' (500cc934)
+2019-04-08T22:09:23.7891910+07:00 0HLLS6G8ANEU8:00000003 [INF] Route matched with "{area = \"Admin\", action = \"postProductCategory\", controller = \"ProductCategory\"}". Executing action "CoreApp.Areas.Admin.Controllers.ProductCategoryController.postProductCategory (CoreApp)" (a44c0341)
+2019-04-08T22:09:23.7983964+07:00 0HLLS6G8ANEU8:00000003 [INF] Executing action method "CoreApp.Areas.Admin.Controllers.ProductCategoryController.postProductCategory (CoreApp)" with arguments (["CoreApp.Data.Entities.ProductCategory"]) - Validation state: Valid (4e3479ed)
+2019-04-08T22:09:23.8099567+07:00 0HLLS6G8ANEU8:00000003 [INF] Entity Framework Core "2.2.3-servicing-35854" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-04-08T22:09:23.8193294+07:00 0HLLS6G8ANEU8:00000003 [INF] Executed DbCommand ("2"ms) [Parameters=["@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime2), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000), @p4='?', @p5='?' (DbType = Int32), @p6='?' (Size = 4000), @p7='?' (Size = 4000), @p8='?' (DbType = Guid), @p9='?' (Size = 4000), @p10='?' (Size = 4000), @p11='?' (Size = 4000), @p12='?' (Size = 4000), @p13='?' (DbType = Int32), @p14='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [ProductCategories] ([Id], [DateCreated], [DateModified], [Description], [HomeFlag], [HomeOrder], [Image], [Name], [ParentId], [SeoAlias], [SeoDescription], [SeoKeyWords], [SeoPageTitle], [SortOrder], [Status])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14);" (0723d8ff)
+2019-04-08T22:09:43.2393867+07:00 0HLLS6G8ANEU8:00000003 [INF] Executed action method "CoreApp.Areas.Admin.Controllers.ProductCategoryController.postProductCategory (CoreApp)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 19435.659ms. (50a9e262)
+2019-04-08T22:09:43.2511981+07:00 0HLLS6G8ANEU8:00000003 [INF] Executing ObjectResult, writing value of type '"CoreApp.Data.Entities.ProductCategory"'. (8a1b66c8)
+2019-04-08T22:09:43.2711359+07:00 0HLLS6G8ANEU8:00000003 [INF] Executed action "CoreApp.Areas.Admin.Controllers.ProductCategoryController.postProductCategory (CoreApp)" in 19479.8708ms (afa2e885)
+2019-04-08T22:09:43.2730498+07:00 0HLLS6G8ANEU8:00000003 [INF] Executed endpoint '"CoreApp.Areas.Admin.Controllers.ProductCategoryController.postProductCategory (CoreApp)"' (99874f2b)
+2019-04-08T22:09:43.2752772+07:00 0HLLS6G8ANEU8:00000003 [INF] Request finished in 19496.9136ms 200 application/json; charset=utf-8 (791a596a)
+2019-04-08T22:10:28.1850783+07:00 0HLLS6G8ANEU8:00000004 [INF] Request starting HTTP/1.1 POST http://localhost:5000/admin/product/postproduct application/json 36 (ca22a1cb)
+2019-04-08T22:10:28.1885319+07:00 0HLLS6G8ANEU8:00000004 [INF] Executing endpoint '"CoreApp.Areas.Admin.Controllers.ProductController.postProduct (CoreApp)"' (500cc934)
+2019-04-08T22:10:28.1906057+07:00 0HLLS6G8ANEU8:00000004 [INF] Route matched with "{area = \"Admin\", action = \"postProduct\", controller = \"Product\"}". Executing action "CoreApp.Areas.Admin.Controllers.ProductController.postProduct (CoreApp)" (a44c0341)
+2019-04-08T22:10:28.2208520+07:00 0HLLS6G8ANEU8:00000004 [INF] Executing action method "CoreApp.Areas.Admin.Controllers.ProductController.postProduct (CoreApp)" with arguments (["CoreApp.Data.Entities.Product"]) - Validation state: Valid (4e3479ed)
+2019-04-08T22:10:30.8309682+07:00 0HLLS6G8ANEU8:00000004 [INF] Entity Framework Core "2.2.3-servicing-35854" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-04-08T22:10:30.8615707+07:00 0HLLS6G8ANEU8:00000004 [ERR] Failed executing DbCommand ("26"ms) [Parameters=["@p0='?' (DbType = Guid), @p1='?' (DbType = Guid), @p2='?' (Size = 4000), @p3='?' (DbType = DateTime2), @p4='?' (DbType = DateTime2), @p5='?' (Size = 255), @p6='?', @p7='?' (Size = 255), @p8='?' (Size = 255), @p9='?' (DbType = Decimal), @p10='?' (DbType = Decimal), @p11='?' (DbType = Decimal), @p12='?' (Size = 255), @p13='?' (Size = 255), @p14='?' (Size = 255), @p15='?' (Size = 4000), @p16='?' (DbType = Int32), @p17='?' (Size = 255), @p18='?' (Size = 4000), @p19='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [Products] ([Id], [CategoryId], [Content], [DateCreated], [DateModified], [Description], [HotFlag], [Image], [Name], [OriginalPrice], [Price], [PromotionPrice], [SeoAlias], [SeoDescription], [SeoKeyWords], [SeoPageTitle], [Status], [Tags], [Unit], [ViewCount])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18, @p19);" (627a98df)
+System.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Products_ProductCategories_CategoryId". The conflict occurred in database "lichho", table "dbo.ProductCategories", column 'Id'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__122_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteAsync(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:abbf241e-9662-4e9b-963a-00484f30453a
+Error Number:547,State:0,Class:16
+2019-04-08T22:10:30.8704216+07:00 0HLLS6G8ANEU8:00000004 [ERR] An exception occurred in the database while saving changes for context type '"CoreApp.Persistence.AppDbContext"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: The INSERT statement conflicted with the FOREIGN KEY constraint \"FK_Products_ProductCategories_CategoryId\". The conflict occurred in database \"lichho\", table \"dbo.ProductCategories\", column 'Id'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__122_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteAsync(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(DbContext _, ValueTuple`2 parameters, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IReadOnlyList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)" (170f029e)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Products_ProductCategories_CategoryId". The conflict occurred in database "lichho", table "dbo.ProductCategories", column 'Id'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__122_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteAsync(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(DbContext _, ValueTuple`2 parameters, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IReadOnlyList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at CoreApp.Persistence.Repository.GenericRepository`1.InsertAsync(T entity) in C:\Users\Administrator\Documents\englich\CoreApp.Infrastructure\Repository\GenericRepository.cs:line 67
+2019-04-08T22:10:31.0428271+07:00 0HLLS6G8ANEU8:00000004 [INF] Executed action "CoreApp.Areas.Admin.Controllers.ProductController.postProduct (CoreApp)" in 2850.1072ms (afa2e885)
+2019-04-08T22:10:31.0449995+07:00 0HLLS6G8ANEU8:00000004 [INF] Executed endpoint '"CoreApp.Areas.Admin.Controllers.ProductController.postProduct (CoreApp)"' (99874f2b)
+2019-04-08T22:10:31.1604425+07:00 0HLLS6G8ANEU8:00000004 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');" (0723d8ff)
+2019-04-08T22:10:31.2427419+07:00 0HLLS6G8ANEU8:00000004 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];" (0723d8ff)
+2019-04-08T22:10:31.3280496+07:00 0HLLS6G8ANEU8:00000004 [INF] Request finished in 3105.273ms 500 text/html; charset=utf-8 (791a596a)
+2019-04-08T22:12:42.3581685+07:00 0HLLS6IIPPL5E:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/   (ca22a1cb)
+2019-04-08T22:12:42.3581685+07:00 0HLLS6IIPPL5D:00000001 [INF] Request starting HTTP/1.1 DEBUG http://localhost:5000/  0 (ca22a1cb)
+2019-04-08T22:12:42.4102403+07:00 0HLLS6IIPPL5D:00000001 [INF] Request finished in 55.866ms 200  (791a596a)
+2019-04-08T22:12:42.4143795+07:00 0HLLS6IIPPL5E:00000001 [WRN] Failed to determine the https port for redirect. (ca76cc21)
+2019-04-08T22:12:42.5541525+07:00 0HLLS6IIPPL5E:00000001 [INF] Executing endpoint '"CoreApp.Controllers.HomeController.Index (CoreApp)"' (500cc934)
+2019-04-08T22:12:42.5775599+07:00 0HLLS6IIPPL5E:00000001 [INF] Route matched with "{action = \"Index\", controller = \"Home\", area = \"\"}". Executing action "CoreApp.Controllers.HomeController.Index (CoreApp)" (a44c0341)
+2019-04-08T22:12:42.5936832+07:00 0HLLS6IIPPL5E:00000001 [INF] Executing action method "CoreApp.Controllers.HomeController.Index (CoreApp)" - Validation state: Valid (dad538d7)
+2019-04-08T22:12:42.6024921+07:00 0HLLS6IIPPL5E:00000001 [INF] Executed action method "CoreApp.Controllers.HomeController.Index (CoreApp)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 1.0188ms. (50a9e262)
+2019-04-08T22:12:42.6314226+07:00 0HLLS6IIPPL5E:00000001 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2019-04-08T22:12:43.0627573+07:00 0HLLS6IIPPL5E:00000001 [INF] Executed ViewResult - view "Index" executed in 446.2689ms. (f66409e9)
+2019-04-08T22:12:43.0660041+07:00 0HLLS6IIPPL5E:00000001 [INF] Executed action "CoreApp.Controllers.HomeController.Index (CoreApp)" in 485.4864ms (afa2e885)
+2019-04-08T22:12:43.0695475+07:00 0HLLS6IIPPL5E:00000001 [INF] Executed endpoint '"CoreApp.Controllers.HomeController.Index (CoreApp)"' (99874f2b)
+2019-04-08T22:12:43.0866110+07:00 0HLLS6IIPPL5F:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/css/site.css   (ca22a1cb)
+2019-04-08T22:12:43.0905649+07:00 0HLLS6IIPPL5G:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0   (ca22a1cb)
+2019-04-08T22:12:43.0948767+07:00 0HLLS6IIPPL5H:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/js/bootstrap.bundle.js   (ca22a1cb)
+2019-04-08T22:12:43.1105242+07:00 0HLLS6IIPPL5D:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/css/bootstrap.css   (ca22a1cb)
+2019-04-08T22:12:43.1109712+07:00 0HLLS6IIPPL5E:00000001 [INF] Request finished in 759.9995ms 200 text/html; charset=utf-8 (791a596a)
+2019-04-08T22:12:43.1204960+07:00 0HLLS6IIPPL5E:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery/dist/jquery.js   (ca22a1cb)
+2019-04-08T22:12:43.1226789+07:00 0HLLS6IIPPL5H:00000001 [INF] Request finished in 19.6102ms 404  (791a596a)
+2019-04-08T22:12:43.1302968+07:00 0HLLS6IIPPL5G:00000001 [INF] Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\Users\Administrator\Documents\englich\CoreApp\wwwroot\js\site.js"' (27b0a520)
+2019-04-08T22:12:43.1335355+07:00 0HLLS6IIPPL5G:00000001 [INF] Request finished in 47.6112ms 200 application/javascript (791a596a)
+2019-04-08T22:12:43.1601499+07:00 0HLLS6IIPPL5F:00000001 [INF] Sending file. Request path: '"/css/site.css"'. Physical path: '"C:\Users\Administrator\Documents\englich\CoreApp\wwwroot\css\site.css"' (27b0a520)
+2019-04-08T22:12:43.1772874+07:00 0HLLS6IIPPL5D:00000002 [INF] Sending file. Request path: '"/lib/bootstrap/dist/css/bootstrap.css"'. Physical path: '"C:\Users\Administrator\Documents\englich\CoreApp\wwwroot\lib\bootstrap\dist\css\bootstrap.css"' (27b0a520)
+2019-04-08T22:12:43.1806020+07:00 0HLLS6IIPPL5F:00000001 [INF] Request finished in 94.8772ms 200 text/css (791a596a)
+2019-04-08T22:12:43.1820859+07:00 0HLLS6IIPPL5D:00000002 [INF] Request finished in 81.4518ms 200 text/css (791a596a)
+2019-04-08T22:12:43.1857308+07:00 0HLLS6IIPPL5E:00000002 [INF] Sending file. Request path: '"/lib/jquery/dist/jquery.js"'. Physical path: '"C:\Users\Administrator\Documents\englich\CoreApp\wwwroot\lib\jquery\dist\jquery.js"' (27b0a520)
+2019-04-08T22:12:43.1953467+07:00 0HLLS6IIPPL5E:00000002 [INF] Request finished in 74.5453ms 200 application/javascript (791a596a)
+2019-04-08T22:12:43.2963487+07:00 0HLLS6IIPPL5H:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/js/bootstrap.bundle.js   (ca22a1cb)
+2019-04-08T22:12:43.3024081+07:00 0HLLS6IIPPL5H:00000002 [INF] Request finished in 4.4174ms 404  (791a596a)
+2019-04-08T22:12:44.9396341+07:00 0HLLS6IIPPL5G:00000002 [INF] Request starting HTTP/1.1 POST http://localhost:5000/admin/product/postproduct application/json 36 (ca22a1cb)
+2019-04-08T22:12:44.9426813+07:00 0HLLS6IIPPL5G:00000002 [INF] Executing endpoint '"CoreApp.Areas.Admin.Controllers.ProductController.postProduct (CoreApp)"' (500cc934)
+2019-04-08T22:12:44.9612825+07:00 0HLLS6IIPPL5G:00000002 [INF] Route matched with "{area = \"Admin\", action = \"postProduct\", controller = \"Product\"}". Executing action "CoreApp.Areas.Admin.Controllers.ProductController.postProduct (CoreApp)" (a44c0341)
+2019-04-08T22:12:45.0789967+07:00 0HLLS6IIPPL5G:00000002 [INF] Executing action method "CoreApp.Areas.Admin.Controllers.ProductController.postProduct (CoreApp)" with arguments (["CoreApp.Data.Entities.Product"]) - Validation state: Valid (4e3479ed)
+2019-04-08T22:12:47.7876284+07:00 0HLLS6IIPPL5G:00000002 [WRN] No type was specified for the decimal column '"Balance"' on entity type '"AppUser"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-04-08T22:12:47.7898322+07:00 0HLLS6IIPPL5G:00000002 [WRN] No type was specified for the decimal column '"Price"' on entity type '"BillDetail"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-04-08T22:12:47.7918339+07:00 0HLLS6IIPPL5G:00000002 [WRN] No type was specified for the decimal column '"OriginalPrice"' on entity type '"Product"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-04-08T22:12:47.7938944+07:00 0HLLS6IIPPL5G:00000002 [WRN] No type was specified for the decimal column '"Price"' on entity type '"Product"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-04-08T22:12:47.7958136+07:00 0HLLS6IIPPL5G:00000002 [WRN] No type was specified for the decimal column '"PromotionPrice"' on entity type '"Product"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-04-08T22:12:47.7979200+07:00 0HLLS6IIPPL5G:00000002 [WRN] No type was specified for the decimal column '"Value5"' on entity type '"SystemConfig"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-04-08T22:12:47.7999045+07:00 0HLLS6IIPPL5G:00000002 [WRN] No type was specified for the decimal column '"Price"' on entity type '"WholePrice"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2019-04-08T22:12:47.8532731+07:00 0HLLS6IIPPL5G:00000002 [INF] Entity Framework Core "2.2.3-servicing-35854" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-04-08T22:12:48.2071028+07:00 0HLLS6IIPPL5G:00000002 [ERR] Failed executing DbCommand ("59"ms) [Parameters=["@p0='?' (DbType = Guid), @p1='?' (DbType = Guid), @p2='?' (Size = 4000), @p3='?' (DbType = DateTime2), @p4='?' (DbType = DateTime2), @p5='?' (Size = 255), @p6='?', @p7='?' (Size = 255), @p8='?' (Size = 255), @p9='?' (DbType = Decimal), @p10='?' (DbType = Decimal), @p11='?' (DbType = Decimal), @p12='?' (Size = 255), @p13='?' (Size = 255), @p14='?' (Size = 255), @p15='?' (Size = 4000), @p16='?' (DbType = Int32), @p17='?' (Size = 255), @p18='?' (Size = 4000), @p19='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [Products] ([Id], [CategoryId], [Content], [DateCreated], [DateModified], [Description], [HotFlag], [Image], [Name], [OriginalPrice], [Price], [PromotionPrice], [SeoAlias], [SeoDescription], [SeoKeyWords], [SeoPageTitle], [Status], [Tags], [Unit], [ViewCount])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18, @p19);" (627a98df)
+System.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Products_ProductCategories_CategoryId". The conflict occurred in database "lichho", table "dbo.ProductCategories", column 'Id'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__122_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteAsync(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues, CancellationToken cancellationToken)
+ClientConnectionId:c92804a8-f8f1-42e1-b017-55b43dd47a8a
+Error Number:547,State:0,Class:16
+2019-04-08T22:12:48.2281741+07:00 0HLLS6IIPPL5G:00000002 [ERR] An exception occurred in the database while saving changes for context type '"CoreApp.Persistence.AppDbContext"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: The INSERT statement conflicted with the FOREIGN KEY constraint \"FK_Products_ProductCategories_CategoryId\". The conflict occurred in database \"lichho\", table \"dbo.ProductCategories\", column 'Id'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__122_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteAsync(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(DbContext _, ValueTuple`2 parameters, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IReadOnlyList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)" (170f029e)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Products_ProductCategories_CategoryId". The conflict occurred in database "lichho", table "dbo.ProductCategories", column 'Id'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__122_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteAsync(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(DbContext _, ValueTuple`2 parameters, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IReadOnlyList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at CoreApp.Persistence.Repository.GenericRepository`1.InsertAsync(T entity) in C:\Users\Administrator\Documents\englich\CoreApp.Infrastructure\Repository\GenericRepository.cs:line 67
+2019-04-08T22:12:48.4333599+07:00 0HLLS6IIPPL5G:00000002 [INF] Executed action "CoreApp.Areas.Admin.Controllers.ProductController.postProduct (CoreApp)" in 3470.0399ms (afa2e885)
+2019-04-08T22:12:48.4366277+07:00 0HLLS6IIPPL5G:00000002 [INF] Executed endpoint '"CoreApp.Areas.Admin.Controllers.ProductController.postProduct (CoreApp)"' (99874f2b)
+2019-04-08T22:12:48.7478112+07:00 0HLLS6IIPPL5G:00000002 [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');" (0723d8ff)
+2019-04-08T22:12:48.7781376+07:00 0HLLS6IIPPL5G:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];" (0723d8ff)
+2019-04-08T22:12:48.8782313+07:00 0HLLS6IIPPL5G:00000002 [INF] Request finished in 3938.8657ms 500 text/html; charset=utf-8 (791a596a)
+2019-04-08T22:13:29.9022537+07:00 0HLLS6IIPPL5F:00000002 [INF] Request starting HTTP/1.1 POST http://localhost:5000/admin/product/postproduct application/json 36 (ca22a1cb)
+2019-04-08T22:13:29.9069583+07:00 0HLLS6IIPPL5F:00000002 [INF] Executing endpoint '"CoreApp.Areas.Admin.Controllers.ProductController.postProduct (CoreApp)"' (500cc934)
+2019-04-08T22:13:29.9089909+07:00 0HLLS6IIPPL5F:00000002 [INF] Route matched with "{area = \"Admin\", action = \"postProduct\", controller = \"Product\"}". Executing action "CoreApp.Areas.Admin.Controllers.ProductController.postProduct (CoreApp)" (a44c0341)
+2019-04-08T22:13:29.9126223+07:00 0HLLS6IIPPL5F:00000002 [INF] Executing action method "CoreApp.Areas.Admin.Controllers.ProductController.postProduct (CoreApp)" with arguments (["CoreApp.Data.Entities.Product"]) - Validation state: Valid (4e3479ed)
+2019-04-08T22:14:23.5395577+07:00 0HLLS6IIPPL5F:00000002 [INF] Entity Framework Core "2.2.3-servicing-35854" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-04-08T22:14:26.1367091+07:00 0HLLS6IIPPL5F:00000002 [ERR] Failed executing DbCommand ("42"ms) [Parameters=["@p0='?' (DbType = Guid), @p1='?' (DbType = Guid), @p2='?' (Size = 4000), @p3='?' (DbType = DateTime2), @p4='?' (DbType = DateTime2), @p5='?' (Size = 255), @p6='?', @p7='?' (Size = 255), @p8='?' (Size = 255), @p9='?' (DbType = Decimal), @p10='?' (DbType = Decimal), @p11='?' (DbType = Decimal), @p12='?' (Size = 255), @p13='?' (Size = 255), @p14='?' (Size = 255), @p15='?' (Size = 4000), @p16='?' (DbType = Int32), @p17='?' (Size = 255), @p18='?' (Size = 4000), @p19='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [Products] ([Id], [CategoryId], [Content], [DateCreated], [DateModified], [Description], [HotFlag], [Image], [Name], [OriginalPrice], [Price], [PromotionPrice], [SeoAlias], [SeoDescription], [SeoKeyWords], [SeoPageTitle], [Status], [Tags], [Unit], [ViewCount])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18, @p19);" (627a98df)
+System.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Products_ProductCategories_CategoryId". The conflict occurred in database "lichho", table "dbo.ProductCategories", column 'Id'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__122_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteAsync(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues, CancellationToken cancellationToken)
+ClientConnectionId:c92804a8-f8f1-42e1-b017-55b43dd47a8a
+Error Number:547,State:0,Class:16
+2019-04-08T22:14:26.1502584+07:00 0HLLS6IIPPL5F:00000002 [ERR] An exception occurred in the database while saving changes for context type '"CoreApp.Persistence.AppDbContext"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: The INSERT statement conflicted with the FOREIGN KEY constraint \"FK_Products_ProductCategories_CategoryId\". The conflict occurred in database \"lichho\", table \"dbo.ProductCategories\", column 'Id'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__122_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteAsync(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(DbContext _, ValueTuple`2 parameters, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IReadOnlyList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)" (170f029e)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Products_ProductCategories_CategoryId". The conflict occurred in database "lichho", table "dbo.ProductCategories", column 'Id'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__122_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteAsync(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(DbContext _, ValueTuple`2 parameters, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IReadOnlyList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2019-04-08T22:14:26.3783152+07:00 0HLLS6IIPPL5F:00000002 [INF] Executed action "CoreApp.Areas.Admin.Controllers.ProductController.postProduct (CoreApp)" in 56467.2434ms (afa2e885)
+2019-04-08T22:14:26.3802373+07:00 0HLLS6IIPPL5F:00000002 [INF] Executed endpoint '"CoreApp.Areas.Admin.Controllers.ProductController.postProduct (CoreApp)"' (99874f2b)
+2019-04-08T22:14:26.5229620+07:00 0HLLS6IIPPL5F:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');" (0723d8ff)
+2019-04-08T22:14:26.5937151+07:00 0HLLS6IIPPL5F:00000002 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];" (0723d8ff)
+2019-04-08T22:14:26.5966534+07:00 0HLLS6IIPPL5F:00000002 [INF] Request finished in 56694.4539ms 500 text/html; charset=utf-8 (791a596a)

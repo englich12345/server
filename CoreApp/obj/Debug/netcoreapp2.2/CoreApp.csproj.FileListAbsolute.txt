@@ -1,0 +1,168 @@
+C:\Users\Administrator\Documents\lichho\CoreApp\obj\Debug\netcoreapp2.2\CoreApp.csprojAssemblyReference.cache
+C:\Users\Administrator\Documents\lichho\CoreApp\obj\Debug\netcoreapp2.2\CoreApp.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\lichho\CoreApp\obj\Debug\netcoreapp2.2\CoreApp.RazorAssemblyInfo.cache
+C:\Users\Administrator\Documents\lichho\CoreApp\obj\Debug\netcoreapp2.2\CoreApp.RazorAssemblyInfo.cs
+C:\Users\Administrator\Documents\lichho\CoreApp\obj\Debug\netcoreapp2.2\CoreApp.AssemblyInfoInputs.cache
+C:\Users\Administrator\Documents\lichho\CoreApp\obj\Debug\netcoreapp2.2\CoreApp.AssemblyInfo.cs
+C:\Users\Administrator\Documents\lichho\CoreApp\bin\Debug\netcoreapp2.2\CoreApp.deps.json
+C:\Users\Administrator\Documents\lichho\CoreApp\bin\Debug\netcoreapp2.2\CoreApp.runtimeconfig.json
+C:\Users\Administrator\Documents\lichho\CoreApp\bin\Debug\netcoreapp2.2\CoreApp.runtimeconfig.dev.json
+C:\Users\Administrator\Documents\lichho\CoreApp\bin\Debug\netcoreapp2.2\CoreApp.dll
+C:\Users\Administrator\Documents\lichho\CoreApp\bin\Debug\netcoreapp2.2\CoreApp.pdb
+C:\Users\Administrator\Documents\lichho\CoreApp\bin\Debug\netcoreapp2.2\CoreApp.Views.dll
+C:\Users\Administrator\Documents\lichho\CoreApp\bin\Debug\netcoreapp2.2\CoreApp.Views.pdb
+C:\Users\Administrator\Documents\lichho\CoreApp\bin\Debug\netcoreapp2.2\CoreApp.Application.dll
+C:\Users\Administrator\Documents\lichho\CoreApp\bin\Debug\netcoreapp2.2\CoreApp.Data.dll
+C:\Users\Administrator\Documents\lichho\CoreApp\bin\Debug\netcoreapp2.2\CoreApp.Persistence.dll
+C:\Users\Administrator\Documents\lichho\CoreApp\bin\Debug\netcoreapp2.2\CoreApp.Utilities.dll
+C:\Users\Administrator\Documents\lichho\CoreApp\bin\Debug\netcoreapp2.2\CoreApp.Application.pdb
+C:\Users\Administrator\Documents\lichho\CoreApp\bin\Debug\netcoreapp2.2\CoreApp.Persistence.pdb
+C:\Users\Administrator\Documents\lichho\CoreApp\bin\Debug\netcoreapp2.2\CoreApp.Utilities.pdb
+C:\Users\Administrator\Documents\lichho\CoreApp\bin\Debug\netcoreapp2.2\CoreApp.Data.pdb
+C:\Users\Administrator\Documents\lichho\CoreApp\obj\Debug\netcoreapp2.2\CoreApp.TagHelpers.input.cache
+C:\Users\Administrator\Documents\lichho\CoreApp\obj\Debug\netcoreapp2.2\CoreApp.TagHelpers.output.cache
+C:\Users\Administrator\Documents\lichho\CoreApp\obj\Debug\netcoreapp2.2\CoreApp.RazorCoreGenerate.cache
+C:\Users\Administrator\Documents\lichho\CoreApp\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\Home\Index.g.cshtml.cs
+C:\Users\Administrator\Documents\lichho\CoreApp\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\Login\Index.g.cshtml.cs
+C:\Users\Administrator\Documents\lichho\CoreApp\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\ProductCategory\Index.g.cshtml.cs
+C:\Users\Administrator\Documents\lichho\CoreApp\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\ProductCategory\_AddModel.g.cshtml.cs
+C:\Users\Administrator\Documents\lichho\CoreApp\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\ProductCategory\_EditModel.g.cshtml.cs
+C:\Users\Administrator\Documents\lichho\CoreApp\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\Product\Index.g.cshtml.cs
+C:\Users\Administrator\Documents\lichho\CoreApp\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\Product\_AddEditModel.g.cshtml.cs
+C:\Users\Administrator\Documents\lichho\CoreApp\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\Shared\Error.g.cshtml.cs
+C:\Users\Administrator\Documents\lichho\CoreApp\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\Administrator\Documents\lichho\CoreApp\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\Shared\_LoginPartial.g.cshtml.cs
+C:\Users\Administrator\Documents\lichho\CoreApp\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\Administrator\Documents\lichho\CoreApp\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\User\Index.g.cshtml.cs
+C:\Users\Administrator\Documents\lichho\CoreApp\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\User\_AddModel.g.cshtml.cs
+C:\Users\Administrator\Documents\lichho\CoreApp\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\User\_EditModel.g.cshtml.cs
+C:\Users\Administrator\Documents\lichho\CoreApp\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\_ViewImports.g.cshtml.cs
+C:\Users\Administrator\Documents\lichho\CoreApp\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\_ViewStart.g.cshtml.cs
+C:\Users\Administrator\Documents\lichho\CoreApp\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ViewStart.g.cshtml.cs
+C:\Users\Administrator\Documents\lichho\CoreApp\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\Administrator\Documents\lichho\CoreApp\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.g.cshtml.cs
+C:\Users\Administrator\Documents\lichho\CoreApp\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\Administrator\Documents\lichho\CoreApp\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\Administrator\Documents\lichho\CoreApp\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\Administrator\Documents\lichho\CoreApp\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_LoginPartial.g.cshtml.cs
+C:\Users\Administrator\Documents\lichho\CoreApp\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\Administrator\Documents\lichho\CoreApp\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\Administrator\Documents\lichho\CoreApp\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\Administrator\Documents\lichho\CoreApp\obj\Debug\netcoreapp2.2\CoreApp.RazorTargetAssemblyInfo.cache
+C:\Users\Administrator\Documents\lichho\CoreApp\obj\Debug\netcoreapp2.2\CoreApp.RazorTargetAssemblyInfo.cs
+C:\Users\Administrator\Documents\lichho\CoreApp\obj\Debug\netcoreapp2.2\CoreApp.Views.pdb
+C:\Users\Administrator\Documents\lichho\CoreApp\obj\Debug\netcoreapp2.2\CoreApp.csproj.CopyComplete
+C:\Users\Administrator\Documents\lichho\CoreApp\obj\Debug\netcoreapp2.2\CoreApp.dll
+C:\Users\Administrator\Documents\lichho\CoreApp\obj\Debug\netcoreapp2.2\CoreApp.pdb
+C:\Users\Administrator\Documents\lich-server\CoreApp\bin\Debug\netcoreapp2.2\CoreApp.deps.json
+C:\Users\Administrator\Documents\lich-server\CoreApp\bin\Debug\netcoreapp2.2\CoreApp.runtimeconfig.json
+C:\Users\Administrator\Documents\lich-server\CoreApp\bin\Debug\netcoreapp2.2\CoreApp.runtimeconfig.dev.json
+C:\Users\Administrator\Documents\lich-server\CoreApp\bin\Debug\netcoreapp2.2\CoreApp.dll
+C:\Users\Administrator\Documents\lich-server\CoreApp\bin\Debug\netcoreapp2.2\CoreApp.pdb
+C:\Users\Administrator\Documents\lich-server\CoreApp\bin\Debug\netcoreapp2.2\CoreApp.Views.dll
+C:\Users\Administrator\Documents\lich-server\CoreApp\bin\Debug\netcoreapp2.2\CoreApp.Views.pdb
+C:\Users\Administrator\Documents\lich-server\CoreApp\bin\Debug\netcoreapp2.2\CoreApp.Application.dll
+C:\Users\Administrator\Documents\lich-server\CoreApp\bin\Debug\netcoreapp2.2\CoreApp.Data.dll
+C:\Users\Administrator\Documents\lich-server\CoreApp\bin\Debug\netcoreapp2.2\CoreApp.Persistence.dll
+C:\Users\Administrator\Documents\lich-server\CoreApp\bin\Debug\netcoreapp2.2\CoreApp.Utilities.dll
+C:\Users\Administrator\Documents\lich-server\CoreApp\bin\Debug\netcoreapp2.2\CoreApp.Application.pdb
+C:\Users\Administrator\Documents\lich-server\CoreApp\bin\Debug\netcoreapp2.2\CoreApp.Persistence.pdb
+C:\Users\Administrator\Documents\lich-server\CoreApp\bin\Debug\netcoreapp2.2\CoreApp.Utilities.pdb
+C:\Users\Administrator\Documents\lich-server\CoreApp\bin\Debug\netcoreapp2.2\CoreApp.Data.pdb
+C:\Users\Administrator\Documents\lich-server\CoreApp\obj\Debug\netcoreapp2.2\CoreApp.csprojAssemblyReference.cache
+C:\Users\Administrator\Documents\lich-server\CoreApp\obj\Debug\netcoreapp2.2\CoreApp.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\lich-server\CoreApp\obj\Debug\netcoreapp2.2\CoreApp.RazorAssemblyInfo.cache
+C:\Users\Administrator\Documents\lich-server\CoreApp\obj\Debug\netcoreapp2.2\CoreApp.RazorAssemblyInfo.cs
+C:\Users\Administrator\Documents\lich-server\CoreApp\obj\Debug\netcoreapp2.2\CoreApp.AssemblyInfoInputs.cache
+C:\Users\Administrator\Documents\lich-server\CoreApp\obj\Debug\netcoreapp2.2\CoreApp.AssemblyInfo.cs
+C:\Users\Administrator\Documents\lich-server\CoreApp\obj\Debug\netcoreapp2.2\CoreApp.TagHelpers.input.cache
+C:\Users\Administrator\Documents\lich-server\CoreApp\obj\Debug\netcoreapp2.2\CoreApp.TagHelpers.output.cache
+C:\Users\Administrator\Documents\lich-server\CoreApp\obj\Debug\netcoreapp2.2\CoreApp.RazorCoreGenerate.cache
+C:\Users\Administrator\Documents\lich-server\CoreApp\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\Home\Index.g.cshtml.cs
+C:\Users\Administrator\Documents\lich-server\CoreApp\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\Login\Index.g.cshtml.cs
+C:\Users\Administrator\Documents\lich-server\CoreApp\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\ProductCategory\Index.g.cshtml.cs
+C:\Users\Administrator\Documents\lich-server\CoreApp\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\ProductCategory\_AddModel.g.cshtml.cs
+C:\Users\Administrator\Documents\lich-server\CoreApp\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\ProductCategory\_EditModel.g.cshtml.cs
+C:\Users\Administrator\Documents\lich-server\CoreApp\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\Product\Index.g.cshtml.cs
+C:\Users\Administrator\Documents\lich-server\CoreApp\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\Product\_AddEditModel.g.cshtml.cs
+C:\Users\Administrator\Documents\lich-server\CoreApp\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\Shared\Error.g.cshtml.cs
+C:\Users\Administrator\Documents\lich-server\CoreApp\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\Administrator\Documents\lich-server\CoreApp\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\Shared\_LoginPartial.g.cshtml.cs
+C:\Users\Administrator\Documents\lich-server\CoreApp\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\Administrator\Documents\lich-server\CoreApp\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\User\Index.g.cshtml.cs
+C:\Users\Administrator\Documents\lich-server\CoreApp\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\User\_AddModel.g.cshtml.cs
+C:\Users\Administrator\Documents\lich-server\CoreApp\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\User\_EditModel.g.cshtml.cs
+C:\Users\Administrator\Documents\lich-server\CoreApp\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\_ViewImports.g.cshtml.cs
+C:\Users\Administrator\Documents\lich-server\CoreApp\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\_ViewStart.g.cshtml.cs
+C:\Users\Administrator\Documents\lich-server\CoreApp\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ViewStart.g.cshtml.cs
+C:\Users\Administrator\Documents\lich-server\CoreApp\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\Administrator\Documents\lich-server\CoreApp\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.g.cshtml.cs
+C:\Users\Administrator\Documents\lich-server\CoreApp\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\Administrator\Documents\lich-server\CoreApp\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\Administrator\Documents\lich-server\CoreApp\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\Administrator\Documents\lich-server\CoreApp\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_LoginPartial.g.cshtml.cs
+C:\Users\Administrator\Documents\lich-server\CoreApp\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\Administrator\Documents\lich-server\CoreApp\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\Administrator\Documents\lich-server\CoreApp\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\Administrator\Documents\lich-server\CoreApp\obj\Debug\netcoreapp2.2\CoreApp.RazorTargetAssemblyInfo.cache
+C:\Users\Administrator\Documents\lich-server\CoreApp\obj\Debug\netcoreapp2.2\CoreApp.RazorTargetAssemblyInfo.cs
+C:\Users\Administrator\Documents\lich-server\CoreApp\obj\Debug\netcoreapp2.2\CoreApp.Views.pdb
+C:\Users\Administrator\Documents\lich-server\CoreApp\obj\Debug\netcoreapp2.2\CoreApp.csproj.CopyComplete
+C:\Users\Administrator\Documents\lich-server\CoreApp\obj\Debug\netcoreapp2.2\CoreApp.dll
+C:\Users\Administrator\Documents\lich-server\CoreApp\obj\Debug\netcoreapp2.2\CoreApp.pdb
+F:\NET project\lich-server\CoreApp\bin\Debug\netcoreapp2.2\CoreApp.deps.json
+F:\NET project\lich-server\CoreApp\bin\Debug\netcoreapp2.2\CoreApp.runtimeconfig.json
+F:\NET project\lich-server\CoreApp\bin\Debug\netcoreapp2.2\CoreApp.runtimeconfig.dev.json
+F:\NET project\lich-server\CoreApp\bin\Debug\netcoreapp2.2\CoreApp.dll
+F:\NET project\lich-server\CoreApp\bin\Debug\netcoreapp2.2\CoreApp.pdb
+F:\NET project\lich-server\CoreApp\bin\Debug\netcoreapp2.2\CoreApp.Views.dll
+F:\NET project\lich-server\CoreApp\bin\Debug\netcoreapp2.2\CoreApp.Views.pdb
+F:\NET project\lich-server\CoreApp\bin\Debug\netcoreapp2.2\CoreApp.Application.dll
+F:\NET project\lich-server\CoreApp\bin\Debug\netcoreapp2.2\CoreApp.Data.dll
+F:\NET project\lich-server\CoreApp\bin\Debug\netcoreapp2.2\CoreApp.Persistence.dll
+F:\NET project\lich-server\CoreApp\bin\Debug\netcoreapp2.2\CoreApp.Utilities.dll
+F:\NET project\lich-server\CoreApp\bin\Debug\netcoreapp2.2\CoreApp.Application.pdb
+F:\NET project\lich-server\CoreApp\bin\Debug\netcoreapp2.2\CoreApp.Persistence.pdb
+F:\NET project\lich-server\CoreApp\bin\Debug\netcoreapp2.2\CoreApp.Utilities.pdb
+F:\NET project\lich-server\CoreApp\bin\Debug\netcoreapp2.2\CoreApp.Data.pdb
+F:\NET project\lich-server\CoreApp\obj\Debug\netcoreapp2.2\CoreApp.csprojAssemblyReference.cache
+F:\NET project\lich-server\CoreApp\obj\Debug\netcoreapp2.2\CoreApp.csproj.CoreCompileInputs.cache
+F:\NET project\lich-server\CoreApp\obj\Debug\netcoreapp2.2\CoreApp.RazorAssemblyInfo.cache
+F:\NET project\lich-server\CoreApp\obj\Debug\netcoreapp2.2\CoreApp.RazorAssemblyInfo.cs
+F:\NET project\lich-server\CoreApp\obj\Debug\netcoreapp2.2\CoreApp.AssemblyInfoInputs.cache
+F:\NET project\lich-server\CoreApp\obj\Debug\netcoreapp2.2\CoreApp.AssemblyInfo.cs
+F:\NET project\lich-server\CoreApp\obj\Debug\netcoreapp2.2\CoreApp.TagHelpers.input.cache
+F:\NET project\lich-server\CoreApp\obj\Debug\netcoreapp2.2\CoreApp.TagHelpers.output.cache
+F:\NET project\lich-server\CoreApp\obj\Debug\netcoreapp2.2\CoreApp.RazorCoreGenerate.cache
+F:\NET project\lich-server\CoreApp\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\Home\Index.g.cshtml.cs
+F:\NET project\lich-server\CoreApp\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\Login\Index.g.cshtml.cs
+F:\NET project\lich-server\CoreApp\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\ProductCategory\Index.g.cshtml.cs
+F:\NET project\lich-server\CoreApp\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\ProductCategory\_AddModel.g.cshtml.cs
+F:\NET project\lich-server\CoreApp\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\ProductCategory\_EditModel.g.cshtml.cs
+F:\NET project\lich-server\CoreApp\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\Product\Index.g.cshtml.cs
+F:\NET project\lich-server\CoreApp\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\Product\_AddEditModel.g.cshtml.cs
+F:\NET project\lich-server\CoreApp\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\Shared\Error.g.cshtml.cs
+F:\NET project\lich-server\CoreApp\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\Shared\_Layout.g.cshtml.cs
+F:\NET project\lich-server\CoreApp\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\Shared\_LoginPartial.g.cshtml.cs
+F:\NET project\lich-server\CoreApp\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+F:\NET project\lich-server\CoreApp\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\User\Index.g.cshtml.cs
+F:\NET project\lich-server\CoreApp\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\User\_AddModel.g.cshtml.cs
+F:\NET project\lich-server\CoreApp\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\User\_EditModel.g.cshtml.cs
+F:\NET project\lich-server\CoreApp\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\_ViewImports.g.cshtml.cs
+F:\NET project\lich-server\CoreApp\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\_ViewStart.g.cshtml.cs
+F:\NET project\lich-server\CoreApp\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ViewStart.g.cshtml.cs
+F:\NET project\lich-server\CoreApp\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
+F:\NET project\lich-server\CoreApp\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.g.cshtml.cs
+F:\NET project\lich-server\CoreApp\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.g.cshtml.cs
+F:\NET project\lich-server\CoreApp\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+F:\NET project\lich-server\CoreApp\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.g.cshtml.cs
+F:\NET project\lich-server\CoreApp\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_LoginPartial.g.cshtml.cs
+F:\NET project\lich-server\CoreApp\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+F:\NET project\lich-server\CoreApp\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.g.cshtml.cs
+F:\NET project\lich-server\CoreApp\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.g.cshtml.cs
+F:\NET project\lich-server\CoreApp\obj\Debug\netcoreapp2.2\CoreApp.RazorTargetAssemblyInfo.cache
+F:\NET project\lich-server\CoreApp\obj\Debug\netcoreapp2.2\CoreApp.RazorTargetAssemblyInfo.cs
+F:\NET project\lich-server\CoreApp\obj\Debug\netcoreapp2.2\CoreApp.Views.pdb
+F:\NET project\lich-server\CoreApp\obj\Debug\netcoreapp2.2\CoreApp.csproj.CopyComplete
+F:\NET project\lich-server\CoreApp\obj\Debug\netcoreapp2.2\CoreApp.dll
+F:\NET project\lich-server\CoreApp\obj\Debug\netcoreapp2.2\CoreApp.pdb

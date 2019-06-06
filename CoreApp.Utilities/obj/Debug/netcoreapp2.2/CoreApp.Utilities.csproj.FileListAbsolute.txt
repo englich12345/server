@@ -1,0 +1,117 @@
+C:\Users\Administrator\source\repos\CoreApp\CoreApp.Utilities\bin\Debug\netcoreapp2.2\CoreApp.Utilities.deps.json
+C:\Users\Administrator\source\repos\CoreApp\CoreApp.Utilities\bin\Debug\netcoreapp2.2\CoreApp.Utilities.dll
+C:\Users\Administrator\source\repos\CoreApp\CoreApp.Utilities\bin\Debug\netcoreapp2.2\CoreApp.Utilities.pdb
+C:\Users\Administrator\source\repos\CoreApp\CoreApp.Utilities\obj\Debug\netcoreapp2.2\CoreApp.Utilities.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\CoreApp\CoreApp.Utilities\obj\Debug\netcoreapp2.2\CoreApp.Utilities.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\CoreApp\CoreApp.Utilities\obj\Debug\netcoreapp2.2\CoreApp.Utilities.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\CoreApp\CoreApp.Utilities\obj\Debug\netcoreapp2.2\CoreApp.Utilities.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\CoreApp\CoreApp.Utilities\obj\Debug\netcoreapp2.2\CoreApp.Utilities.dll
+C:\Users\Administrator\source\repos\CoreApp\CoreApp.Utilities\obj\Debug\netcoreapp2.2\CoreApp.Utilities.pdb
+C:\Users\lich.ho\Documents\appcore\CoreApp\CoreApp.Utilities\obj\Debug\netcoreapp2.2\CoreApp.Utilities.dll
+C:\Users\lich.ho\Documents\appcore\CoreApp\CoreApp.Utilities\obj\Debug\netcoreapp2.2\CoreApp.Utilities.pdb
+C:\Users\lich.ho\Documents\appcore\CoreApp\CoreApp.Utilities\bin\Debug\netcoreapp2.2\CoreApp.Utilities.deps.json
+C:\Users\lich.ho\Documents\appcore\CoreApp\CoreApp.Utilities\bin\Debug\netcoreapp2.2\CoreApp.Utilities.dll
+C:\Users\lich.ho\Documents\appcore\CoreApp\CoreApp.Utilities\bin\Debug\netcoreapp2.2\CoreApp.Utilities.pdb
+C:\Users\lich.ho\Documents\appcore\CoreApp\CoreApp.Utilities\bin\Debug\netcoreapp2.2\CoreApp.Data.dll
+C:\Users\lich.ho\Documents\appcore\CoreApp\CoreApp.Utilities\bin\Debug\netcoreapp2.2\CoreApp.Data.pdb
+C:\Users\lich.ho\Documents\appcore\CoreApp\CoreApp.Utilities\obj\Debug\netcoreapp2.2\CoreApp.Utilities.csprojAssemblyReference.cache
+C:\Users\lich.ho\Documents\appcore\CoreApp\CoreApp.Utilities\obj\Debug\netcoreapp2.2\CoreApp.Utilities.csproj.CoreCompileInputs.cache
+C:\Users\lich.ho\Documents\appcore\CoreApp\CoreApp.Utilities\obj\Debug\netcoreapp2.2\CoreApp.Utilities.AssemblyInfoInputs.cache
+C:\Users\lich.ho\Documents\appcore\CoreApp\CoreApp.Utilities\obj\Debug\netcoreapp2.2\CoreApp.Utilities.AssemblyInfo.cs
+C:\Users\lich.ho\Documents\appcore\CoreApp\CoreApp.Utilities\obj\Debug\netcoreapp2.2\CoreApp.Utilities.csproj.CopyComplete
+C:\Users\Administrator\Documents\App\CoreApp\CoreApp.Utilities\bin\Debug\netcoreapp2.2\CoreApp.Utilities.deps.json
+C:\Users\Administrator\Documents\App\CoreApp\CoreApp.Utilities\bin\Debug\netcoreapp2.2\CoreApp.Utilities.dll
+C:\Users\Administrator\Documents\App\CoreApp\CoreApp.Utilities\bin\Debug\netcoreapp2.2\CoreApp.Utilities.pdb
+C:\Users\Administrator\Documents\App\CoreApp\CoreApp.Utilities\bin\Debug\netcoreapp2.2\CoreApp.Data.dll
+C:\Users\Administrator\Documents\App\CoreApp\CoreApp.Utilities\bin\Debug\netcoreapp2.2\CoreApp.Data.pdb
+C:\Users\Administrator\Documents\App\CoreApp\CoreApp.Utilities\obj\Debug\netcoreapp2.2\CoreApp.Utilities.csprojAssemblyReference.cache
+C:\Users\Administrator\Documents\App\CoreApp\CoreApp.Utilities\obj\Debug\netcoreapp2.2\CoreApp.Utilities.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\App\CoreApp\CoreApp.Utilities\obj\Debug\netcoreapp2.2\CoreApp.Utilities.AssemblyInfoInputs.cache
+C:\Users\Administrator\Documents\App\CoreApp\CoreApp.Utilities\obj\Debug\netcoreapp2.2\CoreApp.Utilities.AssemblyInfo.cs
+C:\Users\Administrator\Documents\App\CoreApp\CoreApp.Utilities\obj\Debug\netcoreapp2.2\CoreApp.Utilities.csproj.CopyComplete
+C:\Users\Administrator\Documents\App\CoreApp\CoreApp.Utilities\obj\Debug\netcoreapp2.2\CoreApp.Utilities.dll
+C:\Users\Administrator\Documents\App\CoreApp\CoreApp.Utilities\obj\Debug\netcoreapp2.2\CoreApp.Utilities.pdb
+C:\Users\Administrator\Documents\lichappcore\CoreApp\CoreApp.Utilities\bin\Debug\netcoreapp2.2\CoreApp.Utilities.deps.json
+C:\Users\Administrator\Documents\lichappcore\CoreApp\CoreApp.Utilities\bin\Debug\netcoreapp2.2\CoreApp.Utilities.dll
+C:\Users\Administrator\Documents\lichappcore\CoreApp\CoreApp.Utilities\bin\Debug\netcoreapp2.2\CoreApp.Utilities.pdb
+C:\Users\Administrator\Documents\lichappcore\CoreApp\CoreApp.Utilities\bin\Debug\netcoreapp2.2\CoreApp.Data.dll
+C:\Users\Administrator\Documents\lichappcore\CoreApp\CoreApp.Utilities\bin\Debug\netcoreapp2.2\CoreApp.Data.pdb
+C:\Users\Administrator\Documents\lichappcore\CoreApp\CoreApp.Utilities\obj\Debug\netcoreapp2.2\CoreApp.Utilities.csprojAssemblyReference.cache
+C:\Users\Administrator\Documents\lichappcore\CoreApp\CoreApp.Utilities\obj\Debug\netcoreapp2.2\CoreApp.Utilities.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\lichappcore\CoreApp\CoreApp.Utilities\obj\Debug\netcoreapp2.2\CoreApp.Utilities.AssemblyInfoInputs.cache
+C:\Users\Administrator\Documents\lichappcore\CoreApp\CoreApp.Utilities\obj\Debug\netcoreapp2.2\CoreApp.Utilities.AssemblyInfo.cs
+C:\Users\Administrator\Documents\lichappcore\CoreApp\CoreApp.Utilities\obj\Debug\netcoreapp2.2\CoreApp.Utilities.csproj.CopyComplete
+C:\Users\Administrator\Documents\lichappcore\CoreApp\CoreApp.Utilities\obj\Debug\netcoreapp2.2\CoreApp.Utilities.dll
+C:\Users\Administrator\Documents\lichappcore\CoreApp\CoreApp.Utilities\obj\Debug\netcoreapp2.2\CoreApp.Utilities.pdb
+C:\Users\lich.ho\Documents\lichappcore-master\CoreApp\CoreApp.Utilities\bin\Debug\netcoreapp2.2\CoreApp.Utilities.deps.json
+C:\Users\lich.ho\Documents\lichappcore-master\CoreApp\CoreApp.Utilities\bin\Debug\netcoreapp2.2\CoreApp.Utilities.dll
+C:\Users\lich.ho\Documents\lichappcore-master\CoreApp\CoreApp.Utilities\bin\Debug\netcoreapp2.2\CoreApp.Utilities.pdb
+C:\Users\lich.ho\Documents\lichappcore-master\CoreApp\CoreApp.Utilities\bin\Debug\netcoreapp2.2\CoreApp.Data.dll
+C:\Users\lich.ho\Documents\lichappcore-master\CoreApp\CoreApp.Utilities\bin\Debug\netcoreapp2.2\CoreApp.Data.pdb
+C:\Users\lich.ho\Documents\lichappcore-master\CoreApp\CoreApp.Utilities\obj\Debug\netcoreapp2.2\CoreApp.Utilities.csprojAssemblyReference.cache
+C:\Users\lich.ho\Documents\lichappcore-master\CoreApp\CoreApp.Utilities\obj\Debug\netcoreapp2.2\CoreApp.Utilities.csproj.CoreCompileInputs.cache
+C:\Users\lich.ho\Documents\lichappcore-master\CoreApp\CoreApp.Utilities\obj\Debug\netcoreapp2.2\CoreApp.Utilities.AssemblyInfoInputs.cache
+C:\Users\lich.ho\Documents\lichappcore-master\CoreApp\CoreApp.Utilities\obj\Debug\netcoreapp2.2\CoreApp.Utilities.AssemblyInfo.cs
+C:\Users\lich.ho\Documents\lichappcore-master\CoreApp\CoreApp.Utilities\obj\Debug\netcoreapp2.2\CoreApp.Utilities.csproj.CopyComplete
+C:\Users\lich.ho\Documents\lichappcore-master\CoreApp\CoreApp.Utilities\obj\Debug\netcoreapp2.2\CoreApp.Utilities.dll
+C:\Users\lich.ho\Documents\lichappcore-master\CoreApp\CoreApp.Utilities\obj\Debug\netcoreapp2.2\CoreApp.Utilities.pdb
+C:\Users\Administrator\Documents\englich\CoreApp.Utilities\bin\Debug\netcoreapp2.2\CoreApp.Utilities.deps.json
+C:\Users\Administrator\Documents\englich\CoreApp.Utilities\bin\Debug\netcoreapp2.2\CoreApp.Utilities.dll
+C:\Users\Administrator\Documents\englich\CoreApp.Utilities\bin\Debug\netcoreapp2.2\CoreApp.Utilities.pdb
+C:\Users\Administrator\Documents\englich\CoreApp.Utilities\bin\Debug\netcoreapp2.2\CoreApp.Data.dll
+C:\Users\Administrator\Documents\englich\CoreApp.Utilities\bin\Debug\netcoreapp2.2\CoreApp.Data.pdb
+C:\Users\Administrator\Documents\englich\CoreApp.Utilities\obj\Debug\netcoreapp2.2\CoreApp.Utilities.csprojAssemblyReference.cache
+C:\Users\Administrator\Documents\englich\CoreApp.Utilities\obj\Debug\netcoreapp2.2\CoreApp.Utilities.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\englich\CoreApp.Utilities\obj\Debug\netcoreapp2.2\CoreApp.Utilities.AssemblyInfoInputs.cache
+C:\Users\Administrator\Documents\englich\CoreApp.Utilities\obj\Debug\netcoreapp2.2\CoreApp.Utilities.AssemblyInfo.cs
+C:\Users\Administrator\Documents\englich\CoreApp.Utilities\obj\Debug\netcoreapp2.2\CoreApp.Utilities.csproj.CopyComplete
+C:\Users\Administrator\Documents\englich\CoreApp.Utilities\obj\Debug\netcoreapp2.2\CoreApp.Utilities.dll
+C:\Users\Administrator\Documents\englich\CoreApp.Utilities\obj\Debug\netcoreapp2.2\CoreApp.Utilities.pdb
+C:\Users\lich.ho\Documents\lichho\CoreApp.Utilities\bin\Debug\netcoreapp2.2\CoreApp.Utilities.deps.json
+C:\Users\lich.ho\Documents\lichho\CoreApp.Utilities\bin\Debug\netcoreapp2.2\CoreApp.Utilities.dll
+C:\Users\lich.ho\Documents\lichho\CoreApp.Utilities\bin\Debug\netcoreapp2.2\CoreApp.Utilities.pdb
+C:\Users\lich.ho\Documents\lichho\CoreApp.Utilities\bin\Debug\netcoreapp2.2\CoreApp.Data.dll
+C:\Users\lich.ho\Documents\lichho\CoreApp.Utilities\bin\Debug\netcoreapp2.2\CoreApp.Data.pdb
+C:\Users\lich.ho\Documents\lichho\CoreApp.Utilities\obj\Debug\netcoreapp2.2\CoreApp.Utilities.csprojAssemblyReference.cache
+C:\Users\lich.ho\Documents\lichho\CoreApp.Utilities\obj\Debug\netcoreapp2.2\CoreApp.Utilities.csproj.CoreCompileInputs.cache
+C:\Users\lich.ho\Documents\lichho\CoreApp.Utilities\obj\Debug\netcoreapp2.2\CoreApp.Utilities.AssemblyInfoInputs.cache
+C:\Users\lich.ho\Documents\lichho\CoreApp.Utilities\obj\Debug\netcoreapp2.2\CoreApp.Utilities.AssemblyInfo.cs
+C:\Users\lich.ho\Documents\lichho\CoreApp.Utilities\obj\Debug\netcoreapp2.2\CoreApp.Utilities.csproj.CopyComplete
+C:\Users\lich.ho\Documents\lichho\CoreApp.Utilities\obj\Debug\netcoreapp2.2\CoreApp.Utilities.dll
+C:\Users\lich.ho\Documents\lichho\CoreApp.Utilities\obj\Debug\netcoreapp2.2\CoreApp.Utilities.pdb
+C:\Users\Administrator\Documents\lichho\CoreApp.Utilities\bin\Debug\netcoreapp2.2\CoreApp.Utilities.deps.json
+C:\Users\Administrator\Documents\lichho\CoreApp.Utilities\bin\Debug\netcoreapp2.2\CoreApp.Utilities.dll
+C:\Users\Administrator\Documents\lichho\CoreApp.Utilities\bin\Debug\netcoreapp2.2\CoreApp.Utilities.pdb
+C:\Users\Administrator\Documents\lichho\CoreApp.Utilities\bin\Debug\netcoreapp2.2\CoreApp.Data.dll
+C:\Users\Administrator\Documents\lichho\CoreApp.Utilities\bin\Debug\netcoreapp2.2\CoreApp.Data.pdb
+C:\Users\Administrator\Documents\lichho\CoreApp.Utilities\obj\Debug\netcoreapp2.2\CoreApp.Utilities.csprojAssemblyReference.cache
+C:\Users\Administrator\Documents\lichho\CoreApp.Utilities\obj\Debug\netcoreapp2.2\CoreApp.Utilities.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\lichho\CoreApp.Utilities\obj\Debug\netcoreapp2.2\CoreApp.Utilities.AssemblyInfoInputs.cache
+C:\Users\Administrator\Documents\lichho\CoreApp.Utilities\obj\Debug\netcoreapp2.2\CoreApp.Utilities.AssemblyInfo.cs
+C:\Users\Administrator\Documents\lichho\CoreApp.Utilities\obj\Debug\netcoreapp2.2\CoreApp.Utilities.csproj.CopyComplete
+C:\Users\Administrator\Documents\lichho\CoreApp.Utilities\obj\Debug\netcoreapp2.2\CoreApp.Utilities.dll
+C:\Users\Administrator\Documents\lichho\CoreApp.Utilities\obj\Debug\netcoreapp2.2\CoreApp.Utilities.pdb
+C:\Users\Administrator\Documents\lich-server\CoreApp.Utilities\bin\Debug\netcoreapp2.2\CoreApp.Utilities.deps.json
+C:\Users\Administrator\Documents\lich-server\CoreApp.Utilities\bin\Debug\netcoreapp2.2\CoreApp.Utilities.dll
+C:\Users\Administrator\Documents\lich-server\CoreApp.Utilities\bin\Debug\netcoreapp2.2\CoreApp.Utilities.pdb
+C:\Users\Administrator\Documents\lich-server\CoreApp.Utilities\bin\Debug\netcoreapp2.2\CoreApp.Data.dll
+C:\Users\Administrator\Documents\lich-server\CoreApp.Utilities\bin\Debug\netcoreapp2.2\CoreApp.Data.pdb
+C:\Users\Administrator\Documents\lich-server\CoreApp.Utilities\obj\Debug\netcoreapp2.2\CoreApp.Utilities.csprojAssemblyReference.cache
+C:\Users\Administrator\Documents\lich-server\CoreApp.Utilities\obj\Debug\netcoreapp2.2\CoreApp.Utilities.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\lich-server\CoreApp.Utilities\obj\Debug\netcoreapp2.2\CoreApp.Utilities.AssemblyInfoInputs.cache
+C:\Users\Administrator\Documents\lich-server\CoreApp.Utilities\obj\Debug\netcoreapp2.2\CoreApp.Utilities.AssemblyInfo.cs
+C:\Users\Administrator\Documents\lich-server\CoreApp.Utilities\obj\Debug\netcoreapp2.2\CoreApp.Utilities.csproj.CopyComplete
+C:\Users\Administrator\Documents\lich-server\CoreApp.Utilities\obj\Debug\netcoreapp2.2\CoreApp.Utilities.dll
+C:\Users\Administrator\Documents\lich-server\CoreApp.Utilities\obj\Debug\netcoreapp2.2\CoreApp.Utilities.pdb
+F:\NET project\lich-server\CoreApp.Utilities\bin\Debug\netcoreapp2.2\CoreApp.Utilities.deps.json
+F:\NET project\lich-server\CoreApp.Utilities\bin\Debug\netcoreapp2.2\CoreApp.Utilities.dll
+F:\NET project\lich-server\CoreApp.Utilities\bin\Debug\netcoreapp2.2\CoreApp.Utilities.pdb
+F:\NET project\lich-server\CoreApp.Utilities\bin\Debug\netcoreapp2.2\CoreApp.Data.dll
+F:\NET project\lich-server\CoreApp.Utilities\bin\Debug\netcoreapp2.2\CoreApp.Data.pdb
+F:\NET project\lich-server\CoreApp.Utilities\obj\Debug\netcoreapp2.2\CoreApp.Utilities.csprojAssemblyReference.cache
+F:\NET project\lich-server\CoreApp.Utilities\obj\Debug\netcoreapp2.2\CoreApp.Utilities.csproj.CoreCompileInputs.cache
+F:\NET project\lich-server\CoreApp.Utilities\obj\Debug\netcoreapp2.2\CoreApp.Utilities.AssemblyInfoInputs.cache
+F:\NET project\lich-server\CoreApp.Utilities\obj\Debug\netcoreapp2.2\CoreApp.Utilities.AssemblyInfo.cs
+F:\NET project\lich-server\CoreApp.Utilities\obj\Debug\netcoreapp2.2\CoreApp.Utilities.csproj.CopyComplete
+F:\NET project\lich-server\CoreApp.Utilities\obj\Debug\netcoreapp2.2\CoreApp.Utilities.dll
+F:\NET project\lich-server\CoreApp.Utilities\obj\Debug\netcoreapp2.2\CoreApp.Utilities.pdb
