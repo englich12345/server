@@ -1,1 +1,5 @@
-CoreApp.
+CoreApp.Application
+CoreApp
+CoreApp.Data
+CoreApp.Infrastructure
+CoreApp.Utilities
